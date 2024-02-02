@@ -1,0 +1,12 @@
+---
+import PostLayout from "@/layouts/BlogPost";
+import { getConfigPage } from "../utils/config";
+
+const links = await getConfigPage('links');
+const { Content } = await links.render();
+---
+
+
+<PostLayout post={links}>
+  <Content/>
+</PostLayout>
