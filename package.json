@@ -14,7 +14,7 @@
 		"sync:local1": "elog sync -e .elog.env --disable-cache"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "2.0.5",
+		"@astrojs/mdx": "2.1.1",
 		"@astrojs/rss": "4.0.2",
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
