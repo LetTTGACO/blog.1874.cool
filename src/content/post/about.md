@@ -4,7 +4,7 @@ description: 这篇博客介绍了作者的个人信息和博客相关内容，�
 urlname: about
 title: 关于我
 tags: []
-updated: '2024-02-03 15:47:00'
+updated: '2024-02-03 17:02:00'
 draft: false
 ---
 
@@ -30,7 +30,7 @@ draft: false
 你可以通过这些方式找到我：
 
 - **电子邮件**：me@mail.1874.cool
-- GitHub： [@1874](https://github.com/LetTTGACO)
+- GitHub： [@LetTTGACO](https://github.com/LetTTGACO)
 - 微信公众号： [@LetTTGACO](https://mp.weixin.qq.com/s/6dcAqYu0bXcy5e2q-zUn-A)
 
 ## 关于博客

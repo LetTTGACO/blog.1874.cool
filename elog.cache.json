@@ -20,14 +20,14 @@
     {
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "doc_id": "38d84e83-4529-4d6a-be76-5920e06d595d",
-      "updated": 1706946420000,
+      "updated": 1706950920000,
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 15:47:00",
+        "updated": "2024-02-03 17:02:00",
         "draft": false
       },
       "realName": "about",
@@ -280,10 +280,14 @@
         "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
         "urlname": "links",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "友情链接",
         "tags": [],
-        "updated": "2024-02-03 16:58:00",
-        "draft": false
+        "updated": "2024-02-03 16:58:00"
       },
       "url": "https://www.notion.so/fbfa2d8338eb422692cb0b06f9c6c24a",
       "public_url": null
@@ -292,7 +296,7 @@
       "object": "page",
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "created_time": "2024-02-02T16:15:00.000Z",
-      "last_edited_time": "2024-02-03T07:47:00.000Z",
+      "last_edited_time": "2024-02-03T09:02:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -315,14 +319,10 @@
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 15:47:00"
+        "updated": "2024-02-03 17:02:00",
+        "draft": false
       },
       "url": "https://www.notion.so/38d84e8345294d6abe765920e06d595d",
       "public_url": null
