@@ -53,7 +53,7 @@
     {
       "id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
       "doc_id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
-      "updated": 1706896620000,
+      "updated": 1706940900000,
       "properties": {
         "date": "2022-07-16 00:00:00",
         "urlname": "ovugli",
@@ -64,7 +64,7 @@
           "Node",
           "Github Actions"
         ],
-        "updated": "2024-02-03 01:57:00",
+        "updated": "2024-02-03 14:15:00",
         "draft": false
       },
       "realName": "ovugli",
@@ -202,17 +202,17 @@
     {
       "id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
       "doc_id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
-      "updated": 1706896680000,
+      "updated": 1706901840000,
       "properties": {
         "date": "2022-06-23 00:00:00",
         "urlname": "qzmpp5",
         "title": "利用github actions自动化发布npm",
         "tags": [
-          "Github Actions",
           "Node",
-          "Npm"
+          "Npm",
+          "CICD"
         ],
-        "updated": "2024-02-03 01:58:00",
+        "updated": "2024-02-03 03:24:00",
         "draft": false
       },
       "realName": "qzmpp5",
@@ -304,10 +304,14 @@
       "properties": {
         "date": "2019-01-27 00:00:00",
         "urlname": "about",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 02:04:00",
-        "draft": false
+        "updated": "2024-02-03 02:04:00"
       },
       "url": "https://www.notion.so/38d84e8345294d6abe765920e06d595d",
       "public_url": null
@@ -404,7 +408,7 @@
       "object": "page",
       "id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
       "created_time": "2024-02-02T12:59:00.000Z",
-      "last_edited_time": "2024-02-02T17:57:00.000Z",
+      "last_edited_time": "2024-02-03T06:15:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -426,11 +430,6 @@
       "properties": {
         "date": "2022-07-16 00:00:00",
         "urlname": "ovugli",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "Github Actions持续集成 Docker构建并部署Node项目到云服务器",
         "tags": [
           "Docker",
@@ -438,7 +437,8 @@
           "Node",
           "Github Actions"
         ],
-        "updated": "2024-02-03 01:57:00"
+        "updated": "2024-02-03 14:15:00",
+        "draft": false
       },
       "url": "https://www.notion.so/Github-Actions-Docker-Node-9b84960b447d42d18bb83304499e30ab",
       "public_url": null
@@ -658,7 +658,7 @@
       "object": "page",
       "id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
       "created_time": "2024-02-02T12:59:00.000Z",
-      "last_edited_time": "2024-02-02T17:58:00.000Z",
+      "last_edited_time": "2024-02-02T19:24:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -680,18 +680,14 @@
       "properties": {
         "date": "2022-06-23 00:00:00",
         "urlname": "qzmpp5",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "利用github actions自动化发布npm",
         "tags": [
-          "Github Actions",
           "Node",
-          "Npm"
+          "Npm",
+          "CICD"
         ],
-        "updated": "2024-02-03 01:58:00"
+        "updated": "2024-02-03 03:24:00",
+        "draft": false
       },
       "url": "https://www.notion.so/github-actions-npm-7ef7d72e09e541ab957773356c521a13",
       "public_url": null

@@ -7,7 +7,7 @@ tags:
   - CICD
   - Node
   - Github Actions
-updated: '2024-02-03 01:57:00'
+updated: '2024-02-03 14:15:00'
 draft: false
 ---
 
@@ -47,7 +47,7 @@ draft: false
 > 实操过程中发现：由于 Github Actions 使用的机器都是美国的，所以选择在香港/海外新建会快很多很多！
 
 
-	![Fi5ZyPntP28VPpJP66tQDzSirGxn.png](https://image.1874.cool/ed62071316d2193973d1cff81ad5c509.png)
+![Fi5ZyPntP28VPpJP66tQDzSirGxn.png](https://image.1874.cool/ed62071316d2193973d1cff81ad5c509.png)
 
 
 具体开通流程和快速入门请直接移步[腾讯云容器镜像服务个人版快速入门](https://cloud.tencent.com/document/product/1141/63910)

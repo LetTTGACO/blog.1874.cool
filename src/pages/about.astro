@@ -3,7 +3,6 @@ import PostLayout from "@/layouts/BlogPost";
 import { getConfigPage } from "../utils/config";
 
 const about = await getConfigPage('about');
-console.log('about', about)
 const { Content } = await about.render();
 ---
 

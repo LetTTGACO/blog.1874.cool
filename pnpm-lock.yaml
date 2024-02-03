@@ -26,6 +26,9 @@ dependencies:
   astro-icon:
     specifier: ^1.0.2
     version: 1.0.2
+  medium-zoom:
+    specifier: ^1.1.0
+    version: 1.1.0
   rehype-external-links:
     specifier: ^3.0.0
     version: 3.0.0
@@ -38,6 +41,9 @@ dependencies:
   sharp:
     specifier: ^0.33.2
     version: 0.33.2
+  zooming:
+    specifier: ^2.1.1
+    version: 2.1.1
 
 devDependencies:
   '@astrojs/check':
@@ -6352,6 +6358,10 @@ packages:
     resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
     dev: true
 
+  /medium-zoom@1.1.0:
+    resolution: {integrity: sha512-ewyDsp7k4InCUp3jRmwHBRFGyjBimKps/AJLjRSox+2q/2H4p/PNpQf+pwONWlJiOudkBXtbdmVbFjqyybfTmQ==}
+    dev: false
+
   /merge-descriptors@1.0.3:
     resolution: {integrity: sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ==}
     dev: true
@@ -10064,6 +10074,10 @@ packages:
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: false
+
+  /zooming@2.1.1:
+    resolution: {integrity: sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==}
     dev: false
 
   /zwitch@2.0.4:

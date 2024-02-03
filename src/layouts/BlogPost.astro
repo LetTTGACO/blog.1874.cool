@@ -31,7 +31,7 @@ const { headings } = await post.render();
 			>
 				<slot />
 				<!--<WebMentions />-->
-        <Comment/>
+				<Comment />
 			</div>
 		</article>
 	</div>
@@ -56,7 +56,14 @@ const { headings } = await post.render();
 </BaseLayout>
 
 <script>
-	const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
+	import mediumZoom from "medium-zoom";
+  let images = document.body.querySelectorAll("img");
+	images.forEach((image) => {
+		// 图片添加点击放大功能
+		image.classList.add("zoom-image");
+	});
+  mediumZoom(".zoom-image");
+  const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
 	const targetHeader = document.getElementById("blog-hero") as HTMLDivElement;
 
 	function callback(entries: IntersectionObserverEntry[]) {

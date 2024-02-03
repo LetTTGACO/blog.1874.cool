@@ -3,10 +3,10 @@ date: '2022-06-23 00:00:00'
 urlname: qzmpp5
 title: 利用github actions自动化发布npm
 tags:
-  - Github Actions
   - Node
   - Npm
-updated: '2024-02-03 01:58:00'
+  - CICD
+updated: '2024-02-03 03:24:00'
 draft: false
 ---
 
