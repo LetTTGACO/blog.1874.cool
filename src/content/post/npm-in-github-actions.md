@@ -1,13 +1,13 @@
 ---
 date: '2022-06-23 00:00:00'
-description: ''
-urlname: qzmpp5
+description: 本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。
+urlname: npm-in-github-actions
 title: 利用github actions自动化发布npm
 tags:
   - Node
   - Npm
   - CICD
-updated: '2024-02-03 03:24:00'
+updated: '2024-02-03 15:07:00'
 draft: false
 ---
 

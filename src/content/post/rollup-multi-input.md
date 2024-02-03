@@ -1,12 +1,12 @@
 ---
 date: '2023-09-03 00:00:00'
-description: ''
+description: 本文介绍了使用Rollup打包多入口文件的配置方法。通过将不同客户端的请求库逻辑分离成独立的入口文件，并配合package.json中的exports字段，实现按需引入。同时提供了代码结构、注意事项、Rollup配置和package.json配置的示例。
 urlname: rollup-multi-input
 title: Rollup打包——多入口配置
 tags:
   - Rollup
   - 打包构建
-updated: '2024-02-03 01:56:00'
+updated: '2024-02-03 15:07:00'
 draft: false
 ---
 

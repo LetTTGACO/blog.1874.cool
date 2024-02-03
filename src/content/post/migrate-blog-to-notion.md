@@ -1,11 +1,11 @@
 ---
 date: '2023-04-10 00:00:00'
-description: ''
+description: 这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。
 urlname: migrate-blog-to-notion
 title: 迁移博客到 Notion
 tags:
   - Notion
-updated: '2024-02-03 01:56:00'
+updated: '2024-02-03 15:07:00'
 draft: false
 ---
 

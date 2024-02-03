@@ -1,11 +1,11 @@
 ---
 date: '2022-04-19 00:00:00'
-description: ''
-urlname: rm057k
+description: 这篇文章介绍了如何使用Alfred Workflows配置Mac上的效率工具，包括使用Alfred快速打开网址和使用Alfred打开WebStorm和iTerm来快速打开和运行项目。
+urlname: alfred-workflows
 title: 程序员必备——Mac效率工具Alfred Workflows配置
 tags:
   - 效率工具
-updated: '2024-02-03 02:00:00'
+updated: '2024-02-03 15:07:00'
 draft: false
 ---
 
