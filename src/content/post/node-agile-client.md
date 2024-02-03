@@ -42,13 +42,13 @@ draft: false
 于是我就构思了[node-agile-client](https://github.com/LetTTGACO/node-agile-client)的基础工作原理流程图：
 
 
-![FnGZZCTPJNVUKA3cSKxwOv45nRzh.png](https://image.1874.cool/1c11354f362e08b2f5edbcb80b6a58f7.png)
+![FnGZZCTPJNVUKA3cSKxwOv45nRzh.png](https://image.1874.cool/blog/1c11354f362e08b2f5edbcb80b6a58f7.png)
 
 
 我的想法是充分利用缓存，`node`使用端在需要时只需要读取本地的配置文件或者内存中的缓存即可拿到`json`文件。对于缓存的处理，如下图所示：
 
 
-![Fi902QOqP5_v6kgBr4U5XnKHf_As.jpeg](https://image.1874.cool/4623eda78a2c0d961eef09319fa2ed98.jpeg)
+![Fi902QOqP5_v6kgBr4U5XnKHf_As.jpeg](https://image.1874.cool/blog/4623eda78a2c0d961eef09319fa2ed98.jpeg)
 
 
 ## 完整工作原理流程图
@@ -68,7 +68,7 @@ draft: false
 所以基于以上几个功能点，我画出了`node-agile-client`的完整工作原理流程图：
 
 
-![Fi8seFPwjcCvorcZxZY1A2bMTZz4.png](https://image.1874.cool/8493c6f3f6c9c846c266d8a466ed05c2.png)
+![Fi8seFPwjcCvorcZxZY1A2bMTZz4.png](https://image.1874.cool/blog/8493c6f3f6c9c846c266d8a466ed05c2.png)
 
 
 ## 代码实现

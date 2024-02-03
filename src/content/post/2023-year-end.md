@@ -18,7 +18,7 @@ draft: false
 ### Elog
 
 
-![202312302016930.png](https://image.1874.cool/ce11bdc7df23ceeb7a8034b19921a806.png)
+![202312302016930.png](https://image.1874.cool/blog/ce11bdc7df23ceeb7a8034b19921a806.png)
 
 
 2023 让我感到快乐和成就感的其中一件事就是 [开源项目 Elog](https://github.com/LetTTGACO/elog) 的成长。
@@ -39,10 +39,10 @@ draft: false
 ### 知识管理
 
 
-![202312302016931.jpg](https://image.1874.cool/570ca06f09b86166da03be34e4bc284a.jpg)
+![202312302016931.jpg](https://image.1874.cool/blog/570ca06f09b86166da03be34e4bc284a.jpg)
 
 
-![202312302016932.png](https://image.1874.cool/ea481dd62f28fb5069c3eca60e7330ea.png)
+![202312302016932.png](https://image.1874.cool/blog/ea481dd62f28fb5069c3eca60e7330ea.png)
 
 
 第一次接触知识管理是通过 [Flomo 101 专栏](https://help.flomoapp.com/)，算是我的启蒙老师。它让我学会了如何读书（甚至在让我变得越来越喜欢上读书），如何储存和运用知识。

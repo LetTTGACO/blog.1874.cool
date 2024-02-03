@@ -5,7 +5,7 @@ urlname: frp
 title: 自建FRP内网穿透
 tags:
   - 家庭服务器
-cover: 'https://image.1874.cool/08a266ae5795e27308010b46158b87c8.jpg'
+cover: 'https://image.1874.cool/blog/08a266ae5795e27308010b46158b87c8.jpg'
 updated: '2024-02-03 14:41:00'
 draft: false
 ---
@@ -29,7 +29,7 @@ draft: false
 ## FRP
 
 
-![Untitled.png](https://image.1874.cool/c58a08d4a06214a0375a7db196632503.png)
+![Untitled.png](https://image.1874.cool/blog/c58a08d4a06214a0375a7db196632503.png)
 
 
 完整点的 FRP 内网穿透应该是上面的架构

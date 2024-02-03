@@ -1,5 +1,5 @@
 ---
-date: '2022-07-16 08:00:00'
+date: '2022-07-16 00:00:00'
 description: 本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。
 urlname: docker-in-github-actions
 title: Github Actions持续集成 Docker构建并部署Node项目到云服务器
@@ -18,19 +18,19 @@ draft: false
 语雀`webhook`触发构建的流程如下：
 
 
-![FmBBicekAEyyKQlzZSWZxgWjZ0Qn.jpeg](https://image.1874.cool/205ed1167b3e03641fee0dcf7c82ea99.jpeg)
+![FmBBicekAEyyKQlzZSWZxgWjZ0Qn.jpeg](https://image.1874.cool/blog/205ed1167b3e03641fee0dcf7c82ea99.jpeg)
 
 
 而当时腾讯云函数对个人使用还是在一定条件下免费的，本着能白嫖就白嫖的心态就用它做中转服务调用了。结果从上个月开始，腾讯云函数涨价了，而且费用也不便宜，我看了下账单，一个月差不多要快 10 块钱了，这我可忍不了。 所以就打算自己搭建一个`node`服务，自己调用`Github Actions`的`API`触发构建。流程如下：
 
 
-![FiOZZFrZK2WNImXPudM_Eggi4hCJ.jpeg](https://image.1874.cool/d3aacc6be4e8aea7a19e4130346483c7.jpeg)
+![FiOZZFrZK2WNImXPudM_Eggi4hCJ.jpeg](https://image.1874.cool/blog/d3aacc6be4e8aea7a19e4130346483c7.jpeg)
 
 
 ## 部署流程
 
 
-![FpafgH_mmn7S7Xdf2eI_tZuZUpco.jpeg](https://image.1874.cool/a27a873bb59b21dd083934b45f300811.jpeg)
+![FpafgH_mmn7S7Xdf2eI_tZuZUpco.jpeg](https://image.1874.cool/blog/a27a873bb59b21dd083934b45f300811.jpeg)
 
 
 ## 搭建 Node 服务
@@ -48,7 +48,7 @@ draft: false
 > 实操过程中发现：由于 Github Actions 使用的机器都是美国的，所以选择在香港/海外新建会快很多很多！
 
 
-![Fi5ZyPntP28VPpJP66tQDzSirGxn.png](https://image.1874.cool/ed62071316d2193973d1cff81ad5c509.png)
+![Fi5ZyPntP28VPpJP66tQDzSirGxn.png](https://image.1874.cool/blog/ed62071316d2193973d1cff81ad5c509.png)
 
 
 具体开通流程和快速入门请直接移步[腾讯云容器镜像服务个人版快速入门](https://cloud.tencent.com/document/product/1141/63910)
@@ -187,5 +187,5 @@ CMD [ "pm2-runtime", "npm", "--", "start" ]
 接下来就可以推送代码到 master 分支，就会自动部署项目了！
 
 
-![FgtBByqByzlP4sMg5Ibn8-8xhuLX.png](https://image.1874.cool/fe39bd1b9a1da1fc4d1c005ff1a23c90.png)
+![FgtBByqByzlP4sMg5Ibn8-8xhuLX.png](https://image.1874.cool/blog/fe39bd1b9a1da1fc4d1c005ff1a23c90.png)
 
