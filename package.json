@@ -10,8 +10,8 @@
 		"preview": "astro preview",
 		"format": "prettier -w --cache . && prettier -w --cache **/*.astro",
 		"check": "astro check",
-		"sync:local": "elog sync -e .elog.env",
-		"sync:local1": "elog sync -e .elog.env --disable-cache"
+    "local": "elog sync -e .elog.env",
+    "sync": "elog sync"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "2.1.1",

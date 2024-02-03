@@ -1,0 +1,58 @@
+name: Sync Blog Local
+
+on:
+  # 允许外部仓库事件触发
+  repository_dispatch:
+    types:
+      - sync
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@master
+
+      - name: 安装node环境
+        uses: actions/setup-node@master
+        with:
+          node-version: "16.x"
+
+      - name: 安装pnpm
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install pnpm@7.9.5 -g
+
+      - name: 安装依赖
+        run: |
+          export TZ='Asia/Shanghai'
+          pnpm install --prod
+
+      - name: 拉取Notion文章
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.COS_BUCKET }}
+          COS_REGION: ${{ secrets.COS_REGION }}
+          COS_HOST: ${{ secrets.COS_HOST }}
+        run: |
+          pnpm sync
+
+      - name: 配置Git用户名邮箱
+        run: |
+          git config --global user.name "1874"
+          git config --global user.email "1225751694@qq.com"
+
+      - name: 提交拉取的文章到GitHub仓库
+        run: |
+          echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+          git add .
+          git commit -m "Refresh elog.cache.json" -a
+
+      - name: 推送文章到仓库
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
