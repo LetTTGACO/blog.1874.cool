@@ -4,7 +4,7 @@ description: 在社交平台和轻博客盛行、独立博客式微的时代，�
 urlname: links
 title: 友情链接
 tags: []
-updated: '2024-02-03 16:58:00'
+updated: '2024-02-03 17:08:00'
 draft: false
 ---
 
@@ -44,11 +44,20 @@ draft: false
 - 直接按照`友链格式`评论，正常添加我会回复。
 - 如失效或者修改请直接在申请的评论回复即可。
 
+### 我的博客信息
+
+- 博客名称：1874’s Blog
+- 背景图片：[https://image.1874.cool/moon/cover.JPG](https://image.1874.cool/moon/cover.JPG)
+- 博客头像：[https://blog.1874.cool/favicon.ico](https://blog.1874.cool/favicon.ico)
+- 博客地址： [https://blog.1874.cool](https://blog.1874.cool/)
+- 博客标签： FE Engineer、桌游布道者
+- 博客介绍/签名：有粤语歌就不会有世界末日
+
 ### 友链格式
 
-- 博客名称：1874
-- 博客地址： [https://blog.1874.cool/](https://blog.1874.cool/)
-- 博客标签/签名： FE Engineer、桌游布道者
+- 博客名称：1874’s Blog
+- 博客地址： [https://blog.1874.cool](https://blog.1874.cool/)
+- 博客介绍： 有粤语歌就不会有世界末日
 
 ## 友情站点
 
