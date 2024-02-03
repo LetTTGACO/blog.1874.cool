@@ -16,7 +16,7 @@ export function sortMDByDate(posts: Array<CollectionEntry<"post">>) {
 		const aDate = new Date(a.data.date ?? a.data.updated).valueOf();
 		const bDate = new Date(b.data.date ?? b.data.updated).valueOf();
 		return bDate - aDate;
-	});
+	}) as Array<CollectionEntry<"post">>;
 }
 
 /** Note: This function doesn't filter draft posts, pass it the result of getAllPosts above to do so. */

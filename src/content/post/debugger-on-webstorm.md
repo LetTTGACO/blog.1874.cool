@@ -1,11 +1,12 @@
 ---
 date: '2024-02-02 00:00:00'
+description: 在WebStorm中调试React/Vue等项目的正确姿势是通过"JavaScript调试"配置来设置调试模式，并在项目中打断点后刷新浏览器页面以进入WebStorm调试模式。
 urlname: debugger-on-webstorm
 title: 在 WebStorm 中调试 React/Vue 等项目
 tags:
   - Webstorm
   - 效率工具
-updated: '2024-02-03 02:01:00'
+updated: '2024-02-03 14:41:00'
 draft: false
 ---
 

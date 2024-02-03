@@ -5,12 +5,12 @@ import "../styles/global.css";
 
 type Props = SiteMeta;
 
-const { title, ogImage, articleDate } = Astro.props;
+const { title, description, articleDate } = Astro.props;
 
 const titleSeparator = "•";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
+// const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
 ---
 
 <meta charset="utf-8" />
@@ -27,7 +27,7 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 
 {/* Primary Meta Tags */}
 <meta name="title" content={siteTitle} />
-<!--<meta name="description" content={description} />-->
+<meta name="description" content={description} />
 <meta name="author" content={siteConfig.author} />
 
 {/* Theme Colour */}
@@ -36,11 +36,11 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 {/* Open Graph / Facebook */}
 <meta property="og:type" content={articleDate ? "article" : "website"} />
 <meta property="og:title" content={title} />
-<!--<meta property="og:description" content={description} />-->
+<meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:site_name" content={siteConfig.title} />
 <meta property="og:locale" content={siteConfig.ogLocale} />
-<meta property="og:image" content={socialImageURL} />
+<!--<meta property="og:image" content={socialImageURL} />-->
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 {
@@ -56,8 +56,8 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
-<!--<meta property="twitter:description" content={description} />-->
-<meta property="twitter:image" content={socialImageURL} />
+<meta property="twitter:description" content={description} />
+<!--<meta property="twitter:image" content={socialImageURL} />-->
 
 {/* Sitemap */}
 <link rel="sitemap" href="/sitemap-index.xml" />

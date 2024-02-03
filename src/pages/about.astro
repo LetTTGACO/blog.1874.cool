@@ -2,11 +2,11 @@
 import PostLayout from "@/layouts/BlogPost";
 import { getConfigPage } from "../utils/config";
 
-const about = await getConfigPage('about');
-const { Content } = await about!.render();
+
+const about = await getConfigPage('about')
+const { Content } = await about.render();
 ---
-
-
+<!--@ts-ignore-->
 <PostLayout post={about}>
   <Content/>
 </PostLayout>

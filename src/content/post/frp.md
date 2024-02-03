@@ -1,11 +1,12 @@
 ---
 date: '2024-01-28 00:00:00'
+description: 本文介绍了如何使用FRP进行自建FRP内网穿透。通过搭建FRP Server和FRP Client，可以实现访问家庭内网设备的目的。文章详细介绍了在Mac和云服务器上配置FRP的步骤，并提供了相应的配置文件示例。
 urlname: frp
 title: 自建FRP内网穿透
 tags:
   - 家庭服务器
 cover: 'https://image.1874.cool/08a266ae5795e27308010b46158b87c8.jpg'
-updated: '2024-02-03 01:34:00'
+updated: '2024-02-03 14:41:00'
 draft: false
 ---
 

@@ -1,10 +1,11 @@
 ---
 date: '2024-02-01 00:00:00'
+description: 在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。
 urlname: make-use-boot-disk-on-mac
 title: Mac 系统下制作 USB 启动盘
 tags:
   - 家庭服务器
-updated: '2024-02-03 01:54:00'
+updated: '2024-02-03 14:41:00'
 draft: false
 ---
 
