@@ -4,12 +4,12 @@ module.exports = {
 		notion: {
 			token: process.env.NOTION_TOKEN,
 			databaseId: process.env.NOTION_DATABASE_ID,
-			// filter: {
-			// 	property: "status",
-			// 	status: {
-			// 		equals: "Done",
-			// 	},
-			// },
+			filter: {
+				property: "status",
+				status: {
+					equals: "Done",
+				},
+			},
 		},
 	},
 	deploy: {
