@@ -3,14 +3,14 @@
     {
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "doc_id": "38d84e83-4529-4d6a-be76-5920e06d595d",
-      "updated": 1706950920000,
+      "updated": 1706956560000,
       "properties": {
-        "date": "2019-01-27 00:00:00",
+        "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 17:02:00",
+        "updated": "2024-02-03 18:36:00",
         "draft": false
       },
       "realName": "about",
@@ -155,16 +155,17 @@
     {
       "id": "893659b9-d7f6-4090-9abc-637da2c7c560",
       "doc_id": "893659b9-d7f6-4090-9abc-637da2c7c560",
-      "updated": 1706945400000,
+      "updated": 1706955780000,
       "properties": {
-        "date": "2023-04-10 00:00:00",
+        "date": "2023-04-10 08:00:00",
         "description": "这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。",
         "urlname": "migrate-blog-to-notion",
         "title": "迁移博客到 Notion",
         "tags": [
-          "Notion"
+          "Notion",
+          "博客折腾手册"
         ],
-        "updated": "2024-02-03 15:30:00",
+        "updated": "2024-02-03 18:23:00",
         "draft": false
       },
       "realName": "migrate-blog-to-notion",
@@ -277,13 +278,17 @@
       },
       "archived": false,
       "properties": {
-        "date": "2019-01-27 00:00:00",
+        "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
         "urlname": "links",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "友情链接",
         "tags": [],
-        "updated": "2024-02-03 17:08:00",
-        "draft": false
+        "updated": "2024-02-03 17:08:00"
       },
       "url": "https://www.notion.so/fbfa2d8338eb422692cb0b06f9c6c24a",
       "public_url": null
@@ -292,7 +297,7 @@
       "object": "page",
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "created_time": "2024-02-02T16:15:00.000Z",
-      "last_edited_time": "2024-02-03T09:02:00.000Z",
+      "last_edited_time": "2024-02-03T10:36:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -312,12 +317,12 @@
       },
       "archived": false,
       "properties": {
-        "date": "2019-01-27 00:00:00",
+        "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 17:02:00",
+        "updated": "2024-02-03 18:36:00",
         "draft": false
       },
       "url": "https://www.notion.so/38d84e8345294d6abe765920e06d595d",
@@ -354,16 +359,20 @@
       },
       "archived": false,
       "properties": {
-        "date": "2024-01-28 00:00:00",
+        "date": "2024-01-28 08:00:00",
         "description": "本文介绍了如何使用FRP进行自建FRP内网穿透。通过搭建FRP Server和FRP Client，可以实现访问家庭内网设备的目的。文章详细介绍了在Mac和云服务器上配置FRP的步骤，并提供了相应的配置文件示例。",
         "urlname": "frp",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "自建FRP内网穿透",
         "tags": [
           "家庭服务器"
         ],
-        "cover": "https://image.1874.cool/blog/08a266ae5795e27308010b46158b87c8.jpg",
-        "updated": "2024-02-03 14:41:00",
-        "draft": false
+        "cover": "https://www.notion.so/images/page-cover/met_frederic_edwin_church_1871.jpg",
+        "updated": "2024-02-03 14:41:00"
       },
       "url": "https://www.notion.so/FRP-afd46908067b43c8834f8dd90dedd195",
       "public_url": null
@@ -392,15 +401,19 @@
       },
       "archived": false,
       "properties": {
-        "date": "2022-04-28 00:00:00",
+        "date": "2022-04-28 08:00:00",
         "description": "这篇文章介绍了开发AgileConfig的NodeJS客户端的过程。作者通过使用AgileConfig作为配置中心，开发了一个稳定的nodejs客户端，实现了通过http请求获取配置和通过websocket长连接接收配置变更的功能。文章详细介绍了代码实现的逻辑和工作原理，并提供了使用示例。",
         "urlname": "node-agile-client",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "为开源社区做贡献-开发AgileConfig的NodeJS客户端：node-agile-client",
         "tags": [
           "Node"
         ],
-        "updated": "2024-02-03 15:07:00",
-        "draft": false
+        "updated": "2024-02-03 15:07:00"
       },
       "url": "https://www.notion.so/AgileConfig-NodeJS-node-agile-client-35dbde5d4f494400a83de581f7d071e7",
       "public_url": null
@@ -429,9 +442,14 @@
       },
       "archived": false,
       "properties": {
-        "date": "2022-07-16 00:00:00",
+        "date": "2022-07-16 08:00:00",
         "description": "本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。",
         "urlname": "docker-in-github-actions",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Github Actions持续集成 Docker构建并部署Node项目到云服务器",
         "tags": [
           "Docker",
@@ -439,8 +457,7 @@
           "Node",
           "Github Actions"
         ],
-        "updated": "2024-02-03 15:31:00",
-        "draft": false
+        "updated": "2024-02-03 15:31:00"
       },
       "url": "https://www.notion.so/Github-Actions-Docker-Node-9b84960b447d42d18bb83304499e30ab",
       "public_url": null
@@ -471,15 +488,19 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-10-19 00:00:00",
+        "date": "2023-10-19 08:00:00",
         "description": "本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。",
         "urlname": "how-do-i-take-note",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "我的笔记管理法",
         "tags": [
           "知识管理"
         ],
-        "updated": "2024-02-03 14:41:00",
-        "draft": false
+        "updated": "2024-02-03 14:41:00"
       },
       "url": "https://www.notion.so/6807b411e2804a728a948667c9840fc3",
       "public_url": null
@@ -510,15 +531,19 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-12-30 00:00:00",
+        "date": "2023-12-30 08:00:00",
         "description": "2023年的年终总结回顾了作者在开源项目Elog的成长、知识管理的启蒙以及个人IP的打造。展望2024年，计划继续维护Elog并尝试重构，朝独立开发者的目标迈进，输出更多优质文章，阅读更多书籍，提升事业发展和个人健康。",
         "urlname": "2023-year-end",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "2023 年终总结",
         "tags": [
           "年终总结"
         ],
-        "updated": "2024-02-03 14:41:00",
-        "draft": false
+        "updated": "2024-02-03 14:41:00"
       },
       "url": "https://www.notion.so/2023-0aaf6ef0553e41a29d735cea8aa0c5bb",
       "public_url": null
@@ -549,15 +574,19 @@
       },
       "archived": false,
       "properties": {
-        "date": "2024-02-01 00:00:00",
+        "date": "2024-02-01 08:00:00",
         "description": "在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。",
         "urlname": "make-use-boot-disk-on-mac",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Mac 系统下制作 USB 启动盘",
         "tags": [
           "家庭服务器"
         ],
-        "updated": "2024-02-03 14:41:00",
-        "draft": false
+        "updated": "2024-02-03 14:41:00"
       },
       "url": "https://www.notion.so/Mac-USB-f66e7b96ff5e4bd580b1daa34b62747c",
       "public_url": null
@@ -566,7 +595,7 @@
       "object": "page",
       "id": "893659b9-d7f6-4090-9abc-637da2c7c560",
       "created_time": "2024-02-02T12:59:00.000Z",
-      "last_edited_time": "2024-02-03T07:30:00.000Z",
+      "last_edited_time": "2024-02-03T10:23:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -588,14 +617,15 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-04-10 00:00:00",
+        "date": "2023-04-10 08:00:00",
         "description": "这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。",
         "urlname": "migrate-blog-to-notion",
         "title": "迁移博客到 Notion",
         "tags": [
-          "Notion"
+          "Notion",
+          "博客折腾手册"
         ],
-        "updated": "2024-02-03 15:30:00",
+        "updated": "2024-02-03 18:23:00",
         "draft": false
       },
       "url": "https://www.notion.so/Notion-893659b9d7f640909abc637da2c7c560",
@@ -627,16 +657,20 @@
       },
       "archived": false,
       "properties": {
-        "date": "2023-09-03 00:00:00",
+        "date": "2023-09-03 08:00:00",
         "description": "本文介绍了使用Rollup打包多入口文件的配置方法。通过将不同客户端的请求库逻辑分离成独立的入口文件，并配合package.json中的exports字段，实现按需引入。同时提供了代码结构、注意事项、Rollup配置和package.json配置的示例。",
         "urlname": "rollup-multi-input",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Rollup打包——多入口配置",
         "tags": [
           "Rollup",
           "打包构建"
         ],
-        "updated": "2024-02-03 15:07:00",
-        "draft": false
+        "updated": "2024-02-03 15:07:00"
       },
       "url": "https://www.notion.so/Rollup-5c525f1d6d6047f9810a3bda51fdda27",
       "public_url": null
@@ -665,17 +699,21 @@
       },
       "archived": false,
       "properties": {
-        "date": "2022-06-23 00:00:00",
+        "date": "2022-06-23 08:00:00",
         "description": "本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。",
         "urlname": "npm-in-github-actions",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "利用github actions自动化发布npm",
         "tags": [
           "Node",
           "Npm",
           "CICD"
         ],
-        "updated": "2024-02-03 15:07:00",
-        "draft": false
+        "updated": "2024-02-03 15:07:00"
       },
       "url": "https://www.notion.so/github-actions-npm-7ef7d72e09e541ab957773356c521a13",
       "public_url": null
@@ -706,16 +744,20 @@
       },
       "archived": false,
       "properties": {
-        "date": "2024-02-02 00:00:00",
+        "date": "2024-02-02 08:00:00",
         "description": "在WebStorm中调试React/Vue等项目的正确姿势是通过\"JavaScript调试\"配置来设置调试模式，并在项目中打断点后刷新浏览器页面以进入WebStorm调试模式。",
         "urlname": "debugger-on-webstorm",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "在 WebStorm 中调试 React/Vue 等项目",
         "tags": [
           "Webstorm",
           "效率工具"
         ],
-        "updated": "2024-02-03 14:41:00",
-        "draft": false
+        "updated": "2024-02-03 14:41:00"
       },
       "url": "https://www.notion.so/WebStorm-React-Vue-337d0bd7179c452691b57acbcc25cc9e",
       "public_url": null
@@ -744,15 +786,19 @@
       },
       "archived": false,
       "properties": {
-        "date": "2022-04-19 00:00:00",
+        "date": "2022-04-19 08:00:00",
         "description": "这篇文章介绍了如何使用Alfred Workflows配置Mac上的效率工具，包括使用Alfred快速打开网址和使用Alfred打开WebStorm和iTerm来快速打开和运行项目。",
         "urlname": "alfred-workflows",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "程序员必备——Mac效率工具Alfred Workflows配置",
         "tags": [
           "效率工具"
         ],
-        "updated": "2024-02-03 15:07:00",
-        "draft": false
+        "updated": "2024-02-03 15:07:00"
       },
       "url": "https://www.notion.so/Mac-Alfred-Workflows-0d674abec40d4179ba1c692ebfa846c5",
       "public_url": null
