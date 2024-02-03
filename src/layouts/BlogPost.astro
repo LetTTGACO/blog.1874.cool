@@ -58,7 +58,6 @@ const { headings } = await post.render();
 	import mediumZoom from "medium-zoom";
   let images = document.body.querySelectorAll("img");
 	images.forEach((image) => {
-    console.dir(image);
     if (image.id !== "logo") {
       // 图片添加点击放大功能
       image.classList.add("zoom-image");
