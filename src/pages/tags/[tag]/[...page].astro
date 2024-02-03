@@ -3,22 +3,27 @@ import type { Page, GetStaticPaths } from "astro";
 import type { CollectionEntry } from "astro:content";
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
-import Pagination from "@/components/Paginator";
 import { getAllPosts, getUniqueTags, sortMDByDate } from "@/utils";
 
-export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+export const getStaticPaths: GetStaticPaths = async () => {
 	const allPosts = await getAllPosts();
 	const allPostsByDate = sortMDByDate(allPosts);
 	const uniqueTags = getUniqueTags(allPostsByDate);
 
 	return uniqueTags.flatMap((tag) => {
-		const filterPosts = allPostsByDate.filter((post) => post.data.tags.includes(tag));
-		return paginate(filterPosts, {
-			params: { tag },
-			pageSize: 10,
-		});
-	});
-};
+    const posts = allPostsByDate.filter((post) => post.data.tags.includes(tag))
+    return {
+      props: {
+        page: {
+          data: posts
+        }
+      },
+      params: {
+        tag,
+      },
+    };
+	})
+}
 
 interface Props {
 	page: Page<CollectionEntry<"post">>;
@@ -32,20 +37,6 @@ const meta = {
 	description: `View all posts with the tag - ${tag}`,
 };
 
-const paginationProps = {
-	...(page.url.prev && {
-		prevUrl: {
-			url: page.url.prev,
-			text: `← Previous Tags`,
-		},
-	}),
-	...(page.url.next && {
-		nextUrl: {
-			url: page.url.next,
-			text: `Next Tags →`,
-		},
-	}),
-};
 ---
 
 <PageLayout meta={meta}>
@@ -59,11 +50,10 @@ const paginationProps = {
 			{
 				page.data.map((p) => (
 					<li class="flex flex-col flex-wrap gap-2 sm:flex-row [&_q]:basis-full">
-						<PostPreview post={p} as="h2" withDesc />
+						<PostPreview post={p} as="h2"/>
 					</li>
 				))
 			}
 		</ul>
-		<Pagination {...paginationProps} />
 	</section>
 </PageLayout>

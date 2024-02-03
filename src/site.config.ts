@@ -22,9 +22,9 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
 		},
 	},
-	webmentions: {
-		link: "https://webmention.io/blog.1874.cool/webmention",
-	},
+	// webmentions: {
+	// 	link: "https://webmention.io/blog.1874.cool/webmention",
+	// },
 };
 
 // Used to generate links in both the Header & Footer.

@@ -4,7 +4,8 @@ import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./Base.astro";
 import BlogHero from "@/components/blog/Hero";
 import TOC from "@/components/blog/TOC";
-import WebMentions from "@/components/blog/webmentions/index";
+// import WebMentions from "@/components/blog/webmentions/index";
+import Comment from "@/components/Comment";
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -17,7 +18,6 @@ const {
 } = post;
 const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updated?.toISOString() ?? date.toISOString();
-// @ts-ignore
 const { headings } = await post.render();
 ---
 
@@ -30,7 +30,8 @@ const { headings } = await post.render();
 				class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none"
 			>
 				<slot />
-				<WebMentions />
+				<!--<WebMentions />-->
+        <Comment/>
 			</div>
 		</article>
 	</div>

@@ -1,0 +1,47 @@
+---
+const pathname = decodeURIComponent(Astro.url.pathname || ""); //解码
+const postName = pathname?.split("/").pop();
+---
+<meta property={`og:${postName}`} />
+<script>
+	function sendMessage(message: Object) {
+		const iframe = document.querySelector("iframe.giscus-frame") as HTMLIFrameElement;
+    if (!iframe || !iframe.contentWindow) return;
+		iframe.contentWindow.postMessage({ giscus: message }, "https://giscus.app");
+	}
+
+	function getCurrentTheme() {
+    return document.firstElementChild && document.firstElementChild.getAttribute("data-theme");
+	}
+
+	function createGusicScript() {
+		const container = document.querySelector("#main");
+		const theme = getCurrentTheme() == "light" ? "light" : "dark_dimmed";
+		let script = document.createElement("script");
+		script.src = "https://giscus.app/client.js";
+		script.setAttribute("data-repo", "LetTTGACO/blog.1874.cool");
+		script.setAttribute("data-repo-id", "R_kgDOLNI02w");
+		script.setAttribute("data-category", "General");
+		script.setAttribute("data-category-id", "DIC_kwDOLNI0284Cc6X-");
+		script.setAttribute("data-mapping", "og:title");
+		script.setAttribute("data-strict", "0");
+		script.setAttribute("data-reactions-enabled", "0");
+		script.setAttribute("data-emit-metadata", "0");
+		script.setAttribute("data-input-position", "bottom");
+		script.setAttribute("data-theme", theme);
+		script.setAttribute("data-lang", "zh-CN");
+		script.setAttribute("data-loading", "lazy");
+		script.setAttribute("crossorigin", "anonymous");
+		script.async = true;
+		container && container.appendChild(script);
+	}
+
+	createGusicScript();
+	document.querySelector("#theme-btn")?.addEventListener("click", () => {
+		const theme = getCurrentTheme();
+		sendMessage({
+			setConfig: { theme: theme == "light" ? "light" : "dark_dimmed" },
+		});
+	});
+</script>
+<h2 class="mb-10 before:hidden"/>
