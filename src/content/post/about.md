@@ -4,7 +4,7 @@ description: 这篇博客介绍了作者的个人信息和博客相关内容，�
 urlname: about
 title: 关于我
 tags: []
-updated: '2024-02-03 18:36:00'
+updated: '2024-02-03 20:14:00'
 draft: false
 ---
 
@@ -29,10 +29,18 @@ draft: false
 
 你可以通过这些方式找到我：
 
-- **电子邮件**：me@mail.1874.cool
+- 电子邮件：[me@mail.1874.cool](mailto:me@mail.1874.cool)
 - GitHub： [@1874](https://github.com/LetTTGACO)
 - 微信公众号： [@LetTTGACO](https://mp.weixin.qq.com/s/6dcAqYu0bXcy5e2q-zUn-A)
 - Twitter：[@1874](https://twitter.com/LetTTGACO)
+
+## 我的其他站点
+
+- [Home](https://1874.cool/)：个人门户首页
+- [Elog](https://elog.1874.cool/)：开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)
+- [WebNav](https://webnav.1874.cool/)：一个旨在汇集国内外优质前端相关网站的前端导航网站
+- [Halo](https://halo.1874.cool/)： Halo 示例站点
+- [WordPress](https://wordpress.1874.cool/)： WordPress示例站点
 
 ## 关于博客
 
