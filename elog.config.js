@@ -33,7 +33,7 @@ module.exports = {
 			bucket: process.env.COS_BUCKET,
 			region: process.env.COS_REGION,
 			host: process.env.COS_HOST,
-			prefixKey: "",
+			prefixKey: "blog",
 		},
 	},
 };
