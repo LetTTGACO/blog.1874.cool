@@ -19,10 +19,15 @@ jobs:
         with:
           node-version: "16.x"
 
+      - name: 安装pnpm
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install pnpm@7.9.5 -g
+
       - name: 安装依赖
         run: |
           export TZ='Asia/Shanghai'
-          npm install @elog/cli -g
+          pnpm install --prod
 
       - name: 拉取Notion文章
         env:
@@ -34,7 +39,7 @@ jobs:
           COS_REGION: ${{ secrets.COS_REGION }}
           COS_HOST: ${{ secrets.COS_HOST }}
         run: |
-          elog sync
+          pnpm sync
 
       - name: 配置Git用户名邮箱
         run: |
