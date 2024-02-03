@@ -6,7 +6,7 @@ title: 迁移博客到 Notion
 tags:
   - Notion
   - 博客折腾手册
-updated: '2024-02-03 18:23:00'
+updated: '2024-02-03 20:19:00'
 draft: false
 ---
 
@@ -53,7 +53,7 @@ draft: false
 正如我的 Elog 介绍
 
 
-> Elog: 开放式跨平台博客解决方案，随意组合写作平台(语雀/Notion)和部署平台(Hexo/Vitepress/HuGo/Confluence)等
+> Elog: 开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)
 
 
 Elog 生态将是我未来的强大优势！
