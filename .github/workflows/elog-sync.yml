@@ -22,7 +22,7 @@ jobs:
       - name: 安装pnpm
         run: |
           export TZ='Asia/Shanghai'
-          npm install pnpm@7.9.5 -g
+          npm install pnpm -g
 
       - name: 安装依赖
         run: |
