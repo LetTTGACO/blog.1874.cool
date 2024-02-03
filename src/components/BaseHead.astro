@@ -5,7 +5,7 @@ import "../styles/global.css";
 
 type Props = SiteMeta;
 
-const { title, description, ogImage, articleDate } = Astro.props;
+const { title, description = "", ogImage, articleDate } = Astro.props;
 
 const titleSeparator = "•";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
