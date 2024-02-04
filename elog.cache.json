@@ -3,14 +3,14 @@
     {
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "doc_id": "38d84e83-4529-4d6a-be76-5920e06d595d",
-      "updated": 1706962440000,
+      "updated": 1707023220000,
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 20:14:00",
+        "updated": "2024-02-04 13:07:00",
         "draft": false
       },
       "realName": "about",
@@ -20,14 +20,14 @@
     {
       "id": "fbfa2d83-38eb-4226-92cb-0b06f9c6c24a",
       "doc_id": "fbfa2d83-38eb-4226-92cb-0b06f9c6c24a",
-      "updated": 1706963700000,
+      "updated": 1707047700000,
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
         "urlname": "links",
         "title": "友情链接",
         "tags": [],
-        "updated": "2024-02-03 20:35:00",
+        "updated": "2024-02-04 19:55:00",
         "draft": false
       },
       "realName": "links",
@@ -258,7 +258,7 @@
       "object": "page",
       "id": "fbfa2d83-38eb-4226-92cb-0b06f9c6c24a",
       "created_time": "2024-02-02T16:15:00.000Z",
-      "last_edited_time": "2024-02-03T12:35:00.000Z",
+      "last_edited_time": "2024-02-04T11:55:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -283,7 +283,7 @@
         "urlname": "links",
         "title": "友情链接",
         "tags": [],
-        "updated": "2024-02-03 20:35:00",
+        "updated": "2024-02-04 19:55:00",
         "draft": false
       },
       "url": "https://www.notion.so/fbfa2d8338eb422692cb0b06f9c6c24a",
@@ -293,7 +293,7 @@
       "object": "page",
       "id": "38d84e83-4529-4d6a-be76-5920e06d595d",
       "created_time": "2024-02-02T16:15:00.000Z",
-      "last_edited_time": "2024-02-03T12:14:00.000Z",
+      "last_edited_time": "2024-02-04T05:07:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -316,14 +316,10 @@
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-03 20:14:00"
+        "updated": "2024-02-04 13:07:00",
+        "draft": false
       },
       "url": "https://www.notion.so/38d84e8345294d6abe765920e06d595d",
       "public_url": null
@@ -620,13 +616,17 @@
         "date": "2023-04-10 08:00:00",
         "description": "这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。",
         "urlname": "migrate-blog-to-notion",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "迁移博客到 Notion",
         "tags": [
           "Notion",
           "博客折腾手册"
         ],
-        "updated": "2024-02-03 20:19:00",
-        "draft": false
+        "updated": "2024-02-03 20:19:00"
       },
       "url": "https://www.notion.so/Notion-893659b9d7f640909abc637da2c7c560",
       "public_url": null

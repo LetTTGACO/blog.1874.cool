@@ -4,7 +4,7 @@ description: 在社交平台和轻博客盛行、独立博客式微的时代，�
 urlname: links
 title: 友情链接
 tags: []
-updated: '2024-02-03 20:35:00'
+updated: '2024-02-04 19:55:00'
 draft: false
 ---
 
@@ -61,13 +61,29 @@ draft: false
 
 ## 友情站点
 
-- [Tangly](https://tangly1024.com/) —— 「NotionNext 作者」「知识分享」
-- [不才的博客](https://notbucai.com/) —— 「前端开发」
-- [WenderFeng](https://wenderfeng.top/) —— 「知识分享」「机械工程专业博士」
-- [北门清燕](https://www.bmqy.net/) —— 「知识分享」
-- [CC的部落格](https://blog.ccknbc.cc/) —— 「知识分享」「丰富多彩的博客」
-- [IMQL.LIFE](http://imql.life/) —— 「运维工程师」
-- [MatrixCore](https://matrixcore.top/) ——  「知识分享」
-- [强少来了](https://fengxiaoqiang.com/) —— 「互联网产品经理」
-- [易浅小站](https://kuangyichen.com/) —— 「知识分享」
-- [笔墨迹](https://blogscn.fun/) —— 「致敬还在写博客的我们！」
+- [Tangly](https://tangly1024.com/)
+	- [NotionNext](https://github.com/tangly1024/NotionNext) 博客作者
+- [不才的博客](https://notbucai.com/)
+	- 前端开发
+- [WenderFeng](https://wenderfeng.top/)
+	- 机械工程专业博士
+	- Memories of an unspoken story
+- [北门清燕](https://www.bmqy.net/)
+	- 分享生活、记录点滴，给回忆一个绽放的美丽
+- [CC的部落格](https://blog.ccknbc.cc/)
+	- 丰富多彩的博客
+	- CC的部落格，CC康纳百川的小窝，与你分享二三事
+- [IMQL.LIFE](http://imql.life/)
+	- 运维工程师
+	- 一尘不染不是不再有尘埃，而是尘埃让它飞扬，我自做我的阳光
+- [MatrixCore](https://matrixcore.top/)
+	- 远航人，扬起你的风帆，在破晓的那一瞬间，找到生命永恒的质点
+	- 看飞鱼在空中划过优美的弧线，看繁星倒影在大海渴饮生命的溪流，斗志昂扬
+- [强少来了](https://fengxiaoqiang.com/)
+	- 互联网产品经理
+	- 发现问题的意义，在于更好的解决问题~
+- [易浅小站](https://kuangyichen.com/)
+	- 分享编程与思维认知
+- [笔墨迹](https://blogscn.fun/)
+	- 博客收集平台，致力于发掘和分享「优秀个人独立博客」
+	- 致敬还在写博客的我们！
