@@ -37,9 +37,9 @@
     {
       "id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
       "doc_id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
-      "updated": 1706945460000,
+      "updated": 1707048060000,
       "properties": {
-        "date": "2022-07-16 00:00:00",
+        "date": "2022-07-16 08:00:00",
         "description": "本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。",
         "urlname": "docker-in-github-actions",
         "title": "Github Actions持续集成 Docker构建并部署Node项目到云服务器",
@@ -49,7 +49,7 @@
           "Node",
           "Github Actions"
         ],
-        "updated": "2024-02-03 15:31:00",
+        "updated": "2024-02-04 20:01:00",
         "draft": false
       },
       "realName": "docker-in-github-actions",
@@ -175,18 +175,19 @@
     {
       "id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
       "doc_id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
-      "updated": 1706944020000,
+      "updated": 1707048060000,
       "properties": {
-        "date": "2022-06-23 00:00:00",
+        "date": "2022-06-23 08:00:00",
         "description": "本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。",
         "urlname": "npm-in-github-actions",
         "title": "利用github actions自动化发布npm",
         "tags": [
           "Node",
           "Npm",
-          "CICD"
+          "CICD",
+          "Github Actions"
         ],
-        "updated": "2024-02-03 15:07:00",
+        "updated": "2024-02-04 20:01:00",
         "draft": false
       },
       "realName": "npm-in-github-actions",
@@ -281,10 +282,14 @@
         "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
         "urlname": "links",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "友情链接",
         "tags": [],
-        "updated": "2024-02-04 19:55:00",
-        "draft": false
+        "updated": "2024-02-04 19:55:00"
       },
       "url": "https://www.notion.so/fbfa2d8338eb422692cb0b06f9c6c24a",
       "public_url": null
@@ -316,10 +321,14 @@
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "urlname": "about",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "关于我",
         "tags": [],
-        "updated": "2024-02-04 13:07:00",
-        "draft": false
+        "updated": "2024-02-04 13:07:00"
       },
       "url": "https://www.notion.so/38d84e8345294d6abe765920e06d595d",
       "public_url": null
@@ -418,7 +427,7 @@
       "object": "page",
       "id": "9b84960b-447d-42d1-8bb8-3304499e30ab",
       "created_time": "2024-02-02T12:59:00.000Z",
-      "last_edited_time": "2024-02-03T07:31:00.000Z",
+      "last_edited_time": "2024-02-04T12:01:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -441,11 +450,6 @@
         "date": "2022-07-16 08:00:00",
         "description": "本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。",
         "urlname": "docker-in-github-actions",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "Github Actions持续集成 Docker构建并部署Node项目到云服务器",
         "tags": [
           "Docker",
@@ -453,7 +457,8 @@
           "Node",
           "Github Actions"
         ],
-        "updated": "2024-02-03 15:31:00"
+        "updated": "2024-02-04 20:01:00",
+        "draft": false
       },
       "url": "https://www.notion.so/Github-Actions-Docker-Node-9b84960b447d42d18bb83304499e30ab",
       "public_url": null
@@ -679,7 +684,7 @@
       "object": "page",
       "id": "7ef7d72e-09e5-41ab-9577-73356c521a13",
       "created_time": "2024-02-02T12:59:00.000Z",
-      "last_edited_time": "2024-02-03T07:07:00.000Z",
+      "last_edited_time": "2024-02-04T12:01:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -702,18 +707,15 @@
         "date": "2022-06-23 08:00:00",
         "description": "本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。",
         "urlname": "npm-in-github-actions",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "利用github actions自动化发布npm",
         "tags": [
           "Node",
           "Npm",
-          "CICD"
+          "CICD",
+          "Github Actions"
         ],
-        "updated": "2024-02-03 15:07:00"
+        "updated": "2024-02-04 20:01:00",
+        "draft": false
       },
       "url": "https://www.notion.so/github-actions-npm-7ef7d72e09e541ab957773356c521a13",
       "public_url": null
