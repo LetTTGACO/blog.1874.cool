@@ -32,7 +32,7 @@
 		"@astrojs/check": "^0.4.1",
 		"@iconify-json/mdi": "^1.1.64",
 		"@pagefind/default-ui": "^1.0.4",
-		"@resvg/resvg-js": "^2.6.0",
+		"@resvg/resvg-js": "^2.6.2",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/eslint": "^8.56.2",
