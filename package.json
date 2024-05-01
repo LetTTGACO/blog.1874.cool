@@ -18,7 +18,7 @@
 		"@astrojs/rss": "4.0.4",
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
-		"astro": "4.2.1",
+		"astro": "4.7.0",
 		"astro-expressive-code": "^0.31.0",
 		"astro-icon": "^1.0.2",
 		"medium-zoom": "^1.1.0",
