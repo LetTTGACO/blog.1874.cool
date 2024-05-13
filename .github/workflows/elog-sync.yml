@@ -17,12 +17,12 @@ jobs:
       - name: 安装node环境
         uses: actions/setup-node@master
         with:
-          node-version: "18.x"
+          node-version: "16.x"
 
       - name: 安装pnpm
         run: |
           export TZ='Asia/Shanghai'
-          npm install pnpm -g
+          npm install pnpm@8.7.6 -g
 
       - name: 安装依赖
         run: |
