@@ -1,14 +1,11 @@
 ---
-date: '2022-07-16 08:00:00'
+date: '2022-07-16 00:00:00'
 description: 本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。
 urlname: docker-in-github-actions
 title: Github Actions持续集成 Docker构建并部署Node项目到云服务器
 tags:
-  - Docker
-  - CICD
-  - Node
-  - Github Actions
-updated: '2024-02-04 20:01:00'
+  - 赛博空间
+updated: '2024-05-28 20:14:00'
 draft: false
 ---
 

@@ -4,9 +4,8 @@ description: 在WebStorm中调试React/Vue等项目的正确姿势是通过"Java
 urlname: debugger-on-webstorm
 title: 在 WebStorm 中调试 React/Vue 等项目
 tags:
-  - Webstorm
-  - 效率工具
-updated: '2024-02-03 14:41:00'
+  - 赛博空间
+updated: '2024-05-28 20:13:00'
 draft: false
 ---
 

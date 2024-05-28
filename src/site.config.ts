@@ -34,15 +34,27 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/",
 	},
 	{
-		title: "标签",
-		path: "/tags",
+		title: "月刊",
+		path: "/tags/月刊",
 	},
 	{
-		title: "关于我",
+		title: "年刊",
+		path: "/tags/年刊",
+	},
+	{
+		title: "赛博空间",
+		path: "/tags/赛博空间",
+	},
+	{
+		title: "代码之外",
+		path: "/tags/代码之外",
+	},
+	{
+		title: "关于",
 		path: "/about",
 	},
 	{
-		title: "友情链接",
+		title: "友链",
 		path: "/links",
 	},
 ];

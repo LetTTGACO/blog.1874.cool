@@ -4,9 +4,9 @@ description: 本文介绍了如何使用FRP进行自建FRP内网穿透。通过�
 urlname: frp
 title: 自建FRP内网穿透
 tags:
-  - 家庭服务器
+  - 赛博空间
 cover: 'https://image.1874.cool/blog/08a266ae5795e27308010b46158b87c8.jpg'
-updated: '2024-02-03 14:41:00'
+updated: '2024-05-28 20:14:00'
 draft: false
 ---
 

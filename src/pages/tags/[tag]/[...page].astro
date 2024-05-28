@@ -32,19 +32,31 @@ interface Props {
 const { page } = Astro.props;
 const { tag } = Astro.params;
 
+const description = {
+  '月刊': '灵感笔记本。分享近期的所见所思所感，也是对自我的探索，每月一更。',
+  '年刊': '每年年终回顾与展望。昨天是段历史，明天是个谜团，而今天是天赐的礼物。',
+  '赛博空间': '想成为全干工程师的我的不定期编程领域分享。',
+  '代码之外': '不插电。回归简单，关注内心，希望有更纯粹、更真实的表达',
+  '夜话港乐': '有粤语歌就不会有世界末日',
+
+}
+
 const meta = {
-	title: `Tag: ${tag}`,
-	description: `View all posts with the tag - ${tag}`,
+	title: tag,
 };
 
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6 flex items-center">
-		<a href="/tags/" class="text-accent sm:hover:underline">Tags</a>
-		<span class="me-3 ms-2">→</span>
-		<span class="text-xl">#{tag}</span>
-	</h1>
+	<!--<h1 class="title mb-6 flex items-center">-->
+	<!--	<a href="/tags/" class="text-accent sm:hover:underline">Tags</a>-->
+	<!--	<span class="me-3 ms-2">→</span>-->
+	<!--	<span class="text-xl">#{tag}</span>-->
+	<!--</h1>-->
+  <h1 class="title mb-4">#{tag}</h1>
+  <p class="mb-16">
+    {description[tag]}
+  </p>
 	<section aria-label="Blog post list">
 		<ul class="space-y-4">
 			{

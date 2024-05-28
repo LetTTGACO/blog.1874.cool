@@ -4,8 +4,8 @@ description: 在Mac系统下制作USB启动盘的方法：下载ISO镜像文件�
 urlname: make-use-boot-disk-on-mac
 title: Mac 系统下制作 USB 启动盘
 tags:
-  - 家庭服务器
-updated: '2024-02-03 14:41:00'
+  - 赛博空间
+updated: '2024-05-29 00:06:00'
 draft: false
 ---
 

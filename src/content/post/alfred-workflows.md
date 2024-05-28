@@ -4,8 +4,8 @@ description: 这篇文章介绍了如何使用Alfred Workflows配置Mac上的效
 urlname: alfred-workflows
 title: 程序员必备——Mac效率工具Alfred Workflows配置
 tags:
-  - 效率工具
-updated: '2024-02-03 15:07:00'
+  - 赛博空间
+updated: '2024-05-28 20:14:00'
 draft: false
 ---
 

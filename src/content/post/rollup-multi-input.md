@@ -4,9 +4,8 @@ description: 本文介绍了使用Rollup打包多入口文件的配置方法。�
 urlname: rollup-multi-input
 title: Rollup打包——多入口配置
 tags:
-  - Rollup
-  - 打包构建
-updated: '2024-02-03 15:07:00'
+  - 赛博空间
+updated: '2024-05-28 20:14:00'
 draft: false
 ---
 
