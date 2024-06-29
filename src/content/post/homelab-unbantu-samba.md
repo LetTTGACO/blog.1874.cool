@@ -6,14 +6,17 @@ title: Ubuntu 配置 Samba
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-29 23:13:00'
+updated: '2024-06-29 23:21:00'
 draft: false
 ---
 
-记录一下 HomeLab 搭建过程中的 Samba 服务配置和安装。
+我本地服务器已经装了 `SFTPGo` 并暴露了 `WebDAV` 共享协议，用于内网和公网访问，这段时间测试下来，还是挺稳挺快的。
 
 
-我服务器
+但  `SMB` 协议的设备支持范围更广，我的投影仪在局域网中共享文件只支持 `SMB` 协议。为了更方便内部共享，还是需要搭建 Samba 用于提供`SMB` 协议。
+
+
+记录一下 `HomeLab` 搭建过程中的 Samba 服务配置和安装。
 
 
 ## 本地环境
@@ -80,3 +83,4 @@ sudo smbpasswd -a cody
 sudo service smbd restart
 ```
 
+1. 设备lian'jie
