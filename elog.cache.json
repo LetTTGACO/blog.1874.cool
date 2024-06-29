@@ -268,9 +268,9 @@
     {
       "id": "e1eea387-0e10-4421-93bc-7f598cb55dd4",
       "doc_id": "e1eea387-0e10-4421-93bc-7f598cb55dd4",
-      "updated": 1719681300000,
+      "updated": 1719681540000,
       "properties": {
-        "date": "2024-06-30 08:00:00",
+        "date": "2024-06-29 08:00:00",
         "description": "",
         "urlname": "homelab",
         "title": "HomeLab 启动",
@@ -278,7 +278,7 @@
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2024-06-30 01:15:00",
+        "updated": "2024-06-30 01:19:00",
         "draft": false
       },
       "realName": "homelab",
@@ -291,7 +291,7 @@
       "object": "page",
       "id": "e1eea387-0e10-4421-93bc-7f598cb55dd4",
       "created_time": "2024-06-29T15:44:00.000Z",
-      "last_edited_time": "2024-06-29T17:15:00.000Z",
+      "last_edited_time": "2024-06-29T17:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -314,7 +314,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-30 08:00:00",
+        "date": "2024-06-29 08:00:00",
         "description": "",
         "urlname": "homelab",
         "title": "HomeLab 启动",
@@ -322,7 +322,7 @@
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2024-06-30 01:15:00",
+        "updated": "2024-06-30 01:19:00",
         "draft": false
       },
       "url": "https://www.notion.so/HomeLab-e1eea3870e10442193bc7f598cb55dd4",
@@ -403,12 +403,16 @@
         "date": "2024-06-30 08:00:00",
         "description": "",
         "urlname": "2024-month-02",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "月刊（第2期）：信息就像糖，让人上瘾",
         "tags": [
           "月刊"
         ],
-        "updated": "2024-06-30 01:15:00",
-        "draft": false
+        "updated": "2024-06-30 01:15:00"
       },
       "url": "https://www.notion.so/2-9dcfbf2882f4473b9c5a27cd3780d7bf",
       "public_url": null
@@ -429,8 +433,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T171638Z&X-Amz-Expires=3600&X-Amz-Signature=70af130f16318cbfba949f612a8805ee7c7c4e27397b423ec8d517642ea5ab6a&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2024-06-29T18:16:38.391Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T171951Z&X-Amz-Expires=3600&X-Amz-Signature=ce85e5675eeb1c6b66672dbcaac07043364a76fb6f006e622a9eb5c12b51b825&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-06-29T18:19:51.143Z"
         }
       },
       "icon": {
@@ -458,7 +462,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T171638Z&X-Amz-Expires=3600&X-Amz-Signature=70af130f16318cbfba949f612a8805ee7c7c4e27397b423ec8d517642ea5ab6a&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T171951Z&X-Amz-Expires=3600&X-Amz-Signature=ce85e5675eeb1c6b66672dbcaac07043364a76fb6f006e622a9eb5c12b51b825&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
