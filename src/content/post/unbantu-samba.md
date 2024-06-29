@@ -2,11 +2,11 @@
 date: '2024-06-29 08:00:00'
 description: ''
 urlname: unbantu-samba
-title: Ubuntu 配置 Samba
+title: Ubuntu 配置 Samba 服务
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-30 01:48:00'
+updated: '2024-06-30 01:50:00'
 draft: false
 ---
 
@@ -16,7 +16,7 @@ draft: false
 我本地服务器已经装了 `SFTPGo` 并暴露了 `WebDAV` 协议，用于内网和公网访问，这段时间测试下来，看视频还是挺稳挺快的。
 
 
-但  `SMB` 协议的设备支持范围更广，我的投影仪在局域网中共享文件只支持 `SMB` 协议。为了更方便内部共享，还是需要搭建 Samba 用于提供`SMB` 协议。
+但  `SMB` 协议的设备支持范围更广，我的投影仪在局域网中共享文件只支持 `SMB` 协议。为了方便内部共享，还是需要搭建 Samba 用于提供`SMB` 协议。
 
 
 ## 本地环境
@@ -71,7 +71,7 @@ sudo apt-get install samba
 	- `writeable = yes`意味着用户对这个共享具有写入权限，可以在其中创建、修改和删除文件。
 	- `guest ok = yes`允许访客访问这个共享，不需要提供有效的用户凭据。
 	- `valid users = cody`指定了只有名为 `cody` 的用户有权访问这个共享。
-5. 创建 Samba 用户
+5. 创建 Samba 用户，并设置密码
 
 ```bash
 sudo smbpasswd -a cody
