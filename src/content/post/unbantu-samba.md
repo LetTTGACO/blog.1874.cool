@@ -1,12 +1,12 @@
 ---
-date: '2024-06-29 00:00:00'
+date: '2024-06-29 08:00:00'
 description: ''
 urlname: unbantu-samba
 title: Ubuntu 配置 Samba
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-29 23:47:00'
+updated: '2024-06-30 01:48:00'
 draft: false
 ---
 
