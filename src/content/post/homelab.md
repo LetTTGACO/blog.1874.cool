@@ -6,9 +6,9 @@ title: HomeLab 启动
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-30 01:19:00'
+updated: '2024-06-30 01:23:00'
 draft: false
 ---
 
-![Untitled.png](https://image.1874.cool/blog/bdf515ad4fa1e116a8b70d998792bce6.png)
+![Untitled.png](https://image.1874.cool/blog/3dc9d266f589645bfe7cd8c1f6bedbee.png)
 
