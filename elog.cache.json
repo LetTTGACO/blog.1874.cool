@@ -262,9 +262,68 @@
       "realName": "2024-month-01",
       "relativePath": "/2024-month-01.md",
       "docPath": "./src/content/post"
+    },
+    {
+      "id": "9dcfbf28-82f4-473b-9c5a-27cd3780d7bf",
+      "doc_id": "9dcfbf28-82f4-473b-9c5a-27cd3780d7bf",
+      "updated": 1719664920000,
+      "properties": {
+        "date": "2024-06-30 08:00:00",
+        "description": "",
+        "urlname": "2024-month-02",
+        "title": "月刊（第2期）：信息就像糖，让人上瘾",
+        "tags": [
+          "月刊"
+        ],
+        "updated": "2024-06-29 20:42:00",
+        "draft": false
+      },
+      "realName": "2024-month-02",
+      "relativePath": "/2024-month-02.md",
+      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "9dcfbf28-82f4-473b-9c5a-27cd3780d7bf",
+      "created_time": "2024-06-16T15:47:00.000Z",
+      "last_edited_time": "2024-06-29T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/calendar-month_red.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": "2024-06-30 08:00:00",
+        "description": "",
+        "urlname": "2024-month-02",
+        "title": "月刊（第2期）：信息就像糖，让人上瘾",
+        "tags": [
+          "月刊"
+        ],
+        "updated": "2024-06-29 20:42:00",
+        "draft": false
+      },
+      "url": "https://www.notion.so/2-9dcfbf2882f4473b9c5a27cd3780d7bf",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "6c224bd6-fad7-436b-a0b4-7605457c0c0c",
@@ -281,8 +340,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240601%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240601T145149Z&X-Amz-Expires=3600&X-Amz-Signature=5865fd02c864ea2624bdd2f29d322a4a6d170955a7648035bcb7f6154104ff5e&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2024-06-01T15:51:49.002Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T124343Z&X-Amz-Expires=3600&X-Amz-Signature=5aea8c200ed2dd2976bbe756becad98957a9dfe0ffc3f3504e8148ac5a563092&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-06-29T13:43:43.090Z"
         }
       },
       "icon": {
@@ -301,13 +360,17 @@
         "date": "2024-05-31 08:00:00",
         "description": "",
         "urlname": "2024-month-01",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "月刊（第1期）：刻意练习",
         "tags": [
           "月刊"
         ],
-        "cover": "https://image.1874.cool/blog/e5342400c95fe3a8ae52f8b8de7966ac.png",
-        "updated": "2024-06-01 22:50:00",
-        "draft": false
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240629T124343Z&X-Amz-Expires=3600&X-Amz-Signature=5aea8c200ed2dd2976bbe756becad98957a9dfe0ffc3f3504e8148ac5a563092&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
       "public_url": null
