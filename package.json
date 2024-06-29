@@ -11,7 +11,9 @@
 		"format": "prettier -w --cache . && prettier -w --cache **/*.astro",
 		"check": "astro check",
     "local": "elog sync -e .elog.env",
-    "sync": "elog sync"
+    "local:archive": "elog sync -e .elog.env --config elog.config.archive.js",
+    "sync": "elog sync",
+    "sync:archive": "elog sync --config elog.config.archive.js"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "2.1.1",

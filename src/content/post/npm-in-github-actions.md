@@ -2,10 +2,10 @@
 date: '2022-06-23 00:00:00'
 description: 本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。
 urlname: npm-in-github-actions
-title: 利用github actions自动化发布npm
+title: Github Actions 发布 npm 包
 tags:
   - 赛博空间
-updated: '2024-05-28 20:14:00'
+updated: '2024-06-29 23:37:00'
 draft: false
 ---
 

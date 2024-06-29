@@ -5,8 +5,8 @@ urlname: alfred-workflows
 title: 程序员必备——Mac效率工具Alfred Workflows配置
 tags:
   - 赛博空间
-updated: '2024-05-28 20:14:00'
-draft: false
+updated: '2024-06-29 23:26:00'
+draft: true
 ---
 
 ## 引言

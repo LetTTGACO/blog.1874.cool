@@ -2,11 +2,11 @@
 date: '2022-04-28 00:00:00'
 description: 这篇文章介绍了开发AgileConfig的NodeJS客户端的过程。作者通过使用AgileConfig作为配置中心，开发了一个稳定的nodejs客户端，实现了通过http请求获取配置和通过websocket长连接接收配置变更的功能。文章详细介绍了代码实现的逻辑和工作原理，并提供了使用示例。
 urlname: node-agile-client
-title: 为开源社区做贡献-开发AgileConfig的NodeJS客户端：node-agile-client
+title: AgileConfig 配置中心 NodeJs 客户端
 tags:
   - 赛博空间
-updated: '2024-05-28 20:14:00'
-draft: false
+updated: '2024-06-29 23:38:00'
+draft: true
 ---
 
 ## 引言
