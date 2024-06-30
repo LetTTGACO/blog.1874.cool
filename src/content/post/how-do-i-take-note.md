@@ -1,11 +1,11 @@
 ---
-date: '2023-10-19 00:00:00'
+date: '2023-10-19 08:00:00'
 description: 本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。
 urlname: how-do-i-take-note
 title: 我的笔记管理法
 tags:
   - 代码之外
-updated: '2024-05-28 20:14:00'
+updated: '2024-06-30 23:03:00'
 draft: false
 ---
 
@@ -134,6 +134,12 @@ Flomo笔记软件也在我的笔记管理法中充当了非常重要的角色。
 
 
 ## **我的笔记管理法**
+
+
+> **20240630 更新，详情请移步：[月刊（第2期）：信息就像糖，让人上瘾](/2024-month-02)**
+
+
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb224c51-65c8-4125-9ee2-afa18cdc6d68/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240630T150414Z&X-Amz-Expires=3600&X-Amz-Signature=83298bb18eb56b2c79b7beca877862ff5315ba51c2df5d40ff254ca839aaa12f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ![ad229984a36a979ec3ddb8c8863faf14.png](https://image.1874.cool/blog/303b1f8a6188d1a3e09bd7311079b9e7.png)
