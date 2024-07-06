@@ -59,7 +59,7 @@
     {
       "id": "7b6db747-2a9e-4476-bfbf-328c8bc53dcf",
       "doc_id": "7b6db747-2a9e-4476-bfbf-328c8bc53dcf",
-      "updated": 1719683400000,
+      "updated": 1720250820000,
       "properties": {
         "date": "2024-06-29 08:00:00",
         "description": "",
@@ -69,7 +69,7 @@
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2024-06-30 01:50:00",
+        "updated": "2024-07-06 15:27:00",
         "draft": false
       },
       "realName": "unbantu-samba",
@@ -336,7 +336,7 @@
       "object": "page",
       "id": "7b6db747-2a9e-4476-bfbf-328c8bc53dcf",
       "created_time": "2024-06-29T14:33:00.000Z",
-      "last_edited_time": "2024-06-29T17:50:00.000Z",
+      "last_edited_time": "2024-07-06T07:27:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -362,17 +362,13 @@
         "date": "2024-06-29 08:00:00",
         "description": "",
         "urlname": "unbantu-samba",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "Ubuntu 配置 Samba 服务",
         "tags": [
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2024-06-30 01:50:00"
+        "updated": "2024-07-06 15:27:00",
+        "draft": false
       },
       "url": "https://www.notion.so/Ubuntu-Samba-7b6db7472a9e4476bfbf328c8bc53dcf",
       "public_url": null
@@ -437,8 +433,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240630T150413Z&X-Amz-Expires=3600&X-Amz-Signature=bfd1936d8eb294f059d46608c0c2f94eaf7cf9e5f73db96e17f9e5a39b051911&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2024-06-30T16:04:11.627Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T092416Z&X-Amz-Expires=3600&X-Amz-Signature=731962ce5ae2fcc894fa0057dcabcec4bd3008a0916899a3208755fa1ef7c836&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-07-06T10:24:16.502Z"
         }
       },
       "icon": {
@@ -466,7 +462,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240630T150413Z&X-Amz-Expires=3600&X-Amz-Signature=bfd1936d8eb294f059d46608c0c2f94eaf7cf9e5f73db96e17f9e5a39b051911&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T092416Z&X-Amz-Expires=3600&X-Amz-Signature=731962ce5ae2fcc894fa0057dcabcec4bd3008a0916899a3208755fa1ef7c836&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
@@ -669,12 +665,16 @@
         "date": "2023-10-19 08:00:00",
         "description": "本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。",
         "urlname": "how-do-i-take-note",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "我的笔记管理法",
         "tags": [
           "代码之外"
         ],
-        "updated": "2024-06-30 23:03:00",
-        "draft": false
+        "updated": "2024-06-30 23:03:00"
       },
       "url": "https://www.notion.so/6807b411e2804a728a948667c9840fc3",
       "public_url": null

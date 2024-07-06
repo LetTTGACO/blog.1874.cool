@@ -6,7 +6,7 @@ title: Ubuntu 配置 Samba 服务
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-30 01:50:00'
+updated: '2024-07-06 15:27:00'
 draft: false
 ---
 
