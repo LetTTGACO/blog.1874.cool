@@ -1,11 +1,11 @@
 ---
-date: '2022-07-16 00:00:00'
+date: '2022-07-16 08:00:00'
 description: 本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。
 urlname: docker-in-github-actions
 title: Github Actions 部署 docker
 tags:
   - 赛博空间
-updated: '2024-06-29 23:37:00'
+updated: '2024-07-06 23:32:00'
 draft: false
 ---
 
@@ -111,9 +111,9 @@ jobs:
 
 `secrets.SERVER_SSH_PRIV_KEY` 是用来访问远程服务器的私钥，具体：
 
-- 在云服务器生成密钥对
-- 在远程服务器上添加公钥 (将公钥添加到服务器的 ~/.ssh/authorized_keys 文件中)
-- 在 Github 仓库设置私钥 (Settings > Secrets)
+1. 在本地服务器生成密钥对，一个公钥，一个私钥
+2. 在远程服务器上添加步骤 1 的公钥 (将公钥添加到服务器的 ~/.ssh/authorized_keys 文件中)
+3. 在 Github 仓库设置`secrets.SERVER_SSH_PRIV_KEY`为步骤 1 的私钥 (Settings > Secrets)
 
 `secrets.SERVER_IP` 是远程服务器地址
 
