@@ -3,10 +3,10 @@ date: '2024-10-30 08:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-01
-title: 代码随想录算法训练营第1天｜704. 二分查找、27. 移除元素
+title: 「代码随想录」算法训练营第1天｜704. 二分查找、27. 移除元素
 tags:
   - 算法训练营
-updated: '2024-10-31 00:18:00'
+updated: '2024-10-31 00:24:00'
 draft: false
 ---
 
@@ -26,7 +26,7 @@ draft: false
 文章链接：[https://programmercarl.com/数组理论基础.html](https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)
 
 
-**题目建议**： 了解一下数组基础，以及数组的内存空间地址，数组也没那么简单。
+**题目建议**：了解一下数组基础，以及数组的内存空间地址，数组也没那么简单。
 
 
 ## **704. 二分查找**
