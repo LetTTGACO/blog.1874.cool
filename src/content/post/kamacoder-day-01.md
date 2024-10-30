@@ -5,8 +5,8 @@ hidden: true
 urlname: kamacoder-day-01
 title: 代码随想录算法训练营第1天｜704. 二分查找、27. 移除元素
 tags:
-  - 代码随想录
-updated: '2024-10-31 00:17:00'
+  - 算法训练营
+updated: '2024-10-31 00:18:00'
 draft: false
 ---
 
