@@ -308,26 +308,6 @@
       "realName": "kamacoder-day-01",
       "relativePath": "/kamacoder-day-01.md",
       "docPath": "./src/content/post"
-    },
-    {
-      "id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
-      "doc_id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
-      "updated": 1730303760000,
-      "properties": {
-        "date": "2024-10-31 08:00:00",
-        "description": "",
-        "hidden": true,
-        "urlname": "kamacoder-day-02",
-        "title": "代码随想录算法训练营第2天| 209.长度最小的子数组、59.螺旋矩阵II",
-        "tags": [
-          "代码随想录"
-        ],
-        "updated": "2024-10-30 23:56:00",
-        "draft": false
-      },
-      "realName": "kamacoder-day-02",
-      "relativePath": "/kamacoder-day-02.md",
-      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
