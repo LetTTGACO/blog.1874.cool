@@ -2,11 +2,12 @@
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
-import { getAllPosts, sortMDByDate } from "@/utils";
+import { getAllPosts, sortMDByDate, filterHidden } from "@/utils";
 
 // const MAX_POSTS = 50;
 const allPosts = await getAllPosts();
-const allPostsByDate = sortMDByDate(allPosts);
+const posts = filterHidden(allPosts);
+const allPostsByDate = sortMDByDate(posts);
 
 // const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 // 	{

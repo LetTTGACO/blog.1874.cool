@@ -23,6 +23,7 @@ const post = defineCollection({
 				.transform((str) => (str ? new Date(str) : undefined)),
 			cover: z.string().optional(),
 			draft: z.boolean().default(false),
+			hidden: z.boolean().default(false),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			// ogImage: z.string().optional(),
 		}),

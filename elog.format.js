@@ -10,6 +10,7 @@ const { matterMarkdownAdapter } = require("@elog/cli");
  */
 const format = async (doc, imageClient) => {
 	doc.properties.draft = doc.properties.status.name !== "Done";
+	doc.properties.hidden = !!doc.properties.hidden;
 	delete doc.properties.status;
 	const cover = doc.properties.cover;
 	if (cover) {
