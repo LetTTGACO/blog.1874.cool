@@ -292,9 +292,9 @@
     {
       "id": "12fcca23-1452-8006-8c6d-d6a6ab132a4c",
       "doc_id": "12fcca23-1452-8006-8c6d-d6a6ab132a4c",
-      "updated": 1730302320000,
+      "updated": 1730303640000,
       "properties": {
-        "date": "2024-10-30 23:23:00",
+        "date": "2024-10-30 08:00:00",
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-01",
@@ -302,11 +302,31 @@
         "tags": [
           "代码随想录"
         ],
-        "updated": "2024-10-30 23:32:00",
+        "updated": "2024-10-30 23:54:00",
         "draft": false
       },
       "realName": "kamacoder-day-01",
       "relativePath": "/kamacoder-day-01.md",
+      "docPath": "./src/content/post"
+    },
+    {
+      "id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
+      "doc_id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
+      "updated": 1730303760000,
+      "properties": {
+        "date": "2024-10-31 08:00:00",
+        "description": "",
+        "hidden": true,
+        "urlname": "kamacoder-day-02",
+        "title": "代码随想录算法训练营第2天| 209.长度最小的子数组、59.螺旋矩阵II",
+        "tags": [
+          "代码随想录"
+        ],
+        "updated": "2024-10-30 23:56:00",
+        "draft": false
+      },
+      "realName": "kamacoder-day-02",
+      "relativePath": "/kamacoder-day-02.md",
       "docPath": "./src/content/post"
     }
   ],
@@ -315,7 +335,7 @@
       "object": "page",
       "id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
       "created_time": "2024-10-30T15:25:00.000Z",
-      "last_edited_time": "2024-10-30T15:32:00.000Z",
+      "last_edited_time": "2024-10-30T15:56:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -325,7 +345,12 @@
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
       },
       "cover": null,
-      "icon": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/computer_purple.svg"
+        }
+      },
       "parent": {
         "type": "database_id",
         "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
@@ -333,25 +358,25 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-10-30 23:25:00",
+        "date": "2024-10-31 08:00:00",
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-02",
-        "title": "代码随想录算法训练营第2天| 704. 二分查找、27. 移除元素",
+        "title": "代码随想录算法训练营第2天| 209.长度最小的子数组、59.螺旋矩阵II",
         "tags": [
           "代码随想录"
         ],
-        "updated": "2024-10-30 23:32:00",
+        "updated": "2024-10-30 23:56:00",
         "draft": false
       },
-      "url": "https://www.notion.so/2-704-27-12fcca231452807bac3aed63f0681a78",
+      "url": "https://www.notion.so/2-209-59-II-12fcca231452807bac3aed63f0681a78",
       "public_url": null
     },
     {
       "object": "page",
       "id": "12fcca23-1452-8006-8c6d-d6a6ab132a4c",
       "created_time": "2024-10-30T15:23:00.000Z",
-      "last_edited_time": "2024-10-30T15:32:00.000Z",
+      "last_edited_time": "2024-10-30T15:54:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -361,7 +386,12 @@
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
       },
       "cover": null,
-      "icon": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/computer_purple.svg"
+        }
+      },
       "parent": {
         "type": "database_id",
         "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
@@ -369,7 +399,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-10-30 23:23:00",
+        "date": "2024-10-30 08:00:00",
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-01",
@@ -377,7 +407,7 @@
         "tags": [
           "代码随想录"
         ],
-        "updated": "2024-10-30 23:32:00",
+        "updated": "2024-10-30 23:54:00",
         "draft": false
       },
       "url": "https://www.notion.so/1-704-27-12fcca23145280068c6dd6a6ab132a4c",
@@ -410,7 +440,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-29 00:00:00",
+        "date": "2024-06-29 08:00:00",
         "description": "",
         "hidden": "",
         "urlname": "homelab",
@@ -457,7 +487,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-29 00:00:00",
+        "date": "2024-06-29 08:00:00",
         "description": "",
         "hidden": "",
         "urlname": "unbantu-samba",
@@ -503,7 +533,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-06-30 00:00:00",
+        "date": "2024-06-30 08:00:00",
         "description": "",
         "hidden": "",
         "urlname": "2024-month-02",
@@ -537,8 +567,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T153953Z&X-Amz-Expires=3600&X-Amz-Signature=0ebe9074b325fbd739bb90f261d34d9d8cb0b055327ac9a929f43fefd2cc6426&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2024-10-30T16:39:53.730Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T160537Z&X-Amz-Expires=3600&X-Amz-Signature=7934194497a9c6f7e322dc291d7bad49af462d85af30f3fd4a0a7eb648b73561&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-10-30T17:05:37.331Z"
         }
       },
       "icon": {
@@ -554,7 +584,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-05-31 00:00:00",
+        "date": "2024-05-31 08:00:00",
         "description": "",
         "hidden": "",
         "urlname": "2024-month-01",
@@ -567,7 +597,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T153953Z&X-Amz-Expires=3600&X-Amz-Signature=0ebe9074b325fbd739bb90f261d34d9d8cb0b055327ac9a929f43fefd2cc6426&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T160537Z&X-Amz-Expires=3600&X-Amz-Signature=7934194497a9c6f7e322dc291d7bad49af462d85af30f3fd4a0a7eb648b73561&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
@@ -598,7 +628,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2019-01-27 00:00:00",
+        "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
         "hidden": "",
         "urlname": "links",
@@ -639,7 +669,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2019-01-27 00:00:00",
+        "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
         "hidden": "",
         "urlname": "about",
@@ -682,7 +712,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-01-28 00:00:00",
+        "date": "2024-01-28 08:00:00",
         "description": "",
         "hidden": "",
         "urlname": "frp",
@@ -726,7 +756,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2022-07-16 00:00:00",
+        "date": "2022-07-16 08:00:00",
         "description": "本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。",
         "hidden": "",
         "urlname": "docker-in-github-actions",
@@ -771,7 +801,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-10-19 00:00:00",
+        "date": "2023-10-19 08:00:00",
         "description": "本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。",
         "hidden": "",
         "urlname": "how-do-i-take-note",
@@ -816,7 +846,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-12-30 00:00:00",
+        "date": "2023-12-30 08:00:00",
         "description": "2023年的年终总结回顾了作者在开源项目Elog的成长、知识管理的启蒙以及个人IP的打造。展望2024年，计划继续维护Elog并尝试重构，朝独立开发者的目标迈进，输出更多优质文章，阅读更多书籍，提升事业发展和个人健康。",
         "hidden": "",
         "urlname": "2023-year-end",
@@ -861,7 +891,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-02-01 00:00:00",
+        "date": "2024-02-01 08:00:00",
         "description": "在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。",
         "hidden": "",
         "urlname": "make-use-boot-disk-on-mac",
@@ -906,7 +936,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-04-10 00:00:00",
+        "date": "2023-04-10 08:00:00",
         "description": "这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。",
         "hidden": "",
         "urlname": "migrate-blog-to-notion",
@@ -951,7 +981,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2023-09-03 00:00:00",
+        "date": "2023-09-03 08:00:00",
         "description": "本文介绍了使用Rollup打包多入口文件的配置方法。通过将不同客户端的请求库逻辑分离成独立的入口文件，并配合package.json中的exports字段，实现按需引入。同时提供了代码结构、注意事项、Rollup配置和package.json配置的示例。",
         "hidden": "",
         "urlname": "rollup-multi-input",
@@ -994,7 +1024,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2022-06-23 00:00:00",
+        "date": "2022-06-23 08:00:00",
         "description": "本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。",
         "hidden": "",
         "urlname": "npm-in-github-actions",
@@ -1039,7 +1069,7 @@
       "archived": false,
       "in_trash": false,
       "properties": {
-        "date": "2024-02-02 00:00:00",
+        "date": "2024-02-02 08:00:00",
         "description": "在WebStorm中调试React/Vue等项目的正确姿势是通过\"JavaScript调试\"配置来设置调试模式，并在项目中打断点后刷新浏览器页面以进入WebStorm调试模式。",
         "hidden": "",
         "urlname": "debugger-on-webstorm",
