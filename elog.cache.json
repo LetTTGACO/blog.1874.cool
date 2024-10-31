@@ -308,9 +308,70 @@
       "realName": "kamacoder-day-01",
       "relativePath": "/kamacoder-day-01.md",
       "docPath": "./src/content/post"
+    },
+    {
+      "id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
+      "doc_id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
+      "updated": 1730378340000,
+      "properties": {
+        "date": "2024-10-31 08:00:00",
+        "description": "",
+        "hidden": true,
+        "urlname": "kamacoder-day-02",
+        "title": "「代码随想录」算法训练营第2天｜209.长度最小的子数组、59.螺旋矩阵II",
+        "tags": [
+          "算法训练营"
+        ],
+        "updated": "2024-10-31 20:39:00",
+        "draft": false
+      },
+      "realName": "kamacoder-day-02",
+      "relativePath": "/kamacoder-day-02.md",
+      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "12fcca23-1452-807b-ac3a-ed63f0681a78",
+      "created_time": "2024-10-30T15:25:00.000Z",
+      "last_edited_time": "2024-10-31T12:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/computer_purple.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": "2024-10-31 08:00:00",
+        "description": "",
+        "hidden": true,
+        "urlname": "kamacoder-day-02",
+        "title": "「代码随想录」算法训练营第2天｜209.长度最小的子数组、59.螺旋矩阵II",
+        "tags": [
+          "算法训练营"
+        ],
+        "updated": "2024-10-31 20:39:00",
+        "draft": false
+      },
+      "url": "https://www.notion.so/2-209-59-II-12fcca231452807bac3aed63f0681a78",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "12fcca23-1452-8006-8c6d-d6a6ab132a4c",
@@ -342,12 +403,16 @@
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-01",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "「代码随想录」算法训练营第1天｜704. 二分查找、27. 移除元素",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2024-10-31 00:24:00",
-        "draft": false
+        "updated": "2024-10-31 00:24:00"
       },
       "url": "https://www.notion.so/1-704-27-12fcca23145280068c6dd6a6ab132a4c",
       "public_url": null
@@ -506,8 +571,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T162536Z&X-Amz-Expires=3600&X-Amz-Signature=57f615aa80aa04119ff7b7a6369c2a51e58f340e89cf45470763cd851ef9583f&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2024-10-30T17:25:36.031Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T124002Z&X-Amz-Expires=3600&X-Amz-Signature=97cffcc315b7cac49ca48780201a5694eee95b0a7ee2dcafb6f4cb96e2e1e20c&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-10-31T13:40:02.221Z"
         }
       },
       "icon": {
@@ -536,7 +601,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241030T162536Z&X-Amz-Expires=3600&X-Amz-Signature=57f615aa80aa04119ff7b7a6369c2a51e58f340e89cf45470763cd851ef9583f&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T124002Z&X-Amz-Expires=3600&X-Amz-Signature=97cffcc315b7cac49ca48780201a5694eee95b0a7ee2dcafb6f4cb96e2e1e20c&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
