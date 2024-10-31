@@ -1,5 +1,5 @@
 ---
-date: '2024-10-31 08:00:00'
+date: '2024-10-31 00:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-02
@@ -85,7 +85,7 @@ draft: false
 - 指针j会在sum大于等于目标值时，从sum中减去当前值并向右移动
 - 所以这个最坏的情况就是全是目标值-1的值组成的数组，指针j每走一步，i都需要走一步。即时间复杂度最坏为O(2n)
 
-	![209.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/74d08477-dc9f-46b6-8755-7148f50d6628/209.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241031T125138Z&X-Amz-Expires=3600&X-Amz-Signature=a6b94996cc9465bed71b7868e1907348e6443d994c6e9959c436b0aad0a88200&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![209.gif](https://image.1874.cool/blog/4810ceee21047ff4b3cce41d95196203.gif)
 
 
 ### 59.螺旋矩阵II
