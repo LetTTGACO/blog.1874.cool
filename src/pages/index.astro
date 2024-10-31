@@ -65,9 +65,11 @@ const allPostsByDate = sortMDByDate(posts);
 		<!--<h2 class="title mb-4 text-xl">Posts/文章</h2>-->
 		<ul class="space-y-4">
 			{
-				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<PostPreview post={p} />
+
+				allPostsByDate.map((post) => (
+					<li class="flex flex-col gap-x-2 sm:flex-row" >
+            <!-- @ts-ignore -->
+						<PostPreview post={post} />
 					</li>
 				))
 			}

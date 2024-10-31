@@ -24,7 +24,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     };
 	})
 }
-
+// @ts-ignore
 interface Props {
 	page: Page<CollectionEntry<"post">>;
 }
@@ -40,12 +40,11 @@ const description = {
 }
 
 const meta = {
-	title: tag,
+	title: tag as string,
   description: "Tag",
 };
 
 ---
-
 <PageLayout meta={meta}>
 	<!--<h1 class="title mb-6 flex items-center">-->
 	<!--	<a href="/tags/" class="text-accent sm:hover:underline">Tags</a>-->
@@ -54,11 +53,13 @@ const meta = {
 	<!--</h1>-->
   <h1 class="title mb-4">#{tag}</h1>
   <p class="mb-16">
+    <!--@ts-ignore -->
     {description[tag!]}
   </p>
 	<section aria-label="Blog post list">
 		<ul class="space-y-4">
 			{
+        // @ts-ignore
 				page.data.map((p) => (
 					<li class="flex flex-col flex-wrap gap-2 sm:flex-row [&_q]:basis-full">
 						<PostPreview post={p} as="h2"/>
