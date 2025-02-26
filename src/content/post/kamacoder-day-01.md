@@ -1,12 +1,12 @@
 ---
-date: '2024-10-30 08:00:00'
+date: '2025-02-25 08:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-01
-title: 「代码随想录」算法训练营第1天｜704. 二分查找、27. 移除元素
+title: 「代码随想录」算法训练营第1天｜704. 二分查找、27. 移除元素、977.有序数组的平方
 tags:
   - 算法训练营
-updated: '2024-10-31 00:24:00'
+updated: '2025-02-25 23:43:00'
 draft: false
 ---
 
@@ -62,6 +62,18 @@ draft: false
 视频讲解：[https://www.bilibili.com/video/BV12A4y1Z7LP](https://www.bilibili.com/video/BV12A4y1Z7LP)
 
 
+## **977.有序数组的平方**
+
+
+题目链接：[https://leetcode.cn/problems/squares-of-a-sorted-array/](https://leetcode.cn/problems/squares-of-a-sorted-array/)
+
+
+文章讲解：[https://programmercarl.com/0977.有序数组的平方.html](https://programmercarl.com/0977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.html#%E6%80%9D%E8%B7%AF)
+
+
+视频讲解：[https://www.bilibili.com/video/BV1QB4y1D7ep](https://www.bilibili.com/video/BV1QB4y1D7ep/?vd_source=fdba29052394d0149cd1acfab0b79da9)
+
+
 # 解题思路
 
 
@@ -81,7 +93,8 @@ draft: false
 - 循环往复，直到中间下标对应的值等于目标值，返回下标值，否则返回-1
 - 可以构建两个指针，通过移动指针的位置来缩小区间范围
 - 需要注意区间的边界值，也就是左闭右闭、左闭右开两种情况的取值和判断
-- 左闭右闭测试用例为单个元素数组，即左===右，所以while循环需要≤
+- 如果选择左闭右闭，后续的判断也需要保持这个原则，需要使用`while(left ≤ right)`，在更新右边界`right`时也需要 `right = middle -1`
+- 如果选择左闭右开，后续的判断也需要保持这个原则，需要使用`while(left < right)`，在更新右边界`right`时也需要 `right = middle`
 - 左闭右开其实对while循环边界无要求，因为左不可能等于右，是无效空间
 
 ## 27.移除元素
@@ -93,7 +106,9 @@ draft: false
 
 ### 思路
 
-- 没思路，不知道什么是原地修改，看了解析才知道什么是原地修改，暴力解法比较通俗易懂，就是后面的数组覆盖前面的数组。每一次覆盖后，最外层的下标需要减1，因为被后面新的数组覆盖了。数组的size也需要减1，因为元素被删除了
+- 没思路，不知道什么是原地修改，看了解析才知道什么是原地修改，暴力解法比较通俗易懂，就是后面的数组覆盖前面的数组。每一次覆盖后，最外层的下标需要减1，因为被后面新的数组覆盖了。数组的size也需要减1，因为元素被删除了。
+- 当移除一个等于 val 的元素后，数组中该位置会被后面的元素覆盖。如果不进行 i-- 操作，外层循环的索引 i 会继续向后移动，这样就会跳过刚刚移动到当前位置的新元素。因此，执行 i-- 可以让外层循环再次检查当前位置的新元素，确保不会遗漏任何等于 val 的元素。
+- 假设数组 nums = [3, 2, 2, 3]，val = 3。当 i = 0 时，nums[0] 等于 val，因此会将后面的元素向前移动一位，数组变为 [2, 2, 3, _]。如果不执行 i--，i 会变为 1，这样就会跳过新移动到 nums[0] 的元素 2。执行 i-- 后，i 仍然为 0，下一次循环会再次检查 nums[0]，确保不会遗漏任何等于 val 的元素。
 - 双指针法。
 
 	> 双指针法（快慢指针法）在数组和链表的操作中是非常常见的，很多考察数组、链表、字符串等操作的面试题，都使用双指针法。
@@ -101,6 +116,22 @@ draft: false
 	1. 定义一个快指针，用于寻找目标元素
 	2. 定义一个慢指针，当寻找到目标元素时，就跳过前进。
 	3. 最后返回慢指针的下标
+
+## 977.有序数组的平方
+
+
+### 关键词
+
+1. 双指针
+
+### 思路
+
+- 使用头尾双指针，同时移动他们向中间靠拢，当头≤尾指针时终止执行
+- 因为头指针所在的负数的平方可能会比原有的尾指针所在的正数的平方大，所以需要在双指针移动的过程中进行从大到小排序。那么就可以事先定义数组长度的下标值，在找到最大值时就更新结果数组的最后一位下标的值，然后下标减一
+- 动画演示
+
+	![%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif](https://image.cody.fan/blog/9b849a5c97234da46ee9049a0c43e314.gif)
+
 
 # 题解
 
@@ -122,8 +153,21 @@ var search = function(nums, target) {
     // 但是这种情况稳妥，可以不考虑边界
     while (left < right) {
       // 位运算 + 防止大数溢出
-      const mid = left + ((right - left) >> 1);
-      // const mid = left + ((right - left) / 2);
+      // 定义两个接近最大安全整数的数
+			// const left = Number.MAX_SAFE_INTEGER;
+			// const right = Number.MAX_SAFE_INTEGER;
+			
+			// 直接相加会导致溢出
+			// const badMiddle = Math.floor((left + right) / 2);
+			// console.log('直接相加得到的中间值:', badMiddle); // 输出一个错误的结果
+			
+			// 使用安全的方法计算中间值
+			// const goodMiddle = Math.floor(left + (right - left) / 2);
+			// console.log('安全方法得到的中间值:', goodMiddle); // 输出
+      
+      
+      // const mid = left + ((right - left) >> 1); 简单位移动
+      const mid = left + ((right - left) / 2);
       // 如果中间值大于目标值，中间值不应在下次查找的范围内，但中间值的前一个值应在；
       // 由于right本来就不在查找范围内，所以将右边界更新为中间值，如果更新右边界为mid-1则将中间值的前一个值也踢出了下次寻找范围
       if (nums[mid] > target) {
@@ -190,6 +234,8 @@ var removeElement = function(nums, val) {
         nums[j] = nums[j + 1]
       }
       // 每一次成功前移，都会造成外层下标需要前移，才能保证下一个元素能被正确检测
+      // 当移除一个等于 val 的元素后，数组中该位置会被后面的元素覆盖。如果不进行 i-- 操作，外层循环的索引 i 会继续向后移动，这样就会跳过刚刚移动到当前位置的新元素。因此，执行 i-- 可以让外层循环再次检查当前位置的新元素，确保不会遗漏任何等于 val 的元素。
+      // 假设数组 nums = [3, 2, 2, 3]，val = 3。当 i = 0 时，nums[0] 等于 val，因此会将后面的元素向前移动一位，数组变为 [2, 2, 3, _]。如果不执行 i--，i 会变为 1，这样就会跳过新移动到 nums[0] 的元素 2。执行 i-- 后，i 仍然为 0，下一次循环会再次检查 nums[0]，确保不会遗漏任何等于 val 的元素。
       i = i - 1
       // 每一次成功前移，都会造成数组的长度减1
       size = size - 1
@@ -222,6 +268,87 @@ var removeElement = function(nums, val) {
       slowIndex = slowIndex + 1
     }
   }
+};
+```
+
+
+### 977.有序数组的平方
+
+
+```javascript
+/**
+ * 暴力解法
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var sortedSquares = function(nums) {
+  // 直观明了的暴力解法
+  return nums.map(item => {
+    return item * item
+  }).sort((a, b) => a-b)
+};
+```
+
+
+```javascript
+/**
+ * 双指针解法
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var sortedSquares = function(nums) {
+  // i指向起始位置，j指向终止位置
+  let i = 0, j = nums.length - 1, k = nums.length - 1
+  // 定义一个新数组result，和A数组一样的大小，让k指向result数组终止位置。
+  const res = new Array(nums.length).fill(0)
+  while (i <= j) {
+    // 得出平方值
+    let left = nums[i] * nums[i]
+    let right = nums[j] * nums[j]
+    if (left < right) {
+      // 右边的大，就把右边的平方值放到新数组
+      // 新数组上的指针向左移动
+      res[k--] = right
+      // 并且右边的指针向左移动
+      j--
+    } else {
+      // 左边的大，就把左边的平方值放到新数组
+      // 新数组上的指针向左移动
+      res[k--] = left
+      // 并且左边的指针向右移动
+      i++
+    }
+  }
+  return res
+};
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var sortedSquares = function(nums) {
+    // 双指针
+    let res = []
+    // 定义左右指针
+    let left = 0, right = nums.length - 1
+
+    while(left <= right) {
+        const le = nums[left] * nums[left]
+        const ri = nums[right] * nums[right]
+        if(le < ri) {
+            // 给数组前增加元素
+            res.unshift(ri)
+            // 右边的大，右边指针向左移动
+            right --
+        } else {
+            // 左边的大，左边指针向右移动
+            res.unshift(le)
+            left ++
+        }
+    }
+
+    return res
+
 };
 ```
 

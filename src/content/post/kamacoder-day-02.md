@@ -1,12 +1,12 @@
 ---
-date: '2024-10-31 00:00:00'
+date: '2025-02-26 08:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-02
 title: 「代码随想录」算法训练营第2天｜209.长度最小的子数组、59.螺旋矩阵II
 tags:
   - 算法训练营
-updated: '2024-10-31 20:51:00'
+updated: '2025-02-26 16:50:00'
 draft: false
 ---
 
@@ -85,94 +85,17 @@ draft: false
 - 指针j会在sum大于等于目标值时，从sum中减去当前值并向右移动
 - 所以这个最坏的情况就是全是目标值-1的值组成的数组，指针j每走一步，i都需要走一步。即时间复杂度最坏为O(2n)
 
-	![209.gif](https://image.1874.cool/blog/4810ceee21047ff4b3cce41d95196203.gif)
+	![209.gif](https://image.cody.fan/blog/4810ceee21047ff4b3cce41d95196203.gif)
 
 
 ### 59.螺旋矩阵II
 
+- 需要想好边界问题，一直保持左闭右开的规则，不停的更新二维数组的值
+- 需要找出循环次数，也就是转几次圈
+- 如何转内圈，需要定义偏移量，保证在转内圈的时候能正确赋值
+- 特殊处理 n 为奇数的情况，也就是最中间的值的更新，找到最中间值的下标
 
 ## 题解
-
-
-### 977.有序数组的平方
-
-
-```javascript
-/**
- * 暴力解法
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortedSquares = function(nums) {
-  // 直观明了的暴力解法
-  return nums.map(item => {
-    return item * item
-  }).sort((a, b) => a-b)
-};
-```
-
-
-```javascript
-/**
- * 双指针解法
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortedSquares = function(nums) {
-  // i指向起始位置，j指向终止位置
-  let i = 0, j = nums.length - 1, k = nums.length - 1
-  // 定义一个新数组result，和A数组一样的大小，让k指向result数组终止位置。
-  const res = new Array(nums.length).fill(0)
-  while (i <= j) {
-    // 得出平方值
-    let left = nums[i] * nums[i]
-    let right = nums[j] * nums[j]
-    if (left < right) {
-      // 右边的大，就把右边的平方值放到新数组
-      // 新数组上的指针向左移动
-      res[k--] = right
-      // 并且右边的指针向左移动
-      j--
-    } else {
-      // 左边的大，就把左边的平方值放到新数组
-      // 新数组上的指针向左移动
-      res[k--] = left
-      // 并且左边的指针向右移动
-      i++
-    }
-  }
-  return res
-};
-
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortedSquares = function(nums) {
-    // 双指针
-    let res = []
-    // 定义左右指针
-    let left = 0, right = nums.length - 1
-
-    while(left <= right) {
-        const le = nums[left] * nums[left]
-        const ri = nums[right] * nums[right]
-        if(le < ri) {
-            // 给数组前增加元素
-            res.unshift(ri)
-            // 右边的大，右边指针向左移动
-            right --
-        } else {
-            // 左边的大，左边指针向右移动
-            res.unshift(le)
-            left ++
-        }
-    }
-
-    return res
-
-};
-```
 
 
 ### 209.长度最小的子数组
@@ -220,12 +143,15 @@ var minSubArrayLen = function(target, nums) {
   let subLen = 0
   // 定义一个窗口初始下标
   let i = 0
-  // 和
+  // 和 
   let sum = 0
   for (let j = 0; j < nums.length; j++) {
     // 相对于暴力解法，这里的sum在相加之后不用break
     sum = sum + nums[j]
     // 一旦大于等于目标值，就检查最小长度
+    // 这里一定要用 while，因为可能会出现[1,1,1,1,100]，target 为 100
+    // 滑动窗口为[1,1,1,1,100]时，当 j 移动到 100 时，只会判断一次
+    // 如果i不继续往右移动，得出的 length = 5， 实际上是 2，[1,100]
     while (sum >= target) {
       // 得到子数组长度
       subLen = j - i + 1
@@ -243,6 +169,68 @@ var minSubArrayLen = function(target, nums) {
 
 
 ### 59.螺旋矩阵II
+
+
+```javascript
+const generateMatrix = function(n) {
+  //  定义矩阵，用 0 填满
+  let res = new Array(n).fill(0).map(() => new Array(n).fill(0))
+  // 整体要循环的次数，n= 3，则转一圈就行，中间的特殊处理，n=4，则要转两圈
+  let loop = Math.floor(n/2)
+  // 如果n 为奇数，则需要特殊处理最中间的值，它的坐标就是 n/2 
+  let mid = Math.floor(n/2)
+  // 定义起始值，[i,j]，startX在二维数组为为 i 的起始值，但在坐标轴上为 Y轴，startY为 j 的值
+  let startX = 0
+  let startY = 0
+  // 偏移量，每转一圈，就需要加 1，就可能转内圈
+  let offset = 1
+  // 填充数字
+  let count = 1
+  // loop > 0 才转
+  while (loop--) {
+    // i坐标
+    let row = startX
+    // j 坐标
+    let col = startY
+    // 左上到右上（左闭右开）
+    // n-offset 就是为了左闭右开
+    // 假设 n = 5， 则 n-offset = 4，只需要循环1,2,3,4。5 则留给其他边处理
+    // 不停推动 col，也就是 j 向右移动
+    for (;col < n-offset; col ++) {
+      res[row][col] = count ++
+    }
+   
+    // 右上到右下（左闭右开）
+    // 不停推动 row，也就是 i 向下移动
+    for (;row < n-offset;row ++) {
+      res[row][col] = count ++
+    }
+    
+    // 右下到左下（左闭右开）
+    // 不停推动 col，也就是 j 向左移动
+    for (;col> startY; col --) {
+      res[row][col] = count ++
+    }
+    // 左下到左上
+    // // 不停推动 row，也就是 i 向上移动
+    for (;row > startX; row --) {
+      res[row][col] = count ++
+    }
+    // 进入第二圈的时候，起始坐标[i,j]都需要+1，才能进内圈
+    startX ++
+    startY ++
+    // 偏移量也需要+1，保证左闭右开
+    offset ++
+  }
+  // 特殊处理奇数 n 的情况，手动更新最中间的值
+  if (n%2 === 1) {
+    res[mid][mid] = count
+  }
+
+  return res
+
+};
+```
 
 
 ## 收获
