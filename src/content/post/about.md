@@ -1,10 +1,11 @@
 ---
-date: '2019-01-27 00:00:00'
+date: '2019-01-27 08:00:00'
 description: 这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。
+hidden: false
 urlname: about
 title: 关于我
 tags: []
-updated: '2024-05-13 22:28:00'
+updated: '2025-02-26 19:24:00'
 draft: false
 ---
 
@@ -38,9 +39,10 @@ draft: false
 
 - [Home](https://1874.cool/)：个人门户首页
 - [Elog](https://elog.1874.cool/)：开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)
-- [WebNav](https://webnav.1874.cool/)：一个旨在汇集国内外优质前端相关网站的前端导航网站
 - [Halo](https://halo.1874.cool/)： Halo 示例站点
 - [WordPress](https://wordpress.1874.cool/)： WordPress示例站点
+- [WebNav](https://webnav.1874.cool/)：一个旨在汇集国内外优质前端相关网站的前端导航网站
+- [CoverPen](https://coverpen.1874.cool/)：快速为你的博客文章创建令人惊叹的封面图片
 
 ## 关于博客
 
