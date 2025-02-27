@@ -6,7 +6,7 @@ urlname: kamacoder-day-03
 title: 「代码随想录」算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表
 tags:
   - 算法训练营
-updated: '2025-02-28 00:39:00'
+updated: '2025-02-28 01:03:00'
 draft: false
 ---
 
@@ -88,7 +88,7 @@ draft: false
 - 注意指针只是保存了链表的引用，在循环的过程中只需要改变指针的引用，就不会对原链表造成影响。只有对引用链表的 `next` 进行赋值，才回改变原链表
 - 动画演示
 
-![206.%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://image.cody.fan/blog/7fc32638740bdf7fa484f1ff2b625767.%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8)
+![%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://image.cody.fan/blog/cb0471076e21b04496e8f8e217ee299c.gif)
 
 
 ## 题解
