@@ -20,7 +20,7 @@
 		"@astrojs/rss": "4.0.4",
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
-		"@elog/cli": "^0.13.2",
+		"@elog/cli": "^0.14.6",
 		"astro": "^4.16.1",
 		"astro-expressive-code": "^0.31.0",
 		"astro-icon": "^1.1.0",

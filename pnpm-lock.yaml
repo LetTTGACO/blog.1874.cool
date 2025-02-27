@@ -18,8 +18,8 @@ dependencies:
     specifier: 5.1.0
     version: 5.1.0(astro@4.16.1)(tailwindcss@3.4.1)
   '@elog/cli':
-    specifier: ^0.13.2
-    version: 0.13.2
+    specifier: ^0.14.6
+    version: 0.14.6
   astro:
     specifier: ^4.16.1
     version: 4.16.1(typescript@5.3.3)
@@ -562,19 +562,19 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@elog/cli@0.13.2:
-    resolution: {integrity: sha512-34xG8P8GDJpv8SJFHNbVyfZAv9ykwWzmTM7IMOn252nZy/hppk1tlz8I0ym9E2WWoNNMLBOzrH7tORY00liOeg==}
+  /@elog/cli@0.14.6:
+    resolution: {integrity: sha512-4J3z3FwCjCDC3HTf1CmWcjSsvKxGFgHxMuXk0/sFqQrsQ9q1hvqXNvuQ0p8RH7Af+Ct1PT6IFLS1Jd8R2bjI6w==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@elog/core': 0.13.2
-      '@elog/shared': 0.13.2
+      '@elog/core': 0.14.6
+      '@elog/shared': 0.14.6
       commander: 9.5.0
       dotenv: 16.4.1
       fs-extra: 11.2.0
       inquirer: 8.2.6
       latest-version: 5.1.0
-      semver: 7.5.4
+      semver: 7.6.3
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -585,17 +585,18 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/core@0.13.2:
-    resolution: {integrity: sha512-ywsNqnW7JovarPRT/2y7hzeN8KXyO0O8s6SZTwjZT8RyHy6XTqIFnQhRDNbdB3SwzCnSmW5fIT0//+4xeqnc3A==}
+  /@elog/core@0.14.6:
+    resolution: {integrity: sha512-m5hjAHpwYVSFmZIrnSHXyDT5/Aay/WS+UWaBA49g+t1oHC+weR3brG0zXaDXHHuypLMuYvgLI1Q2EvNHvFpOtQ==}
     dependencies:
-      '@elog/deploy': 0.13.2
-      '@elog/plugin-image': 0.13.2
-      '@elog/sdk-feishu': 0.13.2
-      '@elog/sdk-flowus': 0.13.2
-      '@elog/sdk-notion': 0.13.2
-      '@elog/sdk-yuque': 0.13.2
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/deploy': 0.14.6
+      '@elog/plugin-image': 0.14.6
+      '@elog/sdk-feishu': 0.14.6
+      '@elog/sdk-flowus': 0.14.6
+      '@elog/sdk-notion': 0.14.6
+      '@elog/sdk-wolai': 0.14.6
+      '@elog/sdk-yuque': 0.14.6
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -606,15 +607,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/deploy@0.13.2:
-    resolution: {integrity: sha512-46od4dDgHTW//IEjy0BMpO3w8qExIjVZanwhIX6V2ByW1XlnF76i94dT7dpshS0hZY60/SFTCynDw9aBlrqBmQ==}
+  /@elog/deploy@0.14.6:
+    resolution: {integrity: sha512-IyR6qkCb5HJxx+EQtN17MqwXdKqSwLRwpTPiDcdvunFbTCQSZ5oo1SVTboUEzdbLJ4JQJadd3F8QR5YphfosYg==}
     dependencies:
-      '@elog/plugin-adapter': 0.13.2
-      '@elog/sdk-confluence': 0.13.2
-      '@elog/sdk-halo': 0.13.2
-      '@elog/sdk-wordpress': 0.13.2
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/plugin-adapter': 0.14.6
+      '@elog/sdk-confluence': 0.14.6
+      '@elog/sdk-halo': 0.14.6
+      '@elog/sdk-wordpress': 0.14.6
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       filenamify: 4.3.0
       mkdirp: 1.0.4
       transliteration: 2.3.5
@@ -622,11 +623,11 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/plugin-adapter@0.13.2:
-    resolution: {integrity: sha512-Fe0dS8EJJm7CkAcq15ge3WHoBxJtZWtRJV97p41aaYCXLSa4kSRtNpyxJBWs0T/J9Xl1RD2qtDQ5kpOHQNCQxA==}
+  /@elog/plugin-adapter@0.14.6:
+    resolution: {integrity: sha512-R0hlJKjCUAfii10CO/qVDxY7owCM5ublings1PaBR4ja60j7avq3P7HfuzZqA1t2lfb/vJCgLMLfMbb6x8L9yg==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       gray-matter: 4.0.3
       highlight.js: 11.9.0
       markdown-it: 13.0.2
@@ -635,15 +636,16 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/plugin-image@0.13.2:
-    resolution: {integrity: sha512-EbBZijTxHxQ/gSLftpJSvWVRIw3dMSDvh1YhAD6VzBpqB87TmwuSfbYLVwtm3bWF4w6103qoVXcZxcYNJKJJew==}
+  /@elog/plugin-image@0.14.6:
+    resolution: {integrity: sha512-SOe/td5eu22Ph2x2rLY6VQ7vGoJDv1QfTZusvPDlGs+agIIE17mz0lpIhxRhzYE//nsX7vq+jIp7SwkMCYXlow==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       ali-oss: 6.20.0
       cos-nodejs-sdk-v5: 2.13.1
       mkdirp: 1.0.4
       qiniu: 7.11.0
+      tiny-async-pool: 1.3.0
       upyun: 3.4.6
     transitivePeerDependencies:
       - debug
@@ -651,32 +653,32 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-confluence@0.13.2:
-    resolution: {integrity: sha512-WUrSIZqDaRUlZlcOCaB4uQiGqjsmWQ1XQOvt0zC70+/ZTFGEuoym8mTf7IveJVRuLo/sdzfKfoxgtU8DsvYQKw==}
+  /@elog/sdk-confluence@0.14.6:
+    resolution: {integrity: sha512-Akv5Qy83QCUtmSVDu5ZGiALBmkLO5akkYu1boux8zaBFjg+A+P4x64YM9siYPkvT9myJCl0ju5njRFteQFNL4Q==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-feishu@0.13.2:
-    resolution: {integrity: sha512-B0gU2vm3JFLBUNHjqJ3i/h1GAbRAA4hM+lcvcFGAg0p+bdRcBRC9QZwyzwNQ40n5p7sN6jLdlmBZLgNI8uY89Q==}
+  /@elog/sdk-feishu@0.14.6:
+    resolution: {integrity: sha512-bdwNhkY3XRFme/IeOYXj+M4SlhWAV13gwv0ddEdPxcqqDZ51IjVvqobRa7AdDTdcz8u1OEPaf4HXfWZkc0zFow==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@feishux/api': 0.3.1
-      '@feishux/doc-to-md': 0.3.1
-      '@feishux/shared': 0.3.1
+      '@elog/shared': 0.14.6
+      '@feishux/api': 0.3.3
+      '@feishux/doc-to-md': 0.3.3
+      '@feishux/shared': 0.3.3
       front-matter: 4.0.2
       tiny-async-pool: 1.3.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-flowus@0.13.2:
-    resolution: {integrity: sha512-L7ZZQJzuXowropAxoiMRmfcKyStGi75Cn938QxLwCA9wP1BWPaRi694n/2W+bQ3RSamQHRBV964FFiVwfE4gYw==}
+  /@elog/sdk-flowus@0.14.6:
+    resolution: {integrity: sha512-Pe9oX+v090KmdPmYn7ez13p+jlc4gEeWH//FZ1JCGRwxJQCHPVl+udu/vPmRuHV1k6AiYB4CesHfub4+xOa/3A==}
     dependencies:
-      '@elog/shared': 0.13.2
+      '@elog/shared': 0.14.6
       '@flowusx/flowus-client': 0.0.5-beta.4
       '@flowusx/flowus-to-md': 0.0.5-beta.4
       tiny-async-pool: 1.3.0
@@ -684,22 +686,22 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-halo@0.13.2:
-    resolution: {integrity: sha512-MPp8naMnfDFvW4B3dz6t6qcVEidfbe+RYZQRrMf9w3xlZAKroqVkQRhVE8ZCKta6//7ZbT6ICBqq4W4AdlPqpw==}
+  /@elog/sdk-halo@0.14.6:
+    resolution: {integrity: sha512-0f6VCbC2BhaflLAcM8HJ7oQhLCJBncc6hoV7N69rpspAfJWym/zW8wRyGQSPSqNX3yqPdL4jvhFN97QYYVacmw==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       '@halo-dev/api-client': 2.10.0
       formstream: 1.3.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-notion@0.13.2:
-    resolution: {integrity: sha512-8BlCOtdRCNmQY2GAlKQNSbaTjuNFfSuGicgLOt5o/vSJlaLYR0wOU1Plg1BgCaoZ1eORdC/QA2Xe5KRn7Hrgkg==}
+  /@elog/sdk-notion@0.14.6:
+    resolution: {integrity: sha512-6Pfkun6GPuUvOmCPSWhYKaW0AUahfsQVR02d2X+fjYtZyfYGxhdcGWaZHK5OInstzLot66kPOUaN97ewV87uwg==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       '@notionhq/client': 2.2.14
       notion-to-md: 3.1.1
       tiny-async-pool: 1.3.0
@@ -708,22 +710,33 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-wordpress@0.13.2:
-    resolution: {integrity: sha512-ICptnzdO7qhVPAl7puU1gHcyAHrltQwwz+yXqEiEnnr0xiCVsAK6fVu76Rpr0hiR+j+gn7cAXZ7DTg3YmLpTAw==}
+  /@elog/sdk-wolai@0.14.6:
+    resolution: {integrity: sha512-fMsKI6SAmAm9hUTl/j/HhJP/yn9ZbES54AHSz7SCo0c+Kk48JX4B/zF1B1MX0rAjxoFY5nMpdm4LZf+YhjCa6g==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
+      front-matter: 4.0.2
+      tiny-async-pool: 1.3.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@elog/sdk-wordpress@0.14.6:
+    resolution: {integrity: sha512-F1R3+8GmghYT+NNSzoOWTl36NXWZ45hMoI2awTC74n39YrGJKIK9pzRZ8wx6xTRGnYoIkKA1ZF/XjE689JXfBQ==}
+    dependencies:
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       '@types/wpapi': 1.1.4
       wpapi: 1.2.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-yuque@0.13.2:
-    resolution: {integrity: sha512-PVbd7JiVTFpTpptDSzgR6gbr6so866Xxox88+T7SJ9UvPOXs8+PjqtC4w1yWphvG7WUZit4PwiwwaQjWjm7fOQ==}
+  /@elog/sdk-yuque@0.14.6:
+    resolution: {integrity: sha512-zq7IpJAGmMPXxaUNgf6H2atyUmrPSwlvFVBKHFirkwO7WdMSj5IstDY9jaOUW5gysFuat5TnrkOCq1z64C+tXA==}
     dependencies:
-      '@elog/shared': 0.13.2
-      '@elog/types': 0.13.2
+      '@elog/shared': 0.14.6
+      '@elog/types': 0.14.6
       front-matter: 4.0.2
       jsdom: 21.1.2
       jsencrypt-node: 1.0.4
@@ -739,8 +752,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/shared@0.13.2:
-    resolution: {integrity: sha512-OmNMKcT9nuvq7UViaJJSCaYiDM5MnOlTxJNwUqawWCCNmfaQLPiUQYoItsVKis5uO8ShDHMNOk715dsFnk5hBg==}
+  /@elog/shared@0.14.6:
+    resolution: {integrity: sha512-cwvunzUEeb7scPtqNLT8+WLxwryHMc+w49JjVzlUjHO9l2N84ST1aPovPlTUJjLJ+s0+6gL5oRzdFa7KMcDGyA==}
     dependencies:
       chalk: 4.1.2
       dayjs: 1.11.10
@@ -753,8 +766,8 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/types@0.13.2:
-    resolution: {integrity: sha512-Vh5z0WIEFFJohSWhjYTOR2ed3mbja3nJ3DRrPdzvCAj3RAFB6XY/Wr6lMn4PIcCMhvKk0aBXOD3+SFnI6JmWGA==}
+  /@elog/types@0.14.6:
+    resolution: {integrity: sha512-E9oIt6NSiUsUvXmErj+t+8XPRGaXrz2Gqpj2THY+9aS1YKqM2XbRp4zIFsJaOKLwn2MRIrf0kWjCaDmAQMb1Jg==}
     dev: false
 
   /@emmetio/abbreviation@2.3.3:
@@ -1070,27 +1083,27 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@feishux/api@0.3.1:
-    resolution: {integrity: sha512-s6/tql5yU8YKepwRV9dTNw2tnNGUZZ+KEgJxiGo4aOq9iVrF6gdHbLaZN/C8tw2iGZ6l0BcMBpWrY5sLMJeVuw==}
+  /@feishux/api@0.3.3:
+    resolution: {integrity: sha512-zak6D9LjFR38gSQWPPdylZmoNRoTswQXUp0UD0nDG4jWrM6PyZj4Y4MrbVuWxm6pP5haDVCsVkkZbZcTbUJLWA==}
     dependencies:
-      '@feishux/shared': 0.3.1
+      '@feishux/shared': 0.3.3
     dev: false
 
-  /@feishux/doc-to-md@0.3.1:
-    resolution: {integrity: sha512-SQ/4+bbhyxyjJPanFmKhmoe1NRI64kSZMI/5In5oxKmPNRKfKRAxi4KZhh544HxCHCdcotkvME07Eq3jgDzUaw==}
+  /@feishux/doc-to-md@0.3.3:
+    resolution: {integrity: sha512-sBRqEkINEwfWST5XRFX1XrEMvksCs2bnwymJ2/TRiHKiVey+0HWdMa0NrJXIaJiISDRYOMpYpVW4kXwK7tk+og==}
     dependencies:
-      '@feishux/api': 0.3.1
-      '@feishux/shared': 0.3.1
+      '@feishux/api': 0.3.3
+      '@feishux/shared': 0.3.3
       markdown-table: 2.0.0
     dev: false
 
-  /@feishux/shared@0.3.1:
-    resolution: {integrity: sha512-r8G54TAF96jG/UHreOR1lFg0QSqttI4cbBxWVOzEEI7zFk3UuEfJ2LEOKeAqbA0tQIy6mK2ysq7E/FFn7/Qb/A==}
+  /@feishux/shared@0.3.3:
+    resolution: {integrity: sha512-NE8a5BCW5xdrtkJi2cg14TEd9NR6yosV0fwyI5v+Q9pSJhRLp03N4rScWCR8xTIzk+dRMYxIPTCIj+z7wSaLfg==}
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
       shelljs: 0.8.5
-      tslib: 2.6.2
+      tslib: 2.8.1
       urllib: 3.22.2
     dev: false
 
@@ -2572,7 +2585,7 @@ packages:
   /acorn-globals@7.0.1:
     resolution: {integrity: sha512-umOSDSDrfHbTNPuNpC2NSnnA3LUrqpevPb4T9jRx4MagXNS0rs+gwiTcAvqCRmsD6utzsrzNt+ebm00SNWiC3Q==}
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.14.0
       acorn-walk: 8.3.2
     dev: false
 
@@ -2608,7 +2621,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2664,7 +2677,7 @@ packages:
       bowser: 1.9.4
       copy-to: 2.0.1
       dateformat: 2.2.0
-      debug: 4.3.4
+      debug: 4.3.7
       destroy: 1.2.0
       end-or-error: 1.0.1
       get-ready: 1.0.0
@@ -3466,7 +3479,7 @@ packages:
       make-dir: 3.1.0
       onetime: 5.1.2
       pkg-up: 3.1.0
-      semver: 7.5.4
+      semver: 7.6.3
     dev: false
 
   /content-type@1.0.5:
@@ -4905,7 +4918,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       data-uri-to-buffer: 3.0.1
-      debug: 4.3.4
+      debug: 4.3.7
       file-uri-to-path: 2.0.0
       fs-extra: 8.1.0
       ftp: 0.3.10
@@ -5433,7 +5446,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5444,7 +5457,7 @@ packages:
     dependencies:
       '@tootallnate/once': 2.0.0
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5463,7 +5476,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5975,7 +5988,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.6
-      acorn: 8.11.3
+      acorn: 8.14.0
       acorn-globals: 7.0.1
       cssstyle: 3.0.0
       data-urls: 4.0.0
@@ -7417,7 +7430,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
       get-uri: 3.0.2
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.1
@@ -7890,7 +7903,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.1
       lru-cache: 5.1.1
@@ -8564,7 +8577,6 @@ packages:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: false
 
   /set-function-length@1.2.0:
     resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
@@ -8748,7 +8760,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
       socks: 2.7.1
     transitivePeerDependencies:
       - supports-color
@@ -9008,11 +9020,11 @@ packages:
   /superagent@4.1.0:
     resolution: {integrity: sha512-FT3QLMasz0YyCd4uIi5HNe+3t/onxMyEho7C3PSqmti3Twgy2rXT4fmkTz6wRL6bTF4uzPcfkUCa8u4JWHw8Ag==}
     engines: {node: '>= 6.0'}
-    deprecated: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+    deprecated: Please upgrade to v9.0.0+ as we have fixed a public vulnerability with formidable dependency. Note that v9.0.0+ requires Node.js v14.18.0+. See https://github.com/ladjs/superagent/pull/1800 for insight. This project is supported and maintained by the team at Forward Email @ https://forwardemail.net
     dependencies:
       component-emitter: 1.3.1
       cookiejar: 2.1.4
-      debug: 4.3.4
+      debug: 4.3.7
       form-data: 2.5.1
       formidable: 1.2.6
       methods: 1.1.2
@@ -9265,6 +9277,7 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
 
   /tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -9302,11 +9315,6 @@ packages:
   /type-fest@0.21.3:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
-    dev: false
-
-  /type-fest@4.10.2:
-    resolution: {integrity: sha512-anpAG63wSpdEbLwOqH8L84urkL6PiVIov3EMmgIhhThevh9aiMQov+6Btx0wldNcvm4wV+e2/Rt1QdDwKHFbHw==}
-    engines: {node: '>=16'}
     dev: false
 
   /type-fest@4.26.1:
@@ -9359,7 +9367,7 @@ packages:
   /typescript-auto-import-cache@0.3.2:
     resolution: {integrity: sha512-+laqe5SFL1vN62FPOOJSUDTZxtgsoOXjneYOXIpx5rQ4UMiN89NAtJLpqLqyebv9fgQ/IMeeTX+mQyRnwvJzvg==}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.3
     dev: true
 
   /typescript@5.3.3:
@@ -9721,7 +9729,7 @@ packages:
       mime-types: 2.1.35
       pump: 3.0.0
       qs: 6.11.2
-      type-fest: 4.10.2
+      type-fest: 4.26.1
       undici: 5.28.2
       ylru: 1.3.2
     dev: false
@@ -9882,7 +9890,7 @@ packages:
     deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
     hasBin: true
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.14.0
       acorn-walk: 8.3.2
     dev: false
 
