@@ -353,7 +353,7 @@
     {
       "id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
       "doc_id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
-      "updated": 1740752160000,
+      "updated": 1740753360000,
       "properties": {
         "date": "2025-02-28 08:00:00",
         "description": "",
@@ -363,7 +363,7 @@
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 22:16:00",
+        "updated": "2025-02-28 22:36:00",
         "draft": false
       },
       "realName": "kamacoder-day-04",
@@ -376,7 +376,7 @@
       "object": "page",
       "id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
       "created_time": "2025-02-28T06:45:00.000Z",
-      "last_edited_time": "2025-02-28T14:16:00.000Z",
+      "last_edited_time": "2025-02-28T14:36:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -407,7 +407,7 @@
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 22:16:00",
+        "updated": "2025-02-28 22:36:00",
         "draft": false
       },
       "url": "https://www.notion.so/4-24-19-N-160-142-II-1a8cca231452803cae9ff653d29c28a3",
@@ -444,12 +444,16 @@
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-03",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 22:07:00",
-        "draft": false
+        "updated": "2025-02-28 22:07:00"
       },
       "url": "https://www.notion.so/3-203-707-206-1a6cca231452801eaa06f0fc1658f525",
       "public_url": null
@@ -485,12 +489,16 @@
         "description": "学习了209.长度最小的子数组和59.螺旋矩阵II的解题思路，重点在滑动窗口和边界处理，收获了对数组题目的理解，但感觉解题思路缺乏通用性。建议总结数组专题。",
         "hidden": true,
         "urlname": "kamacoder-day-02",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第2天｜209.长度最小的子数组、59.螺旋矩阵II",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 22:07:00",
-        "draft": false
+        "updated": "2025-02-28 22:07:00"
       },
       "url": "https://www.notion.so/2-209-59-II-12fcca231452807bac3aed63f0681a78",
       "public_url": null
@@ -526,12 +534,16 @@
         "description": "今日学习了二分查找、移除元素和有序数组的平方等算法，掌握了双指针法和暴力解法的实现思路，记录了学习收获和遇到的困难。",
         "hidden": true,
         "urlname": "kamacoder-day-01",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第1天｜704.二分查找、27.移除元素、977.有序数组的平方",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 22:07:00",
-        "draft": false
+        "updated": "2025-02-28 22:07:00"
       },
       "url": "https://www.notion.so/1-704-27-977-12fcca23145280068c6dd6a6ab132a4c",
       "public_url": null
@@ -690,8 +702,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466267PLA26%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T142138Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLXdlc3QtMiJHMEUCIQCAuf3VdSebHxr9SDrs3TT3Nq7dl4wO5IpYmNLRtgUbLgIgCWEIq0zurNEJBcp5s48%2Fz4M9sNAUfjRtY0sc2DMeGmQqiAQIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFV%2FZh4fuu3ScSVFWCrcA%2Ft39hrWmsczR2H00Znny9xFNawurfTtBnV9lO%2BLxKXZYCJzU6VVK34QDSOxuS2l3kgk4aBu9ZY3o6FFXnwhv5TewURYU7mZ%2BXaZHUNvlD4rpjHYgX6O%2B3LY96Kh0eKWiumKXfX2%2F8B6%2B835uk79c3a1u8KGZk3AhXMIV3Eb1BVv2Lxfp%2BfGzKvLG01ay4OuvJ%2FNkJdWil6w5dIGJ063weWTFJ67Vy74Ms0A7lEEsds30bj5g%2Bmv%2BsK7vf1aEvdulQHujj9%2F%2BEYXJwnqpaz0XIvmVshm2Nw2b5G1aqZZMJ%2FsjdtqahOJFUExYZqp3Yxpgc3iOlQ3HPWc10%2B4U5i%2BRb3QCcn5iTL7Anu%2BX6OwtiBdYnvD%2BtC%2BL1NrskL3PhlNRYt%2Foeec51OAB13MrQFlfsIrTl5%2FrP8b9k5pUA1%2FLXAsnjoWS2GRTTqyHlt7SvRK8YHzO5pU4chYw4VWqUSIKj7eDUvGOUgyP53TT49fUZ15%2FJcsZKH9YQXzxGzmzLUivwVa%2FPgsrglCdKVBbCciuN%2FXJPmWPGC5rh7om%2ByPiopi%2Bhw45eZC7LyLpNqR2GoCQHBQyDXrtg3OcerVyhZ0g9ut2FXw93DByHVQRgUMQBvxspC8ZmhiFzIbhOj7MLzuhr4GOqUBAF%2FyvMo7oEeR53qL4u0NOK1n2FIt2ztvUQIqNUKd%2BPKEH3S2Q3hYUjHHFvyJ3fMEh09bFwrCcijM5PTr%2BG2xcJSQyqHK%2BbHenv9LhzrpadtlGJvlHrjNJiof6aHJwCjacR2E%2BxugkgoLlBfjjPD1euIr7WXtTdQCtlA2ZxNcDkvfFfVivheO1jLhdf3TRvwA1zDH1cOElwrIbdDgshjGPzJ5twzo&X-Amz-Signature=34eb9971f2a5affe95ed78cdd1369de4d282dcc9e402c1d9edf24a91cd4294be&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2025-02-28T15:21:38.930Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663522NSQO%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T143904Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFcaCXVzLXdlc3QtMiJHMEUCIQDqyqOUixzbhyexpP3zzTQLkNLWLHALraVzLhalu%2Bc85AIgBYij9JN5zXWvAeFL6Nj41GhWGoOfx0eI0k2k%2BkFjBrkqiAQIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJFO97JlOAjspd3u3yrcA54hpOiTHxKZ9MtD64u8LXje9a%2FusMkTfuQw4jw2pLTXv3Zbo1aIy5kxOEUSJfv%2BkuGyiP3qAR7BGU%2BQCBs8G92BEMVft43UwqKbCieqPfNjU5TpfleS00JIO%2F4JMNtBfBl0K8%2FM84s6joNePWvcFssLu%2B7CFAL548m5wUn4ohI00tXCFew8mk26o5uj6dsROsGl3rjMwzbRocyZemPatQd4bWMH6o5O48rG6E5%2FqroIC%2Bg40GuFxT6Alp3MxbWi6xASd3fgY%2BmSNL9kETJyJqwP0TPsUAkypz8I4UpgxV%2F8Thx%2FeqVLOCCcwZiJ7zNHbcN1TeQKWPBJwsuOeH0%2FP3Kku89bbXVSnKSEjLTLDapjPwzmA5AfkB66JF%2FmHqDcs95NaFw9CxjOGlOVVk8F1lRIeUYCdHFefuk12hN2ShwCDTu26tWIhj%2FhoEN6oqsbpC6jj4A%2F6d9z%2F5XFF9%2B5gn%2FKh7b9mmYjBdgMupMOBbIL%2B9JdAkglGaBsQuMognK0U%2BWXRRy6La6vfPQWILRKjn0yizFDihS8m4ZvRpZwg%2Bn1deyb4EGDc9P4ba0Y1pynrJBjooSZvglAYARxvNyVCdGyw87vODUfiUFGGpPgNk0cFqvemE0OrCTeTw46MMWOh74GOqUBdtHP7EwqFlaa%2FrDXW9bks9v%2FpadHoxfZycGwUyPDjavEJWw9%2FP56dv2J5afkEcwIAde57qgUY0k7QI683bIdf%2BR9NJ1cXWqNr7Q7zYla4Rk2Fm0AvWCOjhpfEdAzYgPtRk38VjkRA14Vkducv5rS2ILiSoDDT1iuP5RsPzZ5RHF3Shnp7X8yiu9zbULBwTWTGRHY1bQFsQXxvtO5OfxO9cqH6aU7&X-Amz-Signature=e01bdaaefb17426fa6da6634a6d689a765770fcd449c9da0263b33e41b29170c&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-02-28T15:39:04.712Z"
         }
       },
       "icon": {
@@ -720,7 +732,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466267PLA26%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T142138Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLXdlc3QtMiJHMEUCIQCAuf3VdSebHxr9SDrs3TT3Nq7dl4wO5IpYmNLRtgUbLgIgCWEIq0zurNEJBcp5s48%2Fz4M9sNAUfjRtY0sc2DMeGmQqiAQIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFV%2FZh4fuu3ScSVFWCrcA%2Ft39hrWmsczR2H00Znny9xFNawurfTtBnV9lO%2BLxKXZYCJzU6VVK34QDSOxuS2l3kgk4aBu9ZY3o6FFXnwhv5TewURYU7mZ%2BXaZHUNvlD4rpjHYgX6O%2B3LY96Kh0eKWiumKXfX2%2F8B6%2B835uk79c3a1u8KGZk3AhXMIV3Eb1BVv2Lxfp%2BfGzKvLG01ay4OuvJ%2FNkJdWil6w5dIGJ063weWTFJ67Vy74Ms0A7lEEsds30bj5g%2Bmv%2BsK7vf1aEvdulQHujj9%2F%2BEYXJwnqpaz0XIvmVshm2Nw2b5G1aqZZMJ%2FsjdtqahOJFUExYZqp3Yxpgc3iOlQ3HPWc10%2B4U5i%2BRb3QCcn5iTL7Anu%2BX6OwtiBdYnvD%2BtC%2BL1NrskL3PhlNRYt%2Foeec51OAB13MrQFlfsIrTl5%2FrP8b9k5pUA1%2FLXAsnjoWS2GRTTqyHlt7SvRK8YHzO5pU4chYw4VWqUSIKj7eDUvGOUgyP53TT49fUZ15%2FJcsZKH9YQXzxGzmzLUivwVa%2FPgsrglCdKVBbCciuN%2FXJPmWPGC5rh7om%2ByPiopi%2Bhw45eZC7LyLpNqR2GoCQHBQyDXrtg3OcerVyhZ0g9ut2FXw93DByHVQRgUMQBvxspC8ZmhiFzIbhOj7MLzuhr4GOqUBAF%2FyvMo7oEeR53qL4u0NOK1n2FIt2ztvUQIqNUKd%2BPKEH3S2Q3hYUjHHFvyJ3fMEh09bFwrCcijM5PTr%2BG2xcJSQyqHK%2BbHenv9LhzrpadtlGJvlHrjNJiof6aHJwCjacR2E%2BxugkgoLlBfjjPD1euIr7WXtTdQCtlA2ZxNcDkvfFfVivheO1jLhdf3TRvwA1zDH1cOElwrIbdDgshjGPzJ5twzo&X-Amz-Signature=34eb9971f2a5affe95ed78cdd1369de4d282dcc9e402c1d9edf24a91cd4294be&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663522NSQO%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T143904Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFcaCXVzLXdlc3QtMiJHMEUCIQDqyqOUixzbhyexpP3zzTQLkNLWLHALraVzLhalu%2Bc85AIgBYij9JN5zXWvAeFL6Nj41GhWGoOfx0eI0k2k%2BkFjBrkqiAQIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDJFO97JlOAjspd3u3yrcA54hpOiTHxKZ9MtD64u8LXje9a%2FusMkTfuQw4jw2pLTXv3Zbo1aIy5kxOEUSJfv%2BkuGyiP3qAR7BGU%2BQCBs8G92BEMVft43UwqKbCieqPfNjU5TpfleS00JIO%2F4JMNtBfBl0K8%2FM84s6joNePWvcFssLu%2B7CFAL548m5wUn4ohI00tXCFew8mk26o5uj6dsROsGl3rjMwzbRocyZemPatQd4bWMH6o5O48rG6E5%2FqroIC%2Bg40GuFxT6Alp3MxbWi6xASd3fgY%2BmSNL9kETJyJqwP0TPsUAkypz8I4UpgxV%2F8Thx%2FeqVLOCCcwZiJ7zNHbcN1TeQKWPBJwsuOeH0%2FP3Kku89bbXVSnKSEjLTLDapjPwzmA5AfkB66JF%2FmHqDcs95NaFw9CxjOGlOVVk8F1lRIeUYCdHFefuk12hN2ShwCDTu26tWIhj%2FhoEN6oqsbpC6jj4A%2F6d9z%2F5XFF9%2B5gn%2FKh7b9mmYjBdgMupMOBbIL%2B9JdAkglGaBsQuMognK0U%2BWXRRy6La6vfPQWILRKjn0yizFDihS8m4ZvRpZwg%2Bn1deyb4EGDc9P4ba0Y1pynrJBjooSZvglAYARxvNyVCdGyw87vODUfiUFGGpPgNk0cFqvemE0OrCTeTw46MMWOh74GOqUBdtHP7EwqFlaa%2FrDXW9bks9v%2FpadHoxfZycGwUyPDjavEJWw9%2FP56dv2J5afkEcwIAde57qgUY0k7QI683bIdf%2BR9NJ1cXWqNr7Q7zYla4Rk2Fm0AvWCOjhpfEdAzYgPtRk38VjkRA14Vkducv5rS2ILiSoDDT1iuP5RsPzZ5RHF3Shnp7X8yiu9zbULBwTWTGRHY1bQFsQXxvtO5OfxO9cqH6aU7&X-Amz-Signature=e01bdaaefb17426fa6da6634a6d689a765770fcd449c9da0263b33e41b29170c&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",

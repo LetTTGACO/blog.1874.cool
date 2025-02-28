@@ -6,7 +6,7 @@ urlname: kamacoder-day-04
 title: 算法训练营第4天｜24.两两交换链表中的节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II
 tags:
   - 算法训练营
-updated: '2025-02-28 22:16:00'
+updated: '2025-02-28 22:36:00'
 draft: false
 ---
 
@@ -245,7 +245,7 @@ var swapPairs = function(head) {
 ```
 
 
-## 19.删除链表的倒数第N个节点
+### 19.删除链表的倒数第N个节点
 
 
 ```javascript
@@ -306,7 +306,7 @@ var removeNthFromEnd = function(head, n) {
 ```
 
 
-## 160.相交链表
+### 160.相交链表
 
 
 ```javascript
