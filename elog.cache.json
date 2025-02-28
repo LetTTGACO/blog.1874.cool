@@ -349,9 +349,70 @@
       "realName": "kamacoder-day-03",
       "relativePath": "/kamacoder-day-03.md",
       "docPath": "./src/content/post"
+    },
+    {
+      "id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
+      "doc_id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
+      "updated": 1740749760000,
+      "properties": {
+        "date": "2025-02-28 08:00:00",
+        "description": "",
+        "hidden": true,
+        "urlname": "kamacoder-day-04",
+        "title": "「代码随想录」算法训练营第4天｜24. 两两交换链表中的节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II",
+        "tags": [
+          "算法训练营"
+        ],
+        "updated": "2025-02-28 21:36:00",
+        "draft": false
+      },
+      "realName": "kamacoder-day-04",
+      "relativePath": "/kamacoder-day-04.md",
+      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "1a8cca23-1452-803c-ae9f-f653d29c28a3",
+      "created_time": "2025-02-28T06:45:00.000Z",
+      "last_edited_time": "2025-02-28T13:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/computer_purple.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "date": "2025-02-28 08:00:00",
+        "description": "",
+        "hidden": true,
+        "urlname": "kamacoder-day-04",
+        "title": "「代码随想录」算法训练营第4天｜24. 两两交换链表中的节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II",
+        "tags": [
+          "算法训练营"
+        ],
+        "updated": "2025-02-28 21:36:00",
+        "draft": false
+      },
+      "url": "https://www.notion.so/4-24-19-N-160-142-II-1a8cca231452803cae9ff653d29c28a3",
+      "public_url": null
+    },
     {
       "object": "page",
       "id": "1a6cca23-1452-801e-aa06-f0fc1658f525",
@@ -383,12 +444,16 @@
         "description": "",
         "hidden": true,
         "urlname": "kamacoder-day-03",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "「代码随想录」算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2025-02-28 01:03:00",
-        "draft": false
+        "updated": "2025-02-28 01:03:00"
       },
       "url": "https://www.notion.so/3-203-707-206-1a6cca231452801eaa06f0fc1658f525",
       "public_url": null
@@ -637,8 +702,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z4FR5OXS%2F20250227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250227T170350Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJHMEUCICPZ9eEmoFR8Xoyp0sNIUIGFrXA5yE8Krh5YopMP2cDvAiEA9vaKaIsHx4z6VJ6T3RfPyCnXSAA9t1DY4JAdlPjTjDsq%2FwMIehAAGgw2Mzc0MjMxODM4MDUiDMSb0Q59rFtiglKZPyrcA%2B2dEr5tFFdT7YceLUXp%2By%2FaRn0ZuqiePjV8HYcrWoM4vXweL9CpUzNn7AVQklyAayMOJMXq%2FQwWms9OpSAcSLiVJmYO09kzHXw%2FRLz2twnpLgXpG786t3Ko8MtTozOMGS0TqPUhX4SobQHolO2xJTUC%2FRuBM5o333h9jW4LIQxFxQ%2BH8%2FESMwlzByuLtBhCwltjaEemyP6CjZN%2FkACC%2BX3KuCCZTs43xA20i3VJ17u839V5X3PcMDzC5im8M0YQSApNZqXILv34wH4wGgsptSHEDch8Bwd13eoaNHvzUinJFaNOMn7q1ch9VmBPXV0j73viwhkhWMI%2FEZnYdiP%2F0zLrf9zMD2VdyV1PoOXCWtEcPeGsy0yei4b0Ihtg4Y391J%2BRpEKpgApqdIj1ahvgqu%2BnO51M6bHD8gBLarsofJqElFwIVU6CQzI%2BBMzqGZHBSuWZlNprWJuGTEHvTIGMYvUfagzm1Zo3axO2%2FUeF5ewCA6PnVUahDkaVSK1hfNck8Bx7DZdysojWicbCl%2Fuz5Jy0pg%2FU8%2FTy3IAxk0jMEHQp4MGjfT8YzWJ2V7CnXfUA52TUXAg%2BjaHIFsIG667sl2hRKv47jzcPQTDDyplU0ZcnXUkv7g3VVTCEWBOJMKKygr4GOqUBEaH6hDqBWjwuuxB3DkBlX%2FFeWZayxvO%2BcheVItuE0fKe6uqZ1fMgBOy6QsK%2BfK%2BFiiY7zQBpYBio%2F8%2BnYKtwiBhffTQrY0YD0qhzXXNQo3lwUbpEzY32%2BrodMkbB0Wx5fz4vIlsCMtdgnIB4ZstXyWCXavtHoF0FRhuN3vELKfcoIH6ttztTDhLHZsZk7HNKRH%2BtubgSbyD76Y4KobAxdCp3Q%2Fev&X-Amz-Signature=80a26bb87b6e9d34ea679fe48aa1fb769ed8418912603e7567af4b1447878474&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2025-02-27T18:03:50.923Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVYIAGWY%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T133740Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLXdlc3QtMiJHMEUCIQDgIDRU2%2FLMJEdqfcESruvMb2iAjfdfpHuyZCSBw%2BHZ2gIgMACjI27MODJX8Rxl3dKi3tzxKziijBWnC46UGNm17LQqiAQIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEeXGTEodZ8VgbUqICrcAy7o7ImGjRrVJwo5WaIlPTA3Q%2BuaD9QuFunX6yINczYgzUkFXeTOwOqhzn%2B9hgk7V8GJuYLi9RqiXcEthqRWZF1VRaMf9u8KnJEEFQBe1Gjknpnk%2FQd8eKwdwPLHFfQZpB7wpy%2FKMfTL5yG6zNEq2OH%2FVryLaVUEQMSWg00zTY4JF5R1oER0t5OtGvu235ukiwVWbiMUS8Jlvb4LSSS%2BOZDi7lDPqJzJux5fcSrkNnKw%2BuDu657OikgPfVhNpQEllFegKKNtIbiGNLAPHOeogkPg%2FP2NdqYPGQpwpBlveZkreckulbP9gSrSac8J8%2BzgSCrOSl23HmKrzuL08zNOPME3k99qu%2BYCKSnRgnQxLZMj4rtgFb79N8sdSrUQZrOwvbM6ScPiyUprm13dC3GBV1Pxe%2F0eUrvNWrv3ReoVHjTn3S9rnCmAL6w6jLt3Tpns7LuYVA5cJGhs9AW%2B21MRgBPu%2Fz%2BdryaU%2BnqJfKfrnXyH%2FCBnd28g%2FTWPbG%2FO16yB4Ax4a1T9swZyW3PQbteoy%2FsUMYRjKosNT3rzUHS763jfUjMyvGk0NvnOoILlYn1p2K2c%2BH9LyDP2k9b6VEly72RTdcjcXVdzFOWVJgvFSW%2BZmmrxvQ8KP0zb2A5TMIvuhr4GOqUBLNxZteYmQHncz2wHWFvyym9XtKVdg2PeWdm266jbu%2BlvPZbzb%2Bl8DhhkeYTcbTGCwE4mo85WGNNmO%2B4ZzsrkJyXGaLPe0p3lCNZgJVnX0BitxBU4JGyR%2BqCY%2BYc3OCqwuLJEMw7m5dhOAMttYyQUDuraoZ31NtF4jyKi6WuuN5YND9nMW0VN3teqTzHmTBlZwJt4tHTQyKS7tPrKjqVrAFrBsCE7&X-Amz-Signature=3dc863a2000adf34dfbfef1f94d82677e450acd8daa6080e701a3c11f448251b&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-02-28T14:37:40.737Z"
         }
       },
       "icon": {
@@ -667,7 +732,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z4FR5OXS%2F20250227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250227T170350Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJHMEUCICPZ9eEmoFR8Xoyp0sNIUIGFrXA5yE8Krh5YopMP2cDvAiEA9vaKaIsHx4z6VJ6T3RfPyCnXSAA9t1DY4JAdlPjTjDsq%2FwMIehAAGgw2Mzc0MjMxODM4MDUiDMSb0Q59rFtiglKZPyrcA%2B2dEr5tFFdT7YceLUXp%2By%2FaRn0ZuqiePjV8HYcrWoM4vXweL9CpUzNn7AVQklyAayMOJMXq%2FQwWms9OpSAcSLiVJmYO09kzHXw%2FRLz2twnpLgXpG786t3Ko8MtTozOMGS0TqPUhX4SobQHolO2xJTUC%2FRuBM5o333h9jW4LIQxFxQ%2BH8%2FESMwlzByuLtBhCwltjaEemyP6CjZN%2FkACC%2BX3KuCCZTs43xA20i3VJ17u839V5X3PcMDzC5im8M0YQSApNZqXILv34wH4wGgsptSHEDch8Bwd13eoaNHvzUinJFaNOMn7q1ch9VmBPXV0j73viwhkhWMI%2FEZnYdiP%2F0zLrf9zMD2VdyV1PoOXCWtEcPeGsy0yei4b0Ihtg4Y391J%2BRpEKpgApqdIj1ahvgqu%2BnO51M6bHD8gBLarsofJqElFwIVU6CQzI%2BBMzqGZHBSuWZlNprWJuGTEHvTIGMYvUfagzm1Zo3axO2%2FUeF5ewCA6PnVUahDkaVSK1hfNck8Bx7DZdysojWicbCl%2Fuz5Jy0pg%2FU8%2FTy3IAxk0jMEHQp4MGjfT8YzWJ2V7CnXfUA52TUXAg%2BjaHIFsIG667sl2hRKv47jzcPQTDDyplU0ZcnXUkv7g3VVTCEWBOJMKKygr4GOqUBEaH6hDqBWjwuuxB3DkBlX%2FFeWZayxvO%2BcheVItuE0fKe6uqZ1fMgBOy6QsK%2BfK%2BFiiY7zQBpYBio%2F8%2BnYKtwiBhffTQrY0YD0qhzXXNQo3lwUbpEzY32%2BrodMkbB0Wx5fz4vIlsCMtdgnIB4ZstXyWCXavtHoF0FRhuN3vELKfcoIH6ttztTDhLHZsZk7HNKRH%2BtubgSbyD76Y4KobAxdCp3Q%2Fev&X-Amz-Signature=80a26bb87b6e9d34ea679fe48aa1fb769ed8418912603e7567af4b1447878474&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TVYIAGWY%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T133740Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLXdlc3QtMiJHMEUCIQDgIDRU2%2FLMJEdqfcESruvMb2iAjfdfpHuyZCSBw%2BHZ2gIgMACjI27MODJX8Rxl3dKi3tzxKziijBWnC46UGNm17LQqiAQIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDEeXGTEodZ8VgbUqICrcAy7o7ImGjRrVJwo5WaIlPTA3Q%2BuaD9QuFunX6yINczYgzUkFXeTOwOqhzn%2B9hgk7V8GJuYLi9RqiXcEthqRWZF1VRaMf9u8KnJEEFQBe1Gjknpnk%2FQd8eKwdwPLHFfQZpB7wpy%2FKMfTL5yG6zNEq2OH%2FVryLaVUEQMSWg00zTY4JF5R1oER0t5OtGvu235ukiwVWbiMUS8Jlvb4LSSS%2BOZDi7lDPqJzJux5fcSrkNnKw%2BuDu657OikgPfVhNpQEllFegKKNtIbiGNLAPHOeogkPg%2FP2NdqYPGQpwpBlveZkreckulbP9gSrSac8J8%2BzgSCrOSl23HmKrzuL08zNOPME3k99qu%2BYCKSnRgnQxLZMj4rtgFb79N8sdSrUQZrOwvbM6ScPiyUprm13dC3GBV1Pxe%2F0eUrvNWrv3ReoVHjTn3S9rnCmAL6w6jLt3Tpns7LuYVA5cJGhs9AW%2B21MRgBPu%2Fz%2BdryaU%2BnqJfKfrnXyH%2FCBnd28g%2FTWPbG%2FO16yB4Ax4a1T9swZyW3PQbteoy%2FsUMYRjKosNT3rzUHS763jfUjMyvGk0NvnOoILlYn1p2K2c%2BH9LyDP2k9b6VEly72RTdcjcXVdzFOWVJgvFSW%2BZmmrxvQ8KP0zb2A5TMIvuhr4GOqUBLNxZteYmQHncz2wHWFvyym9XtKVdg2PeWdm266jbu%2BlvPZbzb%2Bl8DhhkeYTcbTGCwE4mo85WGNNmO%2B4ZzsrkJyXGaLPe0p3lCNZgJVnX0BitxBU4JGyR%2BqCY%2BYc3OCqwuLJEMw7m5dhOAMttYyQUDuraoZ31NtF4jyKi6WuuN5YND9nMW0VN3teqTzHmTBlZwJt4tHTQyKS7tPrKjqVrAFrBsCE7&X-Amz-Signature=3dc863a2000adf34dfbfef1f94d82677e450acd8daa6080e701a3c11f448251b&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
