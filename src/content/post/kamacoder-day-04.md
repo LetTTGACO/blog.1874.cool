@@ -3,10 +3,10 @@ date: '2025-02-28 08:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-04
-title: 「代码随想录」算法训练营第4天｜24. 两两交换链表中的节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II
+title: 算法训练营第4天｜24.两两交换链表中的节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II
 tags:
   - 算法训练营
-updated: '2025-02-28 21:36:00'
+updated: '2025-02-28 22:16:00'
 draft: false
 ---
 
@@ -84,6 +84,7 @@ draft: false
 
 	![image.png](https://image.cody.fan/blog/ecdcf8227b053b6697229389231022a4.png)
 
+- 交换结果
 
 	![image.png](https://image.cody.fan/blog/d91c496b0d0475cfa63f935b7e0dc432.png)
 
@@ -127,7 +128,7 @@ draft: false
 - 用 2 步走的快指针和 1 步走的慢指针进行遍历，当快指针和慢指针相遇的时候，X 和 Z 的距离时一样的，所以重新定义两个新指针同时一步一步走到它们相遇时，就是环的起点。
 - 相遇的动画
 
-	![%E7%9B%B8%E9%81%87%E5%8A%A8%E7%94%BB.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/462de2a9-520a-4c98-a989-949b74f16fa4/%E7%9B%B8%E9%81%87%E5%8A%A8%E7%94%BB.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WFLMCUHJ%2F20250228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250228T133741Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLXdlc3QtMiJHMEUCIHRLZLocwWYJurCLn0cseHZCQy0AVrRcErRgFNow5csjAiEAkJZ257G6Ubt1SRkd4JBKwg7KnSAuTFJeueQKurdjd8EqiAQIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDP1otnTfZik84bWZmyrcA%2FAwxIUnG7f%2F%2F%2B10HApi%2FPsm8dC%2B6djqZvLdd6z0jWyOtw8WJ5iqgpM4dyI2Q1kEXoUI9YL29xzo8fnCw2S8qc2vGuCT9LNMmQbziXVJzeBt20JRrOaiXiTGpEZTstXKnVZDcHPlzzBP6psTtZ6CN5n7gNvD9dOEiltrWUig1Y4sx9m21mv0hbtOyaIqzvf45UPqYeGQO8GozXJTlPAK4iNn2%2FhizIeu%2FG4D4Nj4wiQGiSVzqm%2FJpejFf5Tc1JKwxXhgC2XS4pxIj5sclnwB7d6PLIQNC2XMQuHtvH2YRm9J5cmyc1qG9bI0adPSf8YXQUNPpH8PGUtj%2FVDodtknU55Fsp55ApLF0sroUU1r1SU8rZ%2Fx5eAPjLP7K4TvDsNypzYT3sytNk%2BsPlJ3y5%2F0KpEsw0yzOtDb%2F2xo1N3%2B%2F%2BQntXk0kesa9EDxLiEvaMDHdjFFep4Wz7Prk2KqZxTF7HfJy%2BEQkKJE2pYF4oWYjH5jDnRh5VkkTxc6OyO3m5UdvX8zsg3Ju7YdvnSRR87EXYKLqf5jD25ThbXWBDA5nOvfOeeAqpFl2gg9LNWFCHW6r5TLhvsqqHUkSg4qOjzgPvgD5WDigcCxq2aqDzlTqjIHHl%2BM2zNOu3QR5nRWMLXuhr4GOqUBc5k3o2Hu6hYnMj8P%2B9qww3qa8AftxQj%2Fa0K5S0He%2BuwbLOLDgwDhv%2FDbWq9uHLN3BiLs0Xjvt%2F6cwcaqfj3NvFWm71XEgkhQwW2F89HvNxxYmUrxTgelRBx16ME9XwlJW%2FBrp9YqkkKZh74XR1Jq18TldVjzY0ka1VjPnIRiNony6EsoFV2X1%2Bdg4rrB29ruy8uYhyX0OWhvV865hdzmhiHBWXjv&X-Amz-Signature=4b3eb6fdc75f58041d07314d4aae986f916159fc87fb50ff65ddc172ec5ed9c0&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![%E7%9B%B8%E9%81%87%E5%8A%A8%E7%94%BB.gif](https://image.cody.fan/blog/908cb2b25794e34f533d17c62da6b38e.gif)
 
 - 计算公式
 

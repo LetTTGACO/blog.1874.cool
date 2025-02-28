@@ -3,10 +3,10 @@ date: '2025-02-27 08:00:00'
 description: ''
 hidden: true
 urlname: kamacoder-day-03
-title: 「代码随想录」算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表
+title: 算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表
 tags:
   - 算法训练营
-updated: '2025-02-28 01:03:00'
+updated: '2025-02-28 22:07:00'
 draft: false
 ---
 
