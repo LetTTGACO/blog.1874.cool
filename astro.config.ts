@@ -4,6 +4,8 @@ import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import remarkUnwrapImages from "remark-unwrap-images";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 import rehypeExternalLinks from "rehype-external-links";
 import { remarkReadingTime } from "./src/utils/remark-reading-time";
 import icon from "astro-icon";
@@ -15,8 +17,9 @@ export default defineConfig({
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://blog.1874.cool/",
 	markdown: {
-		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
+		remarkPlugins: [remarkUnwrapImages, remarkReadingTime, remarkMath],
 		rehypePlugins: [
+			rehypeKatex,
 			[
 				rehypeExternalLinks,
 				{
