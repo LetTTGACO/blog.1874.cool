@@ -6,7 +6,7 @@ urlname: kamacoder-day-05
 title: 算法训练营第5天｜242.有效的字母异位词、349.两个数组的交集、202.快乐数、1.两数之和
 tags:
   - 算法训练营
-updated: '2025-03-01 19:24:00'
+updated: '2025-03-01 19:29:00'
 draft: false
 ---
 
@@ -96,6 +96,11 @@ draft: false
 **思路**
 
 - 不需要记录数字出现的次数，所以不需要用 `map`，直接用两个 `Set`即可
+- 将 `nums1` 转换为 Set 1，然后遍历 `nums2`，将在Set1 中出现过的相同的数字存放在一个新的 Set2 中，最后返回新的 Set2
+- 思路图
+
+	![image.png](https://image.cody.fan/blog/a7a3a66a36a196d72ab486184d3d323a.png)
+
 
 ### 202.快乐数
 
