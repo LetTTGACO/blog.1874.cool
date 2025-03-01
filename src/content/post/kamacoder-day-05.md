@@ -6,7 +6,7 @@ urlname: kamacoder-day-05
 title: 算法训练营第5天｜242.有效的字母异位词、349.两个数组的交集、202.快乐数、1.两数之和
 tags:
   - 算法训练营
-updated: '2025-02-28 22:53:00'
+updated: '2025-03-01 19:24:00'
 draft: false
 ---
 
@@ -79,40 +79,51 @@ draft: false
 
 **关键词**
 
-1. 
+1. 有限的字符，判断重复性问题，就用 hash 表来解决
 
 **思路**
 
+- 当两个字符长度不同，直接返回 false
+- 收集第一个字符s出现的次数，当遍历第二个字符 t的时候，如果出现次数为 0 的情况就说明t比 s 多了某个字符，直接返回 false，而不用再收集了。只有遍历下来，s 中所有的字符都出现在了 t 中，就不会再循环中出现字符数量为 0 的情况
 
 ### 349.两个数组的交集
 
 
 **关键词**
 
-1. 
+1. Set 的构造方法和 Set 转 Array
 
 **思路**
 
+- 不需要记录数字出现的次数，所以不需要用 `map`，直接用两个 `Set`即可
 
 ### 202.快乐数
 
 
 **关键词**
 
-1. 
+1. 拆分数字
+2. 善用 reduce 累加器
+3. 用 set 存放 totalCount
 
 **思路**
 
+- 只要totalCount不为 1，就一直循环
+- 用 set 存放 totalCount，如果totalCount出现过 1 次以上，说明进入了无限循环，直接返回 false
 
 ### 1.两数之和
 
 
 **关键词**
 
-1. 
+1. 用差值来寻找元素
+2. Map 存放元素和其下标
 
 **思路**
 
+- 用Map 存放元素和其下标，用给定的目标值和当前元素做差值，在 Map 中寻找差值即可
+- 如果找到了就返回当前元素的下标和 Map 中差值元素的下标
+- 能判断当前值比目标元素大就跳过，因为可能存在负数
 
 ## 题解
 
@@ -121,7 +132,34 @@ draft: false
 
 
 ```javascript
-
+var isAnagram = function(s, t) {
+  // 如果两个字符长度不相等，直接返回 false
+  if(s.length !== t.length) return false;
+  // 用 hash map来存储 字符和字符出现的次数
+  const map = new Map()
+  for (let i = 0; i < s.length; i++) {
+    const char = s[i]
+    const ex = map.get(char)
+    if (ex) {
+      map.set(char, ex + 1)
+    } else {
+      map.set(char, 1)
+    }
+  }
+  for (let i = 0; i < t.length; i++) {
+    const char = t[i]
+    const ex = map.get(char)
+    if (ex) {
+      // 如果 t 字符也出现了已有的字符，直接--次数
+      map.set(char, ex -1 )
+    } else {
+      // 一旦 t 字符中出现了小于等于 0 的字符，说明 t 字符数量比 s 字符多了，直接返回 false
+      return false
+    }
+  }
+  // 如果字母出现的次数都相等，就返回 true
+  return true
+};
 ```
 
 
@@ -129,7 +167,19 @@ draft: false
 
 
 ```javascript
+var intersection = function(nums1, nums2) {
+  // 可以直接使用 Set 的构造方法，将数组变成 Set
+  const set1 = new Set(nums1)
 
+  const set2 = new Set()
+
+  for (let i = 0; i < nums2.length; i++) {
+    set1.has(nums2[i]) && set2.add(nums2[i])
+  }
+  // 可以直接使用 Array.from 将 Set 转为 Array
+  return Array.from(set2)
+
+};
 ```
 
 
@@ -137,7 +187,34 @@ draft: false
 
 
 ```javascript
-
+var isHappy = function(n) {
+  //  记录累加数，最后要拿这个判断时候是 等于 1
+  let totalCount = 0
+  const set = new Set()
+  // 当totalCount不为 1 时循环继续
+  while (totalCount !== 1) {
+    // 对数字进行拆分为单个数字，第一次运行时应该使用传入的 n 作为其实数字
+    arr = String(totalCount || n).split('')
+    for (let i = 0; i < arr.length; i++) {
+      // totalCount += arr[i] * arr[i]
+      // 这里使用reduce累加器更简单。reduce第二个参数为初始值 0
+      // pre 就是上一次计算的值，也就是 total， cur 就是这一次的值
+      totalCount = arr.reduce((pre, cur) => {
+        return pre + cur * cur
+      }, 0)
+    }
+    // 这里要防止某些数字即使拆分和累加之后一直是无限循环下去的，可以使用 Set 进行去重
+    // 如果totalCount出现过一次以上，说明这个数即使拆分下去还是会出现相同的结果，会变成无限循环，那就直接判断为 false
+    if (set.has(totalCount)) {
+      return false
+    }
+    // 否则用 Set 记录下totalCount的值
+    set.add(totalCount)
+  }
+  // 如果循环完就意味着没有出现重复的，结果一定是 1
+  // 原本写的是 return totalCount === 1，但后面想了下如果totalCount不为 1，while 循环会一直持续下去，不可能走到这里
+  return true
+};
 ```
 
 
@@ -145,10 +222,27 @@ draft: false
 
 
 ```javascript
-
+var twoSum = function(nums, target) {
+  // map 中存放 key 为元素，value 为元素的 index
+  const map = new Map()
+  for (let i = 0; i < nums.length; i++) {
+    const cur = nums[i]
+    // 这里不能判断比目标元素大就跳过，因为可能存在负数
+    // if (cur > target) continue
+    const gap = target - cur
+    // 从 map 中找差值
+    const v = map.get(gap)
+    if (v !== undefined) {
+      // 找到差值就直接返回对应两个元素的下标
+      return [v, i]
+    }
+    // 没找到就 set 当前元素和下标
+    map.set(cur, i)
+  }
+};
 ```
 
 
 ## 收获
 
-- 
+- 当遇到要快速判断某个元素是否出现在集合中的时候，就要考虑哈希法
