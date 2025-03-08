@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -20,6 +20,9 @@ dependencies:
   '@elog/cli':
     specifier: ^0.14.7
     version: 0.14.7
+  aegis-web-sdk:
+    specifier: ^1.39.2
+    version: 1.39.2
   astro:
     specifier: ^4.16.1
     version: 4.16.1(typescript@5.3.3)
@@ -2628,6 +2631,12 @@ packages:
   /address@1.2.2:
     resolution: {integrity: sha512-4B/qKCfeE/ODUaAUpSwfzazo5x29WD4r3vXiWsB7I2mSDAihwEqKO+g8GELZUQSSAo5e1XTYh3ZVfLyxBc12nA==}
     engines: {node: '>= 10.0.0'}
+    dev: false
+
+  /aegis-web-sdk@1.39.2:
+    resolution: {integrity: sha512-mu2jfgACsyvfOaKN2auYmVcQjPCkWtzPWU/ywofIgU44oGmTfDSBNaskUa0CtdVOq5XDWdtiCxzjT+dKmyFPhw==}
+    dependencies:
+      web-vitals: 3.5.2
     dev: false
 
   /agent-base@6.0.2:
@@ -10164,6 +10173,10 @@ packages:
   /web-streams-polyfill@4.0.0-beta.3:
     resolution: {integrity: sha512-QW95TCTaHmsYfHDybGMwO5IJIM93I/6vTRk+daHTWFPhwh+C8Cg7j7XyKrwrj8Ib6vYXe0ocYNrmzY4xAAN6ug==}
     engines: {node: '>= 14'}
+    dev: false
+
+  /web-vitals@3.5.2:
+    resolution: {integrity: sha512-c0rhqNcHXRkY/ogGDJQxZ9Im9D19hDihbzSQJrsioex+KnFgmMzBiy57Z1EjkhX/+OjyBpclDCzz2ITtjokFmg==}
     dev: false
 
   /webidl-conversions@3.0.1:
