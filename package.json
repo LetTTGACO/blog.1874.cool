@@ -24,7 +24,7 @@
 		"aegis-web-sdk": "^1.39.2",
 		"astro": "^4.16.1",
 		"astro-expressive-code": "^0.31.0",
-		"astro-icon": "^1.1.0",
+		"astro-icon": "^1.1.5",
 		"katex": "^0.16.21",
 		"medium-zoom": "^1.1.0",
 		"rehype-external-links": "^3.0.0",
