@@ -1,5 +1,5 @@
 ---
-date: '2025-03-24 08:00:00'
+date: '2025-03-24 00:00:00'
 description: ''
 hidden: false
 urlname: hacker-news-rss
@@ -7,7 +7,7 @@ title: 用小爱音响听 Hacker News & RSS
 tags:
   - 赛博空间
   - HomeLab
-updated: '2025-03-24 17:19:00'
+updated: '2025-03-24 17:47:00'
 draft: false
 ---
 
@@ -81,5 +81,5 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 - XiaoMusic：[https://github.com/hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)
 
 > 顺便推荐下我的备忘录站点：[Cody 的百宝箱](https://memo.1874.run/)
-> 基于 Telegram + Astro 打造，是我的折腾日记。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常开发记录 & 技术分析。你也可以加入我的 Telegram 群聊，一起自由讨论。
+> 基于 Telegram + Astro 打造，是我的折腾日记。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常开发记录 & 技术分享。你也可以加入我的 Telegram 群聊，一起自由讨论。
 
