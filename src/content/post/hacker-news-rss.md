@@ -69,7 +69,9 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 
 
 ## 实机演示
-
+<audio id="audio" controls="" preload="none" class="w-full">
+  <source id="mp3" src="https://image.cody.fan/1874/202503241703435.m4a">
+</audio>
 
 ## 相关工具
 
@@ -78,6 +80,6 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 - Podcast RSS 每日播报：[https://podrss.1874.run/](https://podrss.1874.run/)
 - XiaoMusic：[https://github.com/hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)
 
-> 顺便推荐下我的备忘录站点：[Cody 的百宝箱](https://memo.1874.run/)    
+> 顺便推荐下我的备忘录站点：[Cody 的百宝箱](https://memo.1874.run/)
 > 基于 Telegram + Astro 打造，是我的折腾日记。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常开发记录 & 技术分析。你也可以加入我的 Telegram 群聊，一起自由讨论。
 
