@@ -7,7 +7,7 @@ title: 用小爱音响听 Hacker News & RSS
 tags:
   - 赛博空间
   - HomeLab
-updated: '2025-03-24 17:00:00'
+updated: '2025-03-24 17:19:00'
 draft: false
 ---
 
@@ -26,6 +26,9 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 ## Hacker News 每日播报
 
 
+一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。
+
+
 ![image.png](https://image.cody.fan/blog/c4233647a4aeab7374393fbae06213fa.png)
 
 
@@ -39,6 +42,9 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 
 
 ## Podcast RSS 每日播报
+
+
+一个基于 AI 的 RSS 中文播客项目，每天自动抓取你感兴趣的 RSS 更新内容，通过 AI 生成中文总结并转换为播客内容。
 
 
 ![Podcast-RSS.png](https://image.cody.fan/blog/c7e6e4e32dac019915a559a0afbf82be.png)
@@ -63,4 +69,15 @@ Hacker News 以及 各种 RSS 是我信息流获取方式中很重要的咨询�
 
 
 ## 实机演示
+
+
+## 相关工具
+
+- 大佬的 Hacker News 每日播报：[https://hacker-news.agi.li/](https://hacker-news.agi.li/)
+- 我的 Hacker News 每日播报：[https://hacker-news.1874.run/](https://hacker-news.1874.run/)
+- Podcast RSS 每日播报：[https://podrss.1874.run/](https://podrss.1874.run/)
+- XiaoMusic：[https://github.com/hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)
+
+> 顺便推荐下我的备忘录站点：[Cody 的百宝箱](https://memo.1874.run/)    
+> 基于 Telegram + Astro 打造，是我的折腾日记。不同于独立博客，它更像是我的 Flomo 网页版，主要是日常开发记录 & 技术分析。你也可以加入我的 Telegram 群聊，一起自由讨论。
 
