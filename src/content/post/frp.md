@@ -1,12 +1,13 @@
 ---
-date: '2024-01-28 00:00:00'
-description: 本文介绍了如何使用FRP进行自建FRP内网穿透。通过搭建FRP Server和FRP Client，可以实现访问家庭内网设备的目的。文章详细介绍了在Mac和云服务器上配置FRP的步骤，并提供了相应的配置文件示例。
+date: '2024-01-28 08:00:00'
+description: ''
+hidden: false
 urlname: frp
 title: 自建 FRP 内网穿透
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-06-29 23:28:00'
+updated: '2025-03-24 15:44:00'
 draft: false
 ---
 
@@ -16,20 +17,21 @@ draft: false
 自己的轻量云服务器的性能太弱了(1C/2G)，但是博客站点 Halo 的占用对于我的机器来说压力比较大。所以就想着怎么利用本地的机器来搭建博客。
 
 
-目前手头上有个Mac，零刻 N100 小主机还在路上，所以就想着先试着在 Mac 和云服务器上搭建一下 FRP 内网穿透，熟悉熟悉操作。
+~~目前手头上有个Mac，零刻 N100 小主机还在路上，所以就想着先试着在 Mac 和云服务器上搭建一下 FRP 内网穿透，熟悉熟悉操作。~~
 
 
 ## 环境准备
 
 - 腾讯云轻量服务器
-- MacBook Pro
-- Docker 环境
+- Ubuntu 22.04（N100 本地小主机 ）
 - FRP Docker镜像：[https://github.com/snowdreamtech/frp](https://github.com/snowdreamtech/frp)
+- FRP 版本 `0.58.0` 及以上
+- FRP 官方文档：[https://gofrp.org/zh-cn/docs/](https://gofrp.org/zh-cn/docs/)
 
 ## FRP
 
 
-![Untitled.png](https://image.1874.cool/blog/c58a08d4a06214a0375a7db196632503.png)
+![Untitled.png](https://image.cody.fan/blog/c58a08d4a06214a0375a7db196632503.png)
 
 
 完整点的 FRP 内网穿透应该是上面的架构
@@ -40,9 +42,6 @@ draft: false
 - PC：家庭其他设备
 
 当建立起 FRP 内网穿透后，就可以利用 FRP Server 服务器来访问家庭内网 FRP Client 中转设备，进而访问所有家庭内网设备。
-
-
-鉴于目前我的家庭内网设备只有 Mac，所以就只能将 Mac 当做 FRP Client，本篇文章也是基于 Mac 来搭建，等我的 N100 到了再替换掉。
 
 
 ## FRP Server
@@ -65,83 +64,106 @@ draft: false
 3. 配置`frps.toml`文件
 
 	```toml
-	[common]
-	bind_port = 7000
-	dashboard_port = 7500
-	dashboard_user = frp
-	dashboard_pwd = frppassword
-	vhost_http_port = 7080
-	vhost_https_port = 7081
-	token = 123456
+	bindAddr = "0.0.0.0"
+	bindPort = 7000
+	
+	auth.method = "token"
+	auth.token = "123456"
+	
+	webServer.addr = "0.0.0.0"
+	webServer.port = 7500
+	webServer.user = "user"
+	webServer.password = "123456"
+	
+	# tls
+	#transport.tls.force = true
+	#transport.tls.certFile = "/etc/frp/ssl/server.crt"
+	#transport.tls.keyFile = "/etc/frp/ssl/server.key"
+	#transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
+	
 	```
 
-	- `bind_port`：服务端监听端口
-	- `dashboard_port`：访问FRP Server 端登录面板端口号
-	- `dashboard_user`：登录面板用户名
-	- `dashboard_pwd`：登录面板密码
-	- `vhost_http_port`：`http`协议下代理端口（非必要）
-	- `vhost_https_port`：`https`协议下代理端口（非必要）
-	- `token`：FRP Client 客户端与服务端通信密钥
+	- `bindPort`：服务端监听端口
+	- `auth.method`：授权方式，客户端需要保持一致
+	- `auth.token`：授权密钥，客户端需要保持一致
+	- `webServer.addr`：管理面板地址，默认本地
+	- `webServer.user`：管理面板用户
+	- `webServer.port`：管理面板端口
+	- `webServer.password`：管理面板密码
 4. `docker run` 运行 FRP Server 服务
 
 	```bash
 	docker run --restart=always --network host -d -v /etc/frp/frps.toml:/etc/frp/frps.toml --name frps snowdreamtech/frps
 	```
 
-5. 开放端口号，在轻量云服务器和本地服务器（如果有的话）防火墙开启`7000,7005,7080,7081`端口号
+5. 开放端口号，在云服务器和本地服务器（如果有的话）防火墙开启`7000,7005`端口号
 6. 测试访问，访问`云服务器 IP 地址:7000`登录后台，输入用户名密码正常访问即可
 
 ## FRP Client
 
 
-我的 FRP Client 客户端是 Mac 电脑，用的是 [OrbStack](https://orbstack.dev/) 来管理 Docker，本地部署了一个 Halo 站点，对外端口号是 `8090`。
+我的 FRP Client 客户端是  N100 Ubuntu 22.04，用的是 [1Panel](https://1panel.cn/) 来管理 服务器和 Docker，服务器部署了一个 Halo 站点，对外端口号是 `8090`。
 
 
-我的目的就是将云服务上的 `8090` 端口映射到我内网 Mac 上的 `8090` 对应的 Halo 站点
+我的目的就是将云服务上的 `9100` 端口映射到我内网 N100 上的 `8090` 对应的 Halo 站点
 
 1. 在 Mac 某个目录新建 `frp` 文件夹
 
 	```bash
-	mkdir /Users/1874w/workspace/1874/frp
+	mkdir /home/1874/frp
 	```
 
 2. 在 `frp` 文件夹下新建`frpc.toml`文件
 
 	```bash
-	vim /Users/1874w/workspace/1874/frp/frpc.toml
+	vim /home/1874/frp/frpc.toml
 	```
 
 3. 配置`frpc.toml`文件
 
 	```toml
-	[common]
-	server_addr = 111.222.33.111
-	server_port = 7000
-	token =  123456
+	serverAddr = "xxx.xx.xx.xx"
+	serverPort = 7000
 	
-	[halo]
-	type = tcp
-	local_ip = 127.0.0.1
-	local_port = 8090
-	remote_port = 8090
+	auth.method = "token"
+	auth.token = "123456"
+	
+	webServer.addr = "0.0.0.0"
+	webServer.port = 7500
+	webServer.user = "user"
+	webServer.password = "123456"
+	webServer.pprofEnable = false
+	
+	
+	# tls
+	#transport.tls.certFile = "/etc/frp/ssl/client.crt"
+	#transport.tls.keyFile = "/etc/frp/ssl/client.key"
+	#transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
+	
+	[[proxies]]
+	name = "Halo"
+	type = "tcp"
+	localIP = "127.0.0.1"
+	localPort = 8090
+	remotePort = 9100
 	```
 
-	- `server_addr`：云服务 IP 地址
-	- `server_port`：之前 Server 端配置的`bind_port`端口号
-	- `token`：之前 Server 端配置的通信密钥
-	- `type`：通信协议，TCP
-	- `local_ip`：内网的 IP，因为是我本机部署的 Halo，所以写`127.0.0.1`就行，如果是其他内网设备部署的应用，需要填写对应的内网 IP 地址
-	- `local_port`：内网应用访问的端口号
-	- `remote_port`：FRP Server 端映射的端口号，`111.222.33.111:8090 ⇒ 127.0.0.1:8090`
-	- 如果有其他应用可以继续添加
+	- `serverAddr`：云服务器 IP 地址
+	- `serverPort`：监听云服务器的端口号
+	- `auth.method`：授权方式，保持和服务端一致
+	- `auth.token`：授权密钥，保持和服务端一致
+	- `webServer.addr`：管理面板地址，默认本地
+	- `webServer.user`：管理面板用户
+	- `webServer.port`：管理面板端口
+	- `webServer.password`：管理面板密码
 4. `docker run` 运行 FRP Client 服务
 
 	```bash
-	docker run --restart=always --network host -d -v /Users/1874w/workspace/1874/frp/frpc.toml:/etc/frp/frpc.toml --name frpc snowdreamtech/frpc
+	docker run --restart=always --network host -d -v /home/1874/frp/frpc.toml:/etc/frp/frpc.toml --name frpc snowdreamtech/frpc
 	```
 
-5. 开放端口号，在轻量云服务器和本地服务器（如果有的话）防火墙开启`8090`端口号
-6. 测试访问，访问`111.222.33.111:8090`检查是否能访问到 Mac 上部署的 Halo 站点
+5. 开放端口号，在轻量云服务器开启 `9100` 端口，在本地服务器防火墙开启`8090`端口号
+6. 测试访问，访问`111.222.33.111:9100`检查是否能访问到 N100 上部署的 Halo 站点
 
 ## 结束
 
