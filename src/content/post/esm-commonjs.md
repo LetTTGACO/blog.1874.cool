@@ -6,7 +6,7 @@ urlname: esm-commonjs
 title: 从多场景分析 ESM 和 CJS 混合开发
 tags:
   - 赛博空间
-updated: '2025-03-26 23:16:00'
+updated: '2025-03-26 23:30:00'
 draft: false
 ---
 
@@ -149,19 +149,9 @@ export { esmFn, esmVar, EsmClass };
 
 **作为 NPM 库来说**
 
+
 1. 如果你的库只需要提供一个入口函数/对象/变量供外部使用。推荐使用 `module.exports` 直接导出这个入口函数/对象/变量。
 
-```javascript
-function cjsFnDefault() {
-  console.log("cjsFnDefault", "----cjs:module.exports")
-  return "cjsFnDefault----cjs:module.exports"
-}
-
-// 只导出一个默认导出即可
-module.exports = cjsFnDefault
-```
-
-1. 如果你的库提供多个入口函数供外部使用。推荐使用 module.exports 导出多个对象。
 
 ```javascript
 function cjsFnDefault() {
@@ -173,7 +163,23 @@ function cjsFnDefault() {
 module.exports = cjsFnDefault
 ```
 
-1. 如果既有主入口函数需要导出，又有其他函数需要导出，推荐使用如下方式来导出。
+
+2. 如果你的库提供多个入口函数供外部使用。推荐使用 module.exports 导出多个对象。
+
+
+```javascript
+function cjsFnDefault() {
+  console.log("cjsFnDefault", "----cjs:module.exports")
+  return "cjsFnDefault----cjs:module.exports"
+}
+
+// 只导出一个默认导出即可
+module.exports = cjsFnDefault
+```
+
+
+3. 如果既有主入口函数需要导出，又有其他函数需要导出，推荐使用如下方式来导出。
+
 
 ```javascript
 // 单独变量导出
@@ -364,7 +370,9 @@ cjsClass.cjsClassFn()
 
 在 CJS 项目中使用内部的 ESM 模块一共有两种方式：
 
+
 1. 使用 esm npm 库来加载内部 ESM 模块代码（不推荐，这个库已经很多年不维护了）
+
 
 ```javascript
 // npm i esm 库
@@ -377,7 +385,9 @@ const esmClass = new EsmClass()
 esmClass.esmClassFn()
 ```
 
-1. **使用 import 命令来加载内部 ESM 模块代码（推荐）**
+
+**2. 使用 import 命令来加载内部 ESM 模块代码（推荐）**
+
 
 需要注意的是
 
@@ -401,7 +411,9 @@ async function test() {
 test();
 ```
 
-1. **直接使用 require 命令加载 ESM 模块（Node 版本要求）**
+
+**3. 直接使用 require 命令加载 ESM 模块（Node 版本要求）**
+
 
 如果你的项目的 Node 版本高于 `nodejs@v22.12.0`，则你也可以直接使用`require` 来加载 ESM 模块了。但是需要指定`.mjs`文件后缀，且因为是在 CJS 项目中，所以不能加载`.js`后缀的 ESM 模块
 
