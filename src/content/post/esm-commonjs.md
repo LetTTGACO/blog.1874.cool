@@ -1,12 +1,12 @@
 ---
-date: '2025-03-26 19:46:00'
-description: ''
+date: '2025-03-26 08:00:00'
+description: 本文分析了 CJS 和 ESM 模块的混合开发，涵盖了 NPM 库维护者和使用者的不同场景，提供了导出和使用模块的最佳实践，以及如何在项目中有效地管理模块类型和文件后缀。全面拥抱 ESM 是未来的趋势。
 hidden: false
 urlname: esm-commonjs
 title: 从多场景分析 ESM 和 CJS 混合开发
 tags:
   - 赛博空间
-updated: '2025-03-26 23:30:00'
+updated: '2025-03-26 23:42:00'
 draft: false
 ---
 
