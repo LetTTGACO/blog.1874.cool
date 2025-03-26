@@ -6,7 +6,7 @@ urlname: esm-commonjs
 title: 从多场景分析 ESM 和 CJS 混合开发
 tags:
   - 赛博空间
-updated: '2025-03-26 23:42:00'
+updated: '2025-03-27 00:58:00'
 draft: false
 ---
 
@@ -571,8 +571,14 @@ cjsClass.cjsClassFn()
 ## 结论
 
 
-总得来说，对于 npm 库维护者，全面拥抱 ESM 将是大势所趋，目前越来越多的库都 `Only with ESM` 
+总得来说，对于 npm 库维护者，全面拥抱 ESM 将是大势所趋，目前越来越多的库都 `Pure ESM package` 
 
 
 所以新建项目的时候。第一步：把 `package.json` 的 `type` 变为 `module`；第二步：尽情的 `import` 吧。
+
+
+对于已经存在的 CJS 项目，这里有一份升级到 ESM 的操作指南：
+
+
+[How can I move my CommonJS project to ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
 

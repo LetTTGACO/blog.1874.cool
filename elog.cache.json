@@ -454,7 +454,7 @@
     {
       "id": "1c2cca23-1452-8060-88df-fc891858f065",
       "doc_id": "1c2cca23-1452-8060-88df-fc891858f065",
-      "updated": 1743003720000,
+      "updated": 1743008280000,
       "properties": {
         "date": "2025-03-26 08:00:00",
         "description": "本文分析了 CJS 和 ESM 模块的混合开发，涵盖了 NPM 库维护者和使用者的不同场景，提供了导出和使用模块的最佳实践，以及如何在项目中有效地管理模块类型和文件后缀。全面拥抱 ESM 是未来的趋势。",
@@ -464,7 +464,7 @@
         "tags": [
           "赛博空间"
         ],
-        "updated": "2025-03-26 23:42:00",
+        "updated": "2025-03-27 00:58:00",
         "draft": false
       },
       "realName": "esm-commonjs",
@@ -477,7 +477,7 @@
       "object": "page",
       "id": "1c2cca23-1452-8060-88df-fc891858f065",
       "created_time": "2025-03-26T11:46:00.000Z",
-      "last_edited_time": "2025-03-26T15:42:00.000Z",
+      "last_edited_time": "2025-03-26T16:58:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -506,7 +506,7 @@
         "tags": [
           "赛博空间"
         ],
-        "updated": "2025-03-26 23:42:00",
+        "updated": "2025-03-27 00:58:00",
         "draft": false
       },
       "url": "https://www.notion.so/ESM-CJS-1c2cca231452806088dffc891858f065",
@@ -1025,8 +1025,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZDHUFGBD%2F20250326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250326T154245Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDauql2vHZeEgo0QqpRr6fUNvSJJ60NTcV5EkSjb6EG%2BwIgEMEFRyrE7vcfc%2FL89FuBTMdG99BDYupNXXwlXiWUevcq%2FwMIMBAAGgw2Mzc0MjMxODM4MDUiDCZsctxNebzS8wmb4SrcAwSdX5Nmgsl0wZs9yn%2FgxW4PZgDfz%2BixmjNKGedkheoq4D%2B4Fun2Wu7sg2Bcl5zCVHHw%2F5D41OmvVN9YEAQR%2FcomQzS%2BnrLD10byDg0j9JucuwPk3IxkKQwNgc3cisCdw0zaqcotDfrQBTro5bUjcioVOWp8WmEq9B3F1QwYsBaTj0FiLEaI2dflxhUdpMJGEoH121gCY9wadM0qg11k3yWpieIgFZ6r9W%2Fe3%2BxeDSN%2BKWtLmcjZEhQ1no03%2FYji%2FqlMC2mdIMFtN6ET5OaS7fCs9dAsy%2BmBwvXaygYIsgb2DYiz9xsuYYOzfg%2BK5TPKAmLMckcaQPJXnIMs8bi8%2Fj4PgEPqYwOIel5DIaaLlCfCx8JPbAzXm4%2FDQLygbKqC%2FUnOoMV1iCUK1HpNHs52SBVVUvRyEVaTuNeZY55muETZd%2B%2FWEcXUnIajdxk01w5OdWq%2F0Ozo6%2Bgi8FZnYYr8X41FLLpd5AhAWMhu7usKAdCvqKYnBLU8VMKVXB%2B0G7GWMKB2lw%2FcbNJLS0ElA%2F9Lmj2nG1C2%2BH6DpP0MftfFcwDlAHr71F3fywEC9CGnz%2BuVjWtbH17PIxDpO%2FB08aRQg2MvhgC2BI4HbttkGx5b6H8CyXnx0WlPMNL3aRHpMLy2kL8GOqUBHi2QP4IA4w0576FESUO0fQ0D%2FOCQ5trWHfJ9sVEVGr2PhcOmYWOv%2BW32Wu%2FxgIFJ3Xz5fYtw92iPalfZt68W8XOp%2FmrCgy6waAR4BCf5ZRIEV3euaXDq5eeV4lQ0kn7GYz1QABb55FsPY9t2Dx0WBOlvVVO%2BaBF4%2B3%2B5V635Kkph%2FmIFxvRh2Lzw%2FGUInql7H8hr0gdFHizGjs4zX5l9HHGSU8K8&X-Amz-Signature=6f47b5a195441f7ed16364f33ef3a7fce02cae524db4405702f2a139f5c4232a&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2025-03-26T16:42:45.658Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VOZHINSU%2F20250326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250326T165906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAIY0eVx53DSob9K%2BC2rep%2FCdpDTzO8IIxGfSXsD5IbmAiAlsIJfGh7qCQSVJ2vv3uC3Jp50Rp7yBWUJ%2FSSAf4DqaSr%2FAwgyEAAaDDYzNzQyMzE4MzgwNSIMj5rKG14De%2FR8xM1nKtwDP6Skq%2Bym0vxjusWCLVlxwKq7PYvr2uVwuNVRlUoLis9ppjYtUYvKNZLZz9WSJGkIkT0oTZ1WkoO691EXUrC4TcJ8B0esyaEJs7X0AJdR%2BtTDReJNbrNZPImokq1S2cTk06vA%2FYlgATMkHWK5qzP2Dsj3GF5Qav4aSsK4ZP86OetBYGmkqWp198ormvTn2cOZXOcZKI8uhBxZgGQaS%2BfbjRSg3OowSiKRelWL2GY6lMuxLSxvJGUFVlk7I6lc%2FGvtE9ASlyxZbNwtvTTKi7zRhYzMEwzD8pih9pHYK6hBTnoBSdijDORPoV7rFEIAI3wE3G4UGUynS%2BGjjWemJjSuF%2FWorrVXKrTQpzp67tOs4hqL7SHrd4NgDLmH%2F2SkCZOdjb%2BWiEt37E3y4VY5WQov9wbyaX8i0t2ZdYcOlIilyJ6KB2gEz49if7qou4JBFQAsWQyD2Twj6m8EV23IzamcKBSULlyYI8sZPYZxQXSTiJ2MHlPZgCMEAKyWNy0t8U7Yyl%2BVJ%2BEGe0ZzfF7oR2RE7Cw5bl7jX1Exlp5shExjviOnzlK7igiTE3QPYOT66ikx%2F1YKRRrdHLbtgpoaVvbS8VQMtvw4MKEfWtMNNK3NT3lnFqFPU3FJPG1EgLAwzNeQvwY6pgGshTx7Ld12a9THPNz7WRdh4c6l2KUHpl8soMzvS1ToTAD4iN5E4LrSxq5VX5%2BvbZrEOuAtBw2gn20Up1n3gbqXYeYkFacLoTo6%2FiIty92oObLhPJ328F%2BwPTURE%2FxLZzqHY%2Fx3UbKyhQ59ReGd7z4nQdyHUT00xoEByRuKFXX42%2BqQPvfxTFyR15M3mG57su%2FPKzARtQid3zXIc1lxLuSoXh88GNrc&X-Amz-Signature=588226479363ef84e80234133ede9a282e7e6d06d7d67e4a18d38a5202879775&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-03-26T17:59:06.964Z"
         }
       },
       "icon": {
@@ -1055,7 +1055,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZDHUFGBD%2F20250326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250326T154245Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDauql2vHZeEgo0QqpRr6fUNvSJJ60NTcV5EkSjb6EG%2BwIgEMEFRyrE7vcfc%2FL89FuBTMdG99BDYupNXXwlXiWUevcq%2FwMIMBAAGgw2Mzc0MjMxODM4MDUiDCZsctxNebzS8wmb4SrcAwSdX5Nmgsl0wZs9yn%2FgxW4PZgDfz%2BixmjNKGedkheoq4D%2B4Fun2Wu7sg2Bcl5zCVHHw%2F5D41OmvVN9YEAQR%2FcomQzS%2BnrLD10byDg0j9JucuwPk3IxkKQwNgc3cisCdw0zaqcotDfrQBTro5bUjcioVOWp8WmEq9B3F1QwYsBaTj0FiLEaI2dflxhUdpMJGEoH121gCY9wadM0qg11k3yWpieIgFZ6r9W%2Fe3%2BxeDSN%2BKWtLmcjZEhQ1no03%2FYji%2FqlMC2mdIMFtN6ET5OaS7fCs9dAsy%2BmBwvXaygYIsgb2DYiz9xsuYYOzfg%2BK5TPKAmLMckcaQPJXnIMs8bi8%2Fj4PgEPqYwOIel5DIaaLlCfCx8JPbAzXm4%2FDQLygbKqC%2FUnOoMV1iCUK1HpNHs52SBVVUvRyEVaTuNeZY55muETZd%2B%2FWEcXUnIajdxk01w5OdWq%2F0Ozo6%2Bgi8FZnYYr8X41FLLpd5AhAWMhu7usKAdCvqKYnBLU8VMKVXB%2B0G7GWMKB2lw%2FcbNJLS0ElA%2F9Lmj2nG1C2%2BH6DpP0MftfFcwDlAHr71F3fywEC9CGnz%2BuVjWtbH17PIxDpO%2FB08aRQg2MvhgC2BI4HbttkGx5b6H8CyXnx0WlPMNL3aRHpMLy2kL8GOqUBHi2QP4IA4w0576FESUO0fQ0D%2FOCQ5trWHfJ9sVEVGr2PhcOmYWOv%2BW32Wu%2FxgIFJ3Xz5fYtw92iPalfZt68W8XOp%2FmrCgy6waAR4BCf5ZRIEV3euaXDq5eeV4lQ0kn7GYz1QABb55FsPY9t2Dx0WBOlvVVO%2BaBF4%2B3%2B5V635Kkph%2FmIFxvRh2Lzw%2FGUInql7H8hr0gdFHizGjs4zX5l9HHGSU8K8&X-Amz-Signature=6f47b5a195441f7ed16364f33ef3a7fce02cae524db4405702f2a139f5c4232a&X-Amz-SignedHeaders=host&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VOZHINSU%2F20250326%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250326T165906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAIY0eVx53DSob9K%2BC2rep%2FCdpDTzO8IIxGfSXsD5IbmAiAlsIJfGh7qCQSVJ2vv3uC3Jp50Rp7yBWUJ%2FSSAf4DqaSr%2FAwgyEAAaDDYzNzQyMzE4MzgwNSIMj5rKG14De%2FR8xM1nKtwDP6Skq%2Bym0vxjusWCLVlxwKq7PYvr2uVwuNVRlUoLis9ppjYtUYvKNZLZz9WSJGkIkT0oTZ1WkoO691EXUrC4TcJ8B0esyaEJs7X0AJdR%2BtTDReJNbrNZPImokq1S2cTk06vA%2FYlgATMkHWK5qzP2Dsj3GF5Qav4aSsK4ZP86OetBYGmkqWp198ormvTn2cOZXOcZKI8uhBxZgGQaS%2BfbjRSg3OowSiKRelWL2GY6lMuxLSxvJGUFVlk7I6lc%2FGvtE9ASlyxZbNwtvTTKi7zRhYzMEwzD8pih9pHYK6hBTnoBSdijDORPoV7rFEIAI3wE3G4UGUynS%2BGjjWemJjSuF%2FWorrVXKrTQpzp67tOs4hqL7SHrd4NgDLmH%2F2SkCZOdjb%2BWiEt37E3y4VY5WQov9wbyaX8i0t2ZdYcOlIilyJ6KB2gEz49if7qou4JBFQAsWQyD2Twj6m8EV23IzamcKBSULlyYI8sZPYZxQXSTiJ2MHlPZgCMEAKyWNy0t8U7Yyl%2BVJ%2BEGe0ZzfF7oR2RE7Cw5bl7jX1Exlp5shExjviOnzlK7igiTE3QPYOT66ikx%2F1YKRRrdHLbtgpoaVvbS8VQMtvw4MKEfWtMNNK3NT3lnFqFPU3FJPG1EgLAwzNeQvwY6pgGshTx7Ld12a9THPNz7WRdh4c6l2KUHpl8soMzvS1ToTAD4iN5E4LrSxq5VX5%2BvbZrEOuAtBw2gn20Up1n3gbqXYeYkFacLoTo6%2FiIty92oObLhPJ328F%2BwPTURE%2FxLZzqHY%2Fx3UbKyhQ59ReGd7z4nQdyHUT00xoEByRuKFXX42%2BqQPvfxTFyR15M3mG57su%2FPKzARtQid3zXIc1lxLuSoXh88GNrc&X-Amz-Signature=588226479363ef84e80234133ede9a282e7e6d06d7d67e4a18d38a5202879775&X-Amz-SignedHeaders=host&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://www.notion.so/1-6c224bd6fad7436ba0b47605457c0c0c",
