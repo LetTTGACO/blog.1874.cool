@@ -6,7 +6,7 @@ urlname: esm-commonjs
 title: 从多场景分析 ESM 和 CJS 混合开发
 tags:
   - 赛博空间
-updated: '2025-03-27 23:39:00'
+updated: '2025-03-27 23:41:00'
 draft: false
 ---
 
@@ -136,7 +136,7 @@ export { esmFn, esmVar, EsmClass };
 2. `package.json` 中`type=module`。该项目下所有`.js`文件的**独立加载**均被解释使用 ESM 模块，如果想使用 CJS 模块，则该文件必须采用`.cjs`后缀名（外部 npm 包可省略）。
 3. 对于 `NodeJs@22.12.0`以下版本，CJS 模块的`require`命令不能加载`.mjs`文件，会报错，只有动态`import`命令才可以加载`.mjs`文件。但动态`import`命令是异步的，需要 `Promise` 来处理，详细使用可参考下文使用者视角
 4. 对于`NodeJs@22.12.0`及以上版本，CJS 模块`require`命令可以加载`.mjs`文件，但需要指定后缀名（外部 npm 包可省略）。
-5. **ESM 模块的**`import`**命令可以加载 CJS 模块，但加载任何 ESM 模块或 CJS 都需要指定文件后缀名**（外部 npm 包可省略）**。**加载外部 npm 库时，其实 `main` 或者 `export` 字段都已经指定了文件后缀，所以不需要用户手动填写。这也解释了第 2 点中的独立加载，一旦要使用 `import`命令，则需要指定文件后缀。
+5. **ESM 模块的**`import`**命令可以加载 CJS 模块，但加载任何 ESM 模块或 CJS 都需要指定文件后缀名**（外部 npm 包可省略）。加载外部 npm 库时，其实 `main` 或者 `export` 字段都已经指定了文件后缀，所以不需要用户手动填写。这也解释了第 2 点中的独立加载，一旦要使用 `import`命令，则需要指定文件后缀。
 
 > 相关新闻：[Nodejs@22.12.0已支持 require ESM 模块](https://nodejs.org/en/blog/release/v22.12.0)
 
