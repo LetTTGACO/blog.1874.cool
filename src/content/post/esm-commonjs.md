@@ -6,7 +6,7 @@ urlname: esm-commonjs
 title: 从多场景分析 ESM 和 CJS 混合开发
 tags:
   - 赛博空间
-updated: '2025-03-27 00:58:00'
+updated: '2025-03-27 22:47:00'
 draft: false
 ---
 
@@ -134,9 +134,9 @@ export { esmFn, esmVar, EsmClass };
 
 1. `package.json` 中`type=commonjs`或不指定。该项目下所有`.js`文件均被解释使用 CJS 模块加载。如果想使用 ESM 模块，则该文件必须采用`.mjs`后缀名（外部 npm 包可省略）。
 2. `package.json` 中`type=module`。该项目下所有`.js`文件的**独立加载**均被解释使用 ESM 模块，如果想使用 CJS 模块，则该文件必须采用`.cjs`后缀名（外部 npm 包可省略）。
-3. 对于 `NodeJs@22.12.0`以下版本，CJS 模块的`require`命令不能加载`.mjs`文件，会报错，只有`import`命令才可以加载`.mjs`文件。但`import`命令是异步的，需要 `Promise` 来处理，详细使用可参考下文使用者视角
+3. 对于 `NodeJs@22.12.0`以下版本，CJS 模块的`require`命令不能加载`.mjs`文件，会报错，只有动态`import`命令才可以加载`.mjs`文件。但动态`import`命令是异步的，需要 `Promise` 来处理，详细使用可参考下文使用者视角
 4. 对于`NodeJs@22.12.0`及以上版本，CJS 模块`require`命令可以加载`.mjs`文件，但需要指定后缀名（外部 npm 包可省略）。
-5. **ESM 模块的****`import`****命令可以加载 CJS 模块，但加载任何 ESM 模块或 CJS 都需要指定文件后缀名**（外部 npm 包可省略）**。**加载外部 npm 库时，其实 `main` 或者 `export` 字段都已经指定了文件后缀，所以不需要用户手动填写。这也解释了第 2 点中的独立加载，一旦要 `import` 则需要指定文件后缀。
+5. **ESM 模块的****`import`****命令可以加载 CJS 模块，但加载任何 ESM 模块或 CJS 都需要指定文件后缀名**（外部 npm 包可省略）**。**加载外部 npm 库时，其实 `main` 或者 `export` 字段都已经指定了文件后缀，所以不需要用户手动填写。这也解释了第 2 点中的独立加载，一旦要使用 `import`命令，则需要指定文件后缀。
 
 > 相关新闻：[Nodejs@22.12.0已支持 require ESM 模块](https://nodejs.org/en/blog/release/v22.12.0)
 
@@ -164,17 +164,24 @@ module.exports = cjsFnDefault
 ```
 
 
-2. 如果你的库提供多个入口函数供外部使用。推荐使用 module.exports 导出多个对象。
+2. 如果你的库提供多个入口函数供外部使用。推荐使用 `module.exports` 导出多个对象。
 
 
 ```javascript
-function cjsFnDefault() {
-  console.log("cjsFnDefault", "----cjs:module.exports")
-  return "cjsFnDefault----cjs:module.exports"
+// 单独变量导出
+const cjsVar = "cjsVar----cjs:module.exports"
+
+//  单独函数导出
+function cjsFn() {
+  console.log("cjsFn", "----cjs:module.exports")
+  return "cjsFn----cjs:module.exports"
 }
 
-// 只导出一个默认导出即可
-module.exports = cjsFnDefault
+
+module.exports = {
+	cjsVar,
+	cjsFn
+}
 ```
 
 
@@ -274,7 +281,45 @@ import cjsFnDefault, { cjsFn, cjsVar, CjsClass } from 'cjs' // 两种方式都�
 ### 在 ESM 项目中导出 ESM 模块
 
 
-这个没什么可说得，只要指定`package.json`中的 `type=module`，该项目下所有`.js`文件均会被解释为 ESM 模块。
+使用 ESM 模块的 export 命令即可导出。但需要注意 `export { default: esmFnDefault }` 和 `export default esmFnDefault`不能同时使用，在别人引入的时候会报错。
+
+
+```javascript
+// exports esm in esm
+
+// 变量
+const esmVar = "esmVar----esm_module:export"
+
+// 函数导出
+// 可以直接使用 export 导出函数
+export function esmFn() {
+  console.log("esmFn", "----esm_module:export")
+  return "esmFn:----esm_module:export"
+}
+// 类
+class EsmClass {
+  esmClassFn() {
+    console.log("esmClassFn", "----esm_module:export")
+    return "esmClassFn----esm_module:export"
+  }
+}
+
+// export default function esmFnDefault() {  也可以直接使用export default function 来导出默认函数
+function esmFnDefault() {
+  console.log("esmFnDefault", "----esm_module:export")
+  return "esmFnDefault----esm_module:export"
+}
+
+// ESM 选择导出
+export {
+  esmVar,
+  EsmClass,
+  // esmFn, // 使用 export 导出的函数，和上面的选择其一，不能同时使用
+  // esmFnDefault as default, // esm 默认导出，和下面的选择其一，不能同时使用，使用时会报错 ❌
+}
+
+export default esmFnDefault
+```
 
 
 > 在 ESM 项目中导出 ESM 模块完整示例代码：[https://github.com/LetTTGACO/esm-and-cjs/tree/master/packages/export/esm_module](https://github.com/LetTTGACO/esm-and-cjs/tree/master/packages/export/esm_module)
@@ -577,7 +622,10 @@ cjsClass.cjsClassFn()
 所以新建项目的时候。第一步：把 `package.json` 的 `type` 变为 `module`；第二步：尽情的 `import` 吧。
 
 
-对于已经存在的 CJS 项目，这里有一份升级到 ESM 的操作指南：
+## CJS 转向 ESM
+
+
+对于已经存在的 CJS 项目，这里有一份转向 ESM 的操作指南：
 
 
 [How can I move my CommonJS project to ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
