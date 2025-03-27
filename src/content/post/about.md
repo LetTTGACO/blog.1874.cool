@@ -5,7 +5,7 @@ hidden: false
 urlname: about
 title: 关于我
 tags: []
-updated: '2025-02-26 19:24:00'
+updated: '2025-03-27 23:49:00'
 draft: false
 ---
 
@@ -43,6 +43,8 @@ draft: false
 - [WordPress](https://wordpress.1874.cool/)： WordPress示例站点
 - [WebNav](https://webnav.1874.cool/)：一个旨在汇集国内外优质前端相关网站的前端导航网站
 - [CoverPen](https://coverpen.1874.cool/)：快速为你的博客文章创建令人惊叹的封面图片
+- [Hacker News](https://hacker-news.1874.run/)：一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。
+- [Podcast RSS](https://podrss.1874.run/)：一个基于 AI 的 RSS 中文播客项目，每天自动抓取你感兴趣的 RSS 更新内容，通过 AI 生成中文总结并转换为播客内容。
 
 ## 关于博客
 
