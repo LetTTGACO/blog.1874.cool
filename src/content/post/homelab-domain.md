@@ -7,7 +7,7 @@ title: 局域网内优雅的访问家庭内网服务
 tags:
   - 赛博空间
   - HomeLab
-updated: '2025-03-27 22:57:00'
+updated: '2025-03-27 23:39:00'
 draft: false
 ---
 
@@ -45,6 +45,9 @@ draft: false
 
 
 ![9ac38eec-30a4-4548-b11d-9c8e66df06ae.png](https://image.cody.fan/blog/0ed0e5060e3739f3d6a8142c8d823774.png)
+
+
+> 注意：如果电脑开启了代理，访问内网域名时，可能无法正确解析 DNS，需要将 `*.cody.com` 加入到代理绕过配置中。
 
 
 ## 反向代理
