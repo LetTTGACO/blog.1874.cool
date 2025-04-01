@@ -16,7 +16,7 @@
 		"sync:archive": "elog sync --config elog.config.archive.js"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "2.1.1",
+		"@astrojs/mdx": "3.1.9",
 		"@astrojs/rss": "4.0.4",
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
