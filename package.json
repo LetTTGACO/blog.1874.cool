@@ -19,7 +19,7 @@
 		"@astrojs/mdx": "2.1.1",
 		"@astrojs/rss": "4.0.4",
 		"@astrojs/sitemap": "3.0.5",
-		"@astrojs/tailwind": "5.1.0",
+		"@astrojs/tailwind": "6.0.2",
 		"@elog/cli": "^0.14.7",
 		"aegis-web-sdk": "^1.39.2",
 		"astro": "^4.16.1",
