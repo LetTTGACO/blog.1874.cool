@@ -18,7 +18,7 @@
 	"dependencies": {
 		"@astrojs/mdx": "2.1.1",
 		"@astrojs/rss": "4.0.4",
-		"@astrojs/sitemap": "3.0.5",
+		"@astrojs/sitemap": "3.3.1",
 		"@astrojs/tailwind": "5.1.0",
 		"@elog/cli": "^0.14.7",
 		"aegis-web-sdk": "^1.39.2",
