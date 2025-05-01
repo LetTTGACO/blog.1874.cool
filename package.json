@@ -32,7 +32,7 @@
 		"remark-math": "^6.0.0",
 		"satori": "0.10.11",
 		"satori-html": "^0.3.2",
-		"sharp": "^0.33.2"
+		"sharp": "^0.34.1"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.4.1",
