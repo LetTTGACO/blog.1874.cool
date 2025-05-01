@@ -25,7 +25,7 @@
 		"astro": "^4.16.1",
 		"astro-expressive-code": "^0.31.0",
 		"astro-icon": "^1.1.0",
-		"katex": "^0.16.21",
+		"katex": "^0.16.22",
 		"medium-zoom": "^1.1.0",
 		"rehype-external-links": "^3.0.0",
 		"rehype-katex": "^7.0.1",
