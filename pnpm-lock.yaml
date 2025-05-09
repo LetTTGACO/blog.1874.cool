@@ -48,8 +48,8 @@ dependencies:
     specifier: ^6.0.0
     version: 6.0.0
   satori:
-    specifier: 0.10.11
-    version: 0.10.11
+    specifier: 0.12.2
+    version: 0.12.2
   satori-html:
     specifier: ^0.3.2
     version: 0.3.2
@@ -806,8 +806,8 @@ packages:
     dev: false
     optional: true
 
-  /@emnapi/runtime@1.3.1:
-    resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
+  /@emnapi/runtime@1.4.0:
+    resolution: {integrity: sha512-64WYIf4UYcdLnbKn/umDlNjQDSS8AgZrI/R9+x5ilkUVFxXcA1Ebl+gQLc/6mERA4407Xof0R7wEyEuj091CVw==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
@@ -1563,7 +1563,7 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@emnapi/runtime': 1.3.1
+      '@emnapi/runtime': 1.4.0
     dev: false
     optional: true
 
@@ -3580,6 +3580,11 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
+  /css-gradient-parser@0.0.16:
+    resolution: {integrity: sha512-3O5QdqgFRUbXvK1x5INf1YkBz1UKSWqrd63vWsum8MNHDBYD5urm3QtxZbKU259OrEXNM26lP/MPY3d1IGkBgA==}
+    engines: {node: '>=16'}
+    dev: false
+
   /css-select@5.1.0:
     resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==}
     dependencies:
@@ -3958,8 +3963,8 @@ packages:
       '@emmetio/css-abbreviation': 2.1.8
     dev: true
 
-  /emoji-regex@10.3.0:
-    resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
+  /emoji-regex@10.4.0:
+    resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -8630,15 +8635,16 @@ packages:
       ultrahtml: 1.5.2
     dev: false
 
-  /satori@0.10.11:
-    resolution: {integrity: sha512-yLm1xPRPZUaKcBZJ6nmezoJjHB4MqV8x7Mu0PyZUJodRWRDD27UbeMwzuY9LEGG57WYLO4CQsGPlbHWV1Ex9TQ==}
+  /satori@0.12.2:
+    resolution: {integrity: sha512-3C/laIeE6UUe9A+iQ0A48ywPVCCMKCNSTU5Os101Vhgsjd3AAxGNjyq0uAA8kulMPK5n0csn8JlxPN9riXEjLA==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
       css-background-parser: 0.1.0
       css-box-shadow: 1.0.0-3
+      css-gradient-parser: 0.0.16
       css-to-react-native: 3.2.0
-      emoji-regex: 10.3.0
+      emoji-regex: 10.4.0
       escape-html: 1.0.3
       linebreak: 1.1.0
       parse-css-color: 0.2.1
@@ -8987,7 +8993,7 @@ packages:
     resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
     dependencies:
-      emoji-regex: 10.3.0
+      emoji-regex: 10.4.0
       get-east-asian-width: 1.2.0
       strip-ansi: 7.1.0
     dev: false
