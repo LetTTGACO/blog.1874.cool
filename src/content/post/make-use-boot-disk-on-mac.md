@@ -1,5 +1,5 @@
 ---
-date: '2024-02-01 00:00:00'
+date: '2024-02-01 08:00:00'
 description: 在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。
 hidden: false
 urlname: make-use-boot-disk-on-mac

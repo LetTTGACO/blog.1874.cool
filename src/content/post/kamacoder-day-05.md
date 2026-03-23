@@ -1,5 +1,5 @@
 ---
-date: '2025-03-01 00:00:00'
+date: '2025-03-01 08:00:00'
 description: 学习了哈希表的基本理论及其在四个算法题中的应用，包括有效的字母异位词、两个数组的交集、快乐数和两数之和，强调了使用数组和set的场景。提供了相关链接和解题思路。
 hidden: true
 urlname: kamacoder-day-05
@@ -99,7 +99,7 @@ draft: false
 - 将 `nums1` 转换为 Set 1，然后遍历 `nums2`，将在Set1 中出现过的相同的数字存放在一个新的 Set2 中，最后返回新的 Set2
 - 思路图
 
-	![image.png](https://image.1874.run/blog/a7a3a66a36a196d72ab486184d3d323a.png)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ca9a48ea-edb2-4c00-802d-1587ec9fb9c8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIMBQ3MO%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004630Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDF1BFMRhjHm5005RBpSlZzCwMfO%2FEs52XFaNe6sbChLgIgGrXrf6l1%2BATY67aKcdEllReLKYyXT6qQS%2BXz4kOU1OYq%2FwMIcRAAGgw2Mzc0MjMxODM4MDUiDADsahPBBMuFMGr%2BDyrcA6OmAL5%2BtSNjMgchkWdpTax88fnxlkVMGkdoKHarH5HhgCOoODCFxM52QtW8XkpRhIilDBw2bh5vLQMSKLJavwOHymvKgRm0VWhb7WlatVM%2F0J03YH4LFTGCKmH3hTLeZyOQe2%2B7aAnkiUYZkLLfK9zZGDGW%2FQqgcY4XHkRkxtfJdi4YI7GATtewjoL1aNiKIYuuYv%2FjcGRL%2BY%2FMH9BabVp0scY%2BC1k0i%2FUoan0YtYaCg2TFUbBYVlKS9npXySUkY68A3W3wk5c3foXNR5iaE9yPZefJFLApDbfixh9KVWpfC6iPAv3zPGxRikmnlVdD%2BUmhdqLGrGO5ok8LWeDLVKw0hZwt7xA%2BhR5Tzq3pJMlOBQXOZ9rfZLT910GhrQOhtdtUWRvQc%2Fuk9l6%2F1wecYSJy9nt9DJ4GQ3czbbeGoyNQhz%2BsAezoZnJuwvZxsi%2BkwWY72T0ViqmKLcUT1wp6%2F7NerokFxVGC0DatC4L8HP0J3bHw7T0Vy27cADN5POE%2BqYV2uvUiyImNw6%2BNjYcplIAgrPRlHxXtJzN0oRjaMo2iEEZScLqNcsinPVTm25fFJDLMzk46H7cVm8vT5yE9OElg381CuerOcMf%2FgBbV2AsNcL3lBdxsOqYixP9EMNuHgs4GOqUBcB9tdrZOO8VKIuZpo%2BLV0aqnRZLW5PRMVnwmy5y9EgzkWhHJhlcQ1nVIobsjNXuWU5poh8h8J5vNZNQMEiLB2H1e%2BGAc%2BrVVpgALMr0pu2hQU1Em2nNLNTl%2F%2FRx53Q0Wlg5vwBtbHIyJM35xpxH3b8SavAiOLPZhxVnA7p9qZMw25cduGPRDOwkzLobnLWVaR1zIoYf3f%2F3mGNT4U6qz5XPR%2BmGK&X-Amz-Signature=4d12fe03663db34c8fc9c8fa040fd8b5d2591255c7b81fb716c39572d17beb78&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 
 ### 202.快乐数

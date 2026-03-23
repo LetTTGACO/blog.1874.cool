@@ -1,5 +1,5 @@
 ---
-date: '2025-02-26 00:00:00'
+date: '2025-02-26 08:00:00'
 description: 学习了209.长度最小的子数组和59.螺旋矩阵II的解题思路，重点在滑动窗口和边界处理，收获了对数组题目的理解，但感觉解题思路缺乏通用性。建议总结数组专题。
 hidden: true
 urlname: kamacoder-day-02
@@ -93,7 +93,7 @@ draft: false
 - 指针j会在sum大于等于目标值时，从sum中减去当前值并向右移动
 - 所以这个最坏的情况就是全是目标值-1的值组成的数组，指针j每走一步，i都需要走一步。即时间复杂度最坏为O(2n)
 
-	![209.gif](https://image.1874.run/blog/4810ceee21047ff4b3cce41d95196203.gif)
+	![209.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/74d08477-dc9f-46b6-8755-7148f50d6628/209.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667C4VKZXO%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD%2F4itrKjMpiU4b%2F24iWNxzVLssVY6S6EFvXSrBcT1mewIhAPHehaRqV0DhtbK98%2B%2FH5F5kdUbG8C%2BA1IPmyDhhlW0GKv8DCHEQABoMNjM3NDIzMTgzODA1IgxytkxEhM3oWtIKqeQq3ANmTwPgdpOHUAguc1KXVmNPpCpYlCkHalMX0TZGO8ABAB9sWtTyzKM2XA%2Fu1FxF%2FfYuMRw%2BgCWiTrhShO1M6ieGAsMskqRqMioorBe2%2FjbnTTFXWd6VargaiO85UD1ft64u%2FszcamoxYHFjPof5fWxsYQs0Nxuw9uVnZH0%2F7d%2FRtzqou5B4fv2i5AlmiOnxGJI4kbARIjwIur0O2NNnFhuiqLVUn2j8wDFbv6qGtngUZgwbbawKMKkFuI0gNF%2BRYvVJPe5aJthe7ZvDdGasfxV0yCLQXJGy3nbBT%2FmsVyo1Be5JUZZC6ei%2B5gLwPYEXFaNm8GQQ9eZ%2Bk2sVaCev%2BzIPuRmJzX8WcMlizQV6K2nrqhAqOnBTDBA5lDBxegO3VOjGJM2Sez3lgdjIeOWOUQpaFd2cKNPh4Hh7OESjnh69o1%2FKoCRkM3lKXLngbrrVVRZhMUR1dei3LwSgFiOJhmFTIm9aKTbdfhOAGJRiuGvDAemO2etDJqrDl%2Fm6YZZUnn98QFNp6q29bRUwpiVHm7Q4qcLQdTqmrpaNwcCtseJjiXJ50jJ8p2sg%2Bt0Ttl423ZdJ7oTpnT%2BDMua4JNRiw63eIy15kLop%2FljFBE0m0y9n6kJt2uprkKeydyydDTCL94HOBjqkAVOGXJWYViMbYwvfW47gAtwYCq17Zriz52C3j%2FbIsNr3WHpuYha2qGd%2BSpfYxkVTm%2FT42b2ofczLIkXAfscGn7XUSCD2v9wtzV1JWuPUS0BacMv8P1zPHA5Q6NRaR5GgPMYkcMxrw8hfw%2B4Tc05pGFAdXszeJ3v0g3aeteUuvvDXVvO0XsC2ZL%2BxdNuOVp37vXWURERfd9JibhRVr7%2BBgd6GDwsR&X-Amz-Signature=6e6336c226be34d629b41de9da7d40b303e44d4f3316c744aaa3aaea57a1cdd2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 
 ### 59.螺旋矩阵II
