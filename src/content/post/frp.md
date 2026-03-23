@@ -1,5 +1,5 @@
 ---
-date: '2024-01-28 08:00:00'
+date: '2024-01-28 00:00:00'
 description: ''
 hidden: false
 urlname: frp
@@ -31,7 +31,7 @@ draft: false
 ## FRP
 
 
-![Untitled.png](https://image.cody.fan/blog/c58a08d4a06214a0375a7db196632503.png)
+![Untitled.png](https://image.1874.run/blog/c58a08d4a06214a0375a7db196632503.png)
 
 
 完整点的 FRP 内网穿透应该是上面的架构

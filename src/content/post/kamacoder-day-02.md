@@ -1,5 +1,5 @@
 ---
-date: '2025-02-26 08:00:00'
+date: '2025-02-26 00:00:00'
 description: 学习了209.长度最小的子数组和59.螺旋矩阵II的解题思路，重点在滑动窗口和边界处理，收获了对数组题目的理解，但感觉解题思路缺乏通用性。建议总结数组专题。
 hidden: true
 urlname: kamacoder-day-02
@@ -93,7 +93,7 @@ draft: false
 - 指针j会在sum大于等于目标值时，从sum中减去当前值并向右移动
 - 所以这个最坏的情况就是全是目标值-1的值组成的数组，指针j每走一步，i都需要走一步。即时间复杂度最坏为O(2n)
 
-	![209.gif](https://image.cody.fan/blog/4810ceee21047ff4b3cce41d95196203.gif)
+	![209.gif](https://image.1874.run/blog/4810ceee21047ff4b3cce41d95196203.gif)
 
 
 ### 59.螺旋矩阵II

@@ -1,3 +1,5 @@
+const r2 = require("@elog/plugin-img-r2");
+
 module.exports = {
 	write: {
 		platform: "notion",
@@ -26,13 +28,13 @@ module.exports = {
 	},
 	image: {
 		enable: true,
-		platform: "cos",
-		cos: {
-			secretId: process.env.COS_SECRET_ID,
-			secretKey: process.env.COS_SECRET_KEY,
-			bucket: process.env.COS_BUCKET,
-			region: process.env.COS_REGION,
-			host: process.env.COS_HOST,
+		plugin: r2,
+		r2: {
+			accessKeyId: process.env.R2_ACCESSKEYID,
+			secretAccessKey: process.env.R2_SECRET_ACCESSKEY,
+			bucket: process.env.R2_BUCKET,
+			endpoint: process.env.R2_ENDPOINT,
+			host: process.env.R2_HOST,
 			prefixKey: "blog",
 		},
 	},

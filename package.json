@@ -10,8 +10,8 @@
 		"preview": "astro preview",
 		"format": "prettier -w --cache . && prettier -w --cache **/*.astro",
 		"check": "astro check",
-		"local": "elog sync -e .elog.env",
-		"local:archive": "elog sync -e .elog.env --config elog.config.archive.js",
+		"local": "elog sync -e .elog.env --disable-cache",
+		"local:archive": "elog sync -e .elog.env --config elog.config.archive.js  --disable-cache",
 		"sync": "elog sync",
 		"sync:archive": "elog sync --config elog.config.archive.js"
 	},
@@ -21,6 +21,7 @@
 		"@astrojs/sitemap": "3.0.5",
 		"@astrojs/tailwind": "5.1.0",
 		"@elog/cli": "^0.14.7",
+		"@elog/plugin-img-r2": "0.1.2-beta.0",
 		"aegis-web-sdk": "^1.39.2",
 		"astro": "^4.16.1",
 		"astro-expressive-code": "^0.31.0",

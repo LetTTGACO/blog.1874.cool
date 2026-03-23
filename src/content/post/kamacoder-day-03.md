@@ -1,5 +1,5 @@
 ---
-date: '2025-02-27 08:00:00'
+date: '2025-02-27 00:00:00'
 description: 学习链表基础，解决203.移除链表元素、707.设计链表、206.反转链表的思路和代码实现，强调虚拟头节点的使用和双指针法的递归推导。
 hidden: true
 urlname: kamacoder-day-03
@@ -88,7 +88,7 @@ draft: false
 - 注意指针只是保存了链表的引用，在循环的过程中只需要改变指针的引用，就不会对原链表造成影响。只有对引用链表的 `next` 进行赋值，才回改变原链表
 - 动画演示
 
-![%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://image.cody.fan/blog/cb0471076e21b04496e8f8e217ee299c.gif)
+![%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://image.1874.run/blog/cb0471076e21b04496e8f8e217ee299c.gif)
 
 
 ## 题解

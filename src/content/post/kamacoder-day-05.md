@@ -1,5 +1,5 @@
 ---
-date: '2025-03-01 08:00:00'
+date: '2025-03-01 00:00:00'
 description: 学习了哈希表的基本理论及其在四个算法题中的应用，包括有效的字母异位词、两个数组的交集、快乐数和两数之和，强调了使用数组和set的场景。提供了相关链接和解题思路。
 hidden: true
 urlname: kamacoder-day-05
@@ -99,7 +99,7 @@ draft: false
 - 将 `nums1` 转换为 Set 1，然后遍历 `nums2`，将在Set1 中出现过的相同的数字存放在一个新的 Set2 中，最后返回新的 Set2
 - 思路图
 
-	![image.png](https://image.cody.fan/blog/a7a3a66a36a196d72ab486184d3d323a.png)
+	![image.png](https://image.1874.run/blog/a7a3a66a36a196d72ab486184d3d323a.png)
 
 
 ### 202.快乐数

@@ -1,5 +1,5 @@
 ---
-date: '2025-03-27 08:00:00'
+date: '2025-03-27 00:00:00'
 description: 在局域网中配置内网服务的优雅访问，通过自建域名映射不同服务，使用反向代理和SSL证书确保安全访问，最终实现无需端口号直接访问服务的目标。
 hidden: false
 urlname: homelab-domain
@@ -44,7 +44,10 @@ draft: false
 好在我的小米路由器的 APP 可以设置自定义 Hosts，也能解决我的问题。
 
 
-![9ac38eec-30a4-4548-b11d-9c8e66df06ae.png](https://image.cody.fan/blog/0ed0e5060e3739f3d6a8142c8d823774.png)
+![9ac38eec-30a4-4548-b11d-9c8e66df06ae.png](https://image.1874.run/blog/0ed0e5060e3739f3d6a8142c8d823774.png)
+
+
+> 注意：如果电脑开启了代理，访问内网域名时，可能无法正确解析 DNS，需要将 `*.cody.com` 加入到代理绕过配置中。
 
 
 > 注意：如果电脑开启了代理，访问内网域名时，可能无法正确解析 DNS，需要将 `*.cody.com` 加入到代理绕过配置中。
@@ -59,7 +62,7 @@ draft: false
 我使用的是 1Panel 自带的基于 Open Resty 的「网站」功能来配置的，你也可以使用 Nginx Proxy Manager 来配置反向代理，使用起来也一样简单。
 
 
-![image.png](https://image.cody.fan/blog/481d9caac42101b664c9cd78fa99a64b.png)
+![image.png](https://image.1874.run/blog/481d9caac42101b664c9cd78fa99a64b.png)
 
 
 ## SSL 证书
@@ -68,7 +71,7 @@ draft: false
 这里纯属强迫症配置，不配置 SSL 证书，浏览器总是会谈不安全访问。所以直接在 1Panel 上签发一个自签泛域名证书即可。
 
 
-![image.png](https://image.cody.fan/blog/3507c1b441538e25c68149c219f36af4.png)
+![image.png](https://image.1874.run/blog/3507c1b441538e25c68149c219f36af4.png)
 
 
 然后将证书下载到本地 Mac 上，解压后，双击 `fullchain.pem` 文件即可加入到本地证书上。
@@ -80,7 +83,7 @@ draft: false
 然后双击该证书，将信任配置为时钟信任即可。
 
 
-![image.png](https://image.cody.fan/blog/90fd6270861550647de18da4be4c04e5.png)
+![image.png](https://image.1874.run/blog/90fd6270861550647de18da4be4c04e5.png)
 
 
 ## 大功告成
@@ -89,7 +92,7 @@ draft: false
 至此，大功告成，然后就可以直接输入域名来访问服务，浏览器也不会告警。
 
 
-![image.png](https://image.cody.fan/blog/edba58b120c4e6ebb27ac4bca442c3cf.png)
+![image.png](https://image.1874.run/blog/edba58b120c4e6ebb27ac4bca442c3cf.png)
 
 
 ## 原理解析

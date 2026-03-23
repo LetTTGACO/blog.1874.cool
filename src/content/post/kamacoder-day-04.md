@@ -1,5 +1,5 @@
 ---
-date: '2025-02-28 08:00:00'
+date: '2025-02-28 00:00:00'
 description: 学习了链表相关的算法，包括两两交换节点、删除倒数第N个节点、链表相交和环形链表的入口。掌握了虚拟节点、双指针和快慢指针的解题思路，理解了环的入口计算方法。
 hidden: true
 urlname: kamacoder-day-04
@@ -82,11 +82,11 @@ draft: false
 - 交换过后的链表为虚拟节点 → 节点 2 → 节点 1 → 节点 3。而当前指针还是在虚拟节点，所以只需要将当前指针`cur`指向`cur.next.next`，也就是节点 1 就行
 - 流程演示
 
-	![image.png](https://image.cody.fan/blog/ecdcf8227b053b6697229389231022a4.png)
+	![image.png](https://image.1874.run/blog/ecdcf8227b053b6697229389231022a4.png)
 
 - 交换结果
 
-	![image.png](https://image.cody.fan/blog/d91c496b0d0475cfa63f935b7e0dc432.png)
+	![image.png](https://image.1874.run/blog/d91c496b0d0475cfa63f935b7e0dc432.png)
 
 
 ### 19.删除链表的倒数第N个节点
@@ -128,11 +128,11 @@ draft: false
 - 用 2 步走的快指针和 1 步走的慢指针进行遍历，当快指针和慢指针相遇的时候，X 和 Z 的距离时一样的，所以重新定义两个新指针同时一步一步走到它们相遇时，就是环的起点。
 - 相遇的动画
 
-	![%E7%9B%B8%E9%81%87%E5%8A%A8%E7%94%BB.gif](https://image.cody.fan/blog/908cb2b25794e34f533d17c62da6b38e.gif)
+	![%E7%9B%B8%E9%81%87%E5%8A%A8%E7%94%BB.gif](https://image.1874.run/blog/908cb2b25794e34f533d17c62da6b38e.gif)
 
 - 计算公式
 
-	![%E8%AE%A1%E7%AE%97%E5%85%AC%E5%BC%8F.png](https://image.cody.fan/blog/909cadd9f63be3b2b9033205fdd2ffa0.png)
+	![%E8%AE%A1%E7%AE%97%E5%85%AC%E5%BC%8F.png](https://image.1874.run/blog/909cadd9f63be3b2b9033205fdd2ffa0.png)
 
 
 	当快慢指针相遇时，快指针走过的路程为 `x + y + n(y+z)`，慢指针走过的路程为 `x+y`，由于快指针是 2 步着走，所以`快指针走过的路程 = 慢指针走过的路程 x 2`。
@@ -185,7 +185,7 @@ draft: false
 
 - 计算相遇点动画展示
 
-	![%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8_II_%E5%85%A5%E5%8F%A3.gif](https://image.cody.fan/blog/a339012da8513708605a5b095c11f38d.gif)
+	![%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8_II_%E5%85%A5%E5%8F%A3.gif](https://image.1874.run/blog/a339012da8513708605a5b095c11f38d.gif)
 
 
 ## 题解

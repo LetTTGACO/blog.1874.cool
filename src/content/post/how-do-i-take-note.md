@@ -1,6 +1,7 @@
 ---
-date: '2023-10-19 08:00:00'
+date: '2023-10-19 00:00:00'
 description: 本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。
+hidden: false
 urlname: how-do-i-take-note
 title: 我的笔记管理法
 tags:
@@ -18,7 +19,7 @@ draft: false
 ## 卡片笔记写作法：如何实现从阅读到写作
 
 
-![8ffc7285138d77ba6e6928e4cfef0e93.png](https://image.1874.cool/blog/559adc90dceca0b6fc4b4474f8007444.png)
+![8ffc7285138d77ba6e6928e4cfef0e93.png](https://image.1874.run/blog/559adc90dceca0b6fc4b4474f8007444.png)
 
 
 > **「我的研究课题是社会理论，持续时间是30年，成本为零」——尼克拉斯·卢曼**
@@ -43,7 +44,7 @@ draft: false
 ## **什么是卡片笔记法**
 
 
-![889a2680c97080acbe1f1ac485226aa4.png](https://image.1874.cool/blog/2f4a16d2360d90f8c4141b52711bc1ec.png)
+![889a2680c97080acbe1f1ac485226aa4.png](https://image.1874.run/blog/2f4a16d2360d90f8c4141b52711bc1ec.png)
 
 
 从本质上讲，卡片笔记法不是一种**「技巧」**，而是一个**「流程」**，一种存储和组织知识、扩展记忆、生成新连接和想法的方法。
@@ -64,7 +65,7 @@ draft: false
 记录卡片，就是构建自己的知识网络的第一步，记录的同时也代表着思考，而思考是会有连锁反应的。通过和已有笔记的关联，诞生新的想法，继续记下来。
 
 
-![870c1efae952a662ddab00baa41c3424.png](https://image.1874.cool/blog/3f90fd317c9a2af7a5c55986ee4d08ba.png)
+![870c1efae952a662ddab00baa41c3424.png](https://image.1874.run/blog/3f90fd317c9a2af7a5c55986ee4d08ba.png)
 
 
 在某种程度来说，知识网络的构建和「躺平说」不冲突，甚至我觉得知识网络的构建在一定程度上就是为了「躺平」。
@@ -118,7 +119,7 @@ draft: false
 而Flomo就是从卢曼的卡片笔记管理法孕育出来的符合现代实践的笔记软件。
 
 
-![5a04d4aa497c7c82390572ed44ab2de7.png](https://image.1874.cool/blog/728f3d25439d3fe8d2ea5cf2de604bc9.png)
+![5a04d4aa497c7c82390572ed44ab2de7.png](https://image.1874.run/blog/728f3d25439d3fe8d2ea5cf2de604bc9.png)
 
 
 flomo 101的理念让我非常感慨。
@@ -139,10 +140,10 @@ Flomo笔记软件也在我的笔记管理法中充当了非常重要的角色。
 > **20240630 更新，详情请移步：[月刊（第2期）：信息就像糖，让人上瘾](/2024-month-02)**
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb224c51-65c8-4125-9ee2-afa18cdc6d68/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240630%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240630T150414Z&X-Amz-Expires=3600&X-Amz-Signature=83298bb18eb56b2c79b7beca877862ff5315ba51c2df5d40ff254ca839aaa12f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://image.1874.run/blog/7a0f27857f67856d2c6783b19b67ae1d.png)
 
 
-![ad229984a36a979ec3ddb8c8863faf14.png](https://image.1874.cool/blog/303b1f8a6188d1a3e09bd7311079b9e7.png)
+![ad229984a36a979ec3ddb8c8863faf14.png](https://image.1874.run/blog/303b1f8a6188d1a3e09bd7311079b9e7.png)
 
 
 我的笔记管理法里面涉及几个信息输入和输出时的重要的场景和需求：
@@ -170,7 +171,7 @@ Flomo笔记软件也在我的笔记管理法中充当了非常重要的角色。
 > 「快速浏览」的关键在于要把重点放在「发现」而不是「吸收」上面。因为前者花的时间很短，而后者会很长，最有效率的做法是，看到你感兴趣的，就把他扔在一个统一的地方，然后忘掉，去看发现下一个。等刷完你的时间线后，再开始「吸收」刚刚扔进来的一堆信息。这有点像你在 shopping, 把你想要的都放在购物车上，然后回家再把这一车的东西吸收整理。——Randy Lu《我的笔记管理法》
 
 
-![465cc5b1176fb0005a3dc4c65b3f4348.png](https://image.1874.cool/blog/57e92d6800591697735cb6d651aad998.png)
+![465cc5b1176fb0005a3dc4c65b3f4348.png](https://image.1874.run/blog/57e92d6800591697735cb6d651aad998.png)
 
 
 当然，结合卡片笔记管理法中所提到的回顾的重要性，当我们收藏起来之后，一定要抽时间去阅读它，并记录自己想法，才能让收藏变的更有意义。
@@ -224,7 +225,7 @@ Flomo笔记软件也在我的笔记管理法中充当了非常重要的角色。
 我认为博客和微信公众号等平台一样，都是一个打造个人 IP 的平台，有了个人 IP，才能撬动其他的资源。
 
 
-![dd7319ab0f7967d8e87ca05d3ea236da.png](https://image.1874.cool/blog/fd9ce8eede94361918f740a8d9cfdf4b.png)
+![dd7319ab0f7967d8e87ca05d3ea236da.png](https://image.1874.run/blog/fd9ce8eede94361918f740a8d9cfdf4b.png)
 
 
 ## **把工具嵌入到工作流程，而不是将工作流程嵌入工具**
