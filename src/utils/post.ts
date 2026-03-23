@@ -1,26 +1,31 @@
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
+
 const configPage = ["about", "links"];
 
-/** Note: this function filters out draft posts based on the environment */
-export async function getAllPosts() {
+export async function getAllPosts(): Promise<Array<CollectionEntry<"post">>> {
 	const posts = await getCollection("post", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
+		if (import.meta.env.PROD) return data.draft !== true;
+		return true;
 	});
 
 	return posts.filter((post) => !configPage.includes(post.slug));
 }
 
 export function sortMDByDate(posts: Array<CollectionEntry<"post">>) {
-	return posts.sort((a, b) => {
-		const aDate = new Date(a.data.date ?? a.data.updated).valueOf();
-		const bDate = new Date(b.data.date ?? b.data.updated).valueOf();
-		return bDate - aDate;
-	}) as Array<CollectionEntry<"post">>;
+	return posts
+		.filter((post) => !configPage.includes(post.slug))
+		.sort((a, b) => {
+			const aDate = new Date(a.data.date ?? a.data.updated).valueOf();
+			const bDate = new Date(b.data.date ?? b.data.updated).valueOf();
+			return bDate - aDate;
+		}) as Array<CollectionEntry<"post">>;
 }
 
 export function filterHidden(posts: Array<CollectionEntry<"post">>) {
-	return posts.filter((post) => !post.data.hidden) as Array<CollectionEntry<"post">>;
+	return posts
+		.filter((post) => !configPage.includes(post.slug))
+		.filter((post) => !post.data.hidden) as Array<CollectionEntry<"post">>;
 }
 
 /** Note: This function doesn't filter draft posts, pass it the result of getAllPosts above to do so. */
