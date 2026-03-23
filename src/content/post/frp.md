@@ -1,5 +1,5 @@
 ---
-date: '2024-01-28 08:00:00'
+date: '2024-01-28 00:00:00'
 description: ''
 hidden: false
 urlname: frp
@@ -31,7 +31,7 @@ draft: false
 ## FRP
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/b1ef2f4e-d4f2-4c72-97b4-1ea3d658dac8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WNYOPZ4M%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDHh3QYGfkgEvuvxfpy%2FjjVQlaQ3wbzyx2OmnU45W%2FZ2wIhAMWaqjcJZc8vaWrqQ9L%2FaokXH0QsFBPEBL7IrTSSwR6AKv8DCHEQABoMNjM3NDIzMTgzODA1IgwYdcnMPskqjOQmPAQq3APW008xv7z2mPeq8YLUVv5wCqXgxNguGPXpq5KFl3CNyMPoU%2FYJYgsmNHJhvkoo2OddshCjqYlTXLptvQJ4UQsN%2Fj0et3EZwPyZWNEozJYnnkDhh0JntOVPaYWG3jm4Iqmu3CBWYuYa5JORqOdM75tRrqZH0Adr%2FzpcYK9Ro%2FOAf0X5G7t2PjEDDhi2%2FOxZKmj%2FEz0q4DCYUVM9wHC1uEuW8xCFso%2FMNmV9AG50GX8VQ3DZq5iQhF8wfZDBc%2B03r7nKr0SbT4bfXKrpoyffeVIGWmBhumPWMCIVMQd26dKtcfTfmGEyzSOATmeA14po7gD9aXZizhwLusr0KExdc6tsl7pO85YjlWgnOX8qRHeyTiSLRms96207UzxHrFGm3RLoBycRvSMRB6w6c7GbpRXQyXQ6dgzCKv3AVoijs9OaRcQ35xPy62WCFBTvEssnD20fKkQej9XrG6PZE0eav7Sy8WegExyWyyMlk0BDviCGKi%2BA1%2FnlGDadFxqqEv1zU5jRnB69VMr3kxcZqqUg0J7lmAakfM1jf2yOk7i5CYVUwfNXvqDg5RMh4lAfnJUVaN8EwqzdYFGQK0wkTRan1VqyQV%2FIOIOAlYyKxverwRzI33%2BTgOn6IbkeoJokbTDN9oHOBjqkAa%2FXyi3WZinOXm8LXuHMtEMSidt1oCPsfKMAMlJWxWi0cnXjmtieP%2B9g7DV9pjGKT%2FUbk%2FRRZ4TDVcZ%2FsoW9Rxo3oo6Ie%2BjjX%2FDIhB1HuhNb%2BuChxJ52ZrypoEikJ7jBFhczvcXAmeJyuU2i28BHtcI3sjdH2nfncAxl6JLcHCsGkip1%2BSvFiFhFDkPEQ9P6tgG6Q%2FXqgiEos3b8SpOr3xOFYnRJ&X-Amz-Signature=1a75b72e6a7fce677fa1b8c1e706c20914e3a57d47cf1f94de976107e72af494&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![Untitled.png](https://image.1874.run/blog/c58a08d4a06214a0375a7db196632503.png)
 
 
 完整点的 FRP 内网穿透应该是上面的架构

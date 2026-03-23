@@ -1,5 +1,5 @@
 ---
-date: '2024-06-29 08:00:00'
+date: '2024-06-29 00:00:00'
 description: ''
 hidden: false
 urlname: unbantu-samba

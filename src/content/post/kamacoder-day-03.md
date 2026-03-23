@@ -1,5 +1,5 @@
 ---
-date: '2025-02-27 08:00:00'
+date: '2025-02-27 00:00:00'
 description: 学习链表基础，解决203.移除链表元素、707.设计链表、206.反转链表的思路和代码实现，强调虚拟头节点的使用和双指针法的递归推导。
 hidden: true
 urlname: kamacoder-day-03
@@ -88,7 +88,7 @@ draft: false
 - 注意指针只是保存了链表的引用，在循环的过程中只需要改变指针的引用，就不会对原链表造成影响。只有对引用链表的 `next` 进行赋值，才回改变原链表
 - 动画演示
 
-![%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/20d0997f-da53-4bb9-9c56-a88561e7acc6/%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46654M7N47R%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGW5A2%2BxwnwEkiQHXKSrZ4HAX0BBEicmHns8oNO1KuMwAiEAzFSul80e%2F7ZsFyLXFBaa345riKre5Gg%2FifRjK8WYaUQq%2FwMIcRAAGgw2Mzc0MjMxODM4MDUiDKm9JYtq%2BwHzFazkfircAxdTorWWk6o1%2F1JjRdqOD1cweZ840v1lp8BBywEJmzbZKSM1PkqWBYK590gLGq6ODqKG%2BOKzL3mOoPZ39sLzGXuemzCZlN1dcFOC9YCgAggfCFvnOiKUa40Tk0Du5pMLn7uaIVcZ7RRPW0NrMBYNZ3DNoLY2PjhlcLDfsMhH9Ue8thH9znR72fxWyzM24%2BSdD%2BGor8988v80I2Yt1r5BpH%2BdZ%2FgKIorT4Iqv4TzsL7ej0NBc3W5P%2BMFD2bCfXVkAySp4IiUc5Y4iFtL2zMgz03k7z416AQcSFT0aAla9%2BfYbXgyPDWwkMaPc%2FSqKfji8%2Bo4%2BH01r11bN9jd%2FWLbx1sNI6OQ29aaC%2BnW%2Fnb%2BqPJwPVRPwb4%2FmnRqFSMsDkMLuXAAraQna6dJ5vRq7qvLIbaoOuffFO6ueaj1Abv6m1eOfHRDTy4ZIE7cde8SsOUZeLuLTbi5sK4oMDdJOeAaGsxlyhOoIG31YQxp16Y0OCPfClz%2F4COLbMKeoz7chwSe8QItJCJKnOO7535uXns3o%2FSAmmrjGJEEXA4Afe0kwc2bjXDcoMrtENDUReq%2FGhEOYeLneC4x1JhXCEOE6j6H%2BRwJf4g9JUM2B31CXmzDNqpxLHccDko7z38QrddRZMLr3gc4GOqUBmx7Lt2Y6nig9Zs9S%2BSP0ehoOYIOw6VuNsBk54pi2z3ADOVSpVXcrkI%2BbPraDXvFIBFMVoRjXiu6DKASSnOg7VC2G%2BeNsIwXblFDUqTc3EaU4Yi8ebfd3zIOhiHBpvhadHRGVzT4Tgk0JeRKYXQ1nsaQ163%2BF%2BXlMrNRnqOnsGNi8kcOMRMx60CcazpdUHv%2FiSa2JG33yMdvuP4ZnlKweP3aiUEHK&X-Amz-Signature=3dc182ad0a17e5d4f7bb08a7f2e0a0461af0bd79c8e213b047bc03b2461db930&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.gif](https://image.1874.run/blog/cb0471076e21b04496e8f8e217ee299c.gif)
 
 
 ## 题解

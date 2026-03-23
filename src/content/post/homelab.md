@@ -1,5 +1,5 @@
 ---
-date: '2024-06-29 08:00:00'
+date: '2024-06-29 00:00:00'
 description: ''
 hidden: false
 urlname: homelab
@@ -12,5 +12,5 @@ updated: '2024-08-03 15:54:00'
 draft: false
 ---
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/cf732308-9a91-41e0-bf07-62bb3e75864b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SNCDYQNO%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004645Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2BdJsiyV4nl3w2MEQH3R5gUfJqSSoWL1h7DGVLorSlNwIgXbcLF0mnE27EOhczf88gxbN%2BtkDf862urQoqL1jnPRkq%2FwMIcRAAGgw2Mzc0MjMxODM4MDUiDOlCCAJmDov2i0rSFircA47svgjNDmjp29DzpIoy0fYXrPkgtjTGWtxML4thJDpsIHZBDRq6yoYFGwPYRO9xjrNRfeFjESLJuabKgrZ3oBbDNuUn46niB0IB%2BjaolkRTl2IBWg5kD73czmTcH4z5k%2FIoI81CnkQQLUy10GVKlKam97lk5WLmU4B0wnSXp5pQBZLoZtQprXG2rusC283ef4uKoE5dXtgm4KpVRFyJe%2FthUXobcRY84Fu6NIPnpq7zmTK9BE8mgF2Y5KLrRc%2F6QKNtGx7ffWUr%2BtTnSY0rDffvrW8FvZsKtEl5qf1AOkksnxEpz3Is7cxXjkrKa2n9CYVTZYYWe4QvtJsSce5V7fV5TgNpqjJCBazjAlA1EpksXY77vrKoe%2F%2B8y%2B9nrzWPQMEUe%2BrfknYkPVcB0xiEEsqnNTFtQQxmcwtKv%2B%2BGTgjVskxIB9hx4ueAt4Qlo3NOj%2BDPTw0i8BR19Z6jOEdDUW7EJ0yAsX4iAMqxBN1IHu03KlwXe8OurbehJy9iHl4j5%2BcLJuBCwgYRGz1n8bpavE1b8HpfR0J%2BeUuKQ2TlSpeLotqOTTPK21mCPc1SnowU7W2%2FYgGNcgyPy%2FUlo58Gde%2FOBObGIXA3vwi3ETymTUrcRrH55asUqmGwXNLlMP%2F2gc4GOqUBSnDllo4GXLPA9%2BxggiLTnUMxHVBxlCybUGDEnIr%2FcNwwy8oUv9dz5f%2Fmra1TCvcMZ6JFCvf9d%2FNxzOVeNdDq5da4iVsAsLA7VyctQOs%2FmaUsmY7HW4H4DZNce39ySrBaw0U4upoDvOkVjX6hfPqT1lStfCsTPJ16aHG9AodIWIyfIEcGpXR%2BHWpwq5O2zZwqdELh8AlMkgSQ12IsKB5JHRU%2FN0Wi&X-Amz-Signature=6b4b367f14a23333c767f80ff89b5f206ce07d218e074349d896fb3def2eb87d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![Untitled.png](https://image.1874.run/blog/5d7064ab60d9a7aaede64533a2c5777a.png)
 

@@ -1,5 +1,5 @@
 ---
-date: '2025-02-25 08:00:00'
+date: '2025-02-25 00:00:00'
 description: 今日学习了二分查找、移除元素和有序数组的平方等算法，掌握了双指针法和暴力解法的实现思路，记录了学习收获和遇到的困难。
 hidden: true
 urlname: kamacoder-day-01
@@ -130,7 +130,7 @@ draft: false
 - 因为头指针所在的负数的平方可能会比原有的尾指针所在的正数的平方大，所以需要在双指针移动的过程中进行从大到小排序。那么就可以事先定义数组长度的下标值，在找到最大值时就更新结果数组的最后一位下标的值，然后下标减一
 - 动画演示
 
-	![%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/3bd15c13-a004-476c-a1ab-a82e54fe898a/%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466W2DXI4UI%2F20260323%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260323T004632Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICNwX3kcbDTJKT7BeOQZaiC%2FZ1TRvsMEhmdUdZLHbab%2BAiEAtlWRjvvsR1NfO1vBQ1ELox7PEXfs5DyHWyXgUzZa1iAq%2FwMIcRAAGgw2Mzc0MjMxODM4MDUiDAlousFAFjNK5gjayCrcA4meQ6Mm61LlG9jEctpPaaF1WxjvLEzCXxFbwW6inwFEMGri2m65InF%2FyzZQ6x71OwyTgZPTK9k2wAxRr4joK%2FDkQ9LRepiEm5fFllHgCHX39nJ3VBQI209hH1m%2BsLy9EMj3TKvH%2Bw4%2BKgjLem2Ns2WqwveBiwxufGzaGl17NaOYAh8verUYkAYrOiSV5p0lQy8uqXokFoDl7eKfxjA9QIHeii6%2B0Z1qSk71Yaeehoag0MoPehtL4mdMh%2FEpwAHqiSViEoZ%2Btb3qyWDXVUBKrJ73czGHQMDlmGANQ4cI2aFDABTF1F0Jaaaar%2FfZGLCLLjNj9fgZO9P5FtGc9Euby5IaFRpDE9RkB4NxNRApt9fNTYlA44DT78HlTkLwu1pCARp%2BeraHyO8%2FS6OOke%2FbHkchZhUB9rD66FwtpF69ArYZZe1FEgkzKAhILldF%2F1NjDv314UZblN34jaTCj%2Bppxhj6vbHrd4GGo%2FymdwTwZ1GnzeGUiCrGvYG6bDH6wxjvcGDWVzVW2izzL0A0Z4EFDIwhlIAVyPPtAZhngCE8E9OUFMSYGLt%2BL3%2FU9eTASOp2TmpWJO0%2FpYRS17CdEIUVK2VHa%2FHdgKaHXLgG%2BfjA%2FXOvPlbvzwm%2Fw9dHAgmcMOz2gc4GOqUBkxIU%2FXD64n5s1xdIEe%2BPZXj20ypHENPBIVw2MJUfKL2629V4A6D7sGP8MlvfIGhiVcpHD72t%2FczrAAZHxlpTCv0D56zzBrIhY1ea%2BYy56%2FDGkOb0YrjmAESMjyf56lyccVogAiGa1RZxQzyxAw0gsvpq1My73EA3i7f1bKlBmfX5mcobTvEZQw3DIw49R9vUDd2McsK%2Fw7aKwFiDjNbu6jdJeVST&X-Amz-Signature=5fba3c55c69767ad80ab889e994d3063c17ea930620be288cfb74152e581383b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+	![%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.gif](https://image.1874.run/blog/9b849a5c97234da46ee9049a0c43e314.gif)
 
 
 ## 题解
