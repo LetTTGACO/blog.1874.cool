@@ -7,7 +7,7 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 05:59:00'
+updated: '2026-05-15 06:04:00'
 draft: false
 ---
 
@@ -20,7 +20,7 @@ draft: false
 2. 虽然 Hermes 没有多显式的多 Agent 架构，但是我的工作流也很适配 Hermes 的处理逻辑。我只需要将原本 OpenClaw 的 Agent 配置转成适配Hermes 的 Skill，也能很好地实现我的需求。
 3. Hermes 的自我进化我觉得大部分情况下是好用的，但也有不好用的时候。从我的体感上来说，Hermes 自我进化就是可以自动将一些约定存到记忆系统，能自动将与用户达成的共识生成Skill。但就是这个自动生成，反倒有时候不太好用。
 
-在尽量了好几天的折腾之后，目前形成了一套相对稳定的工作流，值得记录一下。
+在好几天的折腾之后，目前形成了一套相对稳定的工作流，值得记录一下。
 
 
 ## 系统架构总览
@@ -141,7 +141,7 @@ draft: false
 - Schedule：会议、预约等日程类项目
 - Progress Tracking：进度查询与复盘
 
-### 🚰 knowledge-pipeline - 知识处理工作流
+### 🚰 knowledge-pipeline - 回顾工作流
 
 > 用于回顾和整理 Flomo 上的笔记工作流，从聊天中产生新的想法和笔记
 
@@ -304,6 +304,6 @@ Hermes 原有飞书渠道的消息发送逻辑：发送普通消息并通过 `i
 所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方参考了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TO3R44K%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T220147Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2B3RSAboYKzBYsdIPpzC6NmAOvmYIg74zsV7GqIjLFbAIgOnJXqIcjwZCsLMgFyBqvr1DnGS0ubHRP8zk%2FcG1wNh8q%2FwMIZxAAGgw2Mzc0MjMxODM4MDUiDGxVNDd%2Bcf%2BZtKAiEyrcAzcS%2FKDBsw31wECTg3LSdkM7jH9WI7Ibj2VyyHusV%2Fd9sp8qS4DiSCrAbVesg7BSkFLkX8XOU1l%2F5dwaAFI%2FOtZ1S3QN8a6zX4oyrOBPL1Jva4spvw6fwuW6tkXGXyD8EhuJAgy%2FZcuAeYkfAvHc3XZJ0Mnt0F%2BgWNPk2IUsNubO6sei7kkiRSKUHNIzxJNaNgAzxEwrcjbAzk65XpjxRprvWYhOvQ6uZSWdEIAE7X0rou5DfLpwz%2Fy5NsYDq8v8kJRqFx6Nhl2hp8%2FEqswNgdrpOeyi2WHkNYhjZ4f5b%2BsxqcGeoGRpX1Hg2p69LLICEE5oZ1NMruzRwTRCHjDx8s6O3Ann6nQs4HlnoVGD8ILUOmvj19gFHtv5yO1gjjDq4K9nSVXw4PBf7yG6C2bvYrzKs5zA7xsyMX81j5StTCFHJg0VLUALK%2FwyOu9ZXFWdCZMHQGr0dI0gL9cGvn9ybTOF5iSFpeNm9W%2BtQ2AWiQPsmIkjXTzNGp1Wjl3FrSRYXFCyhBhbNmvRn9VlRJ6uTGwGLdsZ%2BRYio5wDXPw5%2Bx43zXNn1AcOcDwAxN9CBIQCIdhwP3kIEy%2B%2Bv46eWFomuIyb2RtjOYlXZoRuJD15KGmIwzpNbobSg5kKBucWMIaAmdAGOqUBkOp3%2B07O7yVhMVLDFABFL9pqvAgaXffhMwH4wJZAwacyzZyVwrZkBVLfTbXpjRu19MjrltcZYsG13ps%2BOsG9I10NK50Cj3yVZdsM%2BGBQxu14tPYzznf%2BwOAKg7RiT6i6S%2BBRNcVCwTFghIMgv19znxt0LB5PrfkuMT643BwiyqnotrPJto50hgy3hqjJRLOYF%2FrNeRd%2FUCrkvRrA01eJwUbolRV2&X-Amz-Signature=b627f0593d2e5013e033c914056c9c00bf3079146825aa365309c13e5844d1ce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T3OPABY2%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T220517Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAtNGLBl0EUUse5luUdZgXfjbACi0qKugws9EaeNB7sWAiBjvt6myZqmIJVdq2hZkthfNBodzZqyVMxXEVPu8LEMgCr%2FAwhnEAAaDDYzNzQyMzE4MzgwNSIMUp57VX5BK2P%2FRamEKtwDR7hwmLR8C9VNZR%2B0wEX%2BWw0vj035DLzNF%2FMw8aW1Du0cDTD9kk8VnBZJUwjEC%2FJ3TeDz1sp5VLVHMwCe%2FpslR64Mr4dphQICsiaTDwKHe%2FFlkF4YL1LQLe3fHQSD%2BjZ7C3Y4cBSBttz%2BB8%2Bs6OvRqfliYj%2BVHxwD5HXBQQOdTzHvE2PntvzvlFJiAW2iyacgfZfHgivahSp79fUxDlG973NZUAvijvJtqQgz%2FoT4uolI109%2BdzfkzjM78TTFZOsC1IiyIUo7P4oJiLTiNJ2Px%2BEuA4Zd1DD5WW9TEUNBrXBndpbZvP9uoEIylEjpzNVDcfpAup63ZOfzg7VrKpLsCSE4Fc3CwAgrwssPhk1CdbudfkCC5m4vni3r6JQa5aguYyCf3tL8Txw%2BFAEJHVsKimkVAriiAlaywejK9YEyKPTinwjsw0SEgTBqgID9rGCMbdw0zu3YbzkxW8YqnC6HVREzplEMH0bSw5dmFjQNlHTxtkpSAv869DeN5BE5G0rco8OTYjdlKGbVEzzsF80ihwIHcco8ellaZKKI22rlsxDg8JB4shyQZZTw45AwwM4g6WLQbf41AcZPXteQFy2x%2F9sfFpKl2Nh0uCEPnGg7ElmYDv%2B7o%2Be%2FeEcdcZgwoP%2BY0AY6pgGK%2FwfS6fc975VOFknCyDXUqmjBTKMZQYuFoeY12The1ddSfbZNrLZEcZZrxxSiz2RQj8u3g1NdGiTNn1M0faiIQq%2FE0eZpnupURCRf6TCKQtdW9XMlxLessSa6P6zXceZyCAa93nB23RKwu%2FAS%2B46We0ZBp9r2PAt%2BzOFToxLSaPrewg5VXV6k0g%2B6S%2FUkUEbQS6JLv0TxIVhffiUGLHlNZVpC7pKe&X-Amz-Signature=60105ce33bc4b0e6c4fabc3c19da6374b780d2c4838f2f1a923b0557e020f0ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 > 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可
