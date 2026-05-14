@@ -7,7 +7,7 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 05:39:00'
+updated: '2026-05-15 05:55:00'
 draft: false
 ---
 
@@ -292,3 +292,18 @@ siji-flomo 📝    → 笔记沉淀
 | vision           | 图片理解          | 看截图、报错图、配置图、网页截图                      | 高         | doubao-seed-2.0-pro 多模态模型 |
 | web_extract      | 网页正文提取/网页总结   | 抓网页、RSS、新闻、长文章内容                      | 高         | 主模型                       |
 
+
+## 优化飞书渠道消息展示
+
+
+Hermes 原有飞书渠道的消息发送逻辑：发送普通消息并通过 `im.v1.message.update` 反复编辑来流式传输网关响应。这种路径可行，但我个人觉得还挺别扭的：
+
+1. 飞书客户端会显示【已编辑】的行为，且编辑率行为与飞舒原生的 AI 卡流式模型不同。
+2. Markdown 文本支持不全，表格和其他一些样式几乎没有美感
+
+所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方参考了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
+
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662XQNGW2Y%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T215536Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDAhfoV7VNIWvGukrdE78DY5iu%2BB%2B5UW9JuTnDR4GnfggIhAIe3vjvxqIAxX%2FkkvAhYOMe5fkqz9NAWAfEsFshGnX7DKv8DCGcQABoMNjM3NDIzMTgzODA1Igw63D1Yr8ixoDnIU4kq3ANaw1fBYYc0iZThaU90ifRh2X2V3OzcJZUfmKf5B%2FtrRegSWaAk3dAhFOZzHjRVV2Mn5zZY9XtdHqfXSyQ%2Ba01f0xCh8nhGoVWPthHuAkA9%2BiYMbYgzHoTffCREwI21kzfVGwhGWoX3aghS1CT8heaiovPN6SJleLfQvfLKosYSz70LyP%2FsVstNYxFYNnvVw1cY720NpXeDJC6gpcOJnyufVF%2FrRW6MzKmxYn9mpWlRJSjLDRY6FQNrXGaCCc1v4I3mOmcTQYXGyzKualUME8mOPTDgNsBWLnMNnrrQ%2BuxpfkQvRzsFjmrJUKc2myNaDUwwds4XYd10XDgohuaaH900NzcBPWBZJaVHTrqUN2uK7N6Gh0AroIcRkfrcgb2MiXYCziW69zgV%2F43vfGzHINFbFMPX41FqitUx8%2FzNTY770%2BNwXWyXigxzYTLhW2oW06Y0qSDZcuHVnR95LF5ljs1Ea7ITtZ4yLw94r6%2F%2BywXuZLr1d5F9YIztXDNPzt9o3QoexylS9HpnObVJILHWA2ONoBf24kYjkY1Z4ojALEBC3eKlBy20aLiyHzoIQP9qB4hw%2BePQubMiCSoXr6lQtiEDTKS9lGcX1WK%2BhKsCZY9L2266kp3MMA%2BNuO64TzC9%2F5jQBjqkAXQarbix2owdHdIhHGAKUtDFFTUj23XkMpEZ4cpW%2ByK6%2FvY4IuwvipzxjETBlOBrnjzkZLvcUGykURV8acLs49XdLM6IkdZfvhZTca9WOcYEG64E0eCjgZfnr4DymZAtiJ8TNAKyF6ls9rwXZpJMkij0usCbFicEeE%2BEW0pannclHGlMK31BKyae%2F38urYo3fKrJAvlCPTAcz6Q55oBoWB0TZdPs&X-Amz-Signature=acc93ab9f7dd49d07a16373cfa046bdf2374eb7d60a0a1eca96a391defe77002&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+> 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可
