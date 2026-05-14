@@ -7,7 +7,7 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 06:18:00'
+updated: '2026-05-15 06:20:00'
 draft: false
 ---
 
@@ -301,9 +301,9 @@ Hermes 原有飞书渠道的消息发送逻辑：发送普通消息并通过 `i
 1. 飞书客户端会显示【已编辑】的行为，且编辑率行为与飞舒原生的 AI 卡流式模型不同。
 2. Markdown 文本支持不全，表格和其他一些样式几乎没有美感
 
-所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方参考了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
+所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方仓库了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
 
 
 ![image.png](https://image.1874.run/blog/c6ebef413616eff0b27b5be39a6eb8ea.png)
 
-> 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可
+> 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可。
