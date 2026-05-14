@@ -7,14 +7,14 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 05:55:00'
+updated: '2026-05-15 05:59:00'
 draft: false
 ---
 
 ## 前言
 
 
-最近将部分工作流切换到 Hermes 上进行了，也试用了一个多周。只能说各有千秋，不过总体感觉下来Hermes 更适合当我的个人助理。
+最近将部分工作流从 OpenClaw 切换到 Hermes 上进行了，也试用了一个多周。只能说各有千秋，不过总体感觉下来 Hermes 更适合当我的个人助理。
 
 1. Hermes 的处理速度和消息回复速度感觉明显比 OpenClaw 快很多
 2. 虽然 Hermes 没有多显式的多 Agent 架构，但是我的工作流也很适配 Hermes 的处理逻辑。我只需要将原本 OpenClaw 的 Agent 配置转成适配Hermes 的 Skill，也能很好地实现我的需求。
@@ -304,6 +304,6 @@ Hermes 原有飞书渠道的消息发送逻辑：发送普通消息并通过 `i
 所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方参考了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662XQNGW2Y%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T215536Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDAhfoV7VNIWvGukrdE78DY5iu%2BB%2B5UW9JuTnDR4GnfggIhAIe3vjvxqIAxX%2FkkvAhYOMe5fkqz9NAWAfEsFshGnX7DKv8DCGcQABoMNjM3NDIzMTgzODA1Igw63D1Yr8ixoDnIU4kq3ANaw1fBYYc0iZThaU90ifRh2X2V3OzcJZUfmKf5B%2FtrRegSWaAk3dAhFOZzHjRVV2Mn5zZY9XtdHqfXSyQ%2Ba01f0xCh8nhGoVWPthHuAkA9%2BiYMbYgzHoTffCREwI21kzfVGwhGWoX3aghS1CT8heaiovPN6SJleLfQvfLKosYSz70LyP%2FsVstNYxFYNnvVw1cY720NpXeDJC6gpcOJnyufVF%2FrRW6MzKmxYn9mpWlRJSjLDRY6FQNrXGaCCc1v4I3mOmcTQYXGyzKualUME8mOPTDgNsBWLnMNnrrQ%2BuxpfkQvRzsFjmrJUKc2myNaDUwwds4XYd10XDgohuaaH900NzcBPWBZJaVHTrqUN2uK7N6Gh0AroIcRkfrcgb2MiXYCziW69zgV%2F43vfGzHINFbFMPX41FqitUx8%2FzNTY770%2BNwXWyXigxzYTLhW2oW06Y0qSDZcuHVnR95LF5ljs1Ea7ITtZ4yLw94r6%2F%2BywXuZLr1d5F9YIztXDNPzt9o3QoexylS9HpnObVJILHWA2ONoBf24kYjkY1Z4ojALEBC3eKlBy20aLiyHzoIQP9qB4hw%2BePQubMiCSoXr6lQtiEDTKS9lGcX1WK%2BhKsCZY9L2266kp3MMA%2BNuO64TzC9%2F5jQBjqkAXQarbix2owdHdIhHGAKUtDFFTUj23XkMpEZ4cpW%2ByK6%2FvY4IuwvipzxjETBlOBrnjzkZLvcUGykURV8acLs49XdLM6IkdZfvhZTca9WOcYEG64E0eCjgZfnr4DymZAtiJ8TNAKyF6ls9rwXZpJMkij0usCbFicEeE%2BEW0pannclHGlMK31BKyae%2F38urYo3fKrJAvlCPTAcz6Q55oBoWB0TZdPs&X-Amz-Signature=acc93ab9f7dd49d07a16373cfa046bdf2374eb7d60a0a1eca96a391defe77002&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666TO3R44K%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T220147Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2B3RSAboYKzBYsdIPpzC6NmAOvmYIg74zsV7GqIjLFbAIgOnJXqIcjwZCsLMgFyBqvr1DnGS0ubHRP8zk%2FcG1wNh8q%2FwMIZxAAGgw2Mzc0MjMxODM4MDUiDGxVNDd%2Bcf%2BZtKAiEyrcAzcS%2FKDBsw31wECTg3LSdkM7jH9WI7Ibj2VyyHusV%2Fd9sp8qS4DiSCrAbVesg7BSkFLkX8XOU1l%2F5dwaAFI%2FOtZ1S3QN8a6zX4oyrOBPL1Jva4spvw6fwuW6tkXGXyD8EhuJAgy%2FZcuAeYkfAvHc3XZJ0Mnt0F%2BgWNPk2IUsNubO6sei7kkiRSKUHNIzxJNaNgAzxEwrcjbAzk65XpjxRprvWYhOvQ6uZSWdEIAE7X0rou5DfLpwz%2Fy5NsYDq8v8kJRqFx6Nhl2hp8%2FEqswNgdrpOeyi2WHkNYhjZ4f5b%2BsxqcGeoGRpX1Hg2p69LLICEE5oZ1NMruzRwTRCHjDx8s6O3Ann6nQs4HlnoVGD8ILUOmvj19gFHtv5yO1gjjDq4K9nSVXw4PBf7yG6C2bvYrzKs5zA7xsyMX81j5StTCFHJg0VLUALK%2FwyOu9ZXFWdCZMHQGr0dI0gL9cGvn9ybTOF5iSFpeNm9W%2BtQ2AWiQPsmIkjXTzNGp1Wjl3FrSRYXFCyhBhbNmvRn9VlRJ6uTGwGLdsZ%2BRYio5wDXPw5%2Bx43zXNn1AcOcDwAxN9CBIQCIdhwP3kIEy%2B%2Bv46eWFomuIyb2RtjOYlXZoRuJD15KGmIwzpNbobSg5kKBucWMIaAmdAGOqUBkOp3%2B07O7yVhMVLDFABFL9pqvAgaXffhMwH4wJZAwacyzZyVwrZkBVLfTbXpjRu19MjrltcZYsG13ps%2BOsG9I10NK50Cj3yVZdsM%2BGBQxu14tPYzznf%2BwOAKg7RiT6i6S%2BBRNcVCwTFghIMgv19znxt0LB5PrfkuMT643BwiyqnotrPJto50hgy3hqjJRLOYF%2FrNeRd%2FUCrkvRrA01eJwUbolRV2&X-Amz-Signature=b627f0593d2e5013e033c914056c9c00bf3079146825aa365309c13e5844d1ce&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 > 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可
