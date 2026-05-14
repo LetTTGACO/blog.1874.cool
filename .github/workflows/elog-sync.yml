@@ -34,6 +34,11 @@ jobs:
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
           COS_HOST: ${{ secrets.COS_HOST }}
+          R2_ACCESSKEYID: ${{ secrets.R2_ACCESSKEYID }}
+          R2_SECRET_ACCESSKEY: ${{ secrets.R2_SECRET_ACCESSKEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_HOST: ${{ secrets.R2_HOST }}
         run: |
           pnpm sync
 
