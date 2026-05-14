@@ -7,7 +7,7 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 06:04:00'
+updated: '2026-05-15 06:18:00'
 draft: false
 ---
 
@@ -286,7 +286,7 @@ siji-flomo 📝    → 笔记沉淀
 | compression      | 上下文压缩、摘要、历史裁剪 | 对话变长时压缩上下文，避免主模型上下文爆掉                 | 高         | 主模型                       |
 | curator          | 信息筛选、整理、判断重点  | 新闻筛选、网页结果整理、从大量内容中挑重点                 | 高         | 主模型                       |
 | mcp              | MCP 工具调用辅助    | flomo、滴答、GitHub、RSS 等 MCP 工具调用前后的参数理解 | 高         | 主模型                       |
-| session_search   | 当前会话/历史会话搜索   | 找“刚才说过的配置”“前面提到的模型”等上下文               | 中         | doubao-seed-2.0-lite 很合适  |
+| session_search   | 当前会话/历史会话搜索   | 找“刚才说过的配置”“前面提到的模型”等上下文               | 中         | doubao-seed-2.0-lite 足够   |
 | skills_hub       | Skill 选择/路由   | 判断该用哪个 skill，比如新闻搜索、网页提取、MCP 操作       | 中高        | 主模型                       |
 | title_generation | 生成对话标题        | 自动给会话起标题                              | 低         | doubao-seed-2.0-lite 足够   |
 | vision           | 图片理解          | 看截图、报错图、配置图、网页截图                      | 高         | doubao-seed-2.0-pro 多模态模型 |
@@ -304,6 +304,6 @@ Hermes 原有飞书渠道的消息发送逻辑：发送普通消息并通过 `i
 所以我花了几天时间使用 Codex，一边帮我了解源码架构，一边寻找可行的解决办法。经历了3版技术文档，终于算是开发并冒烟测试完成了。已经提了个 PR 到官方参考了：[https://github.com/NousResearch/hermes-agent/pull/23488](https://github.com/NousResearch/hermes-agent/pull/23488)
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/fb5f4b94-117f-42ea-8868-32383bc51f9f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T3OPABY2%2F20260514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260514T220517Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAtNGLBl0EUUse5luUdZgXfjbACi0qKugws9EaeNB7sWAiBjvt6myZqmIJVdq2hZkthfNBodzZqyVMxXEVPu8LEMgCr%2FAwhnEAAaDDYzNzQyMzE4MzgwNSIMUp57VX5BK2P%2FRamEKtwDR7hwmLR8C9VNZR%2B0wEX%2BWw0vj035DLzNF%2FMw8aW1Du0cDTD9kk8VnBZJUwjEC%2FJ3TeDz1sp5VLVHMwCe%2FpslR64Mr4dphQICsiaTDwKHe%2FFlkF4YL1LQLe3fHQSD%2BjZ7C3Y4cBSBttz%2BB8%2Bs6OvRqfliYj%2BVHxwD5HXBQQOdTzHvE2PntvzvlFJiAW2iyacgfZfHgivahSp79fUxDlG973NZUAvijvJtqQgz%2FoT4uolI109%2BdzfkzjM78TTFZOsC1IiyIUo7P4oJiLTiNJ2Px%2BEuA4Zd1DD5WW9TEUNBrXBndpbZvP9uoEIylEjpzNVDcfpAup63ZOfzg7VrKpLsCSE4Fc3CwAgrwssPhk1CdbudfkCC5m4vni3r6JQa5aguYyCf3tL8Txw%2BFAEJHVsKimkVAriiAlaywejK9YEyKPTinwjsw0SEgTBqgID9rGCMbdw0zu3YbzkxW8YqnC6HVREzplEMH0bSw5dmFjQNlHTxtkpSAv869DeN5BE5G0rco8OTYjdlKGbVEzzsF80ihwIHcco8ellaZKKI22rlsxDg8JB4shyQZZTw45AwwM4g6WLQbf41AcZPXteQFy2x%2F9sfFpKl2Nh0uCEPnGg7ElmYDv%2B7o%2Be%2FeEcdcZgwoP%2BY0AY6pgGK%2FwfS6fc975VOFknCyDXUqmjBTKMZQYuFoeY12The1ddSfbZNrLZEcZZrxxSiz2RQj8u3g1NdGiTNn1M0faiIQq%2FE0eZpnupURCRf6TCKQtdW9XMlxLessSa6P6zXceZyCAa93nB23RKwu%2FAS%2B46We0ZBp9r2PAt%2BzOFToxLSaPrewg5VXV6k0g%2B6S%2FUkUEbQS6JLv0TxIVhffiUGLHlNZVpC7pKe&X-Amz-Signature=60105ce33bc4b0e6c4fabc3c19da6374b780d2c4838f2f1a923b0557e020f0ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://image.1874.run/blog/c6ebef413616eff0b27b5be39a6eb8ea.png)
 
 > 在PR未被合并之前，如果也想试用的话，可以直接将我的分支代码合并到主分支，然后替换掉 Hermes 中的相关文件，重启Hermes 网关即可
