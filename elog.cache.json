@@ -589,9 +589,77 @@
       "realName": "codex-workflow",
       "relativePath": "/codex-workflow.md",
       "docPath": "./src/content/post"
+    },
+    {
+      "id": "37acca23-1452-8012-ac84-df4ff09c9dbe",
+      "doc_id": "37acca23-1452-8012-ac84-df4ff09c9dbe",
+      "updated": 1781020560000,
+      "properties": {
+        "date": "2026-06-09 08:00:00",
+        "description": "通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。",
+        "hidden": false,
+        "urlname": "raycast-ai-custom",
+        "title": "Raycast AI 接入自定义 Providers",
+        "tags": [
+          "赛博空间"
+        ],
+        "cover": "https://image.1874.run/blog/c6134313479be0678da9ce61d7aa7eb7.png",
+        "updated": "2026-06-09 23:56:00",
+        "draft": false
+      },
+      "realName": "raycast-ai-custom",
+      "relativePath": "/raycast-ai-custom.md",
+      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "37acca23-1452-8012-ac84-df4ff09c9dbe",
+      "created_time": "2026-06-09T15:04:00.000Z",
+      "last_edited_time": "2026-06-09T15:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": {
+        "type": "external",
+        "external": {
+          "url": "https://image.1874.run/codex/f7aa09248dc6d81a5099274fcebea3de.png"
+        }
+      },
+      "icon": {
+        "type": "emoji",
+        "emoji": "🌓"
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "in_trash": false,
+      "is_archived": false,
+      "is_locked": false,
+      "properties": {
+        "date": "2026-06-09 08:00:00",
+        "description": "通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。",
+        "hidden": false,
+        "urlname": "raycast-ai-custom",
+        "title": "Raycast AI 接入自定义 Providers",
+        "tags": [
+          "赛博空间"
+        ],
+        "cover": "https://image.1874.run/blog/c6134313479be0678da9ce61d7aa7eb7.png",
+        "updated": "2026-06-09 23:56:00",
+        "draft": false
+      },
+      "url": "https://app.notion.com/p/Raycast-AI-Providers-37acca2314528012ac84df4ff09c9dbe",
+      "public_url": null,
+      "archived": false
+    },
     {
       "object": "page",
       "id": "37acca23-1452-804a-91c9-ee65c511e688",
@@ -625,16 +693,20 @@
       "properties": {
         "date": "2026-06-09 08:00:00",
         "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-workflow",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "从对话到沉淀：我的 Codex 工作流实践",
         "tags": [
           "赛博空间",
           "Codex"
         ],
-        "cover": "https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png",
-        "updated": "2026-06-09 22:34:00",
-        "draft": false
+        "cover": "https://image.1874.run/blog/fe59bc13259b3c6eb6a57d1afcf657e6.png",
+        "updated": "2026-06-09 22:34:00"
       },
       "url": "https://app.notion.com/p/Codex-37acca231452804a91c9ee65c511e688",
       "public_url": null,
@@ -668,16 +740,20 @@
       "properties": {
         "date": "2026-05-20 08:00:00",
         "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-claude-code",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
           "赛博空间",
           "Codex",
           "ClaudeCode"
         ],
-        "updated": "2026-06-09 22:34:00",
-        "draft": false
+        "updated": "2026-06-09 22:34:00"
       },
       "url": "https://app.notion.com/p/Codex-Claude-Code-366cca23145280ad9f31f254b4d1b9cd",
       "public_url": null,
@@ -1420,8 +1496,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VI6XBAIY%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T143523Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJIMEYCIQDLhonM3XIKt05cyee25IFcxtVClkttpRULA6QYaiuY6wIhAJ1Hs7RJwZDO2qXj7QbqGv8GD5Y0B2Hfp4WJuIY03DbyKogECND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx7QYVhryLuZzywpj8q3AOhDz3FaSWJ87oFQlgvM1l8ymrfkLXCXKKnbjeyoiTM8kN1j7mqKx2kjn5qFRkTU6oHCYyxNbOi%2F5WZftACYL9%2FTAKS7p89lIuRinFNOUBh2I9dsyv8un9L3eGVTEIAI4ZlECLXiGLYhEnJ1VAxI3L6%2B0uu5ZhVUV7LjtHk%2Fe9GsBKRuFmngxeDJAREKIbNG538YulzWkwM%2BJBCvCqsnc78qYnOPelpKVgYXm5%2BvCutb19cWiLc7J4bbarU%2FQgUMzjV2i51ezfVCTfnDaiJHSL%2BYifoJtlyS8rMjXHgyUJlm9kLIUdcPn%2FKnJRj7IudEJeTEAg3zipMD701Qnjs%2F60ylYHmllbFBZytR5G12cfD6rk5F2esFQ%2BQYv9CT1qgGAxgvX84w8ds6N%2BiBlBRo9oB7rtE6tJI2iwEdmK46aHguqQN54WutOU%2B0hv5PHMBaxNWBgOf8zUJpw%2BoYF5LFGzCsR1bVLL5Q5I3ToiJZzV7ANCA2HpONmZFbbKyUzz4MkO41BtdArznmsytTqWhNNze7BRLYP8erFHu4GIDyjGLwYQYCJLwjx11GHydAvsDduMWnExrdE1rksJ6ROZSF%2F7eaC8gnBxwEebpp5UCh3TeZhkbLenK%2Bl3x%2FG2dKDCZxaDRBjqkAZqNOpT1JuZ1ZRZcx9CmDjIMVqO79%2B7aQe8RcXZvEWrtvJtEeA8AWywSMrpFxtBS%2BEpcs6cohMWXcLi8r5LTIuA0Ir6LSkKYu1eHY89Z3Dm1elTm%2FhbEGka5Dch%2FOZuplG%2BHnzrZQn%2FChzPRlPpYaydjD0RRPj3UG5h42FMWVgC0QhRi604K4I64bh2DmwmUQrqtxZh36ZcR6PB2GpAsqyBIKBPL&X-Amz-Signature=76f58e794502738953c35110610adf3007c3684812361ccccd8dc7bd891f8e01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-06-09T15:35:22.996Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZMERZPAV%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T155941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJGMEQCIAxccZGgYy%2F37%2FXiC%2Fq%2FbaQckaJPrkGxT9gOpWTtDtSkAiBqqv5APcVzKHP5lebDmMZpM4rIum%2FmUHIvPQUpQ2F98CqIBAjQ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMADyHI6IxWiQ5YprpKtwDEhxun5lP5rLTm0uUPcHseePYZqx%2BL8GUi4g3TK38VBob5rjND%2FIx7jt%2Bpx3w8gPCrwW7%2FoosWi4usjIugJRCowsYh0xvGt2QJdA8Pla7Q0jMFLBwa3OgCIOc2E5oOjxVvF1YqaWozHR26gk4ZjBfR091mJEhQdyyatJCg%2F20wGMxigi9epcZNfKmcRKjCAVUualZevm5c%2F112wlE72aRmKXv%2BfJ9NOsmd9k7szKlBpVHnAlEhaT%2Bs%2Fi9NYOmTSdQhaw4mLb8IgeRhppzgIfy9SbfjNGoksNWhP6xrH9SM1vSfxmztQ7LhBf%2BA6YRWIlVMnT7n72HCKVjMVPOEjm17NtmRVVYFNkQoajpHqmJaqMyCpsIgZGCx9DgEp10oP1zFiHJoj5n3nXjioega5P%2Fu9FdLMOyuENCI5CNZk7aefnIF4H9Md3rr4KJA05hq%2BWP92wsd2%2FNpvkalf2hGXivfxfSCB9RwtPtB09mKmaS2R1n9wWIhuRd9RNGR1vdf4Lav70wlVwfTh2UqlmN566Fm07FrBjrTnURmERSRifqIQQwr3bEybireiAQzRNdmCmVM%2FljtdDBSlh971TaEySdEsT9WVjcF%2Fmy14u%2BZPFxARYuq4wHYqwQzbi2jGowocag0QY6pgGU5byvyWAsyIm6c03yghslzA4SKbYQClddHHxtSB1iQJhx9%2FoGuduKGtbxaAEz5abpF5OeOEfZPcjOcJUKQl3lfgida7entXtHEcv0Hj5Pulv%2BqH4yFJ4GVSd7QuiYh0C4isASe5XzMhoUZVl04r6fYxAmWFWSKPywG%2F6IeDLxgn6%2FQ%2FiQhVh1J7gVLRFbQT%2BAAs146e5zS79oB5LIyR2NdMe4EOPg&X-Amz-Signature=3cb57aeab04e3c147fac5b063cbc966f9075842aa05cf70fbe16928f4a0b2019&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-06-09T16:59:41.262Z"
         }
       },
       "icon": {
@@ -1452,7 +1528,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VI6XBAIY%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T143523Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJIMEYCIQDLhonM3XIKt05cyee25IFcxtVClkttpRULA6QYaiuY6wIhAJ1Hs7RJwZDO2qXj7QbqGv8GD5Y0B2Hfp4WJuIY03DbyKogECND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx7QYVhryLuZzywpj8q3AOhDz3FaSWJ87oFQlgvM1l8ymrfkLXCXKKnbjeyoiTM8kN1j7mqKx2kjn5qFRkTU6oHCYyxNbOi%2F5WZftACYL9%2FTAKS7p89lIuRinFNOUBh2I9dsyv8un9L3eGVTEIAI4ZlECLXiGLYhEnJ1VAxI3L6%2B0uu5ZhVUV7LjtHk%2Fe9GsBKRuFmngxeDJAREKIbNG538YulzWkwM%2BJBCvCqsnc78qYnOPelpKVgYXm5%2BvCutb19cWiLc7J4bbarU%2FQgUMzjV2i51ezfVCTfnDaiJHSL%2BYifoJtlyS8rMjXHgyUJlm9kLIUdcPn%2FKnJRj7IudEJeTEAg3zipMD701Qnjs%2F60ylYHmllbFBZytR5G12cfD6rk5F2esFQ%2BQYv9CT1qgGAxgvX84w8ds6N%2BiBlBRo9oB7rtE6tJI2iwEdmK46aHguqQN54WutOU%2B0hv5PHMBaxNWBgOf8zUJpw%2BoYF5LFGzCsR1bVLL5Q5I3ToiJZzV7ANCA2HpONmZFbbKyUzz4MkO41BtdArznmsytTqWhNNze7BRLYP8erFHu4GIDyjGLwYQYCJLwjx11GHydAvsDduMWnExrdE1rksJ6ROZSF%2F7eaC8gnBxwEebpp5UCh3TeZhkbLenK%2Bl3x%2FG2dKDCZxaDRBjqkAZqNOpT1JuZ1ZRZcx9CmDjIMVqO79%2B7aQe8RcXZvEWrtvJtEeA8AWywSMrpFxtBS%2BEpcs6cohMWXcLi8r5LTIuA0Ir6LSkKYu1eHY89Z3Dm1elTm%2FhbEGka5Dch%2FOZuplG%2BHnzrZQn%2FChzPRlPpYaydjD0RRPj3UG5h42FMWVgC0QhRi604K4I64bh2DmwmUQrqtxZh36ZcR6PB2GpAsqyBIKBPL&X-Amz-Signature=76f58e794502738953c35110610adf3007c3684812361ccccd8dc7bd891f8e01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZMERZPAV%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T155941Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJGMEQCIAxccZGgYy%2F37%2FXiC%2Fq%2FbaQckaJPrkGxT9gOpWTtDtSkAiBqqv5APcVzKHP5lebDmMZpM4rIum%2FmUHIvPQUpQ2F98CqIBAjQ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMADyHI6IxWiQ5YprpKtwDEhxun5lP5rLTm0uUPcHseePYZqx%2BL8GUi4g3TK38VBob5rjND%2FIx7jt%2Bpx3w8gPCrwW7%2FoosWi4usjIugJRCowsYh0xvGt2QJdA8Pla7Q0jMFLBwa3OgCIOc2E5oOjxVvF1YqaWozHR26gk4ZjBfR091mJEhQdyyatJCg%2F20wGMxigi9epcZNfKmcRKjCAVUualZevm5c%2F112wlE72aRmKXv%2BfJ9NOsmd9k7szKlBpVHnAlEhaT%2Bs%2Fi9NYOmTSdQhaw4mLb8IgeRhppzgIfy9SbfjNGoksNWhP6xrH9SM1vSfxmztQ7LhBf%2BA6YRWIlVMnT7n72HCKVjMVPOEjm17NtmRVVYFNkQoajpHqmJaqMyCpsIgZGCx9DgEp10oP1zFiHJoj5n3nXjioega5P%2Fu9FdLMOyuENCI5CNZk7aefnIF4H9Md3rr4KJA05hq%2BWP92wsd2%2FNpvkalf2hGXivfxfSCB9RwtPtB09mKmaS2R1n9wWIhuRd9RNGR1vdf4Lav70wlVwfTh2UqlmN566Fm07FrBjrTnURmERSRifqIQQwr3bEybireiAQzRNdmCmVM%2FljtdDBSlh971TaEySdEsT9WVjcF%2Fmy14u%2BZPFxARYuq4wHYqwQzbi2jGowocag0QY6pgGU5byvyWAsyIm6c03yghslzA4SKbYQClddHHxtSB1iQJhx9%2FoGuduKGtbxaAEz5abpF5OeOEfZPcjOcJUKQl3lfgida7entXtHEcv0Hj5Pulv%2BqH4yFJ4GVSd7QuiYh0C4isASe5XzMhoUZVl04r6fYxAmWFWSKPywG%2F6IeDLxgn6%2FQ%2FiQhVh1J7gVLRFbQT%2BAAs146e5zS79oB5LIyR2NdMe4EOPg&X-Amz-Signature=3cb57aeab04e3c147fac5b063cbc966f9075842aa05cf70fbe16928f4a0b2019&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
