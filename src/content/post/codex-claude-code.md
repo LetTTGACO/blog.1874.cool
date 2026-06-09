@@ -1,12 +1,14 @@
 ---
 date: '2026-05-20 08:00:00'
-description: ''
+description: Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。
 hidden: false
 urlname: codex-claude-code
 title: Codex + Claude Code 省钱工作流（个人版）
 tags:
   - 赛博空间
-updated: '2026-05-20 10:53:00'
+  - Codex
+  - ClaudeCode
+updated: '2026-06-09 22:34:00'
 draft: false
 ---
 

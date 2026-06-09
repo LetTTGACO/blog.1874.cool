@@ -549,30 +549,102 @@
     {
       "id": "366cca23-1452-80ad-9f31-f254b4d1b9cd",
       "doc_id": "366cca23-1452-80ad-9f31-f254b4d1b9cd",
-      "updated": 1779245580000,
+      "updated": 1781015640000,
       "properties": {
         "date": "2026-05-20 08:00:00",
-        "description": "",
+        "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
         "hidden": false,
         "urlname": "codex-claude-code",
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
-          "赛博空间"
+          "赛博空间",
+          "Codex",
+          "ClaudeCode"
         ],
-        "updated": "2026-05-20 10:53:00",
+        "updated": "2026-06-09 22:34:00",
         "draft": false
       },
       "realName": "codex-claude-code",
       "relativePath": "/codex-claude-code.md",
+      "docPath": "./src/content/post"
+    },
+    {
+      "id": "37acca23-1452-804a-91c9-ee65c511e688",
+      "doc_id": "37acca23-1452-804a-91c9-ee65c511e688",
+      "updated": 1781015640000,
+      "properties": {
+        "date": "2026-06-09 08:00:00",
+        "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。",
+        "hidden": false,
+        "urlname": "codex-workflow",
+        "title": "从对话到沉淀：我的 Codex 工作流实践",
+        "tags": [
+          "赛博空间",
+          "Codex"
+        ],
+        "cover": "https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png",
+        "updated": "2026-06-09 22:34:00",
+        "draft": false
+      },
+      "realName": "codex-workflow",
+      "relativePath": "/codex-workflow.md",
       "docPath": "./src/content/post"
     }
   ],
   "catalog": [
     {
       "object": "page",
+      "id": "37acca23-1452-804a-91c9-ee65c511e688",
+      "created_time": "2026-06-09T12:32:00.000Z",
+      "last_edited_time": "2026-06-09T14:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": {
+        "type": "external",
+        "external": {
+          "url": "https://image.1874.run/blog/fe59bc13259b3c6eb6a57d1afcf657e6.png"
+        }
+      },
+      "icon": {
+        "type": "emoji",
+        "emoji": "🏒"
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "in_trash": false,
+      "is_archived": false,
+      "is_locked": false,
+      "properties": {
+        "date": "2026-06-09 08:00:00",
+        "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。",
+        "hidden": false,
+        "urlname": "codex-workflow",
+        "title": "从对话到沉淀：我的 Codex 工作流实践",
+        "tags": [
+          "赛博空间",
+          "Codex"
+        ],
+        "cover": "https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png",
+        "updated": "2026-06-09 22:34:00",
+        "draft": false
+      },
+      "url": "https://app.notion.com/p/Codex-37acca231452804a91c9ee65c511e688",
+      "public_url": null,
+      "archived": false
+    },
+    {
+      "object": "page",
       "id": "366cca23-1452-80ad-9f31-f254b4d1b9cd",
       "created_time": "2026-05-20T02:22:00.000Z",
-      "last_edited_time": "2026-05-20T02:53:00.000Z",
+      "last_edited_time": "2026-06-09T14:34:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -595,19 +667,17 @@
       "is_locked": false,
       "properties": {
         "date": "2026-05-20 08:00:00",
-        "description": "",
-        "hidden": "",
+        "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
+        "hidden": false,
         "urlname": "codex-claude-code",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
-          "赛博空间"
+          "赛博空间",
+          "Codex",
+          "ClaudeCode"
         ],
-        "updated": "2026-05-20 10:53:00"
+        "updated": "2026-06-09 22:34:00",
+        "draft": false
       },
       "url": "https://app.notion.com/p/Codex-Claude-Code-366cca23145280ad9f31f254b4d1b9cd",
       "public_url": null,
@@ -646,16 +716,20 @@
       "properties": {
         "date": "2026-05-15 08:00:00",
         "description": "Hermes Agent 的工作流已迁移至 Hermes，形成六大核心 Skill（Flomo 笔记、RSS 摘要、实时搜索、任务管理、知识处理、工作流设计）以及对应的 MCP 服务器、定时任务和持久记忆层，配合多渠道推送，实现自动化信息采集、整理、标签化和任务生成，并通过模型配置优化不同场景的性能与成本。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "hermes-hacking-log",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Hermes Agent 折腾日志",
         "tags": [
           "赛博空间",
           "Hermes"
         ],
-        "cover": "https://image.1874.run/blog/ff870970077f53aa7999b8d19f74d47c.png",
-        "updated": "2026-06-09 08:44:00",
-        "draft": false
+        "cover": "https://image.1874.run/blog/be9f0f83477257716f4705e53e28abe0.png",
+        "updated": "2026-06-09 08:44:00"
       },
       "url": "https://app.notion.com/p/Hermes-Agent-360cca231452802f802df5e5ce421853",
       "public_url": null,
@@ -1346,8 +1420,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SMGSXPW3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T042633Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICrKDgTg0C4vkUd1YrU0ZxKF%2B7EqVYF70KdHK%2BD4fmwGAiEApeUvIQAMun3agUcD%2F0IemimqQxUwipEuj6c%2BiOaLgcgqiAQIxf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGcTdE8TcQqDC1qkmCrcA8UDIhPKo3jEF0h5WFtlmVQS%2BknP3%2FeVLeTGOhMtRG4e%2FGOzHM6U6LazSy4uj8E5p3cxScBjVzsx0nw9paTgs3rZ22K%2F2Y6Cqry%2FOg%2F6otURD0Qatu%2FU9Q4Wn0G7eKsrfkjHNAj3AICulKt8HX07s2Kqm79u4%2BNt6QWBbWkTojjxbi1CgC68NFVrW5JD0MiYO2W8IYzEVWz6JD7EBRBdecvPOUGPBl77hY6S7dAbDGqky6QBb8INjRJIWeTnf61XffVfdtpQ6nafqH4axpBOaP42LdbezOwVeobiG8pA87QF64P9xAa0upUkaF6tZRN7rqp5Phya1bHYFVlr%2Br1dAV0z55RnePltyCAF0mosV1x0sa6oh3DjJYXw2sco6a8MpGc8r%2F03AIFoXRLyU5MmLdKW4tOcLhrtpCprqUo9w8lePDuOJJhPz9ZLaRLeD3cOizW0CU%2BjkFh%2BALPYv1EjnbqcmkGPeo9jKLHGydDbqQTiLvMZcu1uDY%2BAdlHS4WazfDxzxHjaCGOy95PgyVAu%2FUIFOr%2FqkXZqg6PFg4Gnset3uYqi03Yq6D04pffCEv9GE1EYlEWZNoQgP1KZAxXeRAdF0u98khqdhgFC5CyHmjHG7GhDvytyz8CltdjWMKaSntEGOqUBp3hguwJGC9jKajgOWYv%2FMIElROBh%2BE%2FfszEWXaI1phGhWOn2IoWr%2BufWtB5ZtpCMn5NcSJLu6BFBJn1fUVTS2bE1FLkBb7x2lF56UgJdIanIEVIP7G6KlsFyT4bUI49vyj5nPojZ5zQVXFLM3dd8YRmx02y9bKGVEVa8nbwHvDQraceD5clUxHXJFMMyJdN%2BSOVoMZI%2F6xRiMCH801wSNSsRNg0u&X-Amz-Signature=1abd6afe4cedae9626391a28c7e08b3b9cedc8de159af99ba34139f70f9831f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-06-09T05:26:33.019Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VI6XBAIY%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T143523Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJIMEYCIQDLhonM3XIKt05cyee25IFcxtVClkttpRULA6QYaiuY6wIhAJ1Hs7RJwZDO2qXj7QbqGv8GD5Y0B2Hfp4WJuIY03DbyKogECND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx7QYVhryLuZzywpj8q3AOhDz3FaSWJ87oFQlgvM1l8ymrfkLXCXKKnbjeyoiTM8kN1j7mqKx2kjn5qFRkTU6oHCYyxNbOi%2F5WZftACYL9%2FTAKS7p89lIuRinFNOUBh2I9dsyv8un9L3eGVTEIAI4ZlECLXiGLYhEnJ1VAxI3L6%2B0uu5ZhVUV7LjtHk%2Fe9GsBKRuFmngxeDJAREKIbNG538YulzWkwM%2BJBCvCqsnc78qYnOPelpKVgYXm5%2BvCutb19cWiLc7J4bbarU%2FQgUMzjV2i51ezfVCTfnDaiJHSL%2BYifoJtlyS8rMjXHgyUJlm9kLIUdcPn%2FKnJRj7IudEJeTEAg3zipMD701Qnjs%2F60ylYHmllbFBZytR5G12cfD6rk5F2esFQ%2BQYv9CT1qgGAxgvX84w8ds6N%2BiBlBRo9oB7rtE6tJI2iwEdmK46aHguqQN54WutOU%2B0hv5PHMBaxNWBgOf8zUJpw%2BoYF5LFGzCsR1bVLL5Q5I3ToiJZzV7ANCA2HpONmZFbbKyUzz4MkO41BtdArznmsytTqWhNNze7BRLYP8erFHu4GIDyjGLwYQYCJLwjx11GHydAvsDduMWnExrdE1rksJ6ROZSF%2F7eaC8gnBxwEebpp5UCh3TeZhkbLenK%2Bl3x%2FG2dKDCZxaDRBjqkAZqNOpT1JuZ1ZRZcx9CmDjIMVqO79%2B7aQe8RcXZvEWrtvJtEeA8AWywSMrpFxtBS%2BEpcs6cohMWXcLi8r5LTIuA0Ir6LSkKYu1eHY89Z3Dm1elTm%2FhbEGka5Dch%2FOZuplG%2BHnzrZQn%2FChzPRlPpYaydjD0RRPj3UG5h42FMWVgC0QhRi604K4I64bh2DmwmUQrqtxZh36ZcR6PB2GpAsqyBIKBPL&X-Amz-Signature=76f58e794502738953c35110610adf3007c3684812361ccccd8dc7bd891f8e01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-06-09T15:35:22.996Z"
         }
       },
       "icon": {
@@ -1378,7 +1452,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SMGSXPW3%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T042633Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICrKDgTg0C4vkUd1YrU0ZxKF%2B7EqVYF70KdHK%2BD4fmwGAiEApeUvIQAMun3agUcD%2F0IemimqQxUwipEuj6c%2BiOaLgcgqiAQIxf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGcTdE8TcQqDC1qkmCrcA8UDIhPKo3jEF0h5WFtlmVQS%2BknP3%2FeVLeTGOhMtRG4e%2FGOzHM6U6LazSy4uj8E5p3cxScBjVzsx0nw9paTgs3rZ22K%2F2Y6Cqry%2FOg%2F6otURD0Qatu%2FU9Q4Wn0G7eKsrfkjHNAj3AICulKt8HX07s2Kqm79u4%2BNt6QWBbWkTojjxbi1CgC68NFVrW5JD0MiYO2W8IYzEVWz6JD7EBRBdecvPOUGPBl77hY6S7dAbDGqky6QBb8INjRJIWeTnf61XffVfdtpQ6nafqH4axpBOaP42LdbezOwVeobiG8pA87QF64P9xAa0upUkaF6tZRN7rqp5Phya1bHYFVlr%2Br1dAV0z55RnePltyCAF0mosV1x0sa6oh3DjJYXw2sco6a8MpGc8r%2F03AIFoXRLyU5MmLdKW4tOcLhrtpCprqUo9w8lePDuOJJhPz9ZLaRLeD3cOizW0CU%2BjkFh%2BALPYv1EjnbqcmkGPeo9jKLHGydDbqQTiLvMZcu1uDY%2BAdlHS4WazfDxzxHjaCGOy95PgyVAu%2FUIFOr%2FqkXZqg6PFg4Gnset3uYqi03Yq6D04pffCEv9GE1EYlEWZNoQgP1KZAxXeRAdF0u98khqdhgFC5CyHmjHG7GhDvytyz8CltdjWMKaSntEGOqUBp3hguwJGC9jKajgOWYv%2FMIElROBh%2BE%2FfszEWXaI1phGhWOn2IoWr%2BufWtB5ZtpCMn5NcSJLu6BFBJn1fUVTS2bE1FLkBb7x2lF56UgJdIanIEVIP7G6KlsFyT4bUI49vyj5nPojZ5zQVXFLM3dd8YRmx02y9bKGVEVa8nbwHvDQraceD5clUxHXJFMMyJdN%2BSOVoMZI%2F6xRiMCH801wSNSsRNg0u&X-Amz-Signature=1abd6afe4cedae9626391a28c7e08b3b9cedc8de159af99ba34139f70f9831f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VI6XBAIY%2F20260609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260609T143523Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCXVzLXdlc3QtMiJIMEYCIQDLhonM3XIKt05cyee25IFcxtVClkttpRULA6QYaiuY6wIhAJ1Hs7RJwZDO2qXj7QbqGv8GD5Y0B2Hfp4WJuIY03DbyKogECND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx7QYVhryLuZzywpj8q3AOhDz3FaSWJ87oFQlgvM1l8ymrfkLXCXKKnbjeyoiTM8kN1j7mqKx2kjn5qFRkTU6oHCYyxNbOi%2F5WZftACYL9%2FTAKS7p89lIuRinFNOUBh2I9dsyv8un9L3eGVTEIAI4ZlECLXiGLYhEnJ1VAxI3L6%2B0uu5ZhVUV7LjtHk%2Fe9GsBKRuFmngxeDJAREKIbNG538YulzWkwM%2BJBCvCqsnc78qYnOPelpKVgYXm5%2BvCutb19cWiLc7J4bbarU%2FQgUMzjV2i51ezfVCTfnDaiJHSL%2BYifoJtlyS8rMjXHgyUJlm9kLIUdcPn%2FKnJRj7IudEJeTEAg3zipMD701Qnjs%2F60ylYHmllbFBZytR5G12cfD6rk5F2esFQ%2BQYv9CT1qgGAxgvX84w8ds6N%2BiBlBRo9oB7rtE6tJI2iwEdmK46aHguqQN54WutOU%2B0hv5PHMBaxNWBgOf8zUJpw%2BoYF5LFGzCsR1bVLL5Q5I3ToiJZzV7ANCA2HpONmZFbbKyUzz4MkO41BtdArznmsytTqWhNNze7BRLYP8erFHu4GIDyjGLwYQYCJLwjx11GHydAvsDduMWnExrdE1rksJ6ROZSF%2F7eaC8gnBxwEebpp5UCh3TeZhkbLenK%2Bl3x%2FG2dKDCZxaDRBjqkAZqNOpT1JuZ1ZRZcx9CmDjIMVqO79%2B7aQe8RcXZvEWrtvJtEeA8AWywSMrpFxtBS%2BEpcs6cohMWXcLi8r5LTIuA0Ir6LSkKYu1eHY89Z3Dm1elTm%2FhbEGka5Dch%2FOZuplG%2BHnzrZQn%2FChzPRlPpYaydjD0RRPj3UG5h42FMWVgC0QhRi604K4I64bh2DmwmUQrqtxZh36ZcR6PB2GpAsqyBIKBPL&X-Amz-Signature=76f58e794502738953c35110610adf3007c3684812361ccccd8dc7bd891f8e01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2024-06-01 22:50:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
@@ -1881,14 +1955,18 @@
       "properties": {
         "date": "2024-02-02 08:00:00",
         "description": "在WebStorm中调试React/Vue等项目的正确姿势是通过\"JavaScript调试\"配置来设置调试模式，并在项目中打断点后刷新浏览器页面以进入WebStorm调试模式。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "debugger-on-webstorm",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "在 WebStorm 中调试 React/Vue 等项目",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-06-09 10:29:00",
-        "draft": false
+        "updated": "2026-06-09 10:29:00"
       },
       "url": "https://app.notion.com/p/WebStorm-React-Vue-337d0bd7179c452691b57acbcc25cc9e",
       "public_url": null,
