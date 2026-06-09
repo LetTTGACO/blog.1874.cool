@@ -1,5 +1,5 @@
 ---
-date: '2026-06-09 08:00:00'
+date: '2026-06-10 08:00:00'
 description: 通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。
 hidden: false
 urlname: raycast-ai-custom
@@ -7,7 +7,7 @@ title: Raycast AI 接入自定义 Providers
 tags:
   - 赛博空间
 cover: 'https://image.1874.run/blog/c6134313479be0678da9ce61d7aa7eb7.png'
-updated: '2026-06-09 23:56:00'
+updated: '2026-06-10 00:17:00'
 draft: false
 ---
 
