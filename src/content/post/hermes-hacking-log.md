@@ -7,7 +7,8 @@ title: Hermes Agent 折腾日志
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-05-15 06:20:00'
+cover: 'https://image.1874.run/blog/ff870970077f53aa7999b8d19f74d47c.png'
+updated: '2026-06-09 08:44:00'
 draft: false
 ---
 
