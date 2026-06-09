@@ -7,7 +7,7 @@ title: Raycast AI 接入自定义 Providers
 tags:
   - 赛博空间
 cover: 'https://image.1874.run/blog/c6134313479be0678da9ce61d7aa7eb7.png'
-updated: '2026-06-10 00:17:00'
+updated: '2026-06-10 00:23:00'
 draft: false
 ---
 
@@ -203,9 +203,6 @@ Raycast AI 我目前常用的就是 Quick AI 和 AI Command 这两个
 如果没有需要解释的名词，可以省略「名词解释」。
 
 如果是中译英：
-
-【原文】
-这里输出原始中文
 
 【翻译】
 这里输出英文译文
