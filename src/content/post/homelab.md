@@ -1,5 +1,5 @@
 ---
-date: '2024-06-29 00:00:00'
+date: '2024-06-29 08:00:00'
 description: ''
 hidden: false
 urlname: homelab
@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - HomeLab
   - 代码之外
-updated: '2024-08-03 15:54:00'
+updated: '2026-06-27 08:16:00'
 draft: false
 ---
 
