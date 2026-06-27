@@ -1,5 +1,5 @@
 ---
-date: '2026-06-27 00:00:00'
+date: '2026-06-27 08:00:00'
 description: 通过将 Hermes 的 origin remote 指向个人 fork，并创建 .skip_upstream_prompt 静音文件，可让 hermes update 从 fork 拉取代码，实现安全的更新与补丁开发流程；同时可自行设置 upstream 同步官方仓库，保持 fork 与上游代码同步，简化开发、合并和部署步骤。
 hidden: false
 urlname: hermes-update-fork
@@ -7,17 +7,18 @@ title: 无需打散件补丁：用 fork 接管 Hermes 更新
 tags:
   - 赛博空间
   - Hermes
-updated: '2026-06-27 04:00:00'
+cover: 'https://image.1874.run/blog/bc1fc4d4819a578c395c1c60f5c46262.png'
+updated: '2026-06-27 08:18:00'
 draft: false
 ---
 
 ## 前言
 
 
-我的 Hermes 是部署在局域网的机器上的，而目前 Hermes 不支持飞书渠道的 Cardkit 卡片消息，所以我自己打了补丁来实现。而在服务器上真实测试时，之前的流程是汇总改动的文件，然后去服务器上 Hermes 源代码目录中替换掉对应文件。但如果在服务器上使用`hermes update`更新时，又会被官方代码覆盖了（虽然可以恢复暂存，但不好应对冲突情况）
+我的 Hermes 是部署在局域网的机器上的，而目前 Hermes 不支持飞书渠道的 Cardkit 卡片消息，所以我自己打了补丁来实现。而在服务器上真实测试时，之前的流程是汇总改动的文件，然后去服务器上 Hermes 源代码目录中替换掉对应文件。但如果在服务器上使用`hermes update`更新时，又会被官方代码覆盖了（虽然可以恢复暂存，但不好应对冲突情况）。
 
 
-最近在 Claude 的帮助下，发现一个非常舒服的开发/更新流程
+最近在 Claude 的帮助下，发现一个非常舒服的开发/更新流程。
 
 
 ## 核心判断
