@@ -11,6 +11,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
+import mermaid from "astro-mermaid";
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,6 +36,10 @@ export default defineConfig({
 		},
 	},
 	integrations: [
+		mermaid({
+			autoTheme: true,
+			enableLog: false,
+		}),
 		expressiveCode(expressiveCodeOptions),
 		icon(),
 		tailwind({

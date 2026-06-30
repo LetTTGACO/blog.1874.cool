@@ -13,7 +13,7 @@ interface Props {
 
 const { post } = Astro.props;
 const {
-	data: { title, description = '', date, updated },
+	data: { title, description = "", date, updated },
 } = post;
 // const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updated?.toISOString() ?? date.toISOString();
@@ -55,16 +55,195 @@ const { headings } = await post.render();
 </BaseLayout>
 
 <script>
-	import mediumZoom from "medium-zoom";
-  let images = document.body.querySelectorAll("img");
-	images.forEach((image) => {
-    if (image.id !== "logo") {
-      // 图片添加点击放大功能
-      image.classList.add("zoom-image");
-    }
-	});
-  mediumZoom(".zoom-image");
-  const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
+	import Panzoom from "@panzoom/panzoom";
+
+	const zoomViewerOverlayId = "content-zoom-overlay";
+	const zoomViewerAnimationMs = 180;
+	let destroyActiveZoomViewer: (() => void) | null = null;
+
+	function getSvgViewBoxWidth(svg: SVGSVGElement): number {
+		const viewBox = svg.getAttribute("viewBox")?.split(/\s+/).map(Number);
+		if (viewBox?.length === 4 && typeof viewBox[2] === "number" && Number.isFinite(viewBox[2])) {
+			return viewBox[2];
+		}
+
+		return svg.clientWidth || svg.getBoundingClientRect().width;
+	}
+
+	function waitForImage(image: HTMLImageElement) {
+		if (image.complete) {
+			return Promise.resolve();
+		}
+
+		return new Promise<void>((resolve) => {
+			image.addEventListener("load", () => resolve(), { once: true });
+			image.addEventListener("error", () => resolve(), { once: true });
+		});
+	}
+
+	function closeZoomViewer({ animate = true } = {}) {
+		destroyActiveZoomViewer?.();
+		destroyActiveZoomViewer = null;
+
+		const overlay = document.getElementById(zoomViewerOverlayId);
+		if (overlay && animate) {
+			overlay.classList.remove("is-open");
+			overlay.classList.add("is-closing");
+			window.setTimeout(() => overlay.remove(), zoomViewerAnimationMs);
+		} else {
+			overlay?.remove();
+		}
+
+		document.documentElement.classList.remove("zoom-viewer-open");
+		document.removeEventListener("keydown", onZoomViewerKeydown);
+	}
+
+	function onZoomViewerKeydown(event: KeyboardEvent) {
+		if (event.key === "Escape") {
+			closeZoomViewer();
+		}
+	}
+
+	async function openZoomViewer(content: HTMLElement | SVGSVGElement, label: string) {
+		closeZoomViewer({ animate: false });
+
+		const overlay = document.createElement("div");
+		overlay.id = zoomViewerOverlayId;
+		overlay.dataset.zoomViewerOverlay = "true";
+		overlay.setAttribute("role", "dialog");
+		overlay.setAttribute("aria-modal", "true");
+		overlay.setAttribute("aria-label", label);
+
+		const stage = document.createElement("div");
+		stage.className = "zoom-viewer__stage";
+
+		const controls = document.createElement("div");
+		controls.className = "zoom-viewer__controls";
+
+		const zoomOutButton = document.createElement("button");
+		zoomOutButton.type = "button";
+		zoomOutButton.className = "zoom-viewer__button";
+		zoomOutButton.setAttribute("aria-label", "缩小");
+		zoomOutButton.title = "缩小";
+		zoomOutButton.textContent = "-";
+
+		const resetButton = document.createElement("button");
+		resetButton.type = "button";
+		resetButton.className = "zoom-viewer__button";
+		resetButton.setAttribute("aria-label", "重置缩放");
+		resetButton.title = "重置缩放";
+		resetButton.textContent = "1:1";
+
+		const zoomInButton = document.createElement("button");
+		zoomInButton.type = "button";
+		zoomInButton.className = "zoom-viewer__button";
+		zoomInButton.setAttribute("aria-label", "放大");
+		zoomInButton.title = "放大";
+		zoomInButton.textContent = "+";
+
+		const closeButton = document.createElement("button");
+		closeButton.type = "button";
+		closeButton.className = "zoom-viewer__button";
+		closeButton.setAttribute("aria-label", "关闭预览");
+		closeButton.title = "关闭预览";
+		closeButton.textContent = "×";
+		closeButton.addEventListener("click", () => closeZoomViewer());
+
+		controls.append(zoomOutButton, resetButton, zoomInButton, closeButton);
+		stage.appendChild(content);
+		overlay.append(controls, stage);
+		overlay.addEventListener("click", (event) => {
+			if (event.target === overlay) {
+				closeZoomViewer();
+			}
+		});
+
+		document.body.appendChild(overlay);
+		document.documentElement.classList.add("zoom-viewer-open");
+		document.addEventListener("keydown", onZoomViewerKeydown);
+		requestAnimationFrame(() => overlay.classList.add("is-open"));
+
+		if (content instanceof HTMLImageElement) {
+			await waitForImage(content);
+		}
+
+		const panzoom = Panzoom(content, {
+			cursor: "grab",
+			maxScale: 8,
+			minScale: 0.25,
+			panOnlyWhenZoomed: false,
+			duration: 220,
+			easing: "cubic-bezier(0.2, 0, 0.2, 1)",
+			step: 0.35,
+		});
+		const zoomWithWheel = panzoom.zoomWithWheel;
+		stage.addEventListener("wheel", zoomWithWheel, { passive: false });
+		zoomOutButton.addEventListener("click", () => panzoom.zoomOut({ animate: true }));
+		resetButton.addEventListener("click", () => panzoom.reset({ animate: true }));
+		zoomInButton.addEventListener("click", () => panzoom.zoomIn({ animate: true }));
+		destroyActiveZoomViewer = () => {
+			stage.removeEventListener("wheel", zoomWithWheel);
+			panzoom.destroy();
+		};
+
+		closeButton.focus();
+	}
+
+	function bindImageZoom() {
+		document.querySelectorAll<HTMLImageElement>(".prose img:not(#logo)").forEach((image) => {
+			if (image.dataset.zoomViewerBound === "true") {
+				return;
+			}
+
+			image.dataset.zoomViewerBound = "true";
+			image.setAttribute("title", "点击放大图片");
+			image.addEventListener("click", (event) => {
+				event.preventDefault();
+
+				const clone = image.cloneNode(false) as HTMLImageElement;
+				clone.removeAttribute("id");
+				clone.classList.add("zoom-viewer__content", "zoom-viewer__content--image");
+				clone.draggable = false;
+
+				void openZoomViewer(clone, image.alt ? `图片预览：${image.alt}` : "图片预览");
+			});
+		});
+	}
+
+	function bindMermaidZoom() {
+		document.querySelectorAll<SVGSVGElement>("pre.mermaid svg").forEach((svg) => {
+			const container = svg.closest<HTMLElement>("pre.mermaid");
+			if (!container || container.dataset.zoomViewerBound === "true") {
+				return;
+			}
+
+			container.dataset.zoomViewerBound = "true";
+			container.setAttribute("title", "点击放大图表");
+			container.addEventListener("click", () => {
+				const clone = svg.cloneNode(true) as SVGSVGElement;
+				const intrinsicWidth = Math.ceil(getSvgViewBoxWidth(svg));
+				const viewerWidth = Math.min(Math.max(intrinsicWidth * 1.5, 1200), 3200);
+				clone.removeAttribute("width");
+				clone.removeAttribute("height");
+				clone.classList.add("zoom-viewer__content", "zoom-viewer__content--mermaid");
+				clone.style.width = `${viewerWidth}px`;
+				clone.style.maxWidth = "none";
+
+				void openZoomViewer(clone, "图表预览");
+			});
+		});
+	}
+
+	function bindZoomTargets() {
+		bindImageZoom();
+		bindMermaidZoom();
+	}
+
+	bindZoomTargets();
+	window.addEventListener("load", bindZoomTargets);
+	new MutationObserver(bindZoomTargets).observe(document.body, { childList: true, subtree: true });
+
+	const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
 	const targetHeader = document.getElementById("blog-hero") as HTMLDivElement;
 
 	function callback(entries: IntersectionObserverEntry[]) {
