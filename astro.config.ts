@@ -3,8 +3,8 @@ import { unified } from "@astrojs/markdown-remark";
 import fs from "fs";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import remarkUnwrapImages from "remark-unwrap-images";
 import remarkMath from "remark-math";
+import rehypeUnwrapImages from "rehype-unwrap-images";
 import rehypeKatex from "rehype-katex";
 import rehypeExternalLinks from "rehype-external-links";
 import { remarkReadingTime } from "./src/utils/remark-reading-time";
@@ -19,8 +19,9 @@ export default defineConfig({
 	site: "https://blog.1874.cool/",
 	markdown: {
 		processor: unified({
-			remarkPlugins: [remarkUnwrapImages, remarkReadingTime, remarkMath],
+			remarkPlugins: [remarkReadingTime, remarkMath],
 			rehypePlugins: [
+				rehypeUnwrapImages,
 				rehypeKatex,
 				[
 					rehypeExternalLinks,
