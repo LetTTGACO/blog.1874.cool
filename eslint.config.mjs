@@ -42,17 +42,5 @@ export default [
 		},
 	},
 	...astro.configs["flat/recommended"],
-	...astro.configs["flat/jsx-a11y-recommended"],
-	{
-		files: ["**/*.astro"],
-		rules: {
-			"astro/jsx-a11y/no-redundant-roles": [
-				"error",
-				{
-					ul: ["list"],
-				},
-			],
-		},
-	},
 	eslintConfigPrettier,
 ];
