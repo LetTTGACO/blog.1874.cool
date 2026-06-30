@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 
 import { siteConfig } from "@/site-config";
-import { filterHidden, getAllPosts, sortMDByDate } from "@/utils";
+import { filterHidden, getAllPosts, sortMDByDate } from "@/utils/post";
 
 function oneLine(text = "") {
 	return text.replace(/\s+/g, " ").trim();
@@ -19,7 +19,7 @@ export const GET: APIRoute = async () => {
 		"",
 		"## Posts",
 		...posts.map((post) => {
-			const url = new URL(`${post.slug}.md`, import.meta.env.SITE).href;
+			const url = new URL(`${post.id}.md`, import.meta.env.SITE).href;
 			const description = oneLine(post.data.description);
 
 			return `- [${post.data.title}](${url})${description ? `: ${description}` : ""}`;

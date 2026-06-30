@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import fs from "fs";
 import mdx from "@astrojs/mdx";
-import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import remarkUnwrapImages from "remark-unwrap-images";
 import remarkMath from "remark-math";
@@ -18,22 +18,24 @@ export default defineConfig({
 	// ! Please remember to replace the following site property with your own domain
 	site: "https://blog.1874.cool/",
 	markdown: {
-		remarkPlugins: [remarkUnwrapImages, remarkReadingTime, remarkMath],
-		rehypePlugins: [
-			rehypeKatex,
-			[
-				rehypeExternalLinks,
-				{
-					target: "_blank",
-					rel: ["nofollow, noopener, noreferrer"],
-				},
+		processor: unified({
+			remarkPlugins: [remarkUnwrapImages, remarkReadingTime, remarkMath],
+			rehypePlugins: [
+				rehypeKatex,
+				[
+					rehypeExternalLinks,
+					{
+						target: "_blank",
+						rel: ["nofollow, noopener, noreferrer"],
+					},
+				],
 			],
-		],
-		remarkRehype: {
-			footnoteLabelProperties: {
-				className: [""],
+			remarkRehype: {
+				footnoteLabelProperties: {
+					className: [""],
+				},
 			},
-		},
+		}),
 	},
 	integrations: [
 		mermaid({
@@ -42,9 +44,6 @@ export default defineConfig({
 		}),
 		expressiveCode(expressiveCodeOptions),
 		icon(),
-		tailwind({
-			applyBaseStyles: false,
-		}),
 		sitemap(),
 		mdx(),
 	],
@@ -55,9 +54,6 @@ export default defineConfig({
 	prefetch: true,
 	vite: {
 		plugins: [rawFonts([".ttf", ".woff"])],
-		optimizeDeps: {
-			exclude: ["@resvg/resvg-js"],
-		},
 	},
 });
 

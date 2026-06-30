@@ -1,5 +1,5 @@
 ---
-import type { CollectionEntry } from "astro:content";
+import { render, type CollectionEntry } from "astro:content";
 
 import BaseLayout from "./Base.astro";
 import BlogHero from "@/components/blog/Hero";
@@ -17,7 +17,7 @@ const {
 } = post;
 // const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updated?.toISOString() ?? date.toISOString();
-const { headings } = await post.render();
+const { headings } = await render(post);
 ---
 
 <BaseLayout meta={{ title, description, articleDate }}>

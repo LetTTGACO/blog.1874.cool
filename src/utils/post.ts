@@ -9,12 +9,12 @@ export async function getAllPosts(): Promise<Array<CollectionEntry<"post">>> {
 		return true;
 	});
 
-	return posts.filter((post) => !configPage.includes(post.slug));
+	return posts.filter((post) => !configPage.includes(post.id));
 }
 
 export function sortMDByDate(posts: Array<CollectionEntry<"post">>) {
 	return posts
-		.filter((post) => !configPage.includes(post.slug))
+		.filter((post) => !configPage.includes(post.id))
 		.sort((a, b) => {
 			const aDate = new Date(a.data.date ?? a.data.updated).valueOf();
 			const bDate = new Date(b.data.date ?? b.data.updated).valueOf();
@@ -24,7 +24,7 @@ export function sortMDByDate(posts: Array<CollectionEntry<"post">>) {
 
 export function filterHidden(posts: Array<CollectionEntry<"post">>) {
 	return posts
-		.filter((post) => !configPage.includes(post.slug))
+		.filter((post) => !configPage.includes(post.id))
 		.filter((post) => !post.data.hidden) as Array<CollectionEntry<"post">>;
 }
 
