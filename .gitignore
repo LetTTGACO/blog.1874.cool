@@ -25,3 +25,4 @@ pnpm-debug.log*
 .astro
 .idea
 .elog.env
+.pnpm-store

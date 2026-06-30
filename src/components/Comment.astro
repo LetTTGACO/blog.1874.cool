@@ -4,9 +4,9 @@ const postName = pathname?.split("/").pop();
 ---
 <meta property={`og:${postName}`} />
 <script>
-	function sendMessage(message: Object) {
+	function sendMessage(message: object) {
 		const iframe = document.querySelector("iframe.giscus-frame") as HTMLIFrameElement;
-    if (!iframe || !iframe.contentWindow) return;
+	    if (!iframe || !iframe.contentWindow) return;
 		iframe.contentWindow.postMessage({ giscus: message }, "https://giscus.app");
 	}
 
@@ -33,7 +33,7 @@ const postName = pathname?.split("/").pop();
 		script.setAttribute("data-loading", "lazy");
 		script.setAttribute("crossorigin", "anonymous");
 		script.async = true;
-		container && container.appendChild(script);
+			if (container) container.appendChild(script);
 	}
 
 	createGusicScript();
@@ -44,4 +44,4 @@ const postName = pathname?.split("/").pop();
 		});
 	});
 </script>
-<h2 class="mb-10 before:hidden"/>
+<div class="mb-10" aria-hidden="true"></div>

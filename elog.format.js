@@ -1,5 +1,4 @@
 // 0.12.0及以上版本用法
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { matterMarkdownAdapter } = require("@elog/cli");
 
 /**
