@@ -10,6 +10,9 @@ const { title, description, articleDate } = Astro.props;
 const titleSeparator = "•";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const markdownURL = articleDate
+	? new URL(`${Astro.url.pathname.replace(/\/$/, "")}.md`, Astro.site)
+	: undefined;
 // const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
 ---
 
@@ -24,7 +27,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="manifest" href="/manifest.webmanifest" />
 <link rel="canonical" href={canonicalURL} />
-<link href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" rel="stylesheet">
+{markdownURL && <link rel="alternate" type="text/markdown" href={markdownURL} />}
+<link href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" rel="stylesheet" />
 
 {/* Primary Meta Tags */}
 <meta name="title" content={siteTitle} />
