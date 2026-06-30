@@ -20,12 +20,6 @@ importers:
       '@astrojs/sitemap':
         specifier: 3.7.3
         version: 3.7.3
-      '@elog/cli':
-        specifier: ^0.14.7
-        version: 0.14.7(@types/node@25.5.0)(proxy-agent@5.0.0)
-      '@elog/plugin-img-r2':
-        specifier: 0.1.2-beta.0
-        version: 0.1.2-beta.0
       '@panzoom/panzoom':
         specifier: ^4.6.2
         version: 4.6.2
@@ -63,6 +57,12 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.9
         version: 0.9.9(prettier-plugin-astro@0.12.3)(prettier@3.9.4)(typescript@6.0.3)
+      '@elog/cli':
+        specifier: ^0.14.7
+        version: 0.14.7(@types/node@25.5.0)(proxy-agent@5.0.0)
+      '@elog/plugin-img-r2':
+        specifier: 0.1.2-beta.0
+        version: 0.1.2-beta.0
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.6.0(jiti@2.7.0))

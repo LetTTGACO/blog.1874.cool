@@ -23,7 +23,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
       - name: Install dependencies
-        run: pnpm install --prod
+        run: pnpm install --frozen-lockfile
 
       - name: 拉取Notion文章
         env:
