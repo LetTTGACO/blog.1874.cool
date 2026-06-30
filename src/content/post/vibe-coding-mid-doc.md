@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 05:48:00'
+updated: '2026-07-01 06:28:00'
 draft: false
 ---
 
@@ -18,7 +18,7 @@ draft: false
 我最近在用 Vibe Coding 参与开源项目或者个人项目的开发过程中，发现有很多让我头疼的文档和`gitignore` 忽略问题：
 
 
-**本地私有文件**
+## 本地私有文件
 
 
 我经常使用 JetBrains 系列的 IDE 来进行开发和 Git 相关的操作。但是他默认生成的`.idea/`文件在很多开源项目都没有默认进 gitignore 文件，导致我古法编程或者 Vibe Coding时都需要考虑这个文件的忽略提交。
@@ -27,7 +27,7 @@ draft: false
 我之前一般是添加它到项目本身的 gitignore，代价就是会产生 git 提交记录，还可能会产生仓库 diff、影响其他协作者。
 
 
-**本地私有部署文档**
+## 本地私有部署文档
 
 
 就像我的这篇博客文章中提到的一样： [无需打散件补丁：用 fork 接管 Hermes 更新](https://blog.1874.cool/hermes-update-fork)
@@ -40,7 +40,7 @@ draft: false
 我需要在部署的时候需要让 AI Agent 去读取这些流程文档帮我部署。
 
 
-**AI Agent 产生的中间文档**
+## AI Agent 产生的中间文档
 
 
 我经常使用的 superpowers 插件，它会产生 `docs/superpowers/plans`  `docs/superpowers/specs` 等方案文档。如果不想提交到代码仓库，特别是开源项目都会忽略这些文档。
