@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 12:10:00'
+updated: '2026-07-01 12:36:00'
 draft: false
 ---
 
@@ -88,7 +88,7 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 例如我个人的 Hermes 开发/更新流程的本地文档：
 
 
-```bash
+```markdown
 # Hermes 个人分支运作约定
 
 这份仓库的 `main` 是个人自用主线，叠在官方 `NousResearch/hermes-agent` 之上，不回流上游。
