@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 12:36:00'
+updated: '2026-07-01 14:01:00'
 draft: false
 ---
 
@@ -113,7 +113,6 @@ git push origin main
 
 # 服务器：从 fork 拉 main，并走 Hermes 自带更新流程
 ssh homelab 'hermes update'
-```
 
 `hermes update` 会继续执行 Hermes 自带的快照、pull、语法校验、回滚保护、清 bytecode、依赖重装、迁移和网关重启流程。
 
