@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 14:05:00'
+updated: '2026-07-01 14:09:00'
 draft: false
 ---
 
@@ -85,7 +85,7 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 当然这种方式的缺点是没有版本历史。如果手册内容需要长期演化、对比、回滚，应该考虑策略二。
 
 
-例如我个人的 Hermes 开发/更新流程的本地文档：
+例如我个人的 Hermes 开发/更新流程的本地文档，后续直接让 AI Agent 按照这份文档进行来合并官方代码来更新我的线上 Hermes：
 
 
 ```markdown
