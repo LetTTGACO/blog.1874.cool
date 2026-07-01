@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 14:09:00'
+updated: '2026-07-01 14:11:00'
 draft: false
 ---
 
@@ -85,7 +85,7 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 当然这种方式的缺点是没有版本历史。如果手册内容需要长期演化、对比、回滚，应该考虑策略二。
 
 
-例如我个人的 Hermes 开发/更新流程的本地文档，后续直接让 AI Agent 按照这份文档进行来合并官方代码来更新我的线上 Hermes：
+例如我个人的 Hermes 开发/更新流程的本地文档，后续直接让 AI Agent 读这份文档进行日常开发上线或者更新我的线上 Hermes：
 
 
 ```markdown
@@ -104,15 +104,15 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 
 ## 日常开发上线
 
-# 本地：测试相关改动
+### 本地：测试相关改动
 python -m pytest tests/gateway/test_feishu.py tests/plugins/platforms/feishu/ -q
 
-# 本地：提交并推到个人 fork
+### 本地：提交并推到个人 fork
 git add -A
 git commit -m "fix(feishu): ..."
 git push origin main
 
-# 服务器：从 fork 拉 main，并走 Hermes 自带更新流程
+### 服务器：从 fork 拉 main，并走 Hermes 自带更新流程
 ssh homelab 'hermes update'
 
 `hermes update` 会继续执行 Hermes 自带的快照、pull、语法校验、回滚保护、清 bytecode、依赖重装、迁移和网关重启流程。
@@ -137,10 +137,10 @@ ssh homelab 'hermes update'
 
 ## 回滚
 
-# 查看服务器更新历史
+### 查看服务器更新历史
 ssh homelab 'cd /usr/local/lib/hermes-agent && git reflog'
 
-# 回滚服务器到某个已知 commit
+### 回滚服务器到某个已知 commit
 ssh homelab 'cd /usr/local/lib/hermes-agent && git reset --hard <commit> && hermes gateway restart'
 
 ## 操作禁忌
