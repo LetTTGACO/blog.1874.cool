@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 14:01:00'
+updated: '2026-07-01 14:05:00'
 draft: false
 ---
 
@@ -93,6 +93,8 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 
 这份仓库的 `main` 是个人自用主线，叠在官方 `NousResearch/hermes-agent` 之上，不回流上游。
 
+参考背景：[无需打散件补丁：用 fork 接管 Hermes 更新](https://blog.1874.cool/hermes-update-fork/)
+
 ## 仓库关系
 
 - `origin` 指向个人 fork：`LetTTGACO/hermes-agent`。
@@ -102,7 +104,6 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 
 ## 日常开发上线
 
-```md
 # 本地：测试相关改动
 python -m pytest tests/gateway/test_feishu.py tests/plugins/platforms/feishu/ -q
 
@@ -118,12 +119,10 @@ ssh homelab 'hermes update'
 
 ## 同步官方更新
 
-```bash
 git fetch upstream
 git merge upstream/main
 git push origin main
 ssh homelab 'hermes update'
-```
 
 自用场景默认用 merge，不默认 rebase 或 force push。
 
@@ -138,13 +137,11 @@ ssh homelab 'hermes update'
 
 ## 回滚
 
-```bash
 # 查看服务器更新历史
 ssh homelab 'cd /usr/local/lib/hermes-agent && git reflog'
 
 # 回滚服务器到某个已知 commit
 ssh homelab 'cd /usr/local/lib/hermes-agent && git reset --hard <commit> && hermes gateway restart'
-```
 
 ## 操作禁忌
 
@@ -152,6 +149,7 @@ ssh homelab 'cd /usr/local/lib/hermes-agent && git reset --hard <commit> && herm
 - 不要默认 force push。
 - 不要默认 reset 或清理个人改动。
 - 不要把个人分支改动当成上游贡献前的临时补丁。
+- 不要回到手工 scp 文件到服务器的旧流程。
 ```
 
 
