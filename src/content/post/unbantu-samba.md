@@ -1,5 +1,5 @@
 ---
-date: '2024-06-29 00:00:00'
+date: '2024-06-29 08:00:00'
 description: ''
 hidden: false
 urlname: unbantu-samba
@@ -7,7 +7,7 @@ title: Ubuntu 配置 Samba 服务
 tags:
   - 赛博空间
   - HomeLab
-updated: '2024-07-06 15:27:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -39,39 +39,39 @@ sudo apt-get install samba
 
 1. 创建用户，专门用于 Samba 共享
 
-	```bash
-	useradd cody
-	```
+    ```bash
+    useradd cody
+    ```
 
 2. 准备共享目录，没有则创建
 
-	```bash
-	sudo mkdir /workspace
-	```
+    ```bash
+    sudo mkdir /workspace
+    ```
 
 3. 配置 config 文件
 
-	```bash
-	sudo vim /etc/samba/smb.conf
-	```
+    ```bash
+    sudo vim /etc/samba/smb.conf
+    ```
 
 4. 在配置文件末尾添加共享配置
 
-	```bash
-	[workspace]
-	  path = /workspace
-	  browseable = yes
-	  writeable = yes
-	  guest ok = yes
-	  valid users = cody
-	```
+    ```bash
+    [workspace]
+      path = /workspace
+      browseable = yes
+      writeable = yes
+      guest ok = yes
+      valid users = cody
+    ```
 
-	- `[workspace]`这是定义的一个共享名称，客户端在访问共享资源时会看到这个名称。
-	- `path = /workspace`指定了共享的实际路径，即 `/workspace` 这个目录。
-	- `browseable = yes` 客户端在网络中搜索共享资源时，能够看到这个共享的名称
-	- `writeable = yes`意味着用户对这个共享具有写入权限，可以在其中创建、修改和删除文件。
-	- `guest ok = yes`允许访客访问这个共享，不需要提供有效的用户凭据。
-	- `valid users = cody`指定了只有名为 `cody` 的用户有权访问这个共享。
+    - `[workspace]`这是定义的一个共享名称，客户端在访问共享资源时会看到这个名称。
+    - `path = /workspace`指定了共享的实际路径，即 `/workspace` 这个目录。
+    - `browseable = yes` 客户端在网络中搜索共享资源时，能够看到这个共享的名称
+    - `writeable = yes`意味着用户对这个共享具有写入权限，可以在其中创建、修改和删除文件。
+    - `guest ok = yes`允许访客访问这个共享，不需要提供有效的用户凭据。
+    - `valid users = cody`指定了只有名为 `cody` 的用户有权访问这个共享。
 5. 创建 Samba 用户，并设置密码
 
 ```bash

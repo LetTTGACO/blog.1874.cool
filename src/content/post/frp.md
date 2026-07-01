@@ -1,5 +1,5 @@
 ---
-date: '2024-01-28 00:00:00'
+date: '2024-01-28 08:00:00'
 description: ''
 hidden: false
 urlname: frp
@@ -7,7 +7,7 @@ title: 自建 FRP 内网穿透
 tags:
   - 赛博空间
   - HomeLab
-updated: '2025-03-24 15:44:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -51,50 +51,49 @@ draft: false
 
 1. 在`/etc`下新建`/frp`文件夹
 
-	```bash
-	sudo mkdir /etc/frp
-	```
+    ```bash
+    sudo mkdir /etc/frp
+    ```
 
 2. 在`/etc/frp`下新建`frps.toml`文件
 
-	```bash
-	sudo vim /etc/frp/frps.toml
-	```
+    ```bash
+    sudo vim /etc/frp/frps.toml
+    ```
 
 3. 配置`frps.toml`文件
 
-	```toml
-	bindAddr = "0.0.0.0"
-	bindPort = 7000
-	
-	auth.method = "token"
-	auth.token = "123456"
-	
-	webServer.addr = "0.0.0.0"
-	webServer.port = 7500
-	webServer.user = "user"
-	webServer.password = "123456"
-	
-	# tls
-	#transport.tls.force = true
-	#transport.tls.certFile = "/etc/frp/ssl/server.crt"
-	#transport.tls.keyFile = "/etc/frp/ssl/server.key"
-	#transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
-	
-	```
+    ```toml
+    bindAddr = "0.0.0.0"
+    bindPort = 7000
+    
+    auth.method = "token"
+    auth.token = "123456"
+    
+    webServer.addr = "0.0.0.0"
+    webServer.port = 7500
+    webServer.user = "user"
+    webServer.password = "123456"
+    
+    # tls
+    #transport.tls.force = true
+    #transport.tls.certFile = "/etc/frp/ssl/server.crt"
+    #transport.tls.keyFile = "/etc/frp/ssl/server.key"
+    #transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
+    ```
 
-	- `bindPort`：服务端监听端口
-	- `auth.method`：授权方式，客户端需要保持一致
-	- `auth.token`：授权密钥，客户端需要保持一致
-	- `webServer.addr`：管理面板地址，默认本地
-	- `webServer.user`：管理面板用户
-	- `webServer.port`：管理面板端口
-	- `webServer.password`：管理面板密码
+    - `bindPort`：服务端监听端口
+    - `auth.method`：授权方式，客户端需要保持一致
+    - `auth.token`：授权密钥，客户端需要保持一致
+    - `webServer.addr`：管理面板地址，默认本地
+    - `webServer.user`：管理面板用户
+    - `webServer.port`：管理面板端口
+    - `webServer.password`：管理面板密码
 4. `docker run` 运行 FRP Server 服务
 
-	```bash
-	docker run --restart=always --network host -d -v /etc/frp/frps.toml:/etc/frp/frps.toml --name frps snowdreamtech/frps
-	```
+    ```bash
+    docker run --restart=always --network host -d -v /etc/frp/frps.toml:/etc/frp/frps.toml --name frps snowdreamtech/frps
+    ```
 
 5. 开放端口号，在云服务器和本地服务器（如果有的话）防火墙开启`7000,7005`端口号
 6. 测试访问，访问`云服务器 IP 地址:7000`登录后台，输入用户名密码正常访问即可
@@ -109,58 +108,58 @@ draft: false
 
 1. 在 Mac 某个目录新建 `frp` 文件夹
 
-	```bash
-	mkdir /home/1874/frp
-	```
+    ```bash
+    mkdir /home/1874/frp
+    ```
 
 2. 在 `frp` 文件夹下新建`frpc.toml`文件
 
-	```bash
-	vim /home/1874/frp/frpc.toml
-	```
+    ```bash
+    vim /home/1874/frp/frpc.toml
+    ```
 
 3. 配置`frpc.toml`文件
 
-	```toml
-	serverAddr = "xxx.xx.xx.xx"
-	serverPort = 7000
-	
-	auth.method = "token"
-	auth.token = "123456"
-	
-	webServer.addr = "0.0.0.0"
-	webServer.port = 7500
-	webServer.user = "user"
-	webServer.password = "123456"
-	webServer.pprofEnable = false
-	
-	
-	# tls
-	#transport.tls.certFile = "/etc/frp/ssl/client.crt"
-	#transport.tls.keyFile = "/etc/frp/ssl/client.key"
-	#transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
-	
-	[[proxies]]
-	name = "Halo"
-	type = "tcp"
-	localIP = "127.0.0.1"
-	localPort = 8090
-	remotePort = 9100
-	```
+    ```toml
+    serverAddr = "xxx.xx.xx.xx"
+    serverPort = 7000
+    
+    auth.method = "token"
+    auth.token = "123456"
+    
+    webServer.addr = "0.0.0.0"
+    webServer.port = 7500
+    webServer.user = "user"
+    webServer.password = "123456"
+    webServer.pprofEnable = false
+    
+    
+    # tls
+    #transport.tls.certFile = "/etc/frp/ssl/client.crt"
+    #transport.tls.keyFile = "/etc/frp/ssl/client.key"
+    #transport.tls.trustedCaFile = "/etc/frp/ssl/ca.crt"
+    
+    [[proxies]]
+    name = "Halo"
+    type = "tcp"
+    localIP = "127.0.0.1"
+    localPort = 8090
+    remotePort = 9100
+    ```
 
-	- `serverAddr`：云服务器 IP 地址
-	- `serverPort`：监听云服务器的端口号
-	- `auth.method`：授权方式，保持和服务端一致
-	- `auth.token`：授权密钥，保持和服务端一致
-	- `webServer.addr`：管理面板地址，默认本地
-	- `webServer.user`：管理面板用户
-	- `webServer.port`：管理面板端口
-	- `webServer.password`：管理面板密码
+    - `serverAddr`：云服务器 IP 地址
+    - `serverPort`：监听云服务器的端口号
+    - `auth.method`：授权方式，保持和服务端一致
+    - `auth.token`：授权密钥，保持和服务端一致
+    - `webServer.addr`：管理面板地址，默认本地
+    - `webServer.user`：管理面板用户
+    - `webServer.port`：管理面板端口
+    - `webServer.password`：管理面板密码
 4. `docker run` 运行 FRP Client 服务
 
-	```bash
-	docker run --restart=always --network host -d -v /home/1874/frp/frpc.toml:/etc/frp/frpc.toml --name frpc snowdreamtech/frpc
-	```
+    ```bash
+    docker run --restart=always --network host -d -v /home/1874/frp/frpc.toml:/etc/frp/frpc.toml --name frpc snowdreamtech/frpc
+    ```
 
 5. 开放端口号，在轻量云服务器开启 `9100` 端口，在本地服务器防火墙开启`8090`端口号
 6. 测试访问，访问`111.222.33.111:9100`检查是否能访问到 N100 上部署的 Halo 站点

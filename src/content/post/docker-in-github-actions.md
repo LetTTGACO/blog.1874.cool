@@ -1,12 +1,12 @@
 ---
-date: '2022-07-16 00:00:00'
+date: '2022-07-16 08:00:00'
 description: 本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。
 hidden: false
 urlname: docker-in-github-actions
 title: Github Actions 部署 docker
 tags:
   - 赛博空间
-updated: '2024-07-06 23:32:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -42,9 +42,7 @@ draft: false
 
 目前腾讯云容器镜像服务对个人还是免费的，我就先用这个，不免费了再说。也可以直接推送到`Docker Hub`
 
-
 > 实操过程中发现：由于 Github Actions 使用的机器都是美国的，所以选择在香港/海外新建会快很多很多！
-
 
 ![Fi5ZyPntP28VPpJP66tQDzSirGxn.png](https://image.1874.run/blog/ed62071316d2193973d1cff81ad5c509.png)
 

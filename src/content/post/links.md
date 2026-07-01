@@ -1,11 +1,11 @@
 ---
-date: '2019-01-27 00:00:00'
+date: '2019-01-27 08:00:00'
 description: 在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。
 hidden: false
 urlname: links
 title: 友情链接
 tags: []
-updated: '2024-05-29 15:15:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -26,9 +26,7 @@ draft: false
 
 所以，如同 [PRIN BLOG 的友链页面](https://printempw.github.io/friends/)中所述的：
 
-
 > 和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能喜欢其他人写的这些文章」的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：交换友情链接就是一种很棒的架桥方式。
-
 
 对啊，社交就是不断认识新的人、结交新的朋友，而友链不就是一种很棒的交朋友的方式吗？
 
@@ -63,31 +61,31 @@ draft: false
 ## 友情站点
 
 - [Tangly](https://tangly1024.com/)
-	- [NotionNext](https://github.com/tangly1024/NotionNext) 博客作者
+    - [NotionNext](https://github.com/tangly1024/NotionNext) 博客作者
 - [不才的博客](https://notbucai.com/)
-	- 前端开发
+    - 前端开发
 - [WenderFeng](https://wenderfeng.top/)
-	- 机械工程专业博士
-	- Memories of an unspoken story
+    - 机械工程专业博士
+    - Memories of an unspoken story
 - [北门清燕](https://www.bmqy.net/)
-	- 分享生活、记录点滴，给回忆一个绽放的美丽
+    - 分享生活、记录点滴，给回忆一个绽放的美丽
 - [CC的部落格](https://blog.ccknbc.cc/)
-	- 丰富多彩的博客
-	- CC的部落格，CC康纳百川的小窝，与你分享二三事
+    - 丰富多彩的博客
+    - CC的部落格，CC康纳百川的小窝，与你分享二三事
 - [IMQL.LIFE](http://imql.life/)
-	- 运维工程师
-	- 一尘不染不是不再有尘埃，而是尘埃让它飞扬，我自做我的阳光
+    - 运维工程师
+    - 一尘不染不是不再有尘埃，而是尘埃让它飞扬，我自做我的阳光
 - [MatrixCore](https://matrixcore.top/)
-	- 远航人，扬起你的风帆，在破晓的那一瞬间，找到生命永恒的质点
-	- 看飞鱼在空中划过优美的弧线，看繁星倒影在大海渴饮生命的溪流，斗志昂扬
+    - 远航人，扬起你的风帆，在破晓的那一瞬间，找到生命永恒的质点
+    - 看飞鱼在空中划过优美的弧线，看繁星倒影在大海渴饮生命的溪流，斗志昂扬
 - [强少来了](https://fengxiaoqiang.com/)
-	- 互联网产品经理
-	- 发现问题的意义，在于更好的解决问题~
+    - 互联网产品经理
+    - 发现问题的意义，在于更好的解决问题~
 - [易浅小站](https://kuangyichen.com/)
-	- 分享编程与思维认知
+    - 分享编程与思维认知
 - [笔墨迹](https://blogscn.fun/)
-	- 博客收集平台，致力于发掘和分享「优秀个人独立博客」
-	- 致敬还在写博客的我们！
+    - 博客收集平台，致力于发掘和分享「优秀个人独立博客」
+    - 致敬还在写博客的我们！
 - [Airing 的博客](https://blog.ursb.me/)
-	- 腾讯音乐高级前端工程师
-	- 专注前端领域，包括但不限于 React、Flutter、iOS、Cocos、Chromium 等，同时其他技术也基本都会一点儿。
+    - 腾讯音乐高级前端工程师
+    - 专注前端领域，包括但不限于 React、Flutter、iOS、Cocos、Chromium 等，同时其他技术也基本都会一点儿。

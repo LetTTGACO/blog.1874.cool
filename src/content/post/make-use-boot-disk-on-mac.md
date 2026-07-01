@@ -1,12 +1,12 @@
 ---
-date: '2024-02-01 00:00:00'
+date: '2024-02-01 08:00:00'
 description: 在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。
 hidden: false
 urlname: make-use-boot-disk-on-mac
 title: macOS 系统下制作 USB 启动盘
 tags:
   - 赛博空间
-updated: '2024-06-29 23:28:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -22,54 +22,54 @@ draft: false
 ## 开始制作
 
 1. 下载 ISO 镜像文件
-	1. [debian12 镜像下载](https://www.debian.org/)
-	2. [pve8 镜像下载](https://www.proxmox.com/en/downloads)
+    1. [debian12 镜像下载](https://www.debian.org/)
+    2. [pve8 镜像下载](https://www.proxmox.com/en/downloads)
 
-	```bash
-	debian-12.4.0-amd64-netinst.iso
-	proxmox-ve_8.1-1.iso
-	```
+    ```bash
+    debian-12.4.0-amd64-netinst.iso
+    proxmox-ve_8.1-1.iso
+    ```
 
 2. 将 iso 文件转换为 dmg 文件，这里以 `debian-12.4.0-amd64-netinst.iso` 为例
 
-	```bash
-	hdiutil convert -format UDRW -o debian-12.4.0-amd64-netinst.dmg debian-12.4.0-amd64-netinst.iso
-	```
+    ```bash
+    hdiutil convert -format UDRW -o debian-12.4.0-amd64-netinst.dmg debian-12.4.0-amd64-netinst.iso
+    ```
 
 
-	```bash
-	hdiutil convert -format UDRW -o debian-12.4.0-amd64-netinst.dmg debian-12.4.0-amd64-netinst.iso
-	正在读取Driver Descriptor Map（DDM：0）…
-	正在读取Debian 12.4.0 amd64 n           （Apple_ISO：1）…
-	正在读取Apple（Apple_partition_map：2）…
-	正在读取Debian 12.4.0 amd64 n           （Apple_ISO：3）…
-	正在读取EFI（Apple_HFS：4）…
-	..
-	正在读取Debian 12.4.0 amd64 n           （Apple_ISO：5）…
-	....................................................................................
-	已耗时： 1.475s
-	速度：425.5MB/秒
-	节省：0.0%
-	created: /Users/1874w/workspace/debian-12.4.0-amd64-netinst.dmg
-	```
+    ```bash
+    hdiutil convert -format UDRW -o debian-12.4.0-amd64-netinst.dmg debian-12.4.0-amd64-netinst.iso
+    正在读取Driver Descriptor Map（DDM：0）…
+    正在读取Debian 12.4.0 amd64 n           （Apple_ISO：1）…
+    正在读取Apple（Apple_partition_map：2）…
+    正在读取Debian 12.4.0 amd64 n           （Apple_ISO：3）…
+    正在读取EFI（Apple_HFS：4）…
+    ..
+    正在读取Debian 12.4.0 amd64 n           （Apple_ISO：5）…
+    ....................................................................................
+    已耗时： 1.475s
+    速度：425.5MB/秒
+    节省：0.0%
+    created: /Users/1874w/workspace/debian-12.4.0-amd64-netinst.dmg
+    ```
 
 3. 插入 U 盘，查看 U 盘盘符。我的是`disk4`
 
-	```bash
-	diskutil list
-	```
+    ```bash
+    diskutil list
+    ```
 
 4. 取消挂载 U 盘，记得修改`disk4`为你的 USB 盘符
 
-	```bash
-	diskutil unmountDisk /dev/disk4
-	```
+    ```bash
+    diskutil unmountDisk /dev/disk4
+    ```
 
 5. 烧录 img 文件到 U 盘，记得修改`disk4`为你的 USB 盘符
 
-	```bash
-	sudo dd if=debian-12.4.0-amd64-netinst.dmg of=/dev/rdisk4 bs=1m
-	```
+    ```bash
+    sudo dd if=debian-12.4.0-amd64-netinst.dmg of=/dev/rdisk4 bs=1m
+    ```
 
 
 至此，USB 启动盘就制作好了！

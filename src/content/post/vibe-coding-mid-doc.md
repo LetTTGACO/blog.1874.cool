@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 06:33:00'
+updated: '2026-07-01 12:10:00'
 draft: false
 ---
 
@@ -83,6 +83,77 @@ printf "\n# Local private runbooks\n.local/\n" >> .git/info/exclude
 
 
 当然这种方式的缺点是没有版本历史。如果手册内容需要长期演化、对比、回滚，应该考虑策略二。
+
+
+例如我个人的 Hermes 开发/更新流程的本地文档：
+
+
+```bash
+# Hermes 个人分支运作约定
+
+这份仓库的 `main` 是个人自用主线，叠在官方 `NousResearch/hermes-agent` 之上，不回流上游。
+
+## 仓库关系
+
+- `origin` 指向个人 fork：`LetTTGACO/hermes-agent`。
+- `upstream` 指向官方仓库：`NousResearch/hermes-agent`。
+- 服务器部署在 `homelab:/usr/local/lib/hermes-agent`。
+- 服务器部署目录的 `origin` 指向个人 fork，执行 `hermes update` 会直接拉 fork 的 `main`。
+
+## 日常开发上线
+
+```md
+# 本地：测试相关改动
+python -m pytest tests/gateway/test_feishu.py tests/plugins/platforms/feishu/ -q
+
+# 本地：提交并推到个人 fork
+git add -A
+git commit -m "fix(feishu): ..."
+git push origin main
+
+# 服务器：从 fork 拉 main，并走 Hermes 自带更新流程
+ssh homelab 'hermes update'
+```
+
+`hermes update` 会继续执行 Hermes 自带的快照、pull、语法校验、回滚保护、清 bytecode、依赖重装、迁移和网关重启流程。
+
+## 同步官方更新
+
+```bash
+git fetch upstream
+git merge upstream/main
+git push origin main
+ssh homelab 'hermes update'
+```
+
+自用场景默认用 merge，不默认 rebase 或 force push。
+
+## 查看上游更新
+
+当用户问“上游升级了什么”“官方更新了什么”或类似问题时，默认语义是：
+
+- 以个人 fork 的 `origin/main` 作为当前已发布自用主线。
+- 对比官方 `upstream/main`，只总结官方上游相对个人 fork 新增、修复或重构了什么。
+- 不需要主动汇总个人分支已有改动；这些改动默认用户已知。
+- 只有当用户明确问“我的改动”“个人分支改了什么”“我这边和上游差什么”时，才整理个人分支相对上游的改动。
+
+## 回滚
+
+```bash
+# 查看服务器更新历史
+ssh homelab 'cd /usr/local/lib/hermes-agent && git reflog'
+
+# 回滚服务器到某个已知 commit
+ssh homelab 'cd /usr/local/lib/hermes-agent && git reset --hard <commit> && hermes gateway restart'
+```
+
+## 操作禁忌
+
+- 不要默认 rebase。
+- 不要默认 force push。
+- 不要默认 reset 或清理个人改动。
+- 不要把个人分支改动当成上游贡献前的临时补丁。
+```
 
 
 ### 策略二：本地版本化文档仓库

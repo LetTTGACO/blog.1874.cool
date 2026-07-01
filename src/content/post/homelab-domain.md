@@ -1,5 +1,5 @@
 ---
-date: '2025-03-27 00:00:00'
+date: '2025-03-27 08:00:00'
 description: 在局域网中配置内网服务的优雅访问，通过自建域名映射不同服务，使用反向代理和SSL证书确保安全访问，最终实现无需端口号直接访问服务的目标。
 hidden: false
 urlname: homelab-domain
@@ -7,7 +7,7 @@ title: 局域网内优雅的访问家庭内网服务
 tags:
   - 赛博空间
   - HomeLab
-updated: '2025-03-27 23:39:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -46,9 +46,7 @@ draft: false
 
 ![9ac38eec-30a4-4548-b11d-9c8e66df06ae.png](https://image.1874.run/blog/0ed0e5060e3739f3d6a8142c8d823774.png)
 
-
 > 注意：如果电脑开启了代理，访问内网域名时，可能无法正确解析 DNS，需要将 `*.cody.com` 加入到代理绕过配置中。
-
 
 ## 反向代理
 

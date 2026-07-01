@@ -1,11 +1,11 @@
 ---
-date: '2019-01-27 00:00:00'
+date: '2019-01-27 08:00:00'
 description: 这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。
 hidden: false
 urlname: about
 title: 关于我
 tags: []
-updated: '2025-03-27 23:49:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -48,27 +48,19 @@ draft: false
 
 ## 关于博客
 
-
 > 2024/02/03 更新
-
 
 当前博客托管在 [Vercel](https://vercel.com/) 上，基于 [Notion](https://www.notion.so/zh-cn) + [Elog](https://elog.1874.cool/) + [Astro](https://astro.build/) 持续集成部署。主题模板为 [astro-theme-cactus](https://github.com/chrismwilliams/astro-theme-cactus)。
 
-
 > 2023/04/08 更新
-
 
 当前博客托管在 [Vercel](https://vercel.com/) 上，基于 [Notion](https://www.notion.so/zh-cn) + [NotionNext](https://tangly1024.com/article/notion-next) 持续集成部署 + [Elog](https://elog.1874.cool/) 备份。主题为`next`。
 
-
 > 2022/07/08 更新
-
 
 本博客名为`1874`，建于公元2019年1月27日，目前已经迁移到新的域名 [https://1874.cool](https://1874.cool/) ,当前博客是托管在腾讯云COS静态网站上，基于[语雀](https://www.yuque.com/) 云端书写 + webhook + ~~腾讯云函数~~(自建Node API服务) + [yuqe-hexo-with-cdn](https://github.com/LetTTGACO/yuque-hexo-with-cdn) + [Hexo](https://hexo.io/) + Github Actions持续集成部署。主题为 [halo](https://www.zhwei.cn/go.html?u=aHR0cHM6Ly9naXRodWIuY29tL2hvbmd3ZWlmdXR1cmUvaGV4by10aGVtZS1oYWxv)
 
-
 > 2019/01/27
-
 
 本博客名为 `LetTTGACO` ，建立于公元 2019年 1月 27 日。当前博客同时托管于 [GitHub Pages](https://pages.github.com/)(境外访问)和[Coding Pages](https://coding.net/pages)(境内访问)，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题为 [Casper](https://github.com/xzhih/hexo-theme-casper)。
 

@@ -1,12 +1,12 @@
 ---
-date: '2022-06-23 00:00:00'
+date: '2022-06-23 08:00:00'
 description: 本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。
 hidden: false
 urlname: npm-in-github-actions
 title: Github Actions 发布 npm 包
 tags:
   - 赛博空间
-updated: '2024-06-29 23:37:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -25,7 +25,7 @@ draft: false
 项目关键文件如下：
 
 
-```text
+```plain text
 node-agile-client
 |--.github
 |  |--workflows
@@ -49,10 +49,10 @@ node-agile-client
 
 - .github：github actions 配置文件
 - build：文件夹是打包后的产物，也是发不到 npm 上的文件夹，仓库 src 的文件是不会上传到 npm 的
-	- cjs：CommonJS 模块的代码
-	- esm5：ES Modules 模块的代码
-	- types：类型声明文件
-	- package.json：对 npm 包的定义说明
+    - cjs：CommonJS 模块的代码
+    - esm5：ES Modules 模块的代码
+    - types：类型声明文件
+    - package.json：对 npm 包的定义说明
 - src：项目文件代码
 - package.json：对项目文件的定义说明及命令行操作
 - tsconfig.json：ts 编译配置主体文件

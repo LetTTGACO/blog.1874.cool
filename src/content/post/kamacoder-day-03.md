@@ -1,12 +1,12 @@
 ---
-date: '2025-02-27 00:00:00'
+date: '2025-02-27 08:00:00'
 description: 学习链表基础，解决203.移除链表元素、707.设计链表、206.反转链表的思路和代码实现，强调虚拟头节点的使用和双指针法的递归推导。
 hidden: true
 urlname: kamacoder-day-03
 title: 算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表
 tags:
   - 算法训练营
-updated: '2025-02-28 22:53:00'
+updated: '2026-07-01 06:56:00'
 draft: false
 ---
 
@@ -129,7 +129,6 @@ var removeElements = function(head, val) {
 
 
 ```javascript
-
 class LinkNode {
   constructor(val, next) {
     this.val = val
