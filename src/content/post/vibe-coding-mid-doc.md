@@ -1,6 +1,6 @@
 ---
 date: '2026-07-01 08:00:00'
-description: 提供本地私有文档的管理方案，包括使用 .git/info/exclude 忽略本地 runbook、在忽略目录中创建独立 Git 仓库实现本地版本化、以及使用全局 Git ignore 管理跨项目的私有文件，并给出相应的配置步骤和注意事项。
+description: 提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。
 hidden: false
 urlname: vibe-coding-mid-doc
 title: 给 Vibe Coding 中间文档找一个合适的位置
@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-01 14:15:00'
+updated: '2026-07-03 03:54:00'
 draft: false
 ---
 
@@ -174,15 +174,6 @@ project/
 
 ```bash
 printf "\n# Local versioned superpowers docs\ndocs/superpowers/\n" >> .git/info/exclude
-```
-
-
-如果主仓库已经跟踪了这些文件，可以先让主仓库停止跟踪，但保留本地文件：
-
-
-```bash
-git rm -r --cached docs/superpowers
-git commit -m "chore: stop tracking local superpowers docs"
 ```
 
 

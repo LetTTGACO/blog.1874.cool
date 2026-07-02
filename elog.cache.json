@@ -637,10 +637,10 @@
     {
       "id": "38fcca23-1452-80c3-886b-d3185d26c62c",
       "doc_id": "38fcca23-1452-80c3-886b-d3185d26c62c",
-      "updated": 1782886500000,
+      "updated": 1783022040000,
       "properties": {
         "date": "2026-07-01 08:00:00",
-        "description": "提供本地私有文档的管理方案，包括使用 .git/info/exclude 忽略本地 runbook、在忽略目录中创建独立 Git 仓库实现本地版本化、以及使用全局 Git ignore 管理跨项目的私有文件，并给出相应的配置步骤和注意事项。",
+        "description": "提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。",
         "hidden": false,
         "urlname": "vibe-coding-mid-doc",
         "title": "给 Vibe Coding 中间文档找一个合适的位置",
@@ -649,7 +649,7 @@
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png",
-        "updated": "2026-07-01 14:15:00",
+        "updated": "2026-07-03 03:54:00",
         "draft": false
       },
       "realName": "vibe-coding-mid-doc",
@@ -662,7 +662,7 @@
       "object": "page",
       "id": "38fcca23-1452-80c3-886b-d3185d26c62c",
       "created_time": "2026-06-30T21:17:00.000Z",
-      "last_edited_time": "2026-07-01T06:15:00.000Z",
+      "last_edited_time": "2026-07-02T19:54:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -694,20 +694,16 @@
       "properties": {
         "date": "2026-07-01 08:00:00",
         "description": "提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。",
-        "hidden": "",
+        "hidden": false,
         "urlname": "vibe-coding-mid-doc",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "给 Vibe Coding 中间文档找一个合适的位置",
         "tags": [
           "赛博空间",
           "VibeCoding"
         ],
-        "cover": "https://image.1874.run/codex/bca6c6af96be8d5307a042bf6ead36ef.png",
-        "updated": "2026-07-01 14:15:00"
+        "cover": "https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png",
+        "updated": "2026-07-03 03:54:00",
+        "draft": false
       },
       "url": "https://app.notion.com/p/Vibe-Coding-38fcca23145280c3886bd3185d26c62c",
       "public_url": null,
@@ -901,17 +897,21 @@
       "properties": {
         "date": "2026-05-20 08:00:00",
         "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-claude-code",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
           "赛博空间",
           "Codex",
           "ClaudeCode"
         ],
-        "cover": "https://image.1874.run/blog/173c1586b0f2b1b3891e3a2945ae6019.png",
-        "updated": "2026-07-02 22:50:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/b450b18ef2fc1879ec2e327f58fc409e.png",
+        "updated": "2026-07-02 22:50:00"
       },
       "url": "https://app.notion.com/p/Codex-Claude-Code-366cca23145280ad9f31f254b4d1b9cd",
       "public_url": null,
@@ -1654,8 +1654,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y37A6MNH%2F20260702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260702T145118Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCICVSeP%2FaiOjjoNQ79n%2FuCtPyO1eIOn5tB4D4P2VGRNfxAiAYI%2Bv1vEqFqB5QHBi2%2B6s3zWbnn%2FfREVyNQSCuNVmMHSqIBAj3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMD13T1rnrZSX7653oKtwDu6sGYVHNIsBfYFA7TVblmiY4xMlHH%2BPPg6%2BxVvcFM3Z71lHKbUcpaB6auPONQf%2Bj6VLnoq5iui3t2TR31fWcysPlpn1EfT5R2EoOAm4aA1Hz3ISarOztuw8VwridrIUj7U9ob5ktC4hF0FeYGKi70m9cOPV1%2BWnvcXvlziqyYrnxISam%2BOx3HAVwCwnA0O%2FPBCYNwRv%2BJHd2OLXAkqEc5780Tr8TSdhe6A2TV8b6asxO1g4MRILX4aNzKNtM5iRa7qNZzPj%2B73vthN9KjuEkT%2B4JWLTdkGEjZOi4Q%2Bzx5Mn0n%2FF%2FvEMaGg83Z28w2HcRuxtccd4O2f6YNYsTn9%2FQpqYZZ9vOzDQmBbDHaPYhodWgVKs1afp0thYe5%2BGsqa7By8lROGzBetPW%2BdlMf4jgm94gMI%2BxaQ3nqEERaueIq4cXnKJnRVMCZzCuVDTczWMx1jY0WbXp%2BUwPDhNeh7e5bWnlU6p%2BxGDR2QXMGpGPVc6mfv7FyUzyBaxa3ljyKoU8%2BaxxGXl9bmY8Qe77gyAumVDSHUgFA%2B3uh4Nl6VwG7a5xsTQy8hO%2FE%2B%2Bu9wSUmTytkjLy%2Fa2%2Fz%2BIqQIjOtyHuZscTqf99t9Ktry6OUUK5qQ5lJOl20%2FnMHVMUI%2FQwmOWZ0gY6pgHVcc1%2BHu6yN5sYUvEakqt%2BAaXyhsIIpll1t9IrxvLHnPlt6GRMoMdwQz%2F0a%2FFNt%2Bork27TVOowJze8U71lFMZA16Hesv%2B2zmOVFXrABNqpWnzEOCWsSMOWw%2BpiHAgPZ53GSUWGzEHqmDJY%2FySWlxLIOdTrKcT%2B1re%2F7zvCMRd9%2BbRVxeZQ%2Frk9oKzSshoYW0La1ZICsNlyvnYg%2BcEvmt8eonrh6ScX&X-Amz-Signature=09ff57210b17eeb8084e6c14590d698360971a961aed33dc8f48b43a1a2254f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-07-02T15:51:18.604Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46662PNU4Q2%2F20260702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260702T195516Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJGMEQCICkN2Hlle9NnKrSrqy6Je3oovrwBbRlHxBzYXq%2BVRojWAiAwWt1NPpJvNyaDLJDR%2FzoyArxL%2Fu6Mt%2BAeyANd%2BzU4uiqIBAj8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMHRamG7%2F3Gba%2BVGZkKtwDhFwJ%2BDTunQhg%2BfYJ%2Fj3xr0qelwhyZnqoNNzVxj63S74yslwtHgY%2FKQmk2EIsepB3kZUTdwYcz91wTLlDtF0hR8KcABbwzciJMwCKW8gIjVGCr4%2BU%2B2xpGL1ehwYJPgEk1fppySluTYec5vfYu1FSx0UZGaNYk0OapF2bpsWUQVd59SSWa108dyexzdaeEUAftU4URz50yZwmaYkjEKMKTnpt3btdMvaFk%2BrAQqR8f8jtTIq9hJktg6JiP8LSR7YHNHZkZ1mPa7cQaymZfA57v7XU24Or35Bc%2FaL8SHuS9s6gKOlppXpCSgHGEUhwhMF7b4QS7o8b4NzVr6HUZxKm1HB3x62jtjt%2FvYjeUN4VgBFg5b5z3hKURl%2BoPjBjEJO1vGwPh7HRwnnbmT3UCMMwxAAop1R2lkCCwQhTaa15ie7iRDIDkgnVDJGFvTFXauKvofgDt4x0GV2LrqjOGUm6d5TJtY1u0gluL61bc%2BcROpim0FWLRLG%2FO7wdkTCkeArPCS%2BCr1G0Le9%2FBP%2FDfgj7krqoE7ThOQvIpIWqAKDf5kY7%2FWZxcgvLhvgjFyDz8a%2FSfmX4Ct4omEC1%2Fb9eKs80Hsr7MuqVmib5pbVhQuErZVH4qaSmWzyLbyv%2FPfIwhvCa0gY6pgFVWRZrtotTkNo4TvKk3qz3CellzNkoy9%2FeZd1gkjdtKeq4%2FSprccW7VSgSYQRLMtHr8WHN7JmtGGvF8v85gJt3A9mar5DW8weNMrzUtTwvouBdENVuqBkmy36NNQDYQoDOnekBUwFKOE8WCtA3IlQN8TVF8OriVxlIgoL0fHxgkrZ05byrI2hDcjExv2oHl59BNVo%2FzWvCeJY%2Fkm6j5jbc5Zw6eDcD&X-Amz-Signature=243c2c891cd986ab9df910727d3394b4a267fa95e838ab657c7dffabf2fedcd7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-07-02T20:55:16.775Z"
         }
       },
       "icon": {
@@ -1686,7 +1686,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y37A6MNH%2F20260702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260702T145118Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCICVSeP%2FaiOjjoNQ79n%2FuCtPyO1eIOn5tB4D4P2VGRNfxAiAYI%2Bv1vEqFqB5QHBi2%2B6s3zWbnn%2FfREVyNQSCuNVmMHSqIBAj3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMD13T1rnrZSX7653oKtwDu6sGYVHNIsBfYFA7TVblmiY4xMlHH%2BPPg6%2BxVvcFM3Z71lHKbUcpaB6auPONQf%2Bj6VLnoq5iui3t2TR31fWcysPlpn1EfT5R2EoOAm4aA1Hz3ISarOztuw8VwridrIUj7U9ob5ktC4hF0FeYGKi70m9cOPV1%2BWnvcXvlziqyYrnxISam%2BOx3HAVwCwnA0O%2FPBCYNwRv%2BJHd2OLXAkqEc5780Tr8TSdhe6A2TV8b6asxO1g4MRILX4aNzKNtM5iRa7qNZzPj%2B73vthN9KjuEkT%2B4JWLTdkGEjZOi4Q%2Bzx5Mn0n%2FF%2FvEMaGg83Z28w2HcRuxtccd4O2f6YNYsTn9%2FQpqYZZ9vOzDQmBbDHaPYhodWgVKs1afp0thYe5%2BGsqa7By8lROGzBetPW%2BdlMf4jgm94gMI%2BxaQ3nqEERaueIq4cXnKJnRVMCZzCuVDTczWMx1jY0WbXp%2BUwPDhNeh7e5bWnlU6p%2BxGDR2QXMGpGPVc6mfv7FyUzyBaxa3ljyKoU8%2BaxxGXl9bmY8Qe77gyAumVDSHUgFA%2B3uh4Nl6VwG7a5xsTQy8hO%2FE%2B%2Bu9wSUmTytkjLy%2Fa2%2Fz%2BIqQIjOtyHuZscTqf99t9Ktry6OUUK5qQ5lJOl20%2FnMHVMUI%2FQwmOWZ0gY6pgHVcc1%2BHu6yN5sYUvEakqt%2BAaXyhsIIpll1t9IrxvLHnPlt6GRMoMdwQz%2F0a%2FFNt%2Bork27TVOowJze8U71lFMZA16Hesv%2B2zmOVFXrABNqpWnzEOCWsSMOWw%2BpiHAgPZ53GSUWGzEHqmDJY%2FySWlxLIOdTrKcT%2B1re%2F7zvCMRd9%2BbRVxeZQ%2Frk9oKzSshoYW0La1ZICsNlyvnYg%2BcEvmt8eonrh6ScX&X-Amz-Signature=09ff57210b17eeb8084e6c14590d698360971a961aed33dc8f48b43a1a2254f8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46662PNU4Q2%2F20260702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260702T195516Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJGMEQCICkN2Hlle9NnKrSrqy6Je3oovrwBbRlHxBzYXq%2BVRojWAiAwWt1NPpJvNyaDLJDR%2FzoyArxL%2Fu6Mt%2BAeyANd%2BzU4uiqIBAj8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMHRamG7%2F3Gba%2BVGZkKtwDhFwJ%2BDTunQhg%2BfYJ%2Fj3xr0qelwhyZnqoNNzVxj63S74yslwtHgY%2FKQmk2EIsepB3kZUTdwYcz91wTLlDtF0hR8KcABbwzciJMwCKW8gIjVGCr4%2BU%2B2xpGL1ehwYJPgEk1fppySluTYec5vfYu1FSx0UZGaNYk0OapF2bpsWUQVd59SSWa108dyexzdaeEUAftU4URz50yZwmaYkjEKMKTnpt3btdMvaFk%2BrAQqR8f8jtTIq9hJktg6JiP8LSR7YHNHZkZ1mPa7cQaymZfA57v7XU24Or35Bc%2FaL8SHuS9s6gKOlppXpCSgHGEUhwhMF7b4QS7o8b4NzVr6HUZxKm1HB3x62jtjt%2FvYjeUN4VgBFg5b5z3hKURl%2BoPjBjEJO1vGwPh7HRwnnbmT3UCMMwxAAop1R2lkCCwQhTaa15ie7iRDIDkgnVDJGFvTFXauKvofgDt4x0GV2LrqjOGUm6d5TJtY1u0gluL61bc%2BcROpim0FWLRLG%2FO7wdkTCkeArPCS%2BCr1G0Le9%2FBP%2FDfgj7krqoE7ThOQvIpIWqAKDf5kY7%2FWZxcgvLhvgjFyDz8a%2FSfmX4Ct4omEC1%2Fb9eKs80Hsr7MuqVmib5pbVhQuErZVH4qaSmWzyLbyv%2FPfIwhvCa0gY6pgFVWRZrtotTkNo4TvKk3qz3CellzNkoy9%2FeZd1gkjdtKeq4%2FSprccW7VSgSYQRLMtHr8WHN7JmtGGvF8v85gJt3A9mar5DW8weNMrzUtTwvouBdENVuqBkmy36NNQDYQoDOnekBUwFKOE8WCtA3IlQN8TVF8OriVxlIgoL0fHxgkrZ05byrI2hDcjExv2oHl59BNVo%2FzWvCeJY%2Fkm6j5jbc5Zw6eDcD&X-Amz-Signature=243c2c891cd986ab9df910727d3394b4a267fa95e838ab657c7dffabf2fedcd7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
