@@ -655,9 +655,79 @@
       "realName": "vibe-coding-mid-doc",
       "relativePath": "/vibe-coding-mid-doc.md",
       "docPath": "./src/content/post"
+    },
+    {
+      "id": "392cca23-1452-80f8-b5aa-eac52718c7dc",
+      "doc_id": "392cca23-1452-80f8-b5aa-eac52718c7dc",
+      "updated": 1783060260000,
+      "properties": {
+        "date": "2026-07-03 08:00:00",
+        "description": "通过确定性的工作流和稳固的规则文档，可在多轮对话中为 AI 提供足够上下文，避免模型“降智”导致的跑偏。核心做法包括使用低成本模型配合详细流程、将喜好和项目规则沉淀为本地文档、在对话结束时让 AI 总结需求描述，以及合理管理中间文档存放位置，从而提升 AI 的可靠性和效率。",
+        "hidden": false,
+        "urlname": "stable-vibe-coding-workflow",
+        "title": "告别许愿式开发：如何用确定性的工作流对抗 AI “降智”",
+        "tags": [
+          "赛博空间",
+          "VibeCoding"
+        ],
+        "cover": "https://image.1874.run/blog/4dcef5bffd04550dc631fa352c4184ce.png",
+        "updated": "2026-07-03 14:31:00",
+        "draft": false
+      },
+      "realName": "stable-vibe-coding-workflow",
+      "relativePath": "/stable-vibe-coding-workflow.md",
+      "docPath": "./src/content/post"
     }
   ],
   "catalog": [
+    {
+      "object": "page",
+      "id": "392cca23-1452-80f8-b5aa-eac52718c7dc",
+      "created_time": "2026-07-03T05:41:00.000Z",
+      "last_edited_time": "2026-07-03T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
+      },
+      "cover": {
+        "type": "external",
+        "external": {
+          "url": "https://image.1874.run/codex/e6aa19126f7cee5f58bbf80b11e0e9c8.png"
+        }
+      },
+      "icon": {
+        "type": "emoji",
+        "emoji": "📃"
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "b9f3b940-146a-4df6-8b6d-9caf8349a0c5"
+      },
+      "in_trash": false,
+      "is_archived": false,
+      "is_locked": false,
+      "properties": {
+        "date": "2026-07-03 08:00:00",
+        "description": "通过确定性的工作流和稳固的规则文档，可在多轮对话中为 AI 提供足够上下文，避免模型“降智”导致的跑偏。核心做法包括使用低成本模型配合详细流程、将喜好和项目规则沉淀为本地文档、在对话结束时让 AI 总结需求描述，以及合理管理中间文档存放位置，从而提升 AI 的可靠性和效率。",
+        "hidden": false,
+        "urlname": "stable-vibe-coding-workflow",
+        "title": "告别许愿式开发：如何用确定性的工作流对抗 AI “降智”",
+        "tags": [
+          "赛博空间",
+          "VibeCoding"
+        ],
+        "cover": "https://image.1874.run/blog/4dcef5bffd04550dc631fa352c4184ce.png",
+        "updated": "2026-07-03 14:31:00",
+        "draft": false
+      },
+      "url": "https://app.notion.com/p/AI-392cca23145280f8b5aaeac52718c7dc",
+      "public_url": null,
+      "archived": false
+    },
     {
       "object": "page",
       "id": "38fcca23-1452-80c3-886b-d3185d26c62c",
@@ -1658,8 +1728,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662FTGNPF7%2F20260703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260703T045548Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQC%2Bf9ODU4Yrq44rmS7Aa6J4i3Fp2abvgg0wJ9flhg%2BMrgIhAJnAPx3nSXbuX8aqR9McLJGy9Nbff2XqsbZMb72uap%2BJKv8DCAUQABoMNjM3NDIzMTgzODA1IgyB5zXeMSBxl8sp9coq3ANkh0t3yG4LaLunNAJQzbPRGglNF1L%2FAoze2BoZOIWEwiEk2013ijpIbgK45NKrf8Vjl7BhfJWmLVYcpCplktzkS7dFdrvY%2FllESdATmARoYtGde4C%2FK%2BKTM0BoeqlTRSmRS60zutkEHbKwEG0%2FztgaVv0eLH4CKkzsVBiW1dvWSWc%2B6kmI92dDtHzcUev6rgBEkIlbnWVYN7CO1tjA66DWd2ToApdu5L75iTz%2BWXmz1qo2y1EIWjdrOhOAB8ehhrWYQw1WOM2xLNFSAJEdgaQ1%2FmzSkUwyo3Ya%2FiQm651aw8UBjuNSyzhkexxvGU7PWheEYlUoScjouj2Sr3BGTmM4WWWepbSC5id42IDMFvmykdZ6rNTmnLHTUJa%2BXwUupHaGcp5Rjfj4PVdM2G%2BDUS%2Fs6D8GzmHzEPcv%2BYWoe4EltjfjDIFYqfaIHc8EAb8%2F%2FXKalDoirxwKvW9rNqTXK9J12AO5JPNg2UzI92dFS3vLk7AhSM1mVfM%2F4OGixs8lwuL2K5FYtT12sVNxEcniTeFbeZ1x2KJZhBLtELSLi0ebX%2FXwrAyUxaWLvedP8PLjNo1JelHzXEPGr2vknya1qOjd4tfjOTC9JLNqofCEgPBXYEAlU4byhs5NfLqCCDC35pzSBjqkAYp2Bio9roV7Xl50qp0Lc2tVHXZEvH5g2pAiWncNN4yRYgmvQrk3yiMlchGPkO9MhZ1CMwUCT6zFGXcmptQHNs61sbVF5jR77AblhW3G5WdYQyUcUcVP%2FN5XSBBQt%2BUtPAcOZ%2Bdx5BQxKpTq4dn8amESLoYojirRl%2BPC3yDWD18eCFStOd3BAkFdj7%2BQPuloBVw16ApRkPQmdikWIhx%2BxLPN8IJA&X-Amz-Signature=83415a3aa4f93ff4d6faf44e012043c1d034503e98a410b19d9462a35e587aec&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-07-03T05:55:48.414Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZ725WDG%2F20260703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260703T072426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLXdlc3QtMiJHMEUCIBpBdQHbk5NjvzlM80drOdNbE8UB8IETGR8cvWRaMh58AiEA0EVhXgZs1r7akEx5IbIDMTbAe1o0y9H39lGcrI2qIAYq%2FwMIBxAAGgw2Mzc0MjMxODM4MDUiDCyG%2B9%2Fds0z1l7%2B4NSrcA%2BaRc2XeFxTg%2BFDZAvYR599aeYcX4Yzx68yim8alt7rPAwvwgxkOiI7PWXZP5p5e52Sq3eVhhNLKgr4s0qvM95VvgiSb0Cn5mjmTQeki9CEJkSodr0UEZMD4c9FWT%2FrnKp2KN4vRY6PaiUm5qzd%2Fkv6xx8vb6s5%2BIyOQXRv0f0vibP9wHPBPqDzaPAY4PFNLcyYp1yRVRKXIQEHNRuZ63F6Mc0DAubzlB5rpIxUXc0XmbbhO171m5bu%2B2CUJ2QaT2ZvO%2FyEz0xXY%2BlNRuAauFGukg5x8AbP%2FvA2El%2FhOH6E5jDg9VNpRp7EO6OqQbX14rWmUtJRrXCQgRAMjBLTHwNEhl6CfenAWoPDUqys1uuhNmC6swmPsLGNAmiUqOBgUvWyEXnBSMVwBWWhee9pMB68Gvhoxm5jA3G2aEOo5RKX8kZjoea3JBf%2BZx4bvpHPsFPtzY72sVEZ2omvnLSQRqfYY0XVOavWNWAKFZ2LI9Cw3tSgkZeZKIo%2B1WqYlp29%2FJlnO2vZO8hsdleje%2F5zzDeP9WAzM3PjUVhS7zl5QfaVVhYS9lEK2VdhBNI2rNCvy6XZcagYHQhbJ7f0J7MFNK7IRDAMcEfU2IdcLUc4oyCNEZ3hxcIiToS0qXIRxMNORndIGOqUBp3Woa9Deaqcm9mwlljnRZyeR%2BpUgT9a3g8eR9s87DcFm9QS7OgR%2FtGEx4vNUUOEtW1zCxFayHQ4uXtQW9B1fS5SDe25SlExjdqaIPO8%2Fys0QZByKdYZmTRtfrSrRI%2Fy1JyI6%2FWgN4HcOJPDQIuGwg44lA1APLC7%2FKI8jNwSnoro0RtVsnXF8LV8nJZWnUb3RhwXzB%2BpgaN75dE8mmAb1sF1tn0dY&X-Amz-Signature=74efc68ec9de8fa55006ba671bf33815bd49c35f8727e2aea8c194546bfb3e2a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-07-03T08:24:26.883Z"
         }
       },
       "icon": {
@@ -1690,7 +1760,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662FTGNPF7%2F20260703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260703T045548Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJIMEYCIQC%2Bf9ODU4Yrq44rmS7Aa6J4i3Fp2abvgg0wJ9flhg%2BMrgIhAJnAPx3nSXbuX8aqR9McLJGy9Nbff2XqsbZMb72uap%2BJKv8DCAUQABoMNjM3NDIzMTgzODA1IgyB5zXeMSBxl8sp9coq3ANkh0t3yG4LaLunNAJQzbPRGglNF1L%2FAoze2BoZOIWEwiEk2013ijpIbgK45NKrf8Vjl7BhfJWmLVYcpCplktzkS7dFdrvY%2FllESdATmARoYtGde4C%2FK%2BKTM0BoeqlTRSmRS60zutkEHbKwEG0%2FztgaVv0eLH4CKkzsVBiW1dvWSWc%2B6kmI92dDtHzcUev6rgBEkIlbnWVYN7CO1tjA66DWd2ToApdu5L75iTz%2BWXmz1qo2y1EIWjdrOhOAB8ehhrWYQw1WOM2xLNFSAJEdgaQ1%2FmzSkUwyo3Ya%2FiQm651aw8UBjuNSyzhkexxvGU7PWheEYlUoScjouj2Sr3BGTmM4WWWepbSC5id42IDMFvmykdZ6rNTmnLHTUJa%2BXwUupHaGcp5Rjfj4PVdM2G%2BDUS%2Fs6D8GzmHzEPcv%2BYWoe4EltjfjDIFYqfaIHc8EAb8%2F%2FXKalDoirxwKvW9rNqTXK9J12AO5JPNg2UzI92dFS3vLk7AhSM1mVfM%2F4OGixs8lwuL2K5FYtT12sVNxEcniTeFbeZ1x2KJZhBLtELSLi0ebX%2FXwrAyUxaWLvedP8PLjNo1JelHzXEPGr2vknya1qOjd4tfjOTC9JLNqofCEgPBXYEAlU4byhs5NfLqCCDC35pzSBjqkAYp2Bio9roV7Xl50qp0Lc2tVHXZEvH5g2pAiWncNN4yRYgmvQrk3yiMlchGPkO9MhZ1CMwUCT6zFGXcmptQHNs61sbVF5jR77AblhW3G5WdYQyUcUcVP%2FN5XSBBQt%2BUtPAcOZ%2Bdx5BQxKpTq4dn8amESLoYojirRl%2BPC3yDWD18eCFStOd3BAkFdj7%2BQPuloBVw16ApRkPQmdikWIhx%2BxLPN8IJA&X-Amz-Signature=83415a3aa4f93ff4d6faf44e012043c1d034503e98a410b19d9462a35e587aec&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZ725WDG%2F20260703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260703T072426Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjED4aCXVzLXdlc3QtMiJHMEUCIBpBdQHbk5NjvzlM80drOdNbE8UB8IETGR8cvWRaMh58AiEA0EVhXgZs1r7akEx5IbIDMTbAe1o0y9H39lGcrI2qIAYq%2FwMIBxAAGgw2Mzc0MjMxODM4MDUiDCyG%2B9%2Fds0z1l7%2B4NSrcA%2BaRc2XeFxTg%2BFDZAvYR599aeYcX4Yzx68yim8alt7rPAwvwgxkOiI7PWXZP5p5e52Sq3eVhhNLKgr4s0qvM95VvgiSb0Cn5mjmTQeki9CEJkSodr0UEZMD4c9FWT%2FrnKp2KN4vRY6PaiUm5qzd%2Fkv6xx8vb6s5%2BIyOQXRv0f0vibP9wHPBPqDzaPAY4PFNLcyYp1yRVRKXIQEHNRuZ63F6Mc0DAubzlB5rpIxUXc0XmbbhO171m5bu%2B2CUJ2QaT2ZvO%2FyEz0xXY%2BlNRuAauFGukg5x8AbP%2FvA2El%2FhOH6E5jDg9VNpRp7EO6OqQbX14rWmUtJRrXCQgRAMjBLTHwNEhl6CfenAWoPDUqys1uuhNmC6swmPsLGNAmiUqOBgUvWyEXnBSMVwBWWhee9pMB68Gvhoxm5jA3G2aEOo5RKX8kZjoea3JBf%2BZx4bvpHPsFPtzY72sVEZ2omvnLSQRqfYY0XVOavWNWAKFZ2LI9Cw3tSgkZeZKIo%2B1WqYlp29%2FJlnO2vZO8hsdleje%2F5zzDeP9WAzM3PjUVhS7zl5QfaVVhYS9lEK2VdhBNI2rNCvy6XZcagYHQhbJ7f0J7MFNK7IRDAMcEfU2IdcLUc4oyCNEZ3hxcIiToS0qXIRxMNORndIGOqUBp3Woa9Deaqcm9mwlljnRZyeR%2BpUgT9a3g8eR9s87DcFm9QS7OgR%2FtGEx4vNUUOEtW1zCxFayHQ4uXtQW9B1fS5SDe25SlExjdqaIPO8%2Fys0QZByKdYZmTRtfrSrRI%2Fy1JyI6%2FWgN4HcOJPDQIuGwg44lA1APLC7%2FKI8jNwSnoro0RtVsnXF8LV8nJZWnUb3RhwXzB%2BpgaN75dE8mmAb1sF1tn0dY&X-Amz-Signature=74efc68ec9de8fa55006ba671bf33815bd49c35f8727e2aea8c194546bfb3e2a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
@@ -1768,12 +1838,16 @@
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "about",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "关于我",
         "tags": [],
-        "updated": "2026-07-03 12:55:00",
-        "draft": false
+        "updated": "2026-07-03 12:55:00"
       },
       "url": "https://app.notion.com/p/38d84e8345294d6abe765920e06d595d",
       "public_url": null,
