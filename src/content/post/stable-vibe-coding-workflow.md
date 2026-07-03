@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/4dcef5bffd04550dc631fa352c4184ce.png'
-updated: '2026-07-03 14:31:00'
+updated: '2026-07-03 16:26:00'
 draft: false
 ---
 
@@ -92,7 +92,7 @@ draft: false
 
 这里面最重要的就是得让 AI 知道你当前需求的足够上下文。
 
-> [Superpowers](https://github.com/obra/superpowers) 的 Brainstorming SKILL 本身的设计理念就大概是这个意思，他需要获取足够多的信息才会进入设计和开发阶段。当然毕竟它比较重和费 Token，不是所有问题都得用 Superpowers 来解决。
+> [Superpowers](https://github.com/obra/superpowers) 的 Brainstorming SKILL 本身的设计理念就大概是这个意思，他需要获取足够多的信息才会进入设计和开发阶段。当然毕竟它比较重和费 Token，不是所有问题都得用 Superpowers 来解决。社区中还有非常多的工具都在尝试打破「你想的>你表达的> AI想的>AI执行」这个四层表达间的壁垒。
 
 所以 AGENTS.md/CLAUDE.md，以及一些你本地的规则/流程文档，都是非常重要的上下文。
 
@@ -125,5 +125,5 @@ draft: false
 总得来说，你需要经常将你的喜好规则、项目规则、项目流程等文档，沉淀到适合的地方。
 
 
-只要约束的好，几乎不会出现超出你预期范围之外的跑偏，也就不太会出现「AI 真笨啊」的场景。
+只要约束的好，就几乎不会出现超出你预期范围之外的跑偏，也就不太会出现「AI 真笨啊」的场景。
 
