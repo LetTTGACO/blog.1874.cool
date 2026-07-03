@@ -5,7 +5,7 @@ hidden: false
 urlname: about
 title: 关于我
 tags: []
-updated: '2026-07-02 08:27:00'
+updated: '2026-07-03 12:55:00'
 draft: false
 ---
 
@@ -40,6 +40,10 @@ draft: false
 - [Elog](https://elog.1874.cool/)：开放式跨平台博客解决方案，随意组合写作平台(语雀/飞书/Notion/FlowUs)和部署平台(Hexo/VitePress/Halo/Confluence/WordPress等)
 
 ## 关于博客
+
+> 2026/06/28 更新
+
+当前博客接入了 [llms.txt](https://llmstxt.org/)，AI 可以自动发现本博客文章的所有 Markdown 格式文本。你也可以在任意博客文章链接后添加`.md`，即可访问该文章的 Markdown 格式文本，方便 AI 读取。
 
 > 2024/02/03 更新
 
