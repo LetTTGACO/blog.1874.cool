@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-03 03:54:00'
+updated: '2026-07-04 02:08:00'
 draft: false
 ---
 
@@ -215,12 +215,26 @@ printf "\n# JetBrains IDE state\n.idea/\n" >> ~/.gitignore_global
 
 ### 注意事项
 
-- `.git/info/exclude` 只对当前 clone 生效；换机器或重新 clone 后需要重新配置。
-- 全局 Git ignore 只影响当前系统用户；换机器后需要重新配置一次。
-- 不要在私人 runbook 里保存明文密码、长期有效 token 或不可轮换凭据。
-- 如果某些流程后来变成团队共识，再把通用部分提炼进 README、[AGENTS.md](http://agents.md/) 或正式 docs。
-- 私有部署路径、SSH alias、服务器名、容器名等仍留在 `.local/runbooks/`。
+- `.git/info/exclude` 只对当前 clone 生效；
+- 尽量不要在私人 runbook 里保存明文密码、长期有效 token 或不可轮换凭据。
+- 如果某些流程后来变成团队共识，再把通用部分提炼进 README、AGENTS.md 或正式 docs。
 - 嵌套 Git 仓库默认没有 remote；如果以后要备份，可以单独配置私有 remote。
+
+## 设置 AI Agent 全局规则
+
+
+AI Agent 偶尔可能会尝试提交上面这些被忽略的本地文档（但实际不会提交），但是感觉会比较费 Token，一般可能不会主动读取这些文档，所以可以在全局规则中简单说明下，例如 `~/.codex/AGENTS.md`
+
+
+```markdown
+## 本地私有文档边界
+
+项目里可能有 `.local/` 和 `docs/superpowers/` 这类被 Git 排除的本地私有文档，它们默认不是主仓库交付物。
+
+- `.local/`：本地私有上下文/runbook。可以按任务需要读取；只有用户明确要求才写入；永远不要提交到主仓库，也不要因为被 ignore 就 `git add -f`。
+- `docs/superpowers/`：独立的本地文档 Git 仓库。当前处于 superpowers 流程时或用户明确要求创建/更新这些文档时，可以写入并按该流程单独提交。
+```
+
 
 ## 决策图
 
