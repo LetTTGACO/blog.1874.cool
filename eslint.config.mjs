@@ -7,7 +7,7 @@ import globals from "globals";
 
 export default [
 	{
-		ignores: ["node_modules", "dist", ".astro", ".github", ".changeset"],
+		ignores: ["node_modules", "dist", ".astro", ".github", ".changeset", ".vercel/**"],
 	},
 	js.configs.recommended,
 	{

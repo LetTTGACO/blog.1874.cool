@@ -1,5 +1,5 @@
 ---
-date: '2022-04-19 00:00:00'
+date: '2022-04-19 08:00:00'
 description: 这篇文章介绍了如何使用Alfred Workflows配置Mac上的效率工具，包括使用Alfred快速打开网址和使用Alfred打开WebStorm和iTerm来快速打开和运行项目。
 hidden: false
 urlname: alfred-workflows
@@ -119,7 +119,7 @@ draft: true
 ![FoE5xUh8YN6K2pZSd6a976xz5KF_.png](https://image.1874.run/blog/31bd242cc74c441caa461efc88cbac43.png)
 
 
-```text
+```plain text
 -- For the latest version:
 -- https://github.com/vitorgalvao/custom-alfred-iterm-scripts
 

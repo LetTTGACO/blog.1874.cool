@@ -11,10 +11,10 @@
 		"format": "prettier -w --cache . && prettier -w --cache **/*.astro",
 		"check": "astro check",
 		"lint": "eslint .",
-		"local": "elog sync -e .elog.env",
-		"local:archive": "elog sync -e .elog.env --config elog.config.archive.js  --disable-cache",
-		"sync": "elog sync",
-		"sync:archive": "elog sync --config elog.config.archive.js"
+		"local": "elog sync -e .elog.env -c elog.config.1x.ts",
+		"local:archive": "elog sync -e .elog.env -c elog.config.archive.1x.ts",
+		"sync": "elog sync -c elog.config.1x.ts",
+		"sync:archive": "elog sync -c elog.config.archive.1x.ts"
 	},
 	"engines": {
 		"node": "24.x"
@@ -38,8 +38,10 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.9",
-		"@elog/cli": "0.15.0-beta.2",
-		"@elog/plugin-img-r2": "0.1.2-beta.0",
+		"@elog/cli": "1.0.0-beta.2",
+		"@elog/plugin-from-notion": "1.0.0-beta.2",
+		"@elog/plugin-to-local": "1.0.0-beta.2",
+		"@elog/plugin-transform-image-r2": "1.0.0-beta.2",
 		"@eslint/js": "^10.0.1",
 		"@iconify-json/mdi": "^1.1.64",
 		"@pagefind/default-ui": "^1.5.2",
@@ -67,5 +69,5 @@
 		"tailwindcss": "^3.4.19",
 		"typescript": "^6.0.3"
 	},
-	"packageManager": "pnpm@10.32.1"
+	"packageManager": "pnpm@11.9.0"
 }
