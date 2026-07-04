@@ -1,9 +1,9 @@
 import rss from "@astrojs/rss";
 import { siteConfig } from "@/site-config";
-import { getAllPosts } from "@/utils/post";
+import { filterHidden, getAllPosts, sortMDByDate } from "@/utils/post";
 
 export const GET = async () => {
-	const posts = await getAllPosts();
+	const posts = sortMDByDate(filterHidden(await getAllPosts()).filter((post) => !post.data.draft));
 
 	return rss({
 		title: siteConfig.title,
@@ -13,7 +13,7 @@ export const GET = async () => {
 			title: post.data.title,
 			description: post.data.description,
 			pubDate: post.data.date,
-			link: `${post.id}`,
+			link: `/${post.id}`,
 		})),
 	});
 };
