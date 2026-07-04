@@ -2,15 +2,19 @@
 import { menuLinks, siteConfig, buildLinks } from "@/site-config";
 
 const year = new Date().getFullYear();
+const footerLabelLines = (title: string) => {
+	if (title.length <= 2) return [...title];
+	return title.length > 3 ? title.match(/.{1,2}/gu) : [title];
+};
 ---
 
 <footer
-	class="mt-auto flex w-full flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:justify-between sm:text-xs"
+	class="mt-auto flex flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:gap-x-20 sm:text-xs"
 >
-	<div class="me-0 sm:me-4">
+	<div>
 		&copy; {siteConfig.author}&nbsp;
-		{year}.<span class="inline-block"
-			>&nbsp;🚀&nbsp;
+		{year}.<span class="block"
+			>🚀&nbsp;
 			{
 				buildLinks.map((link, index) => {
 					return (
@@ -35,8 +39,11 @@ const year = new Date().getFullYear();
 	>
 		{
 			menuLinks.map((link) => (
-				<a href={link.path} class="px-4 py-2 sm:py-0 sm:hover:text-textColor sm:hover:underline">
-					{link.title}
+				<a
+					href={link.path}
+					class="shrink-0 px-4 py-2 leading-tight sm:py-0 sm:hover:text-textColor sm:hover:underline"
+				>
+					{footerLabelLines(link.title)?.map((line) => <span class="block whitespace-nowrap">{line}</span>)}
 				</a>
 			))
 		}
