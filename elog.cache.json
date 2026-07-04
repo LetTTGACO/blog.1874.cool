@@ -615,16 +615,20 @@
       "properties": {
         "date": "2026-07-03 08:00:00",
         "description": "通过确定性的工作流和稳固的规则文档，可在多轮对话中为 AI 提供足够上下文，避免模型“降智”导致的跑偏。核心做法包括使用低成本模型配合详细流程、将喜好和项目规则沉淀为本地文档、在对话结束时让 AI 总结需求描述，以及合理管理中间文档存放位置，从而提升 AI 的可靠性和效率。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "stable-vibe-coding-workflow",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "告别许愿式开发：如何用确定性的工作流对抗 AI “降智”",
         "tags": [
           "赛博空间",
           "VibeCoding"
         ],
-        "cover": "https://image.1874.run/blog/4dcef5bffd04550dc631fa352c4184ce.png",
-        "updated": "2026-07-03 17:26:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/e6aa19126f7cee5f58bbf80b11e0e9c8.png",
+        "updated": "2026-07-03 17:26:00"
       },
       "url": "https://app.notion.com/p/AI-392cca23145280f8b5aaeac52718c7dc",
       "public_url": null,
@@ -667,16 +671,20 @@
       "properties": {
         "date": "2026-07-01 08:00:00",
         "description": "提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "vibe-coding-mid-doc",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "给 Vibe Coding 中间文档找一个合适的位置",
         "tags": [
           "赛博空间",
           "VibeCoding"
         ],
-        "cover": "https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png",
-        "updated": "2026-07-04 02:08:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/bca6c6af96be8d5307a042bf6ead36ef.png",
+        "updated": "2026-07-04 02:08:00"
       },
       "url": "https://app.notion.com/p/Vibe-Coding-38fcca23145280c3886bd3185d26c62c",
       "public_url": null,
@@ -716,16 +724,20 @@
       "properties": {
         "date": "2026-06-27 08:00:00",
         "description": "通过将 Hermes 的 origin remote 指向个人 fork，并创建 .skip_upstream_prompt 静音文件，可让 hermes update 从 fork 拉取代码，实现安全的更新与补丁开发流程；同时可自行设置 upstream 同步官方仓库，保持 fork 与上游代码同步，简化开发、合并和部署步骤。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "hermes-update-fork",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "无需打散件补丁：用 fork 接管 Hermes 更新",
         "tags": [
           "赛博空间",
           "Hermes"
         ],
-        "cover": "https://image.1874.run/blog/bc1fc4d4819a578c395c1c60f5c46262.png",
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/b0335701bd4ffeecf3a86f0f9ef06980.png",
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/fork-Hermes-38bcca2314528013bc05cd3f5f5923d3",
       "public_url": null,
@@ -765,15 +777,19 @@
       "properties": {
         "date": "2026-06-10 08:00:00",
         "description": "通过在 Raycast 设置中启用 Custom Providers 并编辑 providers.yaml，可将火山方舟、Doubao、DeepSeek 等模型接入 Raycast AI，支持温度、系统消息、工具调用和视觉输入等能力。配置后可为 Quick AI 和自定义翻译等功能指定首选模型，实现系统级实时翻译并通过快捷键快速调用，提升工作流效率。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "raycast-ai-custom",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Raycast AI 接入自定义 Providers",
         "tags": [
           "赛博空间"
         ],
-        "cover": "https://image.1874.run/blog/c6134313479be0678da9ce61d7aa7eb7.png",
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/f7aa09248dc6d81a5099274fcebea3de.png",
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Raycast-AI-Providers-37acca2314528012ac84df4ff09c9dbe",
       "public_url": null,
@@ -813,16 +829,20 @@
       "properties": {
         "date": "2026-06-09 08:00:00",
         "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-workflow",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "从对话到沉淀：我的 Codex 工作流实践",
         "tags": [
           "赛博空间",
           "Codex"
         ],
-        "cover": "https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png",
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "cover": "https://image.1874.run/blog/fe59bc13259b3c6eb6a57d1afcf657e6.png",
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Codex-37acca231452804a91c9ee65c511e688",
       "public_url": null,
@@ -862,17 +882,21 @@
       "properties": {
         "date": "2026-05-20 08:00:00",
         "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-claude-code",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
           "赛博空间",
           "Codex",
           "ClaudeCode"
         ],
-        "cover": "https://image.1874.run/blog/173c1586b0f2b1b3891e3a2945ae6019.png",
-        "updated": "2026-07-02 22:50:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/b450b18ef2fc1879ec2e327f58fc409e.png",
+        "updated": "2026-07-02 22:50:00"
       },
       "url": "https://app.notion.com/p/Codex-Claude-Code-366cca23145280ad9f31f254b4d1b9cd",
       "public_url": null,
@@ -912,16 +936,20 @@
       "properties": {
         "date": "2026-05-15 08:00:00",
         "description": "Hermes Agent 的工作流已迁移至 Hermes，形成六大核心 Skill（Flomo 笔记、RSS 摘要、实时搜索、任务管理、知识处理、工作流设计）以及对应的 MCP 服务器、定时任务和持久记忆层，配合多渠道推送，实现自动化信息采集、整理、标签化和任务生成，并通过模型配置优化不同场景的性能与成本。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "hermes-hacking-log",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Hermes Agent 折腾日志",
         "tags": [
           "赛博空间",
           "Hermes"
         ],
-        "cover": "https://image.1874.run/blog/ff870970077f53aa7999b8d19f74d47c.png",
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "cover": "https://image.1874.run/blog/be9f0f83477257716f4705e53e28abe0.png",
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Hermes-Agent-360cca231452802f802df5e5ce421853",
       "public_url": null,
@@ -956,15 +984,19 @@
       "properties": {
         "date": "2026-05-14 08:00:00",
         "description": "OpenClaw 多 Agent 架构将 OpenClaw 用作个人助理，支持笔记回顾、定时关注、信息获取与追踪等工作流，并通过 MCP 连接各工具。系统由主调度中书令（main）负责接收请求、意图识别、任务拆分与派工，四个子司（司记、司务、司情、司工）分别负责笔记管理、待办与日程、外部情报检索以及代码、配置与运维。每个司都有明确职责、提示词要点和工具使用规范，确保任务安全、可追溯并高效完成。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "openclaw-agents",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "OpenClaw 多 Agent 架构",
         "tags": [
           "赛博空间",
           "OpenClaw"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/OpenClaw-Agent-35fcca23145280e68ee8fd1f5cb1ebc9",
       "public_url": null,
@@ -1002,15 +1034,19 @@
       "properties": {
         "date": "2025-03-27 08:00:00",
         "description": "在局域网中配置内网服务的优雅访问，通过自建域名映射不同服务，使用反向代理和SSL证书确保安全访问，最终实现无需端口号直接访问服务的目标。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "homelab-domain",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "局域网内优雅的访问家庭内网服务",
         "tags": [
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1c3cca23145280d0b67ecb6b80e2670f",
       "public_url": null,
@@ -1045,14 +1081,18 @@
       "properties": {
         "date": "2025-03-26 08:00:00",
         "description": "本文分析了 CJS 和 ESM 模块的混合开发，涵盖了 NPM 库维护者和使用者的不同场景，提供了导出和使用模块的最佳实践，以及如何在项目中有效地管理模块类型和文件后缀。全面拥抱 ESM 是未来的趋势。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "esm-commonjs",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "从多场景分析 ESM 和 CJS 混合开发",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/ESM-CJS-1c2cca231452806088dffc891858f065",
       "public_url": null,
@@ -1087,15 +1127,19 @@
       "properties": {
         "date": "2025-03-24 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "hacker-news-rss",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "用小爱音响听 Hacker News & RSS",
         "tags": [
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Hacker-News-RSS-1c0cca231452807fa62af466d65e24f6",
       "public_url": null,
@@ -1135,12 +1179,16 @@
         "description": "学习了344.反转字符串和541.反转字符串II的解题思路与代码实现，强调了双指针和边界处理的重要性，并通过示例加深理解。",
         "hidden": true,
         "urlname": "kamacoder-day-07",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第7天｜344.反转字符串、541.反转字符串II",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/7-344-541-II-1abcca2314528093b3fafb5046796f56",
       "public_url": null,
@@ -1180,12 +1228,16 @@
         "description": "学习了四个算法题的解法，包括使用哈希法和双指针法，重点在于优化时间复杂度和去重操作，特别是如何通过拆分和差值来提高效率。",
         "hidden": true,
         "urlname": "kamacoder-day-06",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第6天｜454.四数相加II、383.赎金信、15.三数之和、18.四数之和",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/6-454-II-383-15-18-1a9cca23145280328c2ecaa0c1c2b136",
       "public_url": null,
@@ -1225,12 +1277,16 @@
         "description": "学习了哈希表的基本理论及其在四个算法题中的应用，包括有效的字母异位词、两个数组的交集、快乐数和两数之和，强调了使用数组和set的场景。提供了相关链接和解题思路。",
         "hidden": true,
         "urlname": "kamacoder-day-05",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第5天｜242.有效的字母异位词、349.两个数组的交集、202.快乐数、1.两数之和",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/5-242-349-202-1-1a8cca23145280ee8337caf4cda34368",
       "public_url": null,
@@ -1270,12 +1326,16 @@
         "description": "学习了链表相关的算法，包括两两交换节点、删除倒数第N个节点、链表相交和环形链表的入口。掌握了虚拟节点、双指针和快慢指针的解题思路，理解了环的入口计算方法。",
         "hidden": true,
         "urlname": "kamacoder-day-04",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第4天｜24.两两交换链表节点、19.删除链表的倒数第N个节点、160.链表相交、142.环形链表II",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/4-24-19-N-160-142-II-1a8cca231452803cae9ff653d29c28a3",
       "public_url": null,
@@ -1315,12 +1375,16 @@
         "description": "学习链表基础，解决203.移除链表元素、707.设计链表、206.反转链表的思路和代码实现，强调虚拟头节点的使用和双指针法的递归推导。",
         "hidden": true,
         "urlname": "kamacoder-day-03",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第3天｜203.移除链表元素、707.设计链表、206.反转链表",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/3-203-707-206-1a6cca231452801eaa06f0fc1658f525",
       "public_url": null,
@@ -1360,12 +1424,16 @@
         "description": "学习了209.长度最小的子数组和59.螺旋矩阵II的解题思路，重点在滑动窗口和边界处理，收获了对数组题目的理解，但感觉解题思路缺乏通用性。建议总结数组专题。",
         "hidden": true,
         "urlname": "kamacoder-day-02",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第2天｜209.长度最小的子数组、59.螺旋矩阵II",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/2-209-59-II-12fcca231452807bac3aed63f0681a78",
       "public_url": null,
@@ -1405,12 +1473,16 @@
         "description": "今日学习了二分查找、移除元素和有序数组的平方等算法，掌握了双指针法和暴力解法的实现思路，记录了学习收获和遇到的困难。",
         "hidden": true,
         "urlname": "kamacoder-day-01",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "算法训练营第1天｜704.二分查找、27.移除元素、977.有序数组的平方",
         "tags": [
           "算法训练营"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-704-27-977-12fcca23145280068c6dd6a6ab132a4c",
       "public_url": null,
@@ -1448,16 +1520,20 @@
       "properties": {
         "date": "2024-06-29 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "homelab",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "HomeLab 启动",
         "tags": [
           "赛博空间",
           "HomeLab",
           "代码之外"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/HomeLab-e1eea3870e10442193bc7f598cb55dd4",
       "public_url": null,
@@ -1495,15 +1571,19 @@
       "properties": {
         "date": "2024-06-29 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "unbantu-samba",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Ubuntu 配置 Samba 服务",
         "tags": [
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Ubuntu-Samba-7b6db7472a9e4476bfbf328c8bc53dcf",
       "public_url": null,
@@ -1541,14 +1621,18 @@
       "properties": {
         "date": "2024-06-30 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "2024-month-02",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "月刊（第2期）：信息就像糖，让人上瘾",
         "tags": [
           "月刊"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/2-9dcfbf2882f4473b9c5a27cd3780d7bf",
       "public_url": null,
@@ -1570,8 +1654,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TEVDJLK4%2F20260704%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260704T062658Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFYaCXVzLXdlc3QtMiJGMEQCIEsQhpxYJId%2Bgpi3UyN%2Bf7Wnpi9UcbuSvUHa8PZ2yX3jAiAeFEHX8YCTnb6OY8DlJlqfX%2BMXrapHICGQ2VeMLPi2Byr%2FAwgfEAAaDDYzNzQyMzE4MzgwNSIMinJJtMt6fVQ980FPKtwDwhtYrDo%2BF049LmgKTRQSbIDYURU1uE%2FnrFLuXIfpwP38vUorKsQKwujjM%2BlRATaIRHltpC1XbzbrnQIAHADx3pfFbNkEMXwnygUahaZwJDOpzQFC7XwxvVq8dk4bz0F%2B6tzsaJg6TC9wfVr1ns5RpbSxW5if3SQZvGHsNziUun%2BOtdvC%2FnlEtFrwY%2BUvJ9B1V7dr6p0hg%2FFTWVUSEFJkmpE8azzUacr4z3vjlZnh0MWNu70aT88f0PiPj1j0tJsqajd0Ipwom7gK6BIo3tZT9MH5tiPmD2IoWhqqr8vre51RH3rvIVLnvgnG1OaxJPdTy7SSzRbjdNWEk%2FRkfgwSlCx%2Foq4LvVTL6yXOZL%2B75GCQ0mN%2FXFqQXtfwQIOq1S17oTCF%2FWDpqcHW3wlWsai2p2nJ4g%2FSNg4ocbJQcCRbcNd%2FYxy68kNko2BQW1RQ%2BPpAjv5k9dmwenOtmGecSiV5I%2Ft4Mg%2FOF8h5tdNFxBUfebng0lPjZW3W6bV3pbViziYH8NPuLVGpOs4%2FhKwK30HGtZzdFbjwEwtpBa0jFfM4HidnPYJdklcM7YqttSBeYYArqeA9kEYami1%2BEurDbg2j4NAHjMUb4Kqx2ew3wV%2B%2FGwtSgRc%2Be%2B6odmHDtysw8Mmi0gY6pgHwjyM%2FpEI7st%2F4lFIJx0Xtnq0gMPJ32B9oLBaRreVHKeon7fyyNlm0oDH%2FhkyRqcTXNpTlXkIFOMUY1UwV9EQIy54RPImhk%2FsuoO%2BdxvQUnBe8gZfbDfYQ8Yn204ifnhyKpYGfzrumoNY0LZIRyD8pdhRrV91GRGuZdEDnanMPRN4qjAc386PLxnsisymRJpEW9YVAuh1yPi0EDMBucuVhzQODRS%2Fg&X-Amz-Signature=b74d199319cb0e18a3fac26d5165faadf88d3a78d5c366bd3cd9eb6f13b313df&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-07-04T07:26:58.261Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UEMKVEKF%2F20260704%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260704T063623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFYaCXVzLXdlc3QtMiJHMEUCIQCKNz9b4faDJrsnQE%2BLl%2B13Cl5jgqZ4s%2FItOaJZYxSAYAIgLv%2Fvu9pzQbT14YMj1RcXvS6JuRGZcOEtQxHhj8fIdXUq%2FwMIHxAAGgw2Mzc0MjMxODM4MDUiDHQMv7Lmye1L%2Fj3M7ircA%2FunEtbpmXmtnrAFQ57TpRQhx5K%2F40aQhawyyXjEYqSsq5PC1RvAYyBlX6Pl%2FxS5%2FZ%2BWxlyb6PUm0G2NckyXtl0OYP47%2BrT1jcO9opvb%2B%2BheTuQP0oXfjKgVPTIrNeJei%2BLj79DPRuJ9m3F51SUXNR%2F5PG35k9jA1LJXtaYBbxvkwcUTnHQiOlXSdpq2SHCZf1ia5ecOeXdbRf0jQ4AFlNXoAh3gaJJ%2BEdbiJebDglPgYKTIsF0Q%2FEt1DZL2Hfswi33jOo5fOHhKEynLm30vJwv90F0eScvlpFsKRaQsuNM%2BfSyF%2FyXLPahZCNDjoHX4BHj2nREDy0lw1odhEWDnUG2yZCWZgPtq%2Fi%2BdnAUPSJ5LylojMODBWC3UaMz84n4987Crl3PfB0oBY776nzpE2aZK8ItDQ8s3l05I4ptFmO%2F1EBhVpOM4oXH%2FH%2BWFFAd7LNNY0h3hTJqoE5Wkffeq1sm8lGgctB5W1xb4i%2F3xyBL8tFyc15EKotmo3bTxKEe%2Bv9tjlkJafjCKl0Gi3IIyp7QwuvmUoGbkThZbEpe1ETiBy0IUjX%2B6AeMuiEE2Tq6GzDQ6iRjRe8JmHg6SqhEfNBjlcS5I49BZ6Scpa6wmTfb034ayTbLjzS7ZUkHNMMjJotIGOqUB8qRu%2BI1Pu6NR0%2BD3%2FEzDbedPVjxFkG8dXogyhqDZycD4%2BRw%2FRqUuhqHGtr%2FMNGj1eUtMXgP0ZDpPPJXi6dWXXAebfN8%2F0NlY8VFsdbrcLyJspNWqZx05nwW2eUuCnz4WVmLN7Sa0lVGqY9J5sDBnWcLPUi%2FYU%2BSOl9JjtGswf0B5U0XKKeIiMS5aUnjh5Plh5CalV6pQvxtRxkOnd0C8h6BPzDAN&X-Amz-Signature=3e6da16d651246ed4eb23984bff858f457ce9519b4361e0de48988d0f56105a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-07-04T07:36:23.199Z"
         }
       },
       "icon": {
@@ -1592,15 +1676,19 @@
       "properties": {
         "date": "2024-05-31 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "2024-month-01",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "月刊（第1期）：刻意练习",
         "tags": [
           "月刊"
         ],
-        "cover": "https://image.1874.run/blog/e5342400c95fe3a8ae52f8b8de7966ac.png",
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UEMKVEKF%2F20260704%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260704T063623Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFYaCXVzLXdlc3QtMiJHMEUCIQCKNz9b4faDJrsnQE%2BLl%2B13Cl5jgqZ4s%2FItOaJZYxSAYAIgLv%2Fvu9pzQbT14YMj1RcXvS6JuRGZcOEtQxHhj8fIdXUq%2FwMIHxAAGgw2Mzc0MjMxODM4MDUiDHQMv7Lmye1L%2Fj3M7ircA%2FunEtbpmXmtnrAFQ57TpRQhx5K%2F40aQhawyyXjEYqSsq5PC1RvAYyBlX6Pl%2FxS5%2FZ%2BWxlyb6PUm0G2NckyXtl0OYP47%2BrT1jcO9opvb%2B%2BheTuQP0oXfjKgVPTIrNeJei%2BLj79DPRuJ9m3F51SUXNR%2F5PG35k9jA1LJXtaYBbxvkwcUTnHQiOlXSdpq2SHCZf1ia5ecOeXdbRf0jQ4AFlNXoAh3gaJJ%2BEdbiJebDglPgYKTIsF0Q%2FEt1DZL2Hfswi33jOo5fOHhKEynLm30vJwv90F0eScvlpFsKRaQsuNM%2BfSyF%2FyXLPahZCNDjoHX4BHj2nREDy0lw1odhEWDnUG2yZCWZgPtq%2Fi%2BdnAUPSJ5LylojMODBWC3UaMz84n4987Crl3PfB0oBY776nzpE2aZK8ItDQ8s3l05I4ptFmO%2F1EBhVpOM4oXH%2FH%2BWFFAd7LNNY0h3hTJqoE5Wkffeq1sm8lGgctB5W1xb4i%2F3xyBL8tFyc15EKotmo3bTxKEe%2Bv9tjlkJafjCKl0Gi3IIyp7QwuvmUoGbkThZbEpe1ETiBy0IUjX%2B6AeMuiEE2Tq6GzDQ6iRjRe8JmHg6SqhEfNBjlcS5I49BZ6Scpa6wmTfb034ayTbLjzS7ZUkHNMMjJotIGOqUB8qRu%2BI1Pu6NR0%2BD3%2FEzDbedPVjxFkG8dXogyhqDZycD4%2BRw%2FRqUuhqHGtr%2FMNGj1eUtMXgP0ZDpPPJXi6dWXXAebfN8%2F0NlY8VFsdbrcLyJspNWqZx05nwW2eUuCnz4WVmLN7Sa0lVGqY9J5sDBnWcLPUi%2FYU%2BSOl9JjtGswf0B5U0XKKeIiMS5aUnjh5Plh5CalV6pQvxtRxkOnd0C8h6BPzDAN&X-Amz-Signature=3e6da16d651246ed4eb23984bff858f457ce9519b4361e0de48988d0f56105a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
       "public_url": null,
@@ -1635,12 +1723,16 @@
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "links",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "友情链接",
         "tags": [],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/fbfa2d8338eb422692cb0b06f9c6c24a",
       "public_url": null,
@@ -1675,12 +1767,16 @@
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "这篇博客介绍了作者的个人信息和博客相关内容，包括欢迎词、关于作者、联系方式以及博客的托管和主题信息。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "about",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "关于我",
         "tags": [],
-        "updated": "2026-07-03 12:55:00",
-        "draft": false
+        "updated": "2026-07-03 12:55:00"
       },
       "url": "https://app.notion.com/p/38d84e8345294d6abe765920e06d595d",
       "public_url": null,
@@ -1718,15 +1814,19 @@
       "properties": {
         "date": "2024-01-28 08:00:00",
         "description": "",
-        "hidden": false,
+        "hidden": "",
         "urlname": "frp",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "自建 FRP 内网穿透",
         "tags": [
           "赛博空间",
           "HomeLab"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/FRP-afd46908067b43c8834f8dd90dedd195",
       "public_url": null,
@@ -1761,14 +1861,18 @@
       "properties": {
         "date": "2022-07-16 08:00:00",
         "description": "本文介绍了如何使用Github Actions进行持续集成和部署Node项目到云服务器的流程。包括搭建Node服务、开通腾讯云容器镜像服务、配置Github Actions以及相关的Docker配置。通过这些步骤，可以实现自动构建和部署项目。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "docker-in-github-actions",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Github Actions 部署 docker",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Github-Actions-docker-9b84960b447d42d18bb83304499e30ab",
       "public_url": null,
@@ -1806,14 +1910,18 @@
       "properties": {
         "date": "2023-10-19 08:00:00",
         "description": "本文介绍了作者的笔记管理法，其中包括卡片笔记写作法的概念和重要性，以及使用Flomo作为笔记软件的经验。作者强调了记录、回顾和分享的重要性，并提供了一些推荐的书籍和工具供参考。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "how-do-i-take-note",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "我的笔记管理法",
         "tags": [
           "代码之外"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/6807b411e2804a728a948667c9840fc3",
       "public_url": null,
@@ -1851,14 +1959,18 @@
       "properties": {
         "date": "2023-12-30 08:00:00",
         "description": "2023年的年终总结回顾了作者在开源项目Elog的成长、知识管理的启蒙以及个人IP的打造。展望2024年，计划继续维护Elog并尝试重构，朝独立开发者的目标迈进，输出更多优质文章，阅读更多书籍，提升事业发展和个人健康。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "2023-year-end",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "2023，开源的乐趣",
         "tags": [
           "年刊"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/2023-0aaf6ef0553e41a29d735cea8aa0c5bb",
       "public_url": null,
@@ -1896,14 +2008,18 @@
       "properties": {
         "date": "2024-02-01 08:00:00",
         "description": "在Mac系统下制作USB启动盘的方法：下载ISO镜像文件，使用hdiutil命令将ISO文件转换为dmg文件，插入U盘并查看盘符，取消挂载U盘，使用dd命令将img文件烧录到U盘。这样就完成了USB启动盘的制作。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "make-use-boot-disk-on-mac",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "macOS 系统下制作 USB 启动盘",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/macOS-USB-f66e7b96ff5e4bd580b1daa34b62747c",
       "public_url": null,
@@ -1941,14 +2057,18 @@
       "properties": {
         "date": "2023-04-10 08:00:00",
         "description": "这篇文章介绍了将博客迁移到Notion的经历。作者提到了使用语雀作为原始博客平台，然后转向Notion的原因，包括Notion的友好API、筛选和排序功能、AI功能以及中文插件。作者还介绍了使用NotionNext来持续集成部署到Vercel的过程，并提到了在迁移过程中遇到的问题，如Notion对Markdown导入的不完美和NotionNext的一些小瑕疵。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "migrate-blog-to-notion",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "迁移博客到 Notion",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Notion-893659b9d7f640909abc637da2c7c560",
       "public_url": null,
@@ -1986,14 +2106,18 @@
       "properties": {
         "date": "2023-09-03 08:00:00",
         "description": "本文介绍了使用Rollup打包多入口文件的配置方法。通过将不同客户端的请求库逻辑分离成独立的入口文件，并配合package.json中的exports字段，实现按需引入。同时提供了代码结构、注意事项、Rollup配置和package.json配置的示例。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "rollup-multi-input",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Rollup打包——多入口配置",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Rollup-5c525f1d6d6047f9810a3bda51fdda27",
       "public_url": null,
@@ -2028,14 +2152,18 @@
       "properties": {
         "date": "2022-06-23 08:00:00",
         "description": "本文介绍了如何使用GitHub Actions自动发布npm包。文章包括配置文件、package.json、tsconfig.json以及自动化发布的步骤。通过这些配置，可以在GitHub上创建release版本时自动将构建文件夹中的压缩包发布到npm。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "npm-in-github-actions",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Github Actions 发布 npm 包",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/Github-Actions-npm-7ef7d72e09e541ab957773356c521a13",
       "public_url": null,
@@ -2073,14 +2201,18 @@
       "properties": {
         "date": "2024-02-02 08:00:00",
         "description": "在WebStorm中调试React/Vue等项目的正确姿势是通过\"JavaScript调试\"配置来设置调试模式，并在项目中打断点后刷新浏览器页面以进入WebStorm调试模式。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "debugger-on-webstorm",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "在 WebStorm 中调试 React/Vue 等项目",
         "tags": [
           "赛博空间"
         ],
-        "updated": "2026-07-01 06:56:00",
-        "draft": false
+        "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/WebStorm-React-Vue-337d0bd7179c452691b57acbcc25cc9e",
       "public_url": null,
