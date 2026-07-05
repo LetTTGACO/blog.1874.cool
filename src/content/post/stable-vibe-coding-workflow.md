@@ -5,10 +5,9 @@ hidden: false
 urlname: stable-vibe-coding-workflow
 title: 告别许愿式开发：如何用确定性的工作流对抗 AI “降智”
 tags:
-  - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/4dcef5bffd04550dc631fa352c4184ce.png'
-updated: '2026-07-03 17:26:00'
+updated: '2026-07-05 10:06:00'
 draft: false
 ---
 

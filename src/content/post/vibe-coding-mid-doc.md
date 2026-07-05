@@ -5,10 +5,9 @@ hidden: false
 urlname: vibe-coding-mid-doc
 title: 给 Vibe Coding 中间文档找一个合适的位置
 tags:
-  - 赛博空间
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-04 02:08:00'
+updated: '2026-07-05 10:06:00'
 draft: false
 ---
 
