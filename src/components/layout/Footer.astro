@@ -2,10 +2,6 @@
 import { menuLinks, siteConfig, buildLinks } from "@/site-config";
 
 const year = new Date().getFullYear();
-const footerLabelLines = (title: string) => {
-	if (title.length <= 2) return [...title];
-	return title.length > 3 ? title.match(/.{1,2}/gu) : [title];
-};
 ---
 
 <footer
@@ -35,15 +31,12 @@ const footerLabelLines = (title: string) => {
 	</div>
 	<nav
 		aria-label="More on this site"
-		class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500"
+		class="flex flex-wrap items-center justify-center gap-y-2 text-sm sm:text-xs"
 	>
 		{
 			menuLinks.map((link) => (
-				<a
-					href={link.path}
-					class="shrink-0 px-4 py-2 leading-tight sm:py-0 sm:hover:text-textColor sm:hover:underline"
-				>
-					{footerLabelLines(link.title)?.map((line) => <span class="block whitespace-nowrap">{line}</span>)}
+				<a href={link.path} class="mx-2 whitespace-nowrap py-1 sm:hover:text-textColor sm:hover:underline">
+					{link.title}
 				</a>
 			))
 		}

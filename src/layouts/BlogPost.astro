@@ -6,6 +6,7 @@ import BlogHero from "@/components/blog/Hero";
 import TOC from "@/components/blog/TOC";
 // import WebMentions from "@/components/blog/webmentions/index";
 import Comment from "@/components/Comment";
+import { shouldShowVibeCodingStaleNotice } from "@/utils/staleNotice";
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -17,6 +18,7 @@ const {
 } = post;
 // const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updated?.toISOString() ?? date.toISOString();
+const showVibeCodingStaleNotice = shouldShowVibeCodingStaleNotice(post);
 const { headings } = await render(post);
 ---
 
@@ -28,6 +30,19 @@ const { headings } = await render(post);
 			<div
 				class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none"
 			>
+				{
+					showVibeCodingStaleNotice && (
+						<blockquote>
+							<p>
+								<strong>时效性提醒</strong>
+							</p>
+							<p>
+								当你看到这个提醒，说明这篇文章发布已超过一个月。Vibe Coding
+								时代，模型、工具和工作流变化太快，文中的做法可能已经过时，我也未必还在使用。请把它当作当时的实践记录，谨慎参考。
+							</p>
+						</blockquote>
+					)
+				}
 				<slot />
 				<!--<WebMentions />-->
 				<Comment />

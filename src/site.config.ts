@@ -34,12 +34,8 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/",
 	},
 	{
-		title: "月刊",
-		path: "/tags/月刊",
-	},
-	{
-		title: "年刊",
-		path: "/tags/年刊",
+		title: "VibeCoding",
+		path: "/tags/vibecoding",
 	},
 	{
 		title: "赛博空间",
