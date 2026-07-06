@@ -5,11 +5,9 @@ hidden: false
 urlname: codex-claude-code
 title: Codex + Claude Code 省钱工作流（个人版）
 tags:
-  - 赛博空间
-  - Codex
-  - ClaudeCode
+  - VibeCoding
 cover: 'https://image.1874.run/blog/173c1586b0f2b1b3891e3a2945ae6019.png'
-updated: '2026-07-02 22:50:00'
+updated: '2026-07-06 11:15:00'
 draft: false
 ---
 

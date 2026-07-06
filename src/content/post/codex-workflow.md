@@ -5,10 +5,9 @@ hidden: false
 urlname: codex-workflow
 title: 从对话到沉淀：我的 Codex 工作流实践
 tags:
-  - Codex
   - VibeCoding
 cover: 'https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png'
-updated: '2026-07-05 10:21:00'
+updated: '2026-07-06 11:15:00'
 draft: false
 ---
 > 2026-07-05 更新：当前文档这套工作流算是我持续研究 Vibe Coding 工作流的一个基础模板。 其中存放文档的知识库和相关 Skill 已经升级为 AI Fitst Obsidain，目前持续改进中，后续稳定后会更新。
