@@ -7,6 +7,6 @@ const links = await getConfigPage("links");
 const { Content } = await render(links);
 ---
 
-<PostLayout post={links}>
+<PostLayout post={links} showStaleNotice={false}>
 	<Content />
 </PostLayout>

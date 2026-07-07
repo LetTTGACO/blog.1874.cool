@@ -10,15 +10,16 @@ import { getStaleNoticeType } from "@/utils/staleNotice";
 
 interface Props {
 	post: CollectionEntry<"post">;
+	showStaleNotice?: boolean;
 }
 
-const { post } = Astro.props;
+const { post, showStaleNotice = true } = Astro.props;
 const {
 	data: { title, description = "", date, updated },
 } = post;
 // const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updated?.toISOString() ?? date.toISOString();
-const staleNoticeType = getStaleNoticeType(post);
+const staleNoticeType = showStaleNotice ? getStaleNoticeType(post) : undefined;
 const { headings } = await render(post);
 ---
 

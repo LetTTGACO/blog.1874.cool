@@ -7,6 +7,6 @@ const about = await getConfigPage("about");
 const { Content } = await render(about);
 ---
 
-<PostLayout post={about}>
+<PostLayout post={about} showStaleNotice={false}>
 	<Content />
 </PostLayout>
