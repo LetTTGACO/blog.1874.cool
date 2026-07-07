@@ -7,8 +7,8 @@ allowBuilds:
 autoInstallPeers: false
 
 minimumReleaseAgeExclude:
-  - '@elog/cli@1.0.0-beta.2'
-  - '@elog/plugin-from-notion@1.0.0-beta.2'
-  - '@elog/plugin-to-local@1.0.0-beta.2'
-  - '@elog/plugin-transform-image-r2@1.0.0-beta.2'
-  - '@elog/shared@1.0.0-beta.2'
+  - '@elog/cli@1.0.0-beta.2 || 1.0.0-beta.3'
+  - '@elog/plugin-from-notion@1.0.0-beta.2 || 1.0.0-beta.3'
+  - '@elog/plugin-to-local@1.0.0-beta.2 || 1.0.0-beta.3'
+  - '@elog/plugin-transform-image-r2@1.0.0-beta.2 || 1.0.0-beta.3'
+  - '@elog/shared@1.0.0-beta.2 || 1.0.0-beta.3'
