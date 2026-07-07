@@ -5,7 +5,7 @@ hidden: false
 urlname: links
 title: 友情链接
 tags: []
-updated: '2026-07-01 06:56:00'
+updated: '2026-07-07 08:49:00'
 draft: false
 ---
 
@@ -46,7 +46,6 @@ draft: false
 ### 我的博客信息
 
 - 博客名称：1874’s Blog
-- 背景图片：[https://image.1874.cool/moon/cover.JPG](https://image.1874.cool/moon/cover.JPG)
 - 博客头像：[https://blog.1874.cool/favicon.ico](https://blog.1874.cool/favicon.ico)
 - 博客地址： [https://blog.1874.cool](https://blog.1874.cool/)
 - 博客标签： FE Engineer、桌游布道者

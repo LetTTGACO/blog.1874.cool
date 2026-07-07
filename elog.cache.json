@@ -569,10 +569,10 @@
         "urlname": "links",
         "title": "友情链接",
         "tags": [],
-        "updated": "2026-07-01 06:56:00",
+        "updated": "2026-07-07 08:49:00",
         "draft": false
       },
-      "updateTime": 1782860160000
+      "updateTime": 1783385340000
     }
   ],
   "sortedDocList": [
@@ -822,15 +822,19 @@
       "properties": {
         "date": "2026-06-09 08:00:00",
         "description": "从对话到沉淀的工作流通过自定义 Skill 将 Codex 对话中的问题、想法和行动自动分类并记录到 Flomo、TickTick、Notion 等工具，实现即时捕获 TODO、跨项目洞察和项目分析，并通过图像生成、R2 上传等步骤完成博客配图与更新，形成一套高效的信息沉淀与任务管理体系。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-workflow",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "从对话到沉淀：我的 Codex 工作流实践",
         "tags": [
           "VibeCoding"
         ],
-        "cover": "https://image.1874.run/blog/642e33c3f702976d0d0ced5746e440a0.png",
-        "updated": "2026-07-06 11:15:00",
-        "draft": false
+        "cover": "https://image.1874.run/blog/fe59bc13259b3c6eb6a57d1afcf657e6.png",
+        "updated": "2026-07-06 11:15:00"
       },
       "url": "https://app.notion.com/p/Codex-37acca231452804a91c9ee65c511e688",
       "public_url": null,
@@ -870,15 +874,19 @@
       "properties": {
         "date": "2026-05-20 08:00:00",
         "description": "Codex 与 Claude Code 的工作流通过在 Codex 5.5 high 进行技术文档和计划编写，然后在 Claude Code 中使用 GLM 5.1 执行计划，并在上下文约 40% 时通过暂停、更新复选框、压缩上下文（/compact）等步骤避免上下文腐败，从而提高代码开发效率并降低模型幻觉。",
-        "hidden": false,
+        "hidden": "",
         "urlname": "codex-claude-code",
+        "status": {
+          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
+          "name": "Done",
+          "color": "green"
+        },
         "title": "Codex + Claude Code 省钱工作流（个人版）",
         "tags": [
           "VibeCoding"
         ],
-        "cover": "https://image.1874.run/blog/173c1586b0f2b1b3891e3a2945ae6019.png",
-        "updated": "2026-07-06 11:15:00",
-        "draft": false
+        "cover": "https://image.1874.run/codex/b450b18ef2fc1879ec2e327f58fc409e.png",
+        "updated": "2026-07-06 11:15:00"
       },
       "url": "https://app.notion.com/p/Codex-Claude-Code-366cca23145280ad9f31f254b4d1b9cd",
       "public_url": null,
@@ -1636,8 +1644,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664YTFKMVF%2F20260706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260706T031613Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDbQFGWkLi4JAWw39EqzXTHwUx8q38ON2jr5V624HW8XAiAXy0gVDhSQr%2Bo6Ba5mXi2kxqHnxTVcywE1MHPSPS3nSir%2FAwhLEAAaDDYzNzQyMzE4MzgwNSIMh7YX9pQ84IDcXtqMKtwD8IGhIgv77POyk2Q%2F4b9vG5v336K05wcKd9ncaTHoowkCRkniXvaSrz2gSu2qKBoMBk4UK4jiKqzI5BdkhrKKkruOkkqpPcGGUpvO2WZ4JBI08TtCFViAXIR2jwXCtf%2BN%2B6%2BRulApMjI76G4lEgedd95iHnlr0jAoYHyouyU3b9IyUbvOTmW8xQyEyzsG7I0DAttWMMm5Yj95nSentpRcP7cTvriWIHkcJ2WsGaw0xmVpcb0r59b%2FIHCp%2F%2BXat8kEL2DW8htIqwEbi5ofohSf9hIE4f5wj7yMolw2bvRj8ST6CRfRiozHJSVXoenrKIUBhhynwOAF62nlHCXiL2t7V5RtuuNwYLOrhc9IZM4pJXGTG2MXEcISDYso1g1B2U%2FKrC2MToQc%2FlsCWhiP1m6nTl0c%2B2P4xkmgVVr9Ds6aMQrZXlEQxgCyJdiBnY36HK6NOonb%2FU%2Fv%2F3Xd9ZS0vF30b0ylKd%2FeySO%2FlHSceBOlctxVVdChL9S8hTjrPmj%2BeBlhvS6UdGud7CB%2Bs3ihVaF3cI0sIUFi7ZV5%2Bw05wJPfA6hbjMRQ36IW6GGpkVTdveu2WKZEd2sSF4BWBBpLxoAd3cdAFbwLlVGw%2FElADqnOwO%2B1ufxVzh7rn5hBG6gwpYys0gY6pgEw1VFQJrS%2Be29y6XYXDEeLusDd9mW9bgJubYLXvetMITj%2FVGDjK3pFRjmk8rPme1TX7aN6EjJJjgbmwhVZWNO8VFciw46TH%2B0k1I7orGqyoyMxRIQVJ5BrB0k9xLyi8A6XlzIFaD0LlA6D39lOHxbV8VIbGehDEdjYg25WEoqVDy5FHDjJbmnBiswOLMz5wgui0fc8J1%2Bms7hOIBPbf6IE2BfPeV%2Fv&X-Amz-Signature=867fd8944b91d12becfc35ce5e21210d6061f7e8509eb9744efae5111e44a3eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-07-06T04:16:13.197Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664MLIAMVG%2F20260707%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260707T005032Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD22XrGWJeetWUx0%2BSywVYw%2Fq2s%2F0P2GneCTWgP9sETcAIhANynshNrfU3KLQdffcv3%2BxUyu1PgqEvlLSVG155Ah02AKv8DCF4QABoMNjM3NDIzMTgzODA1IgwWLaVULzTbPeOQ8Uoq3AMzzTfSYaxI3LsSK62f%2FkiJeaMJYYjVfM01PKMjWzjE4GeaOl76%2FJGRMo8F3JeJ1O2pp4NoFmQFvBILvCjuJrieabEBFcvl5J%2FGwqtGbCCsrbCyojWFThzCzzrYVxXgZE6pqN7QrPqn%2FecxwKm0OSsUS1ilQxXB53kMx6jMJoaemrx3Sh9Fw238biJxU2B6b8yLIb9nNYO7FarHSNBUtNRHwFdFCJQlbG%2Bu%2BtUYUpndiTRHz8ZOthgsVf07z9fmMrNrvcOuMIzRjUZXlUbX5ApvF%2Bh%2BI8bLrojEWrQ3mel%2BDni0ECimatN0TnmRCrPSZFh4823UKJ%2FI5IkStqwcI9gB1nHRHNq21Ku0L9cCMHODbSEL4S9nozrHlPXtsrkXzqVmUE1hPHbwBBKkGHKqxXr02cafSyKkEsWU%2FbIp3rDmxAd53C08LDhiE3PzDPXfRaPkcGpTj6Sa0KU2g4ppNJyo2ArDUPcjhJfGipfirgkmjxKuXfq1LljNkBoROeqvpMTEHkHuyNa0kTvIebzvLFQ6OEOhHuhOFP4BZcFPVMbs3hal4hOOZnnILwENCC52qY7JWDaf6dT%2BRrd%2FrMUAOUjXL9x%2F6SLQwLVbsdr5fYGrSJTbbdqSwSreBd0NpTDgrrDSBjqkARjhM%2F5VDZoDk9Ad7EmjpsQreNnqF3PVPmdZ96GPvfIS13Nr89n3h5oROm6x2TbvCXMZT9MBWS9FseNSCRAF4%2FQSzu61l0TUsNVYuqjbK1ZI0V8XHdA8Iw2Ws1nstDnmMCT2OGry5rTELRPRbI%2B0wUHg%2FF46SrBlfo1zwIE%2BP4%2FKX6Bw1Qw9hu%2FSM079%2FAlVaHcw%2B53HUrmETVeibFk4ys6QiiU0&X-Amz-Signature=905f185e0e605be348b73c66b7dd50083063d5998aac9c8ba027d975f5fcaf86&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-07-07T01:50:32.399Z"
         }
       },
       "icon": {
@@ -1669,7 +1677,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664YTFKMVF%2F20260706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260706T031613Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDbQFGWkLi4JAWw39EqzXTHwUx8q38ON2jr5V624HW8XAiAXy0gVDhSQr%2Bo6Ba5mXi2kxqHnxTVcywE1MHPSPS3nSir%2FAwhLEAAaDDYzNzQyMzE4MzgwNSIMh7YX9pQ84IDcXtqMKtwD8IGhIgv77POyk2Q%2F4b9vG5v336K05wcKd9ncaTHoowkCRkniXvaSrz2gSu2qKBoMBk4UK4jiKqzI5BdkhrKKkruOkkqpPcGGUpvO2WZ4JBI08TtCFViAXIR2jwXCtf%2BN%2B6%2BRulApMjI76G4lEgedd95iHnlr0jAoYHyouyU3b9IyUbvOTmW8xQyEyzsG7I0DAttWMMm5Yj95nSentpRcP7cTvriWIHkcJ2WsGaw0xmVpcb0r59b%2FIHCp%2F%2BXat8kEL2DW8htIqwEbi5ofohSf9hIE4f5wj7yMolw2bvRj8ST6CRfRiozHJSVXoenrKIUBhhynwOAF62nlHCXiL2t7V5RtuuNwYLOrhc9IZM4pJXGTG2MXEcISDYso1g1B2U%2FKrC2MToQc%2FlsCWhiP1m6nTl0c%2B2P4xkmgVVr9Ds6aMQrZXlEQxgCyJdiBnY36HK6NOonb%2FU%2Fv%2F3Xd9ZS0vF30b0ylKd%2FeySO%2FlHSceBOlctxVVdChL9S8hTjrPmj%2BeBlhvS6UdGud7CB%2Bs3ihVaF3cI0sIUFi7ZV5%2Bw05wJPfA6hbjMRQ36IW6GGpkVTdveu2WKZEd2sSF4BWBBpLxoAd3cdAFbwLlVGw%2FElADqnOwO%2B1ufxVzh7rn5hBG6gwpYys0gY6pgEw1VFQJrS%2Be29y6XYXDEeLusDd9mW9bgJubYLXvetMITj%2FVGDjK3pFRjmk8rPme1TX7aN6EjJJjgbmwhVZWNO8VFciw46TH%2B0k1I7orGqyoyMxRIQVJ5BrB0k9xLyi8A6XlzIFaD0LlA6D39lOHxbV8VIbGehDEdjYg25WEoqVDy5FHDjJbmnBiswOLMz5wgui0fc8J1%2Bms7hOIBPbf6IE2BfPeV%2Fv&X-Amz-Signature=867fd8944b91d12becfc35ce5e21210d6061f7e8509eb9744efae5111e44a3eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664MLIAMVG%2F20260707%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260707T005032Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD22XrGWJeetWUx0%2BSywVYw%2Fq2s%2F0P2GneCTWgP9sETcAIhANynshNrfU3KLQdffcv3%2BxUyu1PgqEvlLSVG155Ah02AKv8DCF4QABoMNjM3NDIzMTgzODA1IgwWLaVULzTbPeOQ8Uoq3AMzzTfSYaxI3LsSK62f%2FkiJeaMJYYjVfM01PKMjWzjE4GeaOl76%2FJGRMo8F3JeJ1O2pp4NoFmQFvBILvCjuJrieabEBFcvl5J%2FGwqtGbCCsrbCyojWFThzCzzrYVxXgZE6pqN7QrPqn%2FecxwKm0OSsUS1ilQxXB53kMx6jMJoaemrx3Sh9Fw238biJxU2B6b8yLIb9nNYO7FarHSNBUtNRHwFdFCJQlbG%2Bu%2BtUYUpndiTRHz8ZOthgsVf07z9fmMrNrvcOuMIzRjUZXlUbX5ApvF%2Bh%2BI8bLrojEWrQ3mel%2BDni0ECimatN0TnmRCrPSZFh4823UKJ%2FI5IkStqwcI9gB1nHRHNq21Ku0L9cCMHODbSEL4S9nozrHlPXtsrkXzqVmUE1hPHbwBBKkGHKqxXr02cafSyKkEsWU%2FbIp3rDmxAd53C08LDhiE3PzDPXfRaPkcGpTj6Sa0KU2g4ppNJyo2ArDUPcjhJfGipfirgkmjxKuXfq1LljNkBoROeqvpMTEHkHuyNa0kTvIebzvLFQ6OEOhHuhOFP4BZcFPVMbs3hal4hOOZnnILwENCC52qY7JWDaf6dT%2BRrd%2FrMUAOUjXL9x%2F6SLQwLVbsdr5fYGrSJTbbdqSwSreBd0NpTDgrrDSBjqkARjhM%2F5VDZoDk9Ad7EmjpsQreNnqF3PVPmdZ96GPvfIS13Nr89n3h5oROm6x2TbvCXMZT9MBWS9FseNSCRAF4%2FQSzu61l0TUsNVYuqjbK1ZI0V8XHdA8Iw2Ws1nstDnmMCT2OGry5rTELRPRbI%2B0wUHg%2FF46SrBlfo1zwIE%2BP4%2FKX6Bw1Qw9hu%2FSM079%2FAlVaHcw%2B53HUrmETVeibFk4ys6QiiU0&X-Amz-Signature=905f185e0e605be348b73c66b7dd50083063d5998aac9c8ba027d975f5fcaf86&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
@@ -1680,7 +1688,7 @@
       "object": "page",
       "id": "fbfa2d83-38eb-4226-92cb-0b06f9c6c24a",
       "created_time": "2024-02-02T16:15:00.000Z",
-      "last_edited_time": "2026-06-30T22:56:00.000Z",
+      "last_edited_time": "2026-07-07T00:49:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -1705,20 +1713,16 @@
       "properties": {
         "date": "2019-01-27 08:00:00",
         "description": "在社交平台和轻博客盛行、独立博客式微的时代，友链的意义是结交更多朋友、丰富社交圈。友链连接了信息孤岛，交换友链是交朋友的好方式。此文列举了一些友情站点，并提供了友链格式和添加友链说明。",
-        "hidden": "",
+        "hidden": false,
         "urlname": "links",
-        "status": {
-          "id": "ef31db96-afe3-4680-a2fc-a3c89ee75697",
-          "name": "Done",
-          "color": "green"
-        },
         "title": "友情链接",
         "tags": [],
-        "updated": "2026-07-01 06:56:00"
+        "updated": "2026-07-07 08:49:00",
+        "draft": false
       },
       "url": "https://app.notion.com/p/fbfa2d8338eb422692cb0b06f9c6c24a",
       "public_url": null,
-      "updateTime": 1782860160000
+      "updateTime": 1783385340000
     },
     {
       "object": "page",
