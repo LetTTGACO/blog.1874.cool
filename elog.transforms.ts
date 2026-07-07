@@ -1,4 +1,4 @@
-import type { DocDetail, TransformPlugin } from "@elog/cli";
+import type { DocDetail, TransformPlugin } from "@elog/plugin-sdk";
 
 export const blogFrontMatter = (): TransformPlugin => ({
 	name: "transform:blog-frontmatter",

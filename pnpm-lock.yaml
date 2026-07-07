@@ -66,6 +66,9 @@ importers:
       '@elog/plugin-from-notion':
         specifier: 1.0.0-beta.4
         version: 1.0.0-beta.4
+      '@elog/plugin-sdk':
+        specifier: 1.0.0-beta.1
+        version: 1.0.0-beta.1
       '@elog/plugin-to-local':
         specifier: 1.0.0-beta.4
         version: 1.0.0-beta.4
