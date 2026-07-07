@@ -3,11 +3,11 @@ date: '2026-07-01 08:00:00'
 description: 提供本地私有文档管理方案，包括使用 .git/info/exclude 或全局 Git ignore 忽略本地文件、将私有 runbook 放入 .local/runbooks/、在被主仓库忽略的目录中创建独立 Git 仓库以实现本地版本化，以及相应的配置步骤和注意事项。
 hidden: false
 urlname: vibe-coding-mid-doc
-title: 给 Vibe Coding 中间文档找一个合适的位置
+title: 既要 Vibe 还要无痕：我的本地私有文档收留方案
 tags:
   - VibeCoding
 cover: 'https://image.1874.run/blog/228eeec48d9a1e077afab79ab11a452d.png'
-updated: '2026-07-05 10:06:00'
+updated: '2026-07-08 06:23:00'
 draft: false
 ---
 
