@@ -1,4 +1,4 @@
-import { defineConfig } from "@elog/cli";
+import { defineConfig } from "@elog/core";
 import fromNotion from "@elog/plugin-from-notion";
 import toLocal from "@elog/plugin-to-local";
 import imageR2 from "@elog/plugin-transform-image-r2";
