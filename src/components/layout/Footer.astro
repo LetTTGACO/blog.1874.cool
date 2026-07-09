@@ -5,7 +5,7 @@ const year = new Date().getFullYear();
 ---
 
 <footer
-	class="mt-auto flex flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:gap-x-20 sm:text-xs"
+	class="site-footer mt-auto flex flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:gap-x-20 sm:text-xs"
 >
 	<div>
 		&copy; {siteConfig.author}&nbsp;
@@ -35,7 +35,10 @@ const year = new Date().getFullYear();
 	>
 		{
 			menuLinks.map((link) => (
-				<a href={link.path} class="mx-2 whitespace-nowrap py-1 sm:hover:text-textColor sm:hover:underline">
+				<a
+					href={link.path}
+					class="mx-2 whitespace-nowrap py-1 sm:hover:text-textColor sm:hover:underline"
+				>
 					{link.title}
 				</a>
 			))

@@ -2,20 +2,22 @@
 const pathname = decodeURIComponent(Astro.url.pathname || ""); //解码
 const postName = pathname?.split("/").pop();
 ---
+
 <meta property={`og:${postName}`} />
+<section id="comments" class="mt-16"></section>
 <script>
 	function sendMessage(message: object) {
 		const iframe = document.querySelector("iframe.giscus-frame") as HTMLIFrameElement;
-	    if (!iframe || !iframe.contentWindow) return;
+		if (!iframe || !iframe.contentWindow) return;
 		iframe.contentWindow.postMessage({ giscus: message }, "https://giscus.app");
 	}
 
 	function getCurrentTheme() {
-    return document.firstElementChild && document.firstElementChild.getAttribute("data-theme");
+		return document.firstElementChild && document.firstElementChild.getAttribute("data-theme");
 	}
 
 	function createGusicScript() {
-		const container = document.querySelector("#main");
+		const container = document.querySelector("#comments");
 		const theme = getCurrentTheme() == "light" ? "light" : "dark_dimmed";
 		let script = document.createElement("script");
 		script.src = "https://giscus.app/client.js";
@@ -33,7 +35,7 @@ const postName = pathname?.split("/").pop();
 		script.setAttribute("data-loading", "lazy");
 		script.setAttribute("crossorigin", "anonymous");
 		script.async = true;
-			if (container) container.appendChild(script);
+		if (container) container.appendChild(script);
 	}
 
 	createGusicScript();

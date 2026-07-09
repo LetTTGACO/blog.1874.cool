@@ -30,7 +30,7 @@
 	}
 
 	html body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-6xl flex-col bg-bgColor px-6 pt-16 font-mono text-sm font-normal text-textColor antialiased sm:px-8;
 	}
 
 	.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
@@ -196,4 +196,26 @@
 			transition: none;
 		}
 	}
+}
+
+.post-layout {
+	width: 100%;
+}
+
+.post-content.prose {
+	max-width: 54rem;
+}
+
+.post-content :where(table) {
+	display: block;
+	width: max-content;
+	min-width: 100%;
+	max-width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.site-footer {
+	width: min(calc(100vw - 2rem), 72rem);
+	align-self: center;
 }
