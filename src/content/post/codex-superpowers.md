@@ -8,7 +8,7 @@ tags:
   - VibeCoding
   - Codex
 cover: 'https://image.1874.run/blog/398a6113cf648b5de182f278cc4ea3f2.png'
-updated: '2026-07-09 17:57:00'
+updated: '2026-07-09 18:19:00'
 draft: false
 ---
 
@@ -94,10 +94,10 @@ draft: false
 ### Superpowers 小翻身
 
 
-**mattpocock/skills**
-
-
 我各自使用了一段时间，一开始的决定是放弃  Superpowers  ，全面拥抱手动触发的`mattpocock/skills`。但用了几天之后发现，`mattpocock/skills`并不一定适合我的所有场景，特别是进行较大需求或者从 0 到 1 时，它不一定比 Superpowers 更准确和省 Token。
+
+
+**mattpocock/skills**
 
 
 `mattpocock/skills` 的`/to-issues`没有具体代码示例和详细步骤。所以在每个 issue 实现阶段，都需要模型重新分析现有代码和文档才开始执行。
