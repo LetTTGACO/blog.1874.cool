@@ -3,12 +3,12 @@ date: '2026-07-09 08:00:00'
 description: 通过抑制 Superpowers 的自动触发、改造其子代理模型选择并结合 mattpocock/skills 的手动调用，实现了在 Codex 环境下更精细的模型分配和任务调度，从而显著降低 Token 消耗并提升开发效率。
 hidden: false
 urlname: codex-superpowers
-title: 从额度焦虑到精准控流：我的 Codex Pro  降本增效策略
+title: 从额度焦虑到精准控流：我的 Codex 降本增效策略
 tags:
   - VibeCoding
   - Codex
 cover: 'https://image.1874.run/blog/398a6113cf648b5de182f278cc4ea3f2.png'
-updated: '2026-07-10 09:23:00'
+updated: '2026-07-10 13:28:00'
 draft: false
 ---
 
