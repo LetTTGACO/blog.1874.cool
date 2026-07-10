@@ -1,6 +1,6 @@
 ---
 date: '2026-07-10 08:00:00'
-description: ''
+description: 使用 AI 将社区噪音通过 RSS 接入、分层筛选（噪声丢弃、话题聚合、价值排序），只推送精选的技术信号至飞书群，保留少量闲聊噪音概览，以降低信息噪声并提升注意力效率。
 hidden: false
 urlname: ai-filter-noise
 title: 用 AI 把社区噪音变成信号
@@ -8,7 +8,7 @@ tags:
   - 赛博空间
   - Hermes
 cover: 'https://image.1874.run/blog/0f2f052450e46035afcc8bfb16e15162.png'
-updated: '2026-07-10 11:10:00'
+updated: '2026-07-10 11:13:00'
 draft: false
 ---
 
@@ -22,6 +22,12 @@ draft: false
 
 
 社区里隔三差五就有人吐槽这件事，但噪音是结构性的：人多了，水帖就多了。但社区本来就是求同存异的，这也无可厚非，所以与其等社区自我净化，不如让 AI 帮我筛。
+
+
+## 效果展示
+
+
+![image.png](https://image.1874.run/blog/e9e436e7aa63a5851fa31b80805c16c0.png)
 
 
 ## 核心流程
