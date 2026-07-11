@@ -3,10 +3,10 @@ import type { Page, GetStaticPaths } from "astro";
 import type { CollectionEntry } from "astro:content";
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
-import { getAllPosts, getUniqueTags, sortMDByDate } from "@/utils/post";
+import { filterHidden, getAllPosts, getUniqueTags, sortMDByDate } from "@/utils/post";
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	const allPosts = await getAllPosts();
+	const allPosts = filterHidden(await getAllPosts());
 	const allPostsByDate = sortMDByDate(allPosts);
 	const uniqueTags = getUniqueTags(allPostsByDate);
 
