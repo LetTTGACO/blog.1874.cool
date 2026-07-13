@@ -8,9 +8,10 @@ tags:
   - VibeCoding
   - Codex
 cover: 'https://image.1874.run/blog/87e450d31b03a9926e1d7a083c3e2a1b.png'
-updated: '2026-07-13 08:21:00'
+updated: '2026-07-13 16:49:00'
 draft: false
 ---
+> 目前 GPT 5.6 的子代理调用存在 BUG，需等待官方解决，具体 Issue：[https://github.com/openai/codex/issues/32291](https://github.com/openai/codex/issues/32291)
 
 ## 背景
 
