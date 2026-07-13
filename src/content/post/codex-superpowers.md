@@ -7,8 +7,8 @@ title: 从额度焦虑到精准控流：我的 Codex 降本增效策略
 tags:
   - VibeCoding
   - Codex
-cover: 'https://image.1874.run/blog/398a6113cf648b5de182f278cc4ea3f2.png'
-updated: '2026-07-11 07:48:00'
+cover: 'https://image.1874.run/blog/87e450d31b03a9926e1d7a083c3e2a1b.png'
+updated: '2026-07-13 08:21:00'
 draft: false
 ---
 
@@ -90,7 +90,7 @@ draft: false
 
 整体对比 `mattpocock/skills` 和 Superpowers 的话，我体验下来有3个最大的不同点：
 
-1. `mattpocock/skills` 基本上不会自动触发相关 skill，基本上都是手动调用，需要时间适应，但可控的手动调用我更喜欢一些。而 Superpowers 经常自动调用，这对于新手非常友好，可以不用关心流程，但是用熟之后就有点费 Token / 时间了。
+1. `mattpocock/skills` 的自动触发相对比较保守，一般都是我主动调用，不过相对可控的手动调用我更喜欢一些。而 Superpowers 经常自动调用，这对于新手非常友好，可以不用关心流程，但是用熟之后就有点费 Token / 时间了。
 2. `mattpocock/skills` 的`/to-issues`没有具体代码示例和详细步骤，主要是规定了开发目标和验收标准，模型在执行时会相对自由发挥一些。而 Superpowers 的 `writing-plans` 给出的实施计划有非常详细的代码示例骨架和步骤，brief 非常明确，基本上让模型照着执行就行。这也是我之前使用 GLM 5.2 来执行实施计划不怎么出问题的关键原因。
 3. `mattpocock/skills` 在使用`/implement`进行开发时，一般不会主动派遣子代理进行开发，而是建议每个 issue 都单独开新会话来完成。而 Superpowers 是一次性开发完所有 Task，并对每个 Task 和 Review 都用子代理来完成，主线程只用于把控流程。
 
