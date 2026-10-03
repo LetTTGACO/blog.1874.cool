@@ -1,4 +1,4 @@
-import { defineConfig } from "@elog/core";
+import { defineConfig } from "@elog/cli";
 import fromNotion from "@elog/plugin-from-notion";
 import toLocal from "@elog/plugin-to-local";
 import imageR2 from "@elog/plugin-transform-image-r2";
@@ -13,6 +13,7 @@ const env = (name: string) => {
 };
 
 export default defineConfig({
+	id: "notion-blog",
 	cacheFilePath: "elog.cache.json",
 	from: fromNotion({
 		token: env("NOTION_TOKEN"),
