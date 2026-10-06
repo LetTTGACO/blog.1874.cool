@@ -58,20 +58,20 @@ importers:
         specifier: ^0.9.9
         version: 0.9.9(prettier-plugin-astro@0.14.1)(prettier@3.9.4)(typescript@6.0.3)
       '@elog/cli':
-        specifier: 1.0.0-beta.7
-        version: 1.0.0-beta.7(@types/node@26.1.0)
+        specifier: 1.0.0-beta.8
+        version: 1.0.0-beta.8(@types/node@26.1.0)
       '@elog/plugin-from-notion':
-        specifier: 1.0.0-beta.6
-        version: 1.0.0-beta.6
+        specifier: 1.0.0-beta.7
+        version: 1.0.0-beta.7
       '@elog/plugin-sdk':
-        specifier: 1.0.0-beta.3
-        version: 1.0.0-beta.3
+        specifier: 1.0.0-beta.4
+        version: 1.0.0-beta.4
       '@elog/plugin-to-local':
-        specifier: 1.0.0-beta.6
-        version: 1.0.0-beta.6
+        specifier: 1.0.0-beta.7
+        version: 1.0.0-beta.7
       '@elog/plugin-transform-image-r2':
-        specifier: 1.0.0-beta.6
-        version: 1.0.0-beta.6
+        specifier: 1.0.0-beta.7
+        version: 1.0.0-beta.7
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.6.0(jiti@2.7.0))
@@ -541,31 +541,31 @@ packages:
     resolution: {integrity: sha512-kzyuwOAQnXJNLS9PSyrk0CWk35nWJW/zl/6KvnTBMFK65gm7U1/Z5BqjxeapjZCIhQcM/DsrEmcbRwDyXyXK4A==}
     engines: {node: '>=14'}
 
-  '@elog/cli@1.0.0-beta.7':
-    resolution: {integrity: sha512-+5YL7Qpp1O7sTXLE2T2LVNj1S9zt9ZNvWYCdNbMedSA82Qh+wQNd9m/ocXcvU9+PX7eBwRSGyCmTq8Y+hjvS2w==}
+  '@elog/cli@1.0.0-beta.8':
+    resolution: {integrity: sha512-mzBN46MJiewrdAqS3wgu17xZDUDPAlhThz1odOj8E/GiKHguWEvdTVAcfGvB7WI8kZJ5FGn/RX1e5exiiewg1Q==}
     engines: {node: '>=22.13.0'}
     hasBin: true
 
-  '@elog/core@1.0.0-beta.3':
-    resolution: {integrity: sha512-ZB+e2lW8Z+og7rhYoABspPIpI01cotDhbJz1ib8fj7CHiq///AezxBwg50+j9XFHvXu6utqE0RFv4HioViWebQ==}
+  '@elog/core@1.0.0-beta.4':
+    resolution: {integrity: sha512-Sj4+848c1ZnVYj4NgaLh9XN9zSnumPF5lWqaz3Fwfn/EPbchgFXEqzYmaSy9DtjgQ77yjFDZBP0Q+HmO2YzZZw==}
     engines: {node: '>=22.13.0'}
 
-  '@elog/plugin-contracts@1.0.0-beta.3':
-    resolution: {integrity: sha512-KCiNjXLgnexmCbr1BDc21+CSqK9PdUM2oEmZFk6g3ZA9XPc308U6u0QKGoWN/HzcnOFEXmo9Fm5CG4TZDElAlA==}
+  '@elog/plugin-contracts@1.0.0-beta.4':
+    resolution: {integrity: sha512-JM3LfXZz1nUZatB6T8HWEi4ULFf3hzAEMCPQ1pjr3MTdZaSYK/k5gVQlmRlREvuivemsi5K+gNGCITd0ptvEaQ==}
     engines: {node: '>=22.13.0'}
 
-  '@elog/plugin-from-notion@1.0.0-beta.6':
-    resolution: {integrity: sha512-6S6q8t5RSu5HydMkRqk19ZuhC2hXbiZ9wWOmMbYFEU4rYVMM2yfnFIj3SUtKww+nAqQ75QcFaynLThwCE2NcjA==}
+  '@elog/plugin-from-notion@1.0.0-beta.7':
+    resolution: {integrity: sha512-oyccbx/YxcoY6Hd1IgZ4K+ENlR26quI/G6eDQv+qyGq0VDxzk3rXa74AlKV0dubKlgMO3OoQ28wl3tTMG4gFKQ==}
 
-  '@elog/plugin-sdk@1.0.0-beta.3':
-    resolution: {integrity: sha512-e+nz7X8tjvMnYQBzZSX7qWWflCMBvzdY1RFStkkj6rq7QP/FFr9EjukvyFbXa3dQbIyAPmOl04WzT1DxpurJMA==}
+  '@elog/plugin-sdk@1.0.0-beta.4':
+    resolution: {integrity: sha512-O0nbC+3sOjsnSb4v6O1bzaR/jfI8lRj7CSQITJhQnXHjOMMoNOoGuZNKlztk31vfuJzH5tBe8LO56nnpO1D4/Q==}
     engines: {node: '>=22.13.0'}
 
-  '@elog/plugin-to-local@1.0.0-beta.6':
-    resolution: {integrity: sha512-Q0r2zxMxwG3axJlLfZ0VfM5oLKjZHEG+JqONRTA/BQj44wIAR5uU6pZoKjGSBRVuGf7CtFvPRjGsoQX0VraPnQ==}
+  '@elog/plugin-to-local@1.0.0-beta.7':
+    resolution: {integrity: sha512-G20TaiMOfSPollh3zc36vvwbQifLPtJa5BdOnuqAYSeyBj4Gw4ZUvjzbtxoCKIvm4dmLhtRUHvVvHWpZJh1mxQ==}
 
-  '@elog/plugin-transform-image-r2@1.0.0-beta.6':
-    resolution: {integrity: sha512-wIiHjZtAC0IXyogbUkt1HTjcpP7r5coGL+tuH+EOotUStRPX0rUuDFJZDMBmL/CIci/I3KTzrKSckeK0zCrCOg==}
+  '@elog/plugin-transform-image-r2@1.0.0-beta.7':
+    resolution: {integrity: sha512-GVcR6JoKeYT+PkKOD1X0ULjnfm5VzCIapVXN0lgsKOpDnJUpMP8jhKRoUXXL0S1w6LXaJt/JVJK5cnkeoaUNeA==}
 
   '@emmetio/abbreviation@2.3.3':
     resolution: {integrity: sha512-mgv58UrU3rh4YgbE/TzgLQwJ3pFsHHhCLqY20aJq+9comytTXUDNGG/SMtSeMJdkpxgXSXunBGLD8Boka3JyVA==}
@@ -5183,9 +5183,9 @@ snapshots:
 
   '@ctrl/tinycolor@4.2.0': {}
 
-  '@elog/cli@1.0.0-beta.7(@types/node@26.1.0)':
+  '@elog/cli@1.0.0-beta.8(@types/node@26.1.0)':
     dependencies:
-      '@elog/core': 1.0.0-beta.3
+      '@elog/core': 1.0.0-beta.4
       chalk: 5.6.2
       commander: 15.0.0
       dotenv: 17.4.2
@@ -5194,9 +5194,9 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@elog/core@1.0.0-beta.3':
+  '@elog/core@1.0.0-beta.4':
     dependencies:
-      '@elog/plugin-contracts': 1.0.0-beta.3
+      '@elog/plugin-contracts': 1.0.0-beta.4
       bundle-require: 5.1.0(esbuild@0.28.1)
       chalk: 5.6.2
       dotenv: 17.4.2
@@ -5205,33 +5205,33 @@ snapshots:
       joycon: 3.1.1
       ofetch: 1.5.1
 
-  '@elog/plugin-contracts@1.0.0-beta.3':
+  '@elog/plugin-contracts@1.0.0-beta.4':
     dependencies:
       '@types/node': 22.19.21
 
-  '@elog/plugin-from-notion@1.0.0-beta.6':
+  '@elog/plugin-from-notion@1.0.0-beta.7':
     dependencies:
-      '@elog/plugin-sdk': 1.0.0-beta.3
+      '@elog/plugin-sdk': 1.0.0-beta.4
       '@notionhq/client': 5.22.0
       notion-to-md: 3.1.9
     transitivePeerDependencies:
       - encoding
 
-  '@elog/plugin-sdk@1.0.0-beta.3':
+  '@elog/plugin-sdk@1.0.0-beta.4':
     dependencies:
-      '@elog/plugin-contracts': 1.0.0-beta.3
+      '@elog/plugin-contracts': 1.0.0-beta.4
       '@types/tiny-async-pool': 2.0.3
       tiny-async-pool: 2.1.0
 
-  '@elog/plugin-to-local@1.0.0-beta.6':
+  '@elog/plugin-to-local@1.0.0-beta.7':
     dependencies:
-      '@elog/plugin-sdk': 1.0.0-beta.3
+      '@elog/plugin-sdk': 1.0.0-beta.4
       gray-matter: 4.0.3
 
-  '@elog/plugin-transform-image-r2@1.0.0-beta.6':
+  '@elog/plugin-transform-image-r2@1.0.0-beta.7':
     dependencies:
       '@aws-sdk/client-s3': 3.445.0
-      '@elog/plugin-sdk': 1.0.0-beta.3
+      '@elog/plugin-sdk': 1.0.0-beta.4
     transitivePeerDependencies:
       - aws-crt
 
