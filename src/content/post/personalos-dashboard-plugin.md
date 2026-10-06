@@ -7,7 +7,7 @@ title: 打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插
 tags:
   - VibeCoding
 cover: 'https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png'
-updated: '2026-10-06 10:22:00'
+updated: '2026-10-06 10:38:00'
 draft: false
 ---
 
@@ -75,7 +75,7 @@ flowchart TB
 ### 踩坑点
 
 1. 如果从插件发起的 Codex 聊天，会自动弹窗确认，无法直接发起无感聊天。
-2. 无法从插件直接发起新聊天到某个项目中，但是可以在 Codex 聊天中发起新聊天到项目中。我的解决办法就是给 Prompt 加一段「本轮只完成交接，并返回新聊天入口。成功创建目标聊天并返回入口后，自动归档当前中转会话。」
+2. 无法从插件直接发起新聊天到某个项目中，但是可以在 Codex 聊天中发起新聊天到项目中。我的解决办法就是给 Prompt 指定项目的入口，让中转聊天创建项目聊天，然后自动归档中转会话。
 3. 目前无法直接在插件中调用 Agent 运行，所以就无法做一些自动化操作，例如自动总结啥的，只能手动运行。
 
 ![Pasted_image_20261006095800.png](https://image.1874.run/blog/34d2ca8c0880011142554ec7a5fef2ae.png)
