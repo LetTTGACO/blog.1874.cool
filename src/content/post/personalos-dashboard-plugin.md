@@ -1,13 +1,13 @@
 ---
 date: '2026-10-06 08:00:00'
-description: ''
+description: 基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。
 hidden: false
 urlname: personalos-dashboard-plugin
 title: 打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件
 tags:
   - VibeCoding
 cover: 'https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png'
-updated: '2026-10-06 10:38:00'
+updated: '2026-10-07 14:12:00'
 draft: false
 ---
 

@@ -627,7 +627,7 @@
       "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
       "properties": {
         "date": "2026-10-06 08:00:00",
-        "description": "",
+        "description": "基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
         "hidden": false,
         "urlname": "personalos-dashboard-plugin",
         "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
@@ -635,11 +635,11 @@
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-06 10:38:00",
+        "updated": "2026-10-07 14:12:00",
         "draft": false
       },
       "bodyType": "markdown",
-      "updateTime": 1791254280000
+      "updateTime": 1791353520000
     }
   ],
   "sortedDocList": [
@@ -647,7 +647,7 @@
       "object": "page",
       "id": "3f1cca23-1452-805f-9c3d-e645da04c2da",
       "created_time": "2026-10-06T02:04:00.000Z",
-      "last_edited_time": "2026-10-06T02:38:00.000Z",
+      "last_edited_time": "2026-10-07T06:12:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -662,7 +662,10 @@
           "url": "https://image.1874.run/codex/4e0b30af73a449b265a44c3d138bc9b4.png"
         }
       },
-      "icon": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "💈"
+      },
       "parent": {
         "type": "data_source_id",
         "data_source_id": "9b89e54c-80de-4ea0-9503-8b4b5207e2c8",
@@ -673,7 +676,7 @@
       "is_locked": false,
       "properties": {
         "date": "2026-10-06 08:00:00",
-        "description": "",
+        "description": "基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
         "hidden": false,
         "urlname": "personalos-dashboard-plugin",
         "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
@@ -681,12 +684,12 @@
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-06 10:38:00",
+        "updated": "2026-10-07 14:12:00",
         "draft": false
       },
       "url": "https://app.notion.com/p/Codex-APP-OpenAI-MCP-Extensions-3f1cca231452805f9c3de645da04c2da",
       "public_url": null,
-      "updateTime": 1791254280000
+      "updateTime": 1791353520000
     },
     {
       "object": "page",
@@ -1865,8 +1868,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46662PN7WM7%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T023849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECIaCXVzLXdlc3QtMiJHMEUCIQDBAmbH690xntoVHrYNuNZll6U%2BKT19jb7bD79G5a6GuwIgOKijIjCxRGvt7sT2pFeJZiU7HuKtJEVq%2FD3ZC2zs1uoqiAQI6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNe%2FVfAKQ9LeKvvW9SrcA6sEwdSyRwtrRIdEcP7pzFwupQ0qGHDjVbDnwQHKyo%2BjmfsCsKlrrWpJH9%2BVGi%2FN%2F9y4Re8gqFveTyeV9TosQ5LSNvmBuRv33wLWZ4ABdwgplmk%2FE%2BUQhAKTtSrMchXsHL8FIivyFb0hZd8yz8QVkG91FTEjBzh%2Bnf59aoLIPIbgikbdRekN37bovetUKDJgiYmWZBVkkDXx5h3kqPBx3s%2FDqFaOD%2BOc1tsj0EsN%2BeDeLt%2FMvNGSLqYLwZ53e0GWb7MrPEWGJCEzQnhVG1QyFB6VL1txjmnWkj1llGJI4v4csBqnQPPVglUFO8gW%2BN2pwrGUHUQW3bsX61xSIseXGTgVw0jsyAnGSnGkMNvITFgiz0LNXbgGNY39zh8sRB3njh4nWh10hJsir1U9ns%2F9B8RbV2BLVEuAvqWPT40K9iOPPJ8oiRFRE0TRcALei6tgK9WVZf2KrZPlPg%2BMIRRTBBAOyYsT0ap9scKywz1Ai2ASQuuK0s5YBa8PaRTAmhjVP5fvyWO9uBil3BVl6vuH%2FRpssKoiG%2F0VAbbF2vJKHOyU2Bx2vep8ABNqhJ00tHy3Hfhs1%2F%2F%2BB5zh6IO5SVkmaK8bPR2vrDpTFt%2BbXAdGWojEdk%2FsyauZ3U377HXjMOWwkdYGOqUBrBsaHrPU%2BvY6p79rmH512WK5T1pwiRVS%2F70toSIu86p5a4JHd0J%2BoiPoKR9k8W8alXEorp%2FNdVE1iRnu5zANGLy%2FQdUg5Ir2f9B2kjBkUBtJ5ZfA3JTFWHBqfAPOLgewvKNyDGKLXJQusZPajnF5eZYu%2FAGlot0pSdY6MIXCD7T4BI22KdWN5v1ZjTBVPbdYOtv06xdyFDGkMbNxZQ268Olwnq4P&X-Amz-Signature=095f2bd4311c8bc9fb1a4f990b50ec004d43f05cdca5fb28849c835f3fe80d32&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-10-06T03:38:49.733Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SM3H65IF%2F20261007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261007T061305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJGMEQCIAVBxOpeJX4hRS5yReYQNm9dWi3fcR1fgVRlkLkCvlasAiBFCmhHNMqKcJog0u%2FpQqgTTxIiVx8lDgsTbl15U1idaSr%2FAwgEEAAaDDYzNzQyMzE4MzgwNSIM6mJfr7wPKU61fGhkKtwDa8cNGZi%2BjaWopObqAVpsmmxI7RcIEqb51f2KrvXrG8NG8FYRBRtgl98IVOSwU8FEGjmu1HcWNq93kx3PFVhHSx9r%2FJcctGhQmxuVszu%2FGKm8tkGByAk6TJUnZflNyQZ1C2lIaryugUklbu2lTtZwyi7hFpZmPdmW6evLvXl%2Fu8Ux60FMZGNpyaSBDlvwGya4Mo2KabGpQ9GihclLRfNyOck5wPtTEV7xxyzU7VG0700KOTIJ4zNWLGYVvwA8iKiBiHmAqPWPmLQxqtoMk%2BZYjLerejvNpzilp539R3Gidket52OmYW5u6xb6gqCZaSHtddwbWwDRMLIwkTtXGSvaz3tHmItwh4VzlXbZIgrYcw7UYiHS2z5UjL9HDSbECOho%2FYrSIv447c6nePriGw7f72yaNH%2FBTmhZ0khbtZgsGwnciu7MlQBitkW6I5bP0XlRsd4GUwzzWP04408ytC62vbWNPXxrwnTq4LVNCbpn%2FEaIhhuEPaSO4e1hS4uZo%2FmuLMD7J5dgx7luhPX9oJgVJGyD2oY5qE%2Bgzcp%2FB7H%2BRdZCMjpXiHsG%2BKf8JStIPoJGh805%2BsdhHATZgODjlIKR70BU0lL%2B1p6gE543OIN5WgrYQyvCUgoJgPVU2QswjvqW1gY6pgEp171LHenNRYFUmCaxwGMq5YwoJRL3eswOl1j0%2Fbj9xgf2jHqdByYM4VWlGZXABckre3fd6jJ96vYOrw1p4N3wQyVMckqSG%2FhPTXt1tsayUgd8EbDpZ%2BBcinBrND9XX2Jh1LwZ%2B1kI0KGHAntvT419PgzDaJJGk3w4sr7aTC2cv8lcbwoELUybFzMcd0uj9p8DGi2es04dwu3Jf%2FrFOA7EwJ0wbrBR&X-Amz-Signature=d144a398df0029548c5e1ee370d85677596073199dc60ec90e44bef19c9d46c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-10-07T07:13:05.251Z"
         }
       },
       "icon": {
@@ -1898,7 +1901,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46662PN7WM7%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T023849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECIaCXVzLXdlc3QtMiJHMEUCIQDBAmbH690xntoVHrYNuNZll6U%2BKT19jb7bD79G5a6GuwIgOKijIjCxRGvt7sT2pFeJZiU7HuKtJEVq%2FD3ZC2zs1uoqiAQI6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDNe%2FVfAKQ9LeKvvW9SrcA6sEwdSyRwtrRIdEcP7pzFwupQ0qGHDjVbDnwQHKyo%2BjmfsCsKlrrWpJH9%2BVGi%2FN%2F9y4Re8gqFveTyeV9TosQ5LSNvmBuRv33wLWZ4ABdwgplmk%2FE%2BUQhAKTtSrMchXsHL8FIivyFb0hZd8yz8QVkG91FTEjBzh%2Bnf59aoLIPIbgikbdRekN37bovetUKDJgiYmWZBVkkDXx5h3kqPBx3s%2FDqFaOD%2BOc1tsj0EsN%2BeDeLt%2FMvNGSLqYLwZ53e0GWb7MrPEWGJCEzQnhVG1QyFB6VL1txjmnWkj1llGJI4v4csBqnQPPVglUFO8gW%2BN2pwrGUHUQW3bsX61xSIseXGTgVw0jsyAnGSnGkMNvITFgiz0LNXbgGNY39zh8sRB3njh4nWh10hJsir1U9ns%2F9B8RbV2BLVEuAvqWPT40K9iOPPJ8oiRFRE0TRcALei6tgK9WVZf2KrZPlPg%2BMIRRTBBAOyYsT0ap9scKywz1Ai2ASQuuK0s5YBa8PaRTAmhjVP5fvyWO9uBil3BVl6vuH%2FRpssKoiG%2F0VAbbF2vJKHOyU2Bx2vep8ABNqhJ00tHy3Hfhs1%2F%2F%2BB5zh6IO5SVkmaK8bPR2vrDpTFt%2BbXAdGWojEdk%2FsyauZ3U377HXjMOWwkdYGOqUBrBsaHrPU%2BvY6p79rmH512WK5T1pwiRVS%2F70toSIu86p5a4JHd0J%2BoiPoKR9k8W8alXEorp%2FNdVE1iRnu5zANGLy%2FQdUg5Ir2f9B2kjBkUBtJ5ZfA3JTFWHBqfAPOLgewvKNyDGKLXJQusZPajnF5eZYu%2FAGlot0pSdY6MIXCD7T4BI22KdWN5v1ZjTBVPbdYOtv06xdyFDGkMbNxZQ268Olwnq4P&X-Amz-Signature=095f2bd4311c8bc9fb1a4f990b50ec004d43f05cdca5fb28849c835f3fe80d32&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SM3H65IF%2F20261007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261007T061305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDwaCXVzLXdlc3QtMiJGMEQCIAVBxOpeJX4hRS5yReYQNm9dWi3fcR1fgVRlkLkCvlasAiBFCmhHNMqKcJog0u%2FpQqgTTxIiVx8lDgsTbl15U1idaSr%2FAwgEEAAaDDYzNzQyMzE4MzgwNSIM6mJfr7wPKU61fGhkKtwDa8cNGZi%2BjaWopObqAVpsmmxI7RcIEqb51f2KrvXrG8NG8FYRBRtgl98IVOSwU8FEGjmu1HcWNq93kx3PFVhHSx9r%2FJcctGhQmxuVszu%2FGKm8tkGByAk6TJUnZflNyQZ1C2lIaryugUklbu2lTtZwyi7hFpZmPdmW6evLvXl%2Fu8Ux60FMZGNpyaSBDlvwGya4Mo2KabGpQ9GihclLRfNyOck5wPtTEV7xxyzU7VG0700KOTIJ4zNWLGYVvwA8iKiBiHmAqPWPmLQxqtoMk%2BZYjLerejvNpzilp539R3Gidket52OmYW5u6xb6gqCZaSHtddwbWwDRMLIwkTtXGSvaz3tHmItwh4VzlXbZIgrYcw7UYiHS2z5UjL9HDSbECOho%2FYrSIv447c6nePriGw7f72yaNH%2FBTmhZ0khbtZgsGwnciu7MlQBitkW6I5bP0XlRsd4GUwzzWP04408ytC62vbWNPXxrwnTq4LVNCbpn%2FEaIhhuEPaSO4e1hS4uZo%2FmuLMD7J5dgx7luhPX9oJgVJGyD2oY5qE%2Bgzcp%2FB7H%2BRdZCMjpXiHsG%2BKf8JStIPoJGh805%2BsdhHATZgODjlIKR70BU0lL%2B1p6gE543OIN5WgrYQyvCUgoJgPVU2QswjvqW1gY6pgEp171LHenNRYFUmCaxwGMq5YwoJRL3eswOl1j0%2Fbj9xgf2jHqdByYM4VWlGZXABckre3fd6jJ96vYOrw1p4N3wQyVMckqSG%2FhPTXt1tsayUgd8EbDpZ%2BBcinBrND9XX2Jh1LwZ%2B1kI0KGHAntvT419PgzDaJJGk3w4sr7aTC2cv8lcbwoELUybFzMcd0uj9p8DGi2es04dwu3Jf%2FrFOA7EwJ0wbrBR&X-Amz-Signature=d144a398df0029548c5e1ee370d85677596073199dc60ec90e44bef19c9d46c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
