@@ -624,22 +624,22 @@
     },
     {
       "id": "3f1cca23-1452-805f-9c3d-e645da04c2da",
-      "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
+      "title": "打造 Codex 超级 APP：基于 OpenAI 插件扩展看板插件",
       "properties": {
         "date": "2026-10-06 08:00:00",
-        "description": "基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
+        "description": "基于 OpenAI 插件扩展，实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
         "hidden": false,
         "urlname": "personalos-dashboard-plugin",
-        "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
+        "title": "打造 Codex 超级 APP：基于 OpenAI 插件扩展看板插件",
         "tags": [
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-22 07:09:00",
+        "updated": "2026-10-26 07:42:00",
         "draft": false
       },
       "bodyType": "markdown",
-      "updateTime": 1792624140000
+      "updateTime": 1792971720000
     }
   ],
   "sortedDocList": [
@@ -647,7 +647,7 @@
       "object": "page",
       "id": "3f1cca23-1452-805f-9c3d-e645da04c2da",
       "created_time": "2026-10-06T02:04:00.000Z",
-      "last_edited_time": "2026-10-21T23:09:00.000Z",
+      "last_edited_time": "2026-10-25T23:42:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -676,20 +676,20 @@
       "is_locked": false,
       "properties": {
         "date": "2026-10-06 08:00:00",
-        "description": "基于 OpenAI 插件扩展，作者在 Codex 中实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
+        "description": "基于 OpenAI 插件扩展，实现了一个个人知识库看板插件，将 Obsidian 的 Markdown 文档作为唯一数据源，实现笔记读取、汇总展示、对话交互和自动归档的闭环流程，支持全局侧边栏和聊天侧边栏使用，尽管存在插件启动聊天确认、无法直接发起新聊天和缺少 Agent 自动化等限制，但已完成可用版本并持续优化。",
         "hidden": false,
         "urlname": "personalos-dashboard-plugin",
-        "title": "打造 Codex 超级 APP：基于 OpenAI MCP Extensions 的每日看板插件",
+        "title": "打造 Codex 超级 APP：基于 OpenAI 插件扩展看板插件",
         "tags": [
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-22 07:09:00",
+        "updated": "2026-10-26 07:42:00",
         "draft": false
       },
-      "url": "https://app.notion.com/p/Codex-APP-OpenAI-MCP-Extensions-3f1cca231452805f9c3de645da04c2da",
+      "url": "https://app.notion.com/p/Codex-APP-OpenAI-3f1cca231452805f9c3de645da04c2da",
       "public_url": null,
-      "updateTime": 1792624140000
+      "updateTime": 1792971720000
     },
     {
       "object": "page",
@@ -1868,8 +1868,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NJNWX5R%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T231002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBGEs8myGp3mUzQdbg%2FcOl91QQGfP%2B1AWGLEYcqxWtmTAiEAgfuuBi5lnVc0JM9ZNKy19hJ9INjGEo6Qgu9HyCQnRnsq%2FwMIaBAAGgw2Mzc0MjMxODM4MDUiDFmAsgIfgi41gzfznircAxLogYKLr2a%2F03%2BZTIBWyPdVPFMYHMM3pViStDRkb29FBVn8J0XYIX3HUf5BcKTjkR2PRzbBfTRmcIe9UEUue8528e2jjhcV3RB7pja%2Bck4R7JX4g%2FnJN1InN%2F4O%2BB%2BaIjXBB7vqV6Xpt7j2gaxzDenU2el3iQSeknkufHZBdkDreU9GaxDvfhfwEfv%2FUhx1E2FuayvGNZ6dIQ50kfzjRqhL9cQNdED8CereRy3%2BzkilfMec%2FhqGgbm0158CldWZKuwM52JI8huOLLHDNWL7Yoxl%2BO80lsFnm2ICCyYJgJAZL3a48GfHczPTRJPnABabe%2BjPrdWy2ITomgCeEw71BZeMaMzWuIyaT6toPxi%2FXYG%2B6fD%2FhoQfwR0ziomuJ40RzfnZsVswY2JLUuG1mZ7JAAhszKhYASnOffHwmA6H%2BVBfQBFjKnzHMqbWWp3MBY1HqmseZfMhwzYBSdobnZc0568y6zi4isnkPZ9kLijXzZJBjSNnznDR9hRBPMloxJZkC1KFlL6YTc4fyaR3vjSjZT3ORUgufTg1x%2F%2BWVhMRuj%2FALY45Eiq2eDsGEESGeyLRQJbMM5QecJg%2B4U5%2BvLlP9zAilM7KZ%2Fmd6T0ZFOjpw8EjUWSFvDmr3a7JLyjHMI%2F65NYGOqUBuFcHZx8uJiHWVNSJ02epV%2BbOUcUQysM1tmJq8UyISyjT7ahLQ5EXCZF%2BawtEyJsQearBaxiB4DeCIf9jFgMOIVwtQHAT3SKq0QyqCxmxDKe2vV8NWwKv6fE%2FHVMTX9GyE0aAaVzsylPLBkbavxsbWhO0pCttZzfnMSopp8BouImi3V5Ts9ZciEwXrqYcHp4HhtpRt0cFg%2BMWLHK5yR1ryf0XW6FP&X-Amz-Signature=8af56538192c48caa78d0befddd87658627de407afcc77874967f0ec9a8c404c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-10-22T00:10:02.632Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZE347PFV%2F20261025%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261025T234253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIERjADHGVJ48Kow3%2BdGKNjBBpWCbIMY4KYuzI3s8y%2BVNAiEAo7CJXVPRz6yma11ONVLDsz9n6utDhVvRGELkvRpsdmsqiAQIx%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLx577IVQgsPoyQa7yrcAyvtqK%2FPVPo9B89x6t6rz14%2Bq%2BzcK1GZq0yRHHkbF4zFDCT105hMcXVfCPU1wPEhq8IRppIBK9oMsn%2FviyqMmKQa1%2FUmna3BplMDQgKPPVKnl6xcC3mh%2Bj4TaHQx0yBTK0XuK7oJkKJvrlGpNCzK41j%2F9lju%2FK6kFhfr6FS5C02GZTVZuIasahTCtRqSXbcCMKUqKg7mJ1Zp%2Fe4LyjiH2o2mpk7CVSNB%2FJhsxMUa7yzJBa3aDJPBezQrwuzN4o%2FShzyLJYOGZYwMKyF1VwbkFY3GM71hWqrIGAq72E1SA%2BSDiGeHVfDaNFVKML%2FUi8LvxY2mnd8Mlad0MG6aSShWHCY%2FwHChMBrH07EorlAGIQpHCJt80M9XvVdFJGQyppGrHhHvHYy7lILIoCYh3Hihu5%2BjTkxbQHw9twcbTUX95c90bsNUxp8mHhBOqOxm7Okmurc8KjvPNz1VxrywxEuucbpMItk6yvGNEa1LaSyi122SEdv24mPnhGqkKTyJGnVM7SynKj1JwAAnKPYjASayKGaeZhxblYjAAm2ezIjXk%2B3NtaSHuw7DirabXHWsPbfMNfrJosMwTuF%2FR3w7fvNjk6MdKtVY0Hnpq8eg605ghPg1UuRlM6mD7zDl0xYlMI3o%2BdYGOqUBuW9dj%2BRMI5Z2ZBs50oXNBJDskm6H5CFhlkXm%2Fk4L2a%2FasnQ25BJPAdjoQHetXrpuVN5QYtzJVfzc98MGZs27nfcw9yx%2Btj0L%2BTJOZcL%2BQ0u03q4sam7Y6FEQl1WqMSpz%2BKhXqEdaSlVrxgZIwdvprpZd95ugWWHXqCP%2FbIH%2BM0iZOHZ4qxrqdoR%2BhTdFEOzewZv2bQLVHn5kri3h5883imqEKCXT&X-Amz-Signature=cab56988e7601a95aea53ccb6922bd643bc5996dc058a621028e9a4f943fb56a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-10-26T00:42:53.722Z"
         }
       },
       "icon": {
@@ -1901,7 +1901,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NJNWX5R%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T231002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBGEs8myGp3mUzQdbg%2FcOl91QQGfP%2B1AWGLEYcqxWtmTAiEAgfuuBi5lnVc0JM9ZNKy19hJ9INjGEo6Qgu9HyCQnRnsq%2FwMIaBAAGgw2Mzc0MjMxODM4MDUiDFmAsgIfgi41gzfznircAxLogYKLr2a%2F03%2BZTIBWyPdVPFMYHMM3pViStDRkb29FBVn8J0XYIX3HUf5BcKTjkR2PRzbBfTRmcIe9UEUue8528e2jjhcV3RB7pja%2Bck4R7JX4g%2FnJN1InN%2F4O%2BB%2BaIjXBB7vqV6Xpt7j2gaxzDenU2el3iQSeknkufHZBdkDreU9GaxDvfhfwEfv%2FUhx1E2FuayvGNZ6dIQ50kfzjRqhL9cQNdED8CereRy3%2BzkilfMec%2FhqGgbm0158CldWZKuwM52JI8huOLLHDNWL7Yoxl%2BO80lsFnm2ICCyYJgJAZL3a48GfHczPTRJPnABabe%2BjPrdWy2ITomgCeEw71BZeMaMzWuIyaT6toPxi%2FXYG%2B6fD%2FhoQfwR0ziomuJ40RzfnZsVswY2JLUuG1mZ7JAAhszKhYASnOffHwmA6H%2BVBfQBFjKnzHMqbWWp3MBY1HqmseZfMhwzYBSdobnZc0568y6zi4isnkPZ9kLijXzZJBjSNnznDR9hRBPMloxJZkC1KFlL6YTc4fyaR3vjSjZT3ORUgufTg1x%2F%2BWVhMRuj%2FALY45Eiq2eDsGEESGeyLRQJbMM5QecJg%2B4U5%2BvLlP9zAilM7KZ%2Fmd6T0ZFOjpw8EjUWSFvDmr3a7JLyjHMI%2F65NYGOqUBuFcHZx8uJiHWVNSJ02epV%2BbOUcUQysM1tmJq8UyISyjT7ahLQ5EXCZF%2BawtEyJsQearBaxiB4DeCIf9jFgMOIVwtQHAT3SKq0QyqCxmxDKe2vV8NWwKv6fE%2FHVMTX9GyE0aAaVzsylPLBkbavxsbWhO0pCttZzfnMSopp8BouImi3V5Ts9ZciEwXrqYcHp4HhtpRt0cFg%2BMWLHK5yR1ryf0XW6FP&X-Amz-Signature=8af56538192c48caa78d0befddd87658627de407afcc77874967f0ec9a8c404c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZE347PFV%2F20261025%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261025T234253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIERjADHGVJ48Kow3%2BdGKNjBBpWCbIMY4KYuzI3s8y%2BVNAiEAo7CJXVPRz6yma11ONVLDsz9n6utDhVvRGELkvRpsdmsqiAQIx%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLx577IVQgsPoyQa7yrcAyvtqK%2FPVPo9B89x6t6rz14%2Bq%2BzcK1GZq0yRHHkbF4zFDCT105hMcXVfCPU1wPEhq8IRppIBK9oMsn%2FviyqMmKQa1%2FUmna3BplMDQgKPPVKnl6xcC3mh%2Bj4TaHQx0yBTK0XuK7oJkKJvrlGpNCzK41j%2F9lju%2FK6kFhfr6FS5C02GZTVZuIasahTCtRqSXbcCMKUqKg7mJ1Zp%2Fe4LyjiH2o2mpk7CVSNB%2FJhsxMUa7yzJBa3aDJPBezQrwuzN4o%2FShzyLJYOGZYwMKyF1VwbkFY3GM71hWqrIGAq72E1SA%2BSDiGeHVfDaNFVKML%2FUi8LvxY2mnd8Mlad0MG6aSShWHCY%2FwHChMBrH07EorlAGIQpHCJt80M9XvVdFJGQyppGrHhHvHYy7lILIoCYh3Hihu5%2BjTkxbQHw9twcbTUX95c90bsNUxp8mHhBOqOxm7Okmurc8KjvPNz1VxrywxEuucbpMItk6yvGNEa1LaSyi122SEdv24mPnhGqkKTyJGnVM7SynKj1JwAAnKPYjASayKGaeZhxblYjAAm2ezIjXk%2B3NtaSHuw7DirabXHWsPbfMNfrJosMwTuF%2FR3w7fvNjk6MdKtVY0Hnpq8eg605ghPg1UuRlM6mD7zDl0xYlMI3o%2BdYGOqUBuW9dj%2BRMI5Z2ZBs50oXNBJDskm6H5CFhlkXm%2Fk4L2a%2FasnQ25BJPAdjoQHetXrpuVN5QYtzJVfzc98MGZs27nfcw9yx%2Btj0L%2BTJOZcL%2BQ0u03q4sam7Y6FEQl1WqMSpz%2BKhXqEdaSlVrxgZIwdvprpZd95ugWWHXqCP%2FbIH%2BM0iZOHZ4qxrqdoR%2BhTdFEOzewZv2bQLVHn5kri3h5883imqEKCXT&X-Amz-Signature=cab56988e7601a95aea53ccb6922bd643bc5996dc058a621028e9a4f943fb56a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
