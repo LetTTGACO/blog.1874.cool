@@ -7,7 +7,7 @@ title: 打造 Codex 超级 APP：基于 OpenAI 插件扩展看板插件
 tags:
   - VibeCoding
 cover: 'https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png'
-updated: '2026-10-26 07:42:00'
+updated: '2026-11-03 22:45:00'
 draft: false
 ---
 
@@ -67,9 +67,8 @@ flowchart TB
 
 插件可以直接设置为全局侧边栏，方便打开，也可以同时设置为在聊天侧栏中打开。
 
-> UI 相对比较常规，ChatGPT 的 UI 设计，以及我本身的 UI 审美和设计都很一般，能用就行 Orz
 
-![Pasted_image_20261006095152.png](https://image.1874.run/blog/43d89cd9fda2bfe50596239ab4abc2db.png)
+![image.png](https://image.1874.run/blog/c3a38ead1d61e21882b39b2ad7c501a8.png)
 
 
 ### 踩坑点
@@ -77,5 +76,5 @@ flowchart TB
 1. 无法从插件直接发起新聊天到某个项目中，但是可以在 Codex 聊天中发起新聊天到项目中。我的解决办法就是给 Prompt 指定项目的入口，让中转聊天创建项目聊天，然后自动归档中转会话。
 2. 目前无法直接在插件中调用 Agent 运行，所以就无法做一些自动化操作，例如自动总结啥的，只能手动运行。
 
-![image.png](https://image.1874.run/blog/fc8e71360cc92b5bb7743f409b5c369e.png)
+![image.png](https://image.1874.run/blog/318e1fba48b4b2c2953e74c86d70abfc.png)
 

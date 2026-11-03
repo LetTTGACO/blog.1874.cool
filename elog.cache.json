@@ -635,11 +635,11 @@
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-26 07:42:00",
+        "updated": "2026-11-03 22:45:00",
         "draft": false
       },
       "bodyType": "markdown",
-      "updateTime": 1792971720000
+      "updateTime": 1793717100000
     }
   ],
   "sortedDocList": [
@@ -647,7 +647,7 @@
       "object": "page",
       "id": "3f1cca23-1452-805f-9c3d-e645da04c2da",
       "created_time": "2026-10-06T02:04:00.000Z",
-      "last_edited_time": "2026-10-25T23:42:00.000Z",
+      "last_edited_time": "2026-11-03T14:45:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b82f6c4e-be35-49b9-b539-7f72b6e7e246"
@@ -684,12 +684,12 @@
           "VibeCoding"
         ],
         "cover": "https://image.1874.run/blog/bf9f61ed20cad19daae76ddfb53b79f7.png",
-        "updated": "2026-10-26 07:42:00",
+        "updated": "2026-11-03 22:45:00",
         "draft": false
       },
       "url": "https://app.notion.com/p/Codex-APP-OpenAI-3f1cca231452805f9c3de645da04c2da",
       "public_url": null,
-      "updateTime": 1792971720000
+      "updateTime": 1793717100000
     },
     {
       "object": "page",
@@ -1868,8 +1868,8 @@
       "cover": {
         "type": "file",
         "file": {
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZE347PFV%2F20261025%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261025T234253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIERjADHGVJ48Kow3%2BdGKNjBBpWCbIMY4KYuzI3s8y%2BVNAiEAo7CJXVPRz6yma11ONVLDsz9n6utDhVvRGELkvRpsdmsqiAQIx%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLx577IVQgsPoyQa7yrcAyvtqK%2FPVPo9B89x6t6rz14%2Bq%2BzcK1GZq0yRHHkbF4zFDCT105hMcXVfCPU1wPEhq8IRppIBK9oMsn%2FviyqMmKQa1%2FUmna3BplMDQgKPPVKnl6xcC3mh%2Bj4TaHQx0yBTK0XuK7oJkKJvrlGpNCzK41j%2F9lju%2FK6kFhfr6FS5C02GZTVZuIasahTCtRqSXbcCMKUqKg7mJ1Zp%2Fe4LyjiH2o2mpk7CVSNB%2FJhsxMUa7yzJBa3aDJPBezQrwuzN4o%2FShzyLJYOGZYwMKyF1VwbkFY3GM71hWqrIGAq72E1SA%2BSDiGeHVfDaNFVKML%2FUi8LvxY2mnd8Mlad0MG6aSShWHCY%2FwHChMBrH07EorlAGIQpHCJt80M9XvVdFJGQyppGrHhHvHYy7lILIoCYh3Hihu5%2BjTkxbQHw9twcbTUX95c90bsNUxp8mHhBOqOxm7Okmurc8KjvPNz1VxrywxEuucbpMItk6yvGNEa1LaSyi122SEdv24mPnhGqkKTyJGnVM7SynKj1JwAAnKPYjASayKGaeZhxblYjAAm2ezIjXk%2B3NtaSHuw7DirabXHWsPbfMNfrJosMwTuF%2FR3w7fvNjk6MdKtVY0Hnpq8eg605ghPg1UuRlM6mD7zDl0xYlMI3o%2BdYGOqUBuW9dj%2BRMI5Z2ZBs50oXNBJDskm6H5CFhlkXm%2Fk4L2a%2FasnQ25BJPAdjoQHetXrpuVN5QYtzJVfzc98MGZs27nfcw9yx%2Btj0L%2BTJOZcL%2BQ0u03q4sam7Y6FEQl1WqMSpz%2BKhXqEdaSlVrxgZIwdvprpZd95ugWWHXqCP%2FbIH%2BM0iZOHZ4qxrqdoR%2BhTdFEOzewZv2bQLVHn5kri3h5883imqEKCXT&X-Amz-Signature=cab56988e7601a95aea53ccb6922bd643bc5996dc058a621028e9a4f943fb56a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-10-26T00:42:53.722Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XHEJH3AR%2F20261103%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261103T144626Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDxFTALmCER07%2BPzpkbWSvqy%2BFyKjL4eELCWx6CPjtqCQIgAJuTn9AyIUHxYNMaTdqTO1r1tm8gXIHIyW8h3nXw718qiAQIlP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD9T3dM8aEhtC4DFvircA6EoAkaofiYw6z%2BTAGCUdx2%2FkvsAWWKyBI%2BCu2HFlL%2BLoTIav%2BylKLt6hKTyRW%2BqsZQ7%2FoWiq6TEM2iijlW66%2F6%2FRc%2B310XaLTY4q1NbGqMxDyGohfB68IGxrtNCqrZ6LaeDFDqzAlT7PA2zo9hMNW8B%2Bif1R6PToMoYDto65pQ4UCUcMg4hdKgR50nds7TAzeHzSbXejaLLg2zq5meQrCrlK8k9Ur%2FVqVwL9Jt%2BjsO5MPUJlkkrZfOhf78grsYoDl1XUnTVvkYBJ9C2Vb8q2pHOxYN3RcGItllcEcDnIEAnWur2Vh1Xp9V9EqmLDcWjs0aZOv7D%2B95PF5rPDx9RxMnPuR64kxbANNGRaVQeUTu12aVaV8vspOQKcOdeu4hsfHzQtcvXRAi8wHctU7SM%2BavgjrugshbzWva1oQK%2B8WEzqRhajRdwx6I4y9iGWRi9ICCVbu3Fpu73QtGh7tgPf6M7NbuN42fzjHN2wahxnlEmbwaNDgHa8V8HprlExuvtIuMBxinGqeZYiFp9l0RlxWCJVO9wmOHxIDtYsyPSgLR%2BfpCzUf15jTArL7D7SJqAX12OcDHJQCDrK7NJ1VXWQ7fr%2FEyVkNCQFWI9O3Sj1gzGSIDXb0JyWGmPpGXpMJGFp9cGOqUBd8zpEo5XmtAyPhmwERQQ8r5EyJ%2FjjS9w6j5sszhpIb%2FqBRJH3cvhMCsvienkJgx128hbjAQzapQaL1SiSqsj4HWUFhAGQLsRs93kZmvnzx7XwYebB6TOJU97gEY%2FlEhUFlWMJgLsL9yagqW2iqL6BTde8MCZtHzV2Mxo9BLm1vOeUYurAjkaNo9EvIeRkhk0RTOK0%2Ft3I2zT91AsGYaW00Q%2F%2FNeL&X-Amz-Signature=e56a7071f2900b7885ddd6909483f180deb54d99e12ca58f7fd3139a621524dc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-11-03T15:46:26.566Z"
         }
       },
       "icon": {
@@ -1901,7 +1901,7 @@
         "tags": [
           "月刊"
         ],
-        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZE347PFV%2F20261025%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261025T234253Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIERjADHGVJ48Kow3%2BdGKNjBBpWCbIMY4KYuzI3s8y%2BVNAiEAo7CJXVPRz6yma11ONVLDsz9n6utDhVvRGELkvRpsdmsqiAQIx%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDLx577IVQgsPoyQa7yrcAyvtqK%2FPVPo9B89x6t6rz14%2Bq%2BzcK1GZq0yRHHkbF4zFDCT105hMcXVfCPU1wPEhq8IRppIBK9oMsn%2FviyqMmKQa1%2FUmna3BplMDQgKPPVKnl6xcC3mh%2Bj4TaHQx0yBTK0XuK7oJkKJvrlGpNCzK41j%2F9lju%2FK6kFhfr6FS5C02GZTVZuIasahTCtRqSXbcCMKUqKg7mJ1Zp%2Fe4LyjiH2o2mpk7CVSNB%2FJhsxMUa7yzJBa3aDJPBezQrwuzN4o%2FShzyLJYOGZYwMKyF1VwbkFY3GM71hWqrIGAq72E1SA%2BSDiGeHVfDaNFVKML%2FUi8LvxY2mnd8Mlad0MG6aSShWHCY%2FwHChMBrH07EorlAGIQpHCJt80M9XvVdFJGQyppGrHhHvHYy7lILIoCYh3Hihu5%2BjTkxbQHw9twcbTUX95c90bsNUxp8mHhBOqOxm7Okmurc8KjvPNz1VxrywxEuucbpMItk6yvGNEa1LaSyi122SEdv24mPnhGqkKTyJGnVM7SynKj1JwAAnKPYjASayKGaeZhxblYjAAm2ezIjXk%2B3NtaSHuw7DirabXHWsPbfMNfrJosMwTuF%2FR3w7fvNjk6MdKtVY0Hnpq8eg605ghPg1UuRlM6mD7zDl0xYlMI3o%2BdYGOqUBuW9dj%2BRMI5Z2ZBs50oXNBJDskm6H5CFhlkXm%2Fk4L2a%2FasnQ25BJPAdjoQHetXrpuVN5QYtzJVfzc98MGZs27nfcw9yx%2Btj0L%2BTJOZcL%2BQ0u03q4sam7Y6FEQl1WqMSpz%2BKhXqEdaSlVrxgZIwdvprpZd95ugWWHXqCP%2FbIH%2BM0iZOHZ4qxrqdoR%2BhTdFEOzewZv2bQLVHn5kri3h5883imqEKCXT&X-Amz-Signature=cab56988e7601a95aea53ccb6922bd643bc5996dc058a621028e9a4f943fb56a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/13a508a2-de5b-47bc-b05f-367d31c13e36/ba4a819b-9f1e-4a11-acff-ad6cc5f41e9c/spacexcode-coverview-2582x.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XHEJH3AR%2F20261103%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261103T144626Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDxFTALmCER07%2BPzpkbWSvqy%2BFyKjL4eELCWx6CPjtqCQIgAJuTn9AyIUHxYNMaTdqTO1r1tm8gXIHIyW8h3nXw718qiAQIlP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDD9T3dM8aEhtC4DFvircA6EoAkaofiYw6z%2BTAGCUdx2%2FkvsAWWKyBI%2BCu2HFlL%2BLoTIav%2BylKLt6hKTyRW%2BqsZQ7%2FoWiq6TEM2iijlW66%2F6%2FRc%2B310XaLTY4q1NbGqMxDyGohfB68IGxrtNCqrZ6LaeDFDqzAlT7PA2zo9hMNW8B%2Bif1R6PToMoYDto65pQ4UCUcMg4hdKgR50nds7TAzeHzSbXejaLLg2zq5meQrCrlK8k9Ur%2FVqVwL9Jt%2BjsO5MPUJlkkrZfOhf78grsYoDl1XUnTVvkYBJ9C2Vb8q2pHOxYN3RcGItllcEcDnIEAnWur2Vh1Xp9V9EqmLDcWjs0aZOv7D%2B95PF5rPDx9RxMnPuR64kxbANNGRaVQeUTu12aVaV8vspOQKcOdeu4hsfHzQtcvXRAi8wHctU7SM%2BavgjrugshbzWva1oQK%2B8WEzqRhajRdwx6I4y9iGWRi9ICCVbu3Fpu73QtGh7tgPf6M7NbuN42fzjHN2wahxnlEmbwaNDgHa8V8HprlExuvtIuMBxinGqeZYiFp9l0RlxWCJVO9wmOHxIDtYsyPSgLR%2BfpCzUf15jTArL7D7SJqAX12OcDHJQCDrK7NJ1VXWQ7fr%2FEyVkNCQFWI9O3Sj1gzGSIDXb0JyWGmPpGXpMJGFp9cGOqUBd8zpEo5XmtAyPhmwERQQ8r5EyJ%2FjjS9w6j5sszhpIb%2FqBRJH3cvhMCsvienkJgx128hbjAQzapQaL1SiSqsj4HWUFhAGQLsRs93kZmvnzx7XwYebB6TOJU97gEY%2FlEhUFlWMJgLsL9yagqW2iqL6BTde8MCZtHzV2Mxo9BLm1vOeUYurAjkaNo9EvIeRkhk0RTOK0%2Ft3I2zT91AsGYaW00Q%2F%2FNeL&X-Amz-Signature=e56a7071f2900b7885ddd6909483f180deb54d99e12ca58f7fd3139a621524dc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "updated": "2026-07-01 06:56:00"
       },
       "url": "https://app.notion.com/p/1-6c224bd6fad7436ba0b47605457c0c0c",
